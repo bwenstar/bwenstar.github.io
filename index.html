@@ -1,46 +1,18 @@
-<!DOCTYPE html>
-<html lang="en-US">
-  <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
+---
+layout: default
+title: Home
+---
+<main class="container">
+  <h1 class="site-title">{{ site.title }}</h1>
+  <p class="site-description">{{ site.description }}</p>
 
-<!-- Begin Jekyll SEO tag v2.8.0 -->
-<title>bwenstar.github.io</title>
-<meta name="generator" content="Jekyll v3.9.0" />
-<meta property="og:title" content="bwenstar.github.io" />
-<meta property="og:locale" content="en_US" />
-<link rel="canonical" href="http://brendanta.com/" />
-<meta property="og:url" content="http://brendanta.com/" />
-<meta property="og:site_name" content="bwenstar.github.io" />
-<meta property="og:type" content="website" />
-<meta name="twitter:card" content="summary" />
-<meta property="twitter:title" content="bwenstar.github.io" />
-<script type="application/ld+json">
-{"@context":"https://schema.org","@type":"WebSite","headline":"bwenstar.github.io","name":"bwenstar.github.io","url":"http://brendanta.com/"}</script>
-<!-- End Jekyll SEO tag -->
-
-    <link rel="stylesheet" href="/assets/css/style.css?v=b0b93b61b420c150f8d888e6af65316f171a3ea7">
-    <!-- start custom head snippets, customize with your own _includes/head-custom.html file -->
-
-<!-- Setup Google Analytics -->
-
-
-
-<!-- You can set your favicon here -->
-<!-- link rel="shortcut icon" type="image/x-icon" href="/favicon.ico" -->
-
-<!-- end custom head snippets -->
-
-  </head>
-  <body>
-    <div class="container-lg px-3 my-5 markdown-body">
-
-    <h1><span style="color: #000000;">Brendan Ta</span></h1>
-    <p><a title="Github" href="github.com/bwenstar"><span style="color: #000000;">Github</span></a></
-
-    </div>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/anchor-js/4.1.0/anchor.min.js" integrity="sha256-lZaRhKri35AyJSypXXs4o6OPFTbTmUoltBbDCbdzegg=" crossorigin="anonymous"></script>
-    <script>anchors.add();</script>
-  </body>
-</html>
+  <section class="posts">
+    {% for post in site.posts %}
+      <article class="post-card">
+        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
+        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
+        <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
+      </article>
+    {% endfor %}
+  </section>
+</main>

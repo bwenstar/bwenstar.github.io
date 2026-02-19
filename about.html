@@ -1,0 +1,18 @@
+---
+layout: default
+title: About
+---
+<main class="container">
+  <section class="about">
+    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="avatar">
+    <h1>{{ site.author.name }}'s</h1>
+
+    <p>Dumping ground.</p>
+
+    <ul class="social-links">
+      {% if site.author.github %}
+        <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+      {% endif %}
+    </ul>
+  </section>
+</main>

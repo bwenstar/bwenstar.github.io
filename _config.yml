@@ -1,3 +1,15 @@
-remote_theme: pages-themes/minimal@v0.2.0
-plugins:
-- jekyll-remote-theme 
+title:          "Brendan Ta"
+description:    "Dump"
+url:            "https://brendanta.com"
+baseurl:        ""
+author:
+  name:         "Brendan Ta"
+  avatar:       "/assets/img/borko.png"
+  github:       "bwenstar"
+
+markdown: kramdown
+theme: null
+exclude:
+  - .github/
+  - node_modules/
+  - README.md
