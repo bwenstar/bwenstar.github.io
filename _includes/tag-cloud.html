@@ -1,0 +1,9 @@
+<ul class="tag-cloud">
+  {% for tag in site.tags %}
+    <li>
+      <a href="{{ '/tag/' | append: tag[0] | relative_url }}" class="tag-badge">
+        {{ tag[0] }} ({{ tag[1].size }})
+      </a>
+    </li>
+  {% endfor %}
+</ul>

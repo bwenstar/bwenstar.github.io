@@ -1,0 +1,41 @@
+{% comment %}
+  Re‑usable markup for the gallery.
+  – Tag navigation bar (All + each distinct tag)
+  – Grid of thumbnails
+  – Each thumbnail stores its tags in a data‑tags attribute.
+  – Only the image title is shown under the thumbnail; the tag badges are
+    rendered inside the light‑box modal (see gallery.js).
+{% endcomment %}
+
+<section class="gallery-wrapper">
+  <h1>Photo Gallery</h1>
+
+  <!-- Tag navigation bar (All + each distinct tag)
+  <nav class="gallery-tag-nav">
+    <a href="{{ '/gallery.html' | relative_url }}" {% unless page.tag %}class="active"{% endunless %}>All</a>
+    {% assign all_tags = site.data.gallery | map: 'tags' | flatten | uniq | sort %}
+    {% for t in all_tags %}
+      <a href="{{ '/gallery/tag/' | append: t | relative_url }}" {% if page.tag == t %}class="active"{% endif %}>{{ t }}</a>
+    {% endfor %}
+  </nav> -->
+
+  <div class="gallery-grid">
+    {% assign images = site.data.gallery %}
+    {% if page.tag %}
+      {% assign images = images | where_exp:"item","item.tags contains page.tag" %}
+    {% endif %}
+
+    {% for img in images %}
+      <a href="{{ '/' | append: img.filename | relative_url }}"
+         class="gallery-item"
+         data-index="{{ forloop.index0 }}"
+         data-tags="{{ img.tags | join: ',' }}"
+         title="{{ img.title | escape }}">
+        <img src="{{ '/' | append: img.filename | relative_url }}" alt="{{ img.title | escape }}">
+        <div class="gallery-caption">
+          {{ img.title }}
+        </div>
+      </a>
+    {% endfor %}
+  </div>
+</section>

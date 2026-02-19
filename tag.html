@@ -1,0 +1,16 @@
+---
+layout: default
+title: "Posts tagged: {{ page.tag }}"
+permalink: /tag/{{ page.tag }}/
+---
+<h1>Posts tagged: <em>{{ page.tag }}</em></h1>
+
+<ul class="tag-archive">
+  {% assign tagged_posts = site.tags[page.tag] %}
+  {% for post in tagged_posts %}
+    <li>
+      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    </li>
+  {% endfor %}
+</ul>

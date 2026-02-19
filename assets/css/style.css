@@ -46,16 +46,6 @@ body{
 *::after{
   box-sizing:border-box
 }
-html{
-  font-size:100%
-}
-body{
-  margin:0;
-  font-family:var(--font-sans);
-  line-height:1.6;
-  background:var(--color-bg);
-  color:var(--color-fg)
-}
 .container{
   max-width:var(--max-width);
   margin:0 auto;
@@ -200,7 +190,7 @@ h2{
 .gallery-modal button{
   position:absolute;
   top:50%;
-  transform:translateY(-50%);
+  transform:translateY(-90%);
   background:none;
   border:none;
   color:#fff;
@@ -296,6 +286,67 @@ h2{
   max-width:100%;
   height:auto;
   opacity:.85
+}
+.tag-badge{
+  display:inline-block;
+  background:var(--color-primary);
+  color:#fff;
+  padding:.2rem .5rem;
+  margin:.1rem .2rem;
+  border-radius:3px;
+  font-size:.8rem;
+  text-decoration:none
+}
+.tag-badge:hover{
+  opacity:.85
+}
+.tag-badge.active,
+nav.gallery-tag-nav a.active{
+  background:#fff;
+  color:var(--color-primary);
+  border:1px solid var(--color-primary)
+}
+.tag-cloud{
+  list-style:none;
+  display:flex;
+  flex-wrap:wrap;
+  gap:.3rem;
+  padding:0
+}
+.tag-cloud li{
+  margin:0
+}
+nav.gallery-tag-nav{
+  margin-bottom:1rem;
+  font-size:.9rem
+}
+nav.gallery-tag-nav a{
+  margin-right:.8rem;
+  text-decoration:none;
+  color:var(--color-muted)
+}
+nav.gallery-tag-nav a.active{
+  font-weight:600;
+  color:var(--color-primary)
+}
+
+.gallery-caption-modal{
+  margin-top:0.5rem;
+  text-align:center;
+  font-size:0.9rem;
+}
+
+.gallery-caption{
+  padding:.4rem .2rem;
+  text-align:center;
+  font-size:.85rem;
+  color:var(--color-fg)
+}
+.gallery-tags{
+  margin-top:.3rem
+}
+.gallery-caption-modal .tag-badge{
+  margin:.2rem
 }
 @media (max-width:600px){
   .site-header .container,
