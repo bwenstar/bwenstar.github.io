@@ -1,9 +1,16 @@
 <header class="site-header">
   <div class="container">
     <a href="{{ '/' | relative_url }}" class="logo">{{ site.title }}</a>
+
     <nav>
       <a href="{{ '/' | relative_url }}">Home</a>
       <a href="{{ '/about.html' | relative_url }}">About</a>
+
+      <button id="theme-toggle"
+              aria-label="Switch to dark theme"
+              title="Toggle light/dark theme">
+        🌙
+      </button>
     </nav>
   </div>
 </header>

@@ -1,88 +1,143 @@
-html, body {
-  height: 100%;
+:root{
+  --font-sans:'Inter',system-ui,sans-serif;
+  --max-width:720px;
+  --color-bg:#fafafa;
+  --color-fg:#111111;
+  --color-muted:#555555;
+  --color-primary:#0066ff;
 }
-
-body {
-  display: flex;
-  flex-direction: column;
-  min-height: 100vh;
+[data-theme="dark"]{
+  --color-bg:#111111;
+  --color-fg:#eaeaea;
+  --color-muted:#bbbbbb;
+  --color-primary:#66aaff;
 }
-
-.site-main {
-  flex: 1;
+html,body{
+  height:100%
 }
-
-:root {
-  --font-sans: 'Inter', system-ui, sans-serif;
-  --max-width: 720px;
-  --color-bg: #fafafa;
-  --color-fg: #111;
-  --color-muted: #555;
-  --color-primary: #0066ff;
+body{
+  display:flex;
+  flex-direction:column;
+  min-height:100vh
 }
-
+.site-main{
+  flex:1
+}
+#theme-toggle{
+  background:none;
+  border:none;
+  cursor:pointer;
+  font-size:1.2rem;
+  line-height:1;
+  padding:.2rem;
+  margin-left:1rem
+}
+#theme-toggle:focus{
+  outline:2px solid var(--color-primary)
+}
 *,
 *::before,
-*::after { box-sizing: border-box; }
-
-html { font-size: 100%; }
-body {
-  margin: 0;
-  font-family: var(--font-sans);
-  line-height: 1.6;
-  background: var(--color-bg);
-  color: var(--color-fg);
+*::after{
+  box-sizing:border-box
 }
-.container { max-width: var(--max-width); margin: 0 auto; padding: 1rem; }
-
-/* Links */
-a { color: var(--color-primary); text-decoration: none; }
-a:hover { text-decoration: underline; }
-
-/* Header / Footer */
+html{
+  font-size:100%
+}
+body{
+  margin:0;
+  font-family:var(--font-sans);
+  line-height:1.6;
+  background:var(--color-bg);
+  color:var(--color-fg)
+}
+.container{
+  max-width:var(--max-width);
+  margin:0 auto;
+  padding:1rem
+}
+a{
+  color:var(--color-primary);
+  text-decoration:none
+}
+a:hover{
+  text-decoration:underline
+}
 .site-header,
-.site-footer {
-  background: #fff;
-  padding: 0.75rem 0;
-  border-bottom: 1px solid #eaeaea;
+.site-footer{
+  background:var(--color-bg);
+  padding:.75rem 0;
+  border-bottom:1px solid #eaeaea
 }
 .site-header .container,
-.site-footer .container {
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
+.site-footer .container{
+  display:flex;
+  align-items:center;
+  justify-content:space-between
 }
-.logo {
-  font-weight: 600;
-  font-size: 1.25rem;
+.logo{
+  font-weight:600;
+  font-size:1.25rem
 }
-nav a { margin-left: 1rem; }
-
-/* Typography */
-h1, h2, h3, h4 { margin-top: 1.5rem; margin-bottom: 0.5rem; line-height: 1.2; }
-h1 { font-size: 2rem; }
-h2 { font-size: 1.5rem; }
-
-/* Post list */
-.post-card { margin-bottom: 2rem; padding-bottom: 1rem; border-bottom: 1px solid #eaeaea; }
-.post-card h2 { margin: 0; }
-.post-meta { color: var(--color-muted); font-size: 0.9rem; margin-bottom: 0.5rem; }
-.post-excerpt { margin: 0; }
-
-/* About page */
-.about { text-align: center; }
-.avatar {
-  width: 120px;
-  height: 120px;
-  border-radius: 50%;
-  margin-bottom: 1rem;
+nav a{
+  margin-left:1rem
 }
-.social-links { list-style: none; padding: 0; display: flex; justify-content: center; gap: 1rem; margin-top: 1rem; }
-.social-links a { color: var(--color-fg); }
-
-/* Responsive tweaks */
-@media (max-width: 600px) {
+h1,
+h2,
+h3,
+h4{
+  margin-top:1.5rem;
+  margin-bottom:.5rem;
+  line-height:1.2
+}
+h1{
+  font-size:2rem
+}
+h2{
+  font-size:1.5rem
+}
+.post-card{
+  margin-bottom:2rem;
+  padding-bottom:1rem;
+  border-bottom:1px solid #eaeaea
+}
+.post-card h2{
+  margin:0
+}
+.post-meta{
+  color:var(--color-muted);
+  font-size:.9rem;
+  margin-bottom:.5rem
+}
+.post-excerpt{
+  margin:0
+}
+.about{
+  text-align:center
+}
+.avatar{
+  width:120px;
+  height:120px;
+  border-radius:50%;
+  margin-bottom:1rem
+}
+.social-links{
+  list-style:none;
+  padding:0;
+  display:flex;
+  justify-content:center;
+  gap:1rem;
+  margin-top:1rem
+}
+.social-links a{
+  color:var(--color-fg)
+}
+@media (max-width:600px){
   .site-header .container,
-  .site-footer .container { flex-direction: column; gap: 0.5rem; }
-  nav a { margin-left: 0; }
+  .site-footer .container{
+    flex-direction:column;
+    gap:.5rem
+  }
+  nav a{
+    margin-left:0
+  }
 }

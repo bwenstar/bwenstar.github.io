@@ -5,9 +5,13 @@
 </head>
 <body>
   {% include header.html %}
+
   <div class="site-main">
     {{ content }}
   </div>
+
   {% include footer.html %}
+
+  <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
 </body>
 </html>
