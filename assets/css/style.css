@@ -1,3 +1,17 @@
+html, body {
+  height: 100%;
+}
+
+body {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+}
+
+.site-main {
+  flex: 1;
+}
+
 :root {
   --font-sans: 'Inter', system-ui, sans-serif;
   --max-width: 720px;
