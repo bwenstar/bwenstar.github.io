@@ -1,16 +1,17 @@
 :root{
   --font-sans:'Inter',system-ui,sans-serif;
+  --font-heading:'Merriweather',serif;
   --max-width:720px;
   --color-bg:#fafafa;
   --color-fg:#111111;
   --color-muted:#555555;
-  --color-primary:#0066ff;
+  --color-primary:#0066ff
 }
 [data-theme="dark"]{
   --color-bg:#111111;
   --color-fg:#eaeaea;
   --color-muted:#bbbbbb;
-  --color-primary:#66aaff;
+  --color-primary:#66aaff
 }
 html,body{
   height:100%
@@ -18,7 +19,12 @@ html,body{
 body{
   display:flex;
   flex-direction:column;
-  min-height:100vh
+  min-height:100vh;
+  margin:0;
+  font-family:var(--font-sans);
+  line-height:1.6;
+  background:var(--color-bg);
+  color:var(--color-fg)
 }
 .site-main{
   flex:1
@@ -66,7 +72,10 @@ a:hover{
 .site-footer{
   background:var(--color-bg);
   padding:.75rem 0;
-  border-bottom:1px solid #eaeaea
+  border-bottom:1px solid #eaeaea;
+  position:sticky;
+  top:0;
+  z-index:100
 }
 .site-header .container,
 .site-footer .container{
@@ -87,7 +96,8 @@ h3,
 h4{
   margin-top:1.5rem;
   margin-bottom:.5rem;
-  line-height:1.2
+  line-height:1.2;
+  font-family:var(--font-heading)
 }
 h1{
   font-size:2rem
@@ -211,6 +221,81 @@ h2{
   top:1rem;
   right:1rem;
   font-size:2rem
+}
+#back-to-top{
+  position:fixed;
+  bottom:1.5rem;
+  right:1.5rem;
+  display:none;
+  background:var(--color-primary);
+  color:#fff;
+  border:none;
+  padding:.5rem .8rem;
+  border-radius:4px;
+  cursor:pointer;
+  font-size:1.2rem;
+  z-index:1000
+}
+#back-to-top:focus{
+  outline:2px solid #fff
+}
+.error-404{
+  text-align:center;
+  padding:4rem 1rem
+}
+.error-404 h1{
+  font-size:3rem;
+  margin-bottom:.5rem
+}
+.error-404 .lead{
+  font-size:1.2rem;
+  margin-bottom:2rem;
+  color:var(--color-muted)
+}
+.error-404 .search-form{
+  display:flex;
+  justify-content:center;
+  margin-bottom:2rem;
+  gap:.5rem
+}
+.error-404 .search-form input[type="text"]{
+  padding:.5rem .8rem;
+  border:1px solid #ccc;
+  border-radius:4px;
+  width:260px;
+  max-width:80%
+}
+.error-404 .search-form button{
+  background:var(--color-primary);
+  color:#fff;
+  border:none;
+  padding:.5rem .8rem;
+  border-radius:4px;
+  cursor:pointer
+}
+.error-404 .search-form button:hover{
+  opacity:.9
+}
+.error-404 .navigation .button{
+  display:inline-block;
+  margin:.5rem;
+  padding:.6rem 1rem;
+  background:var(--color-primary);
+  color:#fff;
+  border-radius:4px;
+  text-decoration:none;
+  font-weight:600
+}
+.error-404 .navigation .button:hover{
+  opacity:.9
+}
+.error-404 .illustration{
+  margin-top:2rem
+}
+.error-404 .illustration img{
+  max-width:100%;
+  height:auto;
+  opacity:.85
 }
 @media (max-width:600px){
   .site-header .container,

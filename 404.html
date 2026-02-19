@@ -1,0 +1,27 @@
+---
+layout: default
+title: Page not found
+permalink: /404.html
+---
+<main class="container">
+
+  <section class="error-404">
+    <h1>404 – Page not found</h1>
+
+    <p class="lead">
+      Oops! The page you’re looking for doesn’t exist or has moved.
+    </p>
+
+    <form action="https://www.google.com/search" method="GET" class="search-form" target="_blank" rel="noopener">
+      <input type="hidden" name="q" value="site:{{ site.url }}">
+      <input type="text" name="q" placeholder="Search this site…" required>
+      <button type="submit">Search</button>
+    </form>
+
+    <figure class="illustration">
+      <img src="{{ '/assets/img/404.svg' | relative_url }}" alt="404 illustration"
+           width="300" height="200">
+    </figure>
+  </section>
+
+</main>

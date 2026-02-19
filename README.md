@@ -1,7 +1,7 @@
 # Brendan Ta
 - [github](https://github.com/bwenstar "github")
 
-# {{ site.title }}
+# bwenstar.github.io
 
 Using github pages to host
 

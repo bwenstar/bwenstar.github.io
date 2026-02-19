@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- 404.svg – simple “page not found” illustration -->
+<svg
+    xmlns="http://www.w3.org/2000/svg"
+    viewBox="0 0 200 200"
+    width="200"
+    height="200"
+    aria-labelledby="title desc"
+    role="img"
+    fill="none"
+    stroke="currentColor"
+    stroke-width="2">
+
+  <title id="title">404 – Page not found</title>
+  <desc id="desc">A simple illustration of a robot with a sad face and the number 404.</desc>
+
+  <!-- Robot body -->
+  <rect x="50" y="70" width="100" height="80" rx="10" ry="10" />
+  <!-- Robot head -->
+  <rect x="70" y="30" width="60" height="50" rx="8" ry="8" />
+  <!-- Antenna -->
+  <line x1="100" y1="30" x2="100" y2="10" />
+  <circle cx="100" cy="8" r="4" fill="currentColor" />
+  <!-- Eyes -->
+  <circle cx="85"  cy="55" r="5" fill="currentColor" />
+  <circle cx="115" cy="55" r="5" fill="currentColor" />
+  <!-- Sad mouth -->
+  <path d="M85 70 Q100 85 115 70" stroke="currentColor" fill="none" />
+  <!-- Arms -->
+  <line x1="50"  y1="90" x2="30" y2="110" />
+  <line x1="150" y1="90" x2="170" y2="110" />
+  <!-- Legs -->
+  <line x1="80"  y1="150" x2="80"  y2="180" />
+  <line x1="120" y1="150" x2="120" y2="180" />
+
+  <!-- "404" text – placed behind the robot so it shows through the gaps -->
+  <text x="100" y="150" text-anchor="middle" font-family="Inter,system-ui,sans-serif"
+        font-size="48" font-weight="600" fill="currentColor" opacity="0.1">404</text>
+</svg>
