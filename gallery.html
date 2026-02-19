@@ -1,0 +1,19 @@
+---
+layout: default
+title: Gallery
+---
+<main class="container">
+  <section class="gallery-wrapper">
+    <h1>Photo Gallery</h1>
+
+    <div class="gallery-grid">
+      {% for img in site.static_files %}
+        {% if img.path contains '/assets/img/gallery/' %}
+          <a href="{{ img.path | relative_url }}" class="gallery-item" data-index="{{ forloop.index0 }}">
+            <img src="{{ img.path | relative_url }}" alt="Gallery image {{ forloop.index }}">
+          </a>
+        {% endif %}
+      {% endfor %}
+    </div>
+  </section>
+</main>
