@@ -7,7 +7,27 @@ title: Home
   <h1 class="site-title">{{ site.title }}</h1>
   <p class="site-description">{{ site.description }}</p>
 
+  {% comment %}
+    Projects worth a front-door link. Edit site.projects in _config.yml, not here.
+  {% endcomment %}
+  {% if site.projects %}
+    <section class="projects" aria-labelledby="projects-heading">
+      <h2 id="projects-heading">Projects</h2>
+      <ul class="project-list">
+        {% for project in site.projects %}
+          <li class="project-card">
+            <a href="{{ project.url | relative_url }}">
+              <span class="project-name">{{ project.name }}</span>
+              <span class="project-blurb">{{ project.blurb }}</span>
+            </a>
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
+  {% endif %}
+
   <section class="posts">
+    <h2>Posts</h2>
     {% for post in site.posts %}
       <article class="post-card">
         <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>

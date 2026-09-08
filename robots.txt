@@ -1,2 +1,11 @@
+# This blocks the WHOLE site from search engines, including /tennis/. Left as it
+# was found, deliberately: the dashboard lists real player names, and staying
+# out of the index is the difference between "people I send the link to" and
+# "anyone who googles the name".
+#
+# To become searchable, replace the two lines below with:
+#   User-agent: *
+#   Allow: /
+# Robots.txt is a request, not access control — the pages are public either way.
 User-agent: *
 Disallow: /

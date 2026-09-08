@@ -5,13 +5,26 @@
   --color-bg:#fafafa;
   --color-fg:#111111;
   --color-muted:#555555;
-  --color-primary:#0066ff
+  --color-primary:#0066ff;
+  /* Borders and insets were hardcoded #eaeaea/#ccc, which stayed light in dark
+     mode and drew bright lines across a dark page. Now they are themed. */
+  --color-border:#e4e4e4;
+  --color-surface:#ffffff;
+  /* Ink for text sitting ON --color-primary (badges, buttons). It was hardcoded
+     #fff, which is 4.83:1 on the light blue but only 2.06:1 on the dark-mode
+     blue — white-on-pale, effectively unreadable. */
+  --color-on-primary:#ffffff
 }
 [data-theme="dark"]{
   --color-bg:#111111;
   --color-fg:#eaeaea;
   --color-muted:#bbbbbb;
-  --color-primary:#66aaff
+  /* #66aaff on #111 is fine for large text but thin for body copy; this step keeps
+     the same hue and lifts contrast. */
+  --color-primary:#7db8ff;
+  --color-border:#2c2c2c;
+  --color-surface:#1a1a1a;
+  --color-on-primary:#111111   /* 9.15:1 on #7db8ff */
 }
 html,body{
   height:100%
@@ -28,6 +41,20 @@ body{
 }
 .site-main{
   flex:1
+}
+/* Off-screen until focused, then it lands over the sticky header. */
+.skip-link{
+  position:absolute;
+  left:-9999px;
+  top:0;
+  z-index:200;
+  padding:.5rem .8rem;
+  background:var(--color-surface);
+  border:1px solid var(--color-primary);
+  border-radius:0 0 4px 0
+}
+.skip-link:focus{
+  left:0
 }
 #theme-toggle{
   background:none;
@@ -58,14 +85,27 @@ a{
 a:hover{
   text-decoration:underline
 }
+/* The header and footer used to share one rule, which gave the footer a rule
+   *under* it instead of above it and made it sticky at top:0 — harmless only
+   because nothing ever scrolls past the last element on the page. */
 .site-header,
 .site-footer{
   background:var(--color-bg);
-  padding:.75rem 0;
-  border-bottom:1px solid #eaeaea;
+  padding:.75rem 0
+}
+.site-header{
+  border-bottom:1px solid var(--color-border);
   position:sticky;
   top:0;
   z-index:100
+}
+.site-footer{
+  border-top:1px solid var(--color-border);
+  color:var(--color-muted);
+  font-size:.9rem
+}
+.site-footer p{
+  margin:.25rem 0
 }
 .site-header .container,
 .site-footer .container{
@@ -95,10 +135,132 @@ h1{
 h2{
   font-size:1.5rem
 }
+.site-title{
+  margin-top:.5rem;
+  margin-bottom:.25rem
+}
+.site-description{
+  margin-top:0;
+  color:var(--color-muted)
+}
+
+/* Projects: one card per entry in site.projects. The whole card is the link, so
+   the hit target is the card and not just the title text. */
+.project-list{
+  list-style:none;
+  margin:0;
+  padding:0;
+  display:grid;
+  gap:.75rem;
+  grid-template-columns:repeat(auto-fit,minmax(240px,1fr))
+}
+.project-card > a{
+  display:flex;
+  flex-direction:column;
+  gap:.2rem;
+  height:100%;
+  padding:.85rem 1rem;
+  border:1px solid var(--color-border);
+  border-radius:6px;
+  background:var(--color-surface);
+  color:inherit;
+  text-decoration:none;
+  transition:border-color .15s ease,transform .15s ease
+}
+.project-card > a:hover,
+.project-card > a:focus-visible{
+  border-color:var(--color-primary);
+  text-decoration:none;
+  transform:translateY(-1px)
+}
+.project-card > a:focus-visible{
+  outline:2px solid var(--color-primary);
+  outline-offset:2px
+}
+/* Respect a reduced-motion preference: keep the colour cue, drop the lift. */
+@media (prefers-reduced-motion:reduce){
+  .project-card > a{
+    transition:none
+  }
+  .project-card > a:hover,
+  .project-card > a:focus-visible{
+    transform:none
+  }
+}
+.project-name{
+  font-weight:600;
+  color:var(--color-primary)
+}
+.project-blurb{
+  font-size:.9rem;
+  line-height:1.45;
+  color:var(--color-muted)
+}
+
 .post-card{
   margin-bottom:2rem;
   padding-bottom:1rem;
-  border-bottom:1px solid #eaeaea
+  border-bottom:1px solid var(--color-border)
+}
+/* The last card's rule sat immediately above the footer's, drawing a double line. */
+.post-card:last-child{
+  margin-bottom:0;
+  padding-bottom:0;
+  border-bottom:none
+}
+
+/* _layouts/post.html emits .post-header / .post-content / .post-footer, none of
+   which had a rule, so a post's body ran at the same rhythm as the index and its
+   tag row sat flush against the text. */
+.post-header h1{
+  margin-top:.5rem;
+  margin-bottom:.25rem
+}
+.post-content{
+  font-size:1.05rem
+}
+.post-content > :first-child{
+  margin-top:0
+}
+.post-content img{
+  max-width:100%;
+  height:auto;
+  border-radius:4px
+}
+.post-content pre{
+  overflow-x:auto;
+  padding:.75rem 1rem;
+  border:1px solid var(--color-border);
+  border-radius:4px;
+  background:var(--color-surface)
+}
+.post-content code{
+  font-size:.92em
+}
+.post-content blockquote{
+  margin:1.25rem 0;
+  padding:.1rem 0 .1rem 1rem;
+  border-left:3px solid var(--color-border);
+  color:var(--color-muted)
+}
+.post-footer{
+  margin-top:2rem;
+  padding-top:1rem;
+  border-top:1px solid var(--color-border)
+}
+
+/* tag_posts.html and tag/*.md list posts through .tag-archive. */
+.tag-archive{
+  list-style:none;
+  padding:0
+}
+.tag-archive li{
+  padding:.4rem 0;
+  border-bottom:1px solid var(--color-border)
+}
+.tag-archive .post-meta{
+  margin:0 0 0 .5rem;
+  display:inline
 }
 .post-card h2{
   margin:0
@@ -212,22 +374,13 @@ h2{
   right:1rem;
   font-size:2rem
 }
-#back-to-top{
-  position:fixed;
-  bottom:1.5rem;
-  right:1.5rem;
-  display:none;
-  background:var(--color-primary);
-  color:#fff;
-  border:none;
-  padding:.5rem .8rem;
-  border-radius:4px;
-  cursor:pointer;
-  font-size:1.2rem;
-  z-index:1000
-}
-#back-to-top:focus{
-  outline:2px solid #fff
+/* There used to be a #back-to-top rule here for a floating button that no page
+   ever rendered and no script ever showed — dead style for dead markup. The
+   footer now carries a plain "Back to top" link instead, which needs no JS and
+   works from the keyboard. `#top` is special-cased by HTML: with no matching
+   element it means the top of the document. */
+.to-top{
+  color:var(--color-muted)
 }
 .error-404{
   text-align:center;
@@ -250,14 +403,18 @@ h2{
 }
 .error-404 .search-form input[type="text"]{
   padding:.5rem .8rem;
-  border:1px solid #ccc;
+  border:1px solid var(--color-border);
   border-radius:4px;
   width:260px;
-  max-width:80%
+  max-width:80%;
+  /* The field inherited the UA's white-on-black-text default, which is a bright
+     box on a dark page. */
+  background:var(--color-surface);
+  color:var(--color-fg)
 }
 .error-404 .search-form button{
   background:var(--color-primary);
-  color:#fff;
+  color:var(--color-on-primary);
   border:none;
   padding:.5rem .8rem;
   border-radius:4px;
@@ -271,7 +428,7 @@ h2{
   margin:.5rem;
   padding:.6rem 1rem;
   background:var(--color-primary);
-  color:#fff;
+  color:var(--color-on-primary);
   border-radius:4px;
   text-decoration:none;
   font-weight:600
@@ -280,17 +437,20 @@ h2{
   opacity:.9
 }
 .error-404 .illustration{
-  margin-top:2rem
+  margin-top:2rem;
+  /* The drawing is stroked in currentColor; --color-muted keeps it recessive in
+     both themes instead of competing with the heading. */
+  color:var(--color-muted)
 }
-.error-404 .illustration img{
+.error-404 .illustration img,
+.error-404 .illustration svg{
   max-width:100%;
-  height:auto;
-  opacity:.85
+  height:auto
 }
 .tag-badge{
   display:inline-block;
   background:var(--color-primary);
-  color:#fff;
+  color:var(--color-on-primary);
   padding:.2rem .5rem;
   margin:.1rem .2rem;
   border-radius:3px;
@@ -302,7 +462,7 @@ h2{
 }
 .tag-badge.active,
 nav.gallery-tag-nav a.active{
-  background:#fff;
+  background:var(--color-surface);
   color:var(--color-primary);
   border:1px solid var(--color-primary)
 }
@@ -354,7 +514,24 @@ nav.gallery-tag-nav a.active{
     flex-direction:column;
     gap:.5rem
   }
+  /* The nav stacked under the logo and this zeroed the link margins, which left
+     the links touching ("Home Gallery Tennis About" as one run). Space them with
+     the flex gap instead, and let them wrap on a narrow phone. */
+  .site-header nav{
+    display:flex;
+    flex-wrap:wrap;
+    align-items:center;
+    justify-content:center;
+    gap:.25rem 1rem
+  }
   nav a{
     margin-left:0
+  }
+  #theme-toggle{
+    margin-left:0
+  }
+  /* The footer's two paragraphs are centred once they stack. */
+  .site-footer .container{
+    text-align:center
   }
 }

@@ -7,9 +7,22 @@ author:
   avatar:       "/assets/img/borko.png"
   github:       "bwenstar"
 
+# Front-door links rendered by index.html. Add a project here rather than editing
+# the template.
+projects:
+  - name:   "Tennis — Division C, Tuesday night"
+    blurb:  "Live ladder, team and player stats, generated from the club's scorecards."
+    url:    "/tennis/"
+
 markdown: kramdown
 theme: null
+
+# Setting exclude REPLACES Jekyll's default list, it does not add to it — so the
+# Ruby build files have to be named here or they get copied into _site and served.
 exclude:
   - .github/
   - node_modules/
   - README.md
+  - Gemfile
+  - Gemfile.lock
+  - vendor/

@@ -4,7 +4,42 @@
 <title>{{ page.title }} | {{ site.title }}</title>
 <meta name="description" content="{{ page.description | default: site.description }}">
 
-<link rel="preconnect" href="https://fonts.gstatic.com">
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&display=swap" rel="stylesheet">
+<link rel="canonical" href="{{ page.url | absolute_url }}">
+
+{% comment %}
+  crossorigin is required on this preconnect: font files are fetched anonymously,
+  and without it the browser opens a second connection and the hint is wasted.
+  Merriweather is loaded because --font-heading asks for it; without it every
+  heading silently fell back to the default serif.
+{% endcomment %}
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
+
+{% comment %}
+  Set the theme before first paint. The toggle script runs at the end of <body>,
+  so on a dark-mode load the page painted light first and flashed.
+{% endcomment %}
+<script>
+  (function () {
+    try {
+      var saved = localStorage.getItem('theme');
+      var dark = saved ? saved === 'dark'
+                       : window.matchMedia('(prefers-color-scheme: dark)').matches;
+      if (dark) document.documentElement.setAttribute('data-theme', 'dark');
+    } catch (e) { /* private mode: fall through to light */ }
+  })();
+</script>
+
+<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)">
+
+{% comment %} Social preview cards. {% endcomment %}
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="{{ site.title }}">
+<meta property="og:title" content="{{ page.title | default: site.title }}">
+<meta property="og:description" content="{{ page.description | default: site.description }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta name="twitter:card" content="summary">

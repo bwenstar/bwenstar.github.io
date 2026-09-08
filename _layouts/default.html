@@ -4,9 +4,15 @@
   {% include head.html %}
 </head>
 <body>
+  {% comment %}
+    Keyboard users had to tab through the whole nav on every page to reach the
+    content. The link is off-screen until focused.
+  {% endcomment %}
+  <a class="skip-link" href="#site-main">Skip to content</a>
+
   {% include header.html %}
 
-  <div class="site-main">
+  <div class="site-main" id="site-main">
     {{ content }}
   </div>
 

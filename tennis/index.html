@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en-AU">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Division C Tuesday — dashboard</title>
+<meta name="description" content="UQTC Tuesday Division C results, ladder, team and player statistics.">
+<!--
+  Static shell only. Every number on this page comes from season.json (see
+  SCHEMA.md); nothing about the competition is written here, so a new round or a
+  new team needs no edit to this file. No framework, no CDN, no build step: three
+  files that open straight off the filesystem.
+
+  Data loading order, handled in app.js: season.json over fetch, then a
+  season-data.js that assigns window.SEASON (the file:// escape hatch, since
+  browsers block fetch of a sibling file), then a visible explanation. The
+  <noscript> below is the only thing this file says about data at all.
+-->
+<link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<a class="skip-link" href="#view">Skip to content</a>
+
+<header class="topbar">
+  <div class="brand">
+    <a class="home-link" href="/" style="font-size:12px;font-weight:600;color:var(--text-muted);text-decoration:none;margin-bottom:2px">&larr; brendanta.com</a>
+    <strong>Division C · Tuesday night</strong>
+    <small id="brand-sub">Loading season data…</small>
+  </div>
+
+  <nav class="tabs" aria-label="Views">
+    <a href="#/">Overview</a>
+    <a href="#/matches">Matches</a>
+    <a href="#/players">Players</a>
+  </nav>
+
+  <div class="controls">
+    <label class="sr-only" for="entity-picker">Jump to a team or player</label>
+    <select id="entity-picker">
+      <option value="">Jump to a team or player…</option>
+    </select>
+    <button class="btn" id="theme-toggle" type="button">Theme: system</button>
+  </div>
+</header>
+
+<div class="health" id="health" aria-label="Data health"></div>
+
+<noscript>
+  <div class="health">
+    <p class="note critical"><span class="ico" aria-hidden="true">✕</span>
+    <span>This dashboard renders the season from <code>season.json</code> in the
+    browser, so it needs JavaScript enabled. The underlying scorecards and the
+    generated <code>season.json</code> are plain files in the same folder.</span></p>
+  </div>
+</noscript>
+
+<main id="view" tabindex="-1"></main>
+
+<footer class="meta"><span id="foot-note"></span></footer>
+
+<!--
+  The data carrier, then the app. It is a plain assignment, so a missing file
+  costs one console 404 and nothing else — which is the point: over file://
+  fetch() cannot read a sibling, and this <script src> tag can.
+    season-data.js  window.SEASON  written by tools/ingest.py
+  app.js prefers fetched season.json, then window.SEASON, then says so plainly.
+-->
+<script src="season-data.js"></script>
+<script src="app.js"></script>
+</body>
+</html>
