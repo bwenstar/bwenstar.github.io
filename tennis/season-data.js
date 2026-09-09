@@ -77,24 +77,24 @@ window.SEASON = {
       "away_code": 4,
       "date": "2026-09-08",
       "home_code": 2,
-      "match_id": null,
-      "played": false,
+      "match_id": "3665619",
+      "played": true,
       "round": "4"
     },
     {
       "away_code": 6,
       "date": "2026-09-08",
       "home_code": 3,
-      "match_id": null,
-      "played": false,
+      "match_id": "3665620",
+      "played": true,
       "round": "4"
     },
     {
       "away_code": 1,
       "date": "2026-09-08",
       "home_code": 5,
-      "match_id": null,
-      "played": false,
+      "match_id": "3665621",
+      "played": true,
       "round": "4"
     },
     {
@@ -259,6 +259,14 @@ window.SEASON = {
       "wins_high": 0,
       "wins_low": 1
     },
+    "1:5": {
+      "draws": 0,
+      "games_high": 24,
+      "games_low": 9,
+      "played": 1,
+      "wins_high": 1,
+      "wins_low": 0
+    },
     "1:6": {
       "draws": 0,
       "games_high": 18,
@@ -274,6 +282,14 @@ window.SEASON = {
       "played": 1,
       "wins_high": 1,
       "wins_low": 0
+    },
+    "2:4": {
+      "draws": 0,
+      "games_high": 6,
+      "games_low": 24,
+      "played": 1,
+      "wins_high": 0,
+      "wins_low": 1
     },
     "2:5": {
       "draws": 0,
@@ -295,6 +311,14 @@ window.SEASON = {
       "draws": 0,
       "games_high": 5,
       "games_low": 24,
+      "played": 1,
+      "wins_high": 0,
+      "wins_low": 1
+    },
+    "3:6": {
+      "draws": 0,
+      "games_high": 13,
+      "games_low": 22,
       "played": 1,
       "wins_high": 0,
       "wins_low": 1
@@ -1262,14 +1286,326 @@ window.SEASON = {
         "D2: no away games figure on the card, read as 0",
         "D2: 0-0 never reached 6 games and no box is ticked; treated as incomplete"
       ]
+    },
+    {
+      "away": "UQ ICBC",
+      "away_code": 4,
+      "away_games": 6,
+      "away_points": 2.6,
+      "away_roster": [
+        "becky-zhong",
+        "irene-yang",
+        "wanlin-chen"
+      ],
+      "away_sets": 0,
+      "court": "2",
+      "date": "2026-09-08",
+      "decided": true,
+      "fill_ins": [],
+      "home": "UQ Triple A Batteries",
+      "home_code": 2,
+      "home_games": 24,
+      "home_points": 6.4,
+      "home_roster": [
+        "anastacia-akkari",
+        "alyssa-mills",
+        "alyx-jakovich"
+      ],
+      "home_sets": 4,
+      "id": "3665619",
+      "margin": 18,
+      "result": "home",
+      "round": "4",
+      "sets": [
+        {
+          "away_games": 0,
+          "away_players": [
+            "wanlin-chen",
+            "becky-zhong"
+          ],
+          "completed": true,
+          "home_games": 6,
+          "home_players": [
+            "alyx-jakovich",
+            "anastacia-akkari"
+          ],
+          "label": "Doubles 1",
+          "margin": 6,
+          "slot": "D1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 2,
+          "away_players": [
+            "wanlin-chen"
+          ],
+          "completed": true,
+          "home_games": 6,
+          "home_players": [
+            "alyx-jakovich"
+          ],
+          "label": "Singles P1",
+          "margin": 4,
+          "slot": "S1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 2,
+          "away_players": [
+            "becky-zhong"
+          ],
+          "completed": true,
+          "home_games": 6,
+          "home_players": [
+            "anastacia-akkari"
+          ],
+          "label": "Singles P2",
+          "margin": 4,
+          "slot": "S2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 2,
+          "away_players": [
+            "wanlin-chen",
+            "becky-zhong"
+          ],
+          "completed": true,
+          "home_games": 6,
+          "home_players": [
+            "alyx-jakovich",
+            "anastacia-akkari"
+          ],
+          "label": "Doubles 2",
+          "margin": 4,
+          "slot": "D2",
+          "status": "played",
+          "winner": "home"
+        }
+      ],
+      "source": "data/TuesdayResults/R4/match_scorecard_3665619.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "UQ Unforced Errors",
+      "away_code": 6,
+      "away_games": 13,
+      "away_points": 3.3,
+      "away_roster": [
+        "emily-rozanc",
+        "henry-bange",
+        "alex-freire"
+      ],
+      "away_sets": 1,
+      "court": "1",
+      "date": "2026-09-08",
+      "decided": true,
+      "fill_ins": [],
+      "home": "UQ Iguanas",
+      "home_code": 3,
+      "home_games": 22,
+      "home_points": 6.2,
+      "home_roster": [
+        "guillaume-evrard",
+        "jonathan-ellis",
+        "sri-krishna-dharmapuri"
+      ],
+      "home_sets": 3,
+      "id": "3665620",
+      "margin": 9,
+      "result": "home",
+      "round": "4",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "henry-bange",
+            "emily-rozanc"
+          ],
+          "completed": true,
+          "home_games": 4,
+          "home_players": [
+            "sri-krishna-dharmapuri",
+            "guillaume-evrard"
+          ],
+          "label": "Doubles 1",
+          "margin": 2,
+          "slot": "D1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 2,
+          "away_players": [
+            "henry-bange"
+          ],
+          "completed": true,
+          "home_games": 6,
+          "home_players": [
+            "sri-krishna-dharmapuri"
+          ],
+          "label": "Singles P1",
+          "margin": 4,
+          "slot": "S1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 2,
+          "away_players": [
+            "emily-rozanc"
+          ],
+          "completed": true,
+          "home_games": 6,
+          "home_players": [
+            "guillaume-evrard"
+          ],
+          "label": "Singles P2",
+          "margin": 4,
+          "slot": "S2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 3,
+          "away_players": [
+            "henry-bange",
+            "emily-rozanc"
+          ],
+          "completed": true,
+          "home_games": 6,
+          "home_players": [
+            "sri-krishna-dharmapuri",
+            "guillaume-evrard"
+          ],
+          "label": "Doubles 2",
+          "margin": 3,
+          "slot": "D2",
+          "status": "played",
+          "winner": "home"
+        }
+      ],
+      "source": "data/TuesdayResults/R4/match_scorecard_3665620.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "UQ Only Aces",
+      "away_code": 1,
+      "away_games": 9,
+      "away_points": 2.9,
+      "away_roster": [
+        "joshua-la-palma",
+        "heath-coggan",
+        "joven-chia"
+      ],
+      "away_sets": 0,
+      "court": "18",
+      "date": "2026-09-08",
+      "decided": true,
+      "fill_ins": [],
+      "home": "UQ Tempests",
+      "home_code": 5,
+      "home_games": 24,
+      "home_points": 6.4,
+      "home_roster": [
+        "ewan-mackenzie",
+        "brendan-ta",
+        "kris-briese"
+      ],
+      "home_sets": 4,
+      "id": "3665621",
+      "margin": 15,
+      "result": "home",
+      "round": "4",
+      "sets": [
+        {
+          "away_games": 3,
+          "away_players": [
+            "joshua-la-palma",
+            "joven-chia"
+          ],
+          "completed": true,
+          "home_games": 6,
+          "home_players": [
+            "ewan-mackenzie",
+            "brendan-ta"
+          ],
+          "label": "Doubles 1",
+          "margin": 3,
+          "slot": "D1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 1,
+          "away_players": [
+            "joshua-la-palma"
+          ],
+          "completed": true,
+          "home_games": 6,
+          "home_players": [
+            "ewan-mackenzie"
+          ],
+          "label": "Singles P1",
+          "margin": 5,
+          "slot": "S1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 3,
+          "away_players": [
+            "joven-chia"
+          ],
+          "completed": true,
+          "home_games": 6,
+          "home_players": [
+            "brendan-ta"
+          ],
+          "label": "Singles P2",
+          "margin": 3,
+          "slot": "S2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 2,
+          "away_players": [
+            "joshua-la-palma",
+            "joven-chia"
+          ],
+          "completed": true,
+          "home_games": 6,
+          "home_players": [
+            "ewan-mackenzie",
+            "brendan-ta"
+          ],
+          "label": "Doubles 2",
+          "margin": 4,
+          "slot": "D2",
+          "status": "played",
+          "winner": "home"
+        }
+      ],
+      "source": "data/TuesdayResults/R4/match_scorecard_3665621.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
     }
   ],
   "meta": {
-    "cards_ingested": 9,
+    "cards_ingested": 12,
     "day": "Tuesday",
     "division": "C",
-    "generated": "2026-09-08T08:45:23",
-    "rounds_played": 3,
+    "generated": "2026-09-10T08:16:03",
+    "rounds_played": 4,
     "rounds_total": 10,
     "season": "2026 Season 2",
     "source_dir": "data/TuesdayResults"
@@ -1297,14 +1633,14 @@ window.SEASON = {
   },
   "players": [
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 2,
+          "played": 3,
           "won": 2
         },
         "D2": {
-          "played": 2,
+          "played": 3,
           "won": 1
         },
         "S1": {
@@ -1312,29 +1648,29 @@ window.SEASON = {
           "won": 0
         },
         "S2": {
-          "played": 1,
+          "played": 2,
           "won": 1
         }
       },
       "contribution": {
-        "games_won": 32,
-        "share_pct": 64.0,
-        "team_games_won": 50
+        "games_won": 40,
+        "share_pct": 67.8,
+        "team_games_won": 59
       },
       "doubles": {
-        "games_lost": 12,
-        "games_won": 23,
-        "lost": 0,
-        "played": 4,
+        "games_lost": 24,
+        "games_won": 28,
+        "lost": 2,
+        "played": 6,
         "won": 3
       },
       "fill_in_appearances": 0,
-      "games_diff": 13,
-      "games_lost": 19,
-      "games_won": 32,
+      "games_diff": 3,
+      "games_lost": 37,
+      "games_won": 40,
       "is_captain": false,
       "longest_win_streak": 4,
-      "matches": 2,
+      "matches": 3,
       "name": "Joven Chia",
       "opponents": [
         {
@@ -1356,6 +1692,15 @@ window.SEASON = {
           "won": 1
         },
         {
+          "games_lost": 18,
+          "games_won": 8,
+          "lost": 3,
+          "name": "Brendan Ta",
+          "sets": 3,
+          "slug": "brendan-ta",
+          "won": 0
+        },
+        {
           "games_lost": 5,
           "games_won": 12,
           "lost": 0,
@@ -1372,15 +1717,24 @@ window.SEASON = {
           "sets": 2,
           "slug": "tanya-myint",
           "won": 1
+        },
+        {
+          "games_lost": 12,
+          "games_won": 5,
+          "lost": 2,
+          "name": "Ewan MacKenzie",
+          "sets": 2,
+          "slug": "ewan-mackenzie",
+          "won": 0
         }
       ],
       "partners": [
         {
-          "games_lost": 12,
-          "games_won": 23,
-          "lost": 0,
+          "games_lost": 24,
+          "games_won": 28,
+          "lost": 2,
           "name": "Joshua La Palma",
-          "sets": 4,
+          "sets": 6,
           "slug": "joshua-la-palma",
           "won": 3
         }
@@ -1404,29 +1758,34 @@ window.SEASON = {
           "doubles": 3.06,
           "round": "3",
           "singles": 3.42
+        },
+        {
+          "doubles": 3.06,
+          "round": "4",
+          "singles": 3.42
         }
       ],
-      "sets_lost": 1,
-      "sets_played": 6,
+      "sets_lost": 4,
+      "sets_played": 9,
       "sets_won": 4,
       "singles": {
-        "games_lost": 7,
-        "games_won": 9,
-        "lost": 1,
-        "played": 2,
+        "games_lost": 13,
+        "games_won": 12,
+        "lost": 2,
+        "played": 3,
         "won": 1
       },
       "slug": "joven-chia",
       "streak": {
-        "length": 1,
+        "length": 4,
         "type": "L"
       },
       "team": "UQ Only Aces",
       "team_code": 1,
-      "win_pct": 80.0
+      "win_pct": 50.0
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
           "played": 1,
@@ -1447,8 +1806,8 @@ window.SEASON = {
       },
       "contribution": {
         "games_won": 8,
-        "share_pct": 16.0,
-        "team_games_won": 50
+        "share_pct": 13.6,
+        "team_games_won": 59
       },
       "doubles": {
         "games_lost": 12,
@@ -1515,6 +1874,11 @@ window.SEASON = {
           "doubles": 3.53,
           "round": "3",
           "singles": 3.18
+        },
+        {
+          "doubles": 3.53,
+          "round": "4",
+          "singles": 3.18
         }
       ],
       "sets_lost": 2,
@@ -1537,18 +1901,18 @@ window.SEASON = {
       "win_pct": 33.3
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 3,
+          "played": 4,
           "won": 2
         },
         "D2": {
-          "played": 3,
+          "played": 4,
           "won": 1
         },
         "S1": {
-          "played": 1,
+          "played": 2,
           "won": 1
         },
         "S2": {
@@ -1557,24 +1921,24 @@ window.SEASON = {
         }
       },
       "contribution": {
-        "games_won": 35,
-        "share_pct": 70.0,
-        "team_games_won": 50
+        "games_won": 41,
+        "share_pct": 69.5,
+        "team_games_won": 59
       },
       "doubles": {
-        "games_lost": 24,
-        "games_won": 25,
-        "lost": 2,
-        "played": 6,
+        "games_lost": 36,
+        "games_won": 30,
+        "lost": 4,
+        "played": 8,
         "won": 3
       },
       "fill_in_appearances": 0,
-      "games_diff": -4,
-      "games_lost": 39,
-      "games_won": 35,
+      "games_diff": -16,
+      "games_lost": 57,
+      "games_won": 41,
       "is_captain": false,
       "longest_win_streak": 4,
-      "matches": 3,
+      "matches": 4,
       "name": "Joshua La Palma",
       "opponents": [
         {
@@ -1594,6 +1958,15 @@ window.SEASON = {
           "sets": 3,
           "slug": "tanya-myint",
           "won": 1
+        },
+        {
+          "games_lost": 18,
+          "games_won": 6,
+          "lost": 3,
+          "name": "Ewan MacKenzie",
+          "sets": 3,
+          "slug": "ewan-mackenzie",
+          "won": 0
         },
         {
           "games_lost": 18,
@@ -1624,6 +1997,15 @@ window.SEASON = {
         },
         {
           "games_lost": 12,
+          "games_won": 5,
+          "lost": 2,
+          "name": "Brendan Ta",
+          "sets": 2,
+          "slug": "brendan-ta",
+          "won": 0
+        },
+        {
+          "games_lost": 12,
           "games_won": 2,
           "lost": 2,
           "name": "Emily Rozanc",
@@ -1634,11 +2016,11 @@ window.SEASON = {
       ],
       "partners": [
         {
-          "games_lost": 12,
-          "games_won": 23,
-          "lost": 0,
+          "games_lost": 24,
+          "games_won": 28,
+          "lost": 2,
           "name": "Joven Chia",
-          "sets": 4,
+          "sets": 6,
           "slug": "joven-chia",
           "won": 3
         },
@@ -1671,68 +2053,82 @@ window.SEASON = {
           "doubles": 1.15,
           "round": "3",
           "singles": 1.68
+        },
+        {
+          "doubles": 1.15,
+          "round": "4",
+          "singles": 1.68
         }
       ],
-      "sets_lost": 4,
-      "sets_played": 9,
+      "sets_lost": 7,
+      "sets_played": 12,
       "sets_won": 4,
       "singles": {
-        "games_lost": 15,
-        "games_won": 10,
-        "lost": 2,
-        "played": 3,
+        "games_lost": 21,
+        "games_won": 11,
+        "lost": 3,
+        "played": 4,
         "won": 1
       },
       "slug": "joshua-la-palma",
       "streak": {
-        "length": 1,
+        "length": 4,
         "type": "L"
       },
       "team": "UQ Only Aces",
       "team_code": 1,
-      "win_pct": 50.0
+      "win_pct": 36.4
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 2,
-          "won": 0
+          "played": 3,
+          "won": 1
         },
         "D2": {
-          "played": 2,
-          "won": 0
+          "played": 3,
+          "won": 1
         },
         "S1": {
           "played": 2,
           "won": 0
         },
         "S2": {
-          "played": 0,
-          "won": 0
+          "played": 1,
+          "won": 1
         }
       },
       "contribution": {
-        "games_won": 10,
-        "share_pct": 43.5,
-        "team_games_won": 23
+        "games_won": 28,
+        "share_pct": 59.6,
+        "team_games_won": 47
       },
       "doubles": {
-        "games_lost": 18,
-        "games_won": 6,
+        "games_lost": 20,
+        "games_won": 18,
         "lost": 3,
-        "played": 4,
-        "won": 0
+        "played": 6,
+        "won": 2
       },
       "fill_in_appearances": 0,
-      "games_diff": -20,
-      "games_lost": 30,
-      "games_won": 10,
+      "games_diff": -6,
+      "games_lost": 34,
+      "games_won": 28,
       "is_captain": false,
-      "longest_win_streak": 0,
-      "matches": 2,
+      "longest_win_streak": 3,
+      "matches": 3,
       "name": "Anastacia Akkari",
       "opponents": [
+        {
+          "games_lost": 4,
+          "games_won": 18,
+          "lost": 0,
+          "name": "Becky Zhong",
+          "sets": 3,
+          "slug": "becky-zhong",
+          "won": 3
+        },
         {
           "games_lost": 12,
           "games_won": 7,
@@ -1750,6 +2146,15 @@ window.SEASON = {
           "sets": 3,
           "slug": "brendan-ta",
           "won": 0
+        },
+        {
+          "games_lost": 2,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Wanlin Chen",
+          "sets": 2,
+          "slug": "wanlin-chen",
+          "won": 2
         },
         {
           "games_lost": 6,
@@ -1772,21 +2177,21 @@ window.SEASON = {
       ],
       "partners": [
         {
+          "games_lost": 14,
+          "games_won": 15,
+          "lost": 2,
+          "name": "Alyx Jakovich",
+          "sets": 4,
+          "slug": "alyx-jakovich",
+          "won": 2
+        },
+        {
           "games_lost": 6,
           "games_won": 3,
           "lost": 1,
           "name": "Alyssa Mills",
           "sets": 2,
           "slug": "alyssa-mills",
-          "won": 0
-        },
-        {
-          "games_lost": 12,
-          "games_won": 3,
-          "lost": 2,
-          "name": "Alyx Jakovich",
-          "sets": 2,
-          "slug": "alyx-jakovich",
           "won": 0
         }
       ],
@@ -1809,41 +2214,46 @@ window.SEASON = {
           "doubles": 1.82,
           "round": "3",
           "singles": 1.83
+        },
+        {
+          "doubles": 1.82,
+          "round": "4",
+          "singles": 1.83
         }
       ],
       "sets_lost": 5,
-      "sets_played": 6,
-      "sets_won": 0,
+      "sets_played": 9,
+      "sets_won": 3,
       "singles": {
-        "games_lost": 12,
-        "games_won": 4,
+        "games_lost": 14,
+        "games_won": 10,
         "lost": 2,
-        "played": 2,
-        "won": 0
+        "played": 3,
+        "won": 1
       },
       "slug": "anastacia-akkari",
       "streak": {
-        "length": 5,
-        "type": "L"
+        "length": 3,
+        "type": "W"
       },
       "team": "UQ Triple A Batteries",
       "team_code": 2,
-      "win_pct": 0.0
+      "win_pct": 37.5
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 2,
-          "won": 0
+          "played": 3,
+          "won": 1
         },
         "D2": {
-          "played": 2,
-          "won": 0
+          "played": 3,
+          "won": 1
         },
         "S1": {
-          "played": 1,
-          "won": 0
+          "played": 2,
+          "won": 1
         },
         "S2": {
           "played": 1,
@@ -1851,26 +2261,35 @@ window.SEASON = {
         }
       },
       "contribution": {
-        "games_won": 9,
-        "share_pct": 39.1,
-        "team_games_won": 23
+        "games_won": 27,
+        "share_pct": 57.4,
+        "team_games_won": 47
       },
       "doubles": {
-        "games_lost": 24,
-        "games_won": 9,
+        "games_lost": 26,
+        "games_won": 21,
         "lost": 4,
-        "played": 4,
-        "won": 0
+        "played": 6,
+        "won": 2
       },
       "fill_in_appearances": 0,
-      "games_diff": -27,
-      "games_lost": 36,
-      "games_won": 9,
+      "games_diff": -13,
+      "games_lost": 40,
+      "games_won": 27,
       "is_captain": false,
-      "longest_win_streak": 0,
-      "matches": 2,
+      "longest_win_streak": 3,
+      "matches": 3,
       "name": "Alyx Jakovich",
       "opponents": [
+        {
+          "games_lost": 4,
+          "games_won": 18,
+          "lost": 0,
+          "name": "Wanlin Chen",
+          "sets": 3,
+          "slug": "wanlin-chen",
+          "won": 3
+        },
         {
           "games_lost": 18,
           "games_won": 6,
@@ -1888,6 +2307,15 @@ window.SEASON = {
           "sets": 3,
           "slug": "ewan-mackenzie",
           "won": 0
+        },
+        {
+          "games_lost": 2,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Becky Zhong",
+          "sets": 2,
+          "slug": "becky-zhong",
+          "won": 2
         },
         {
           "games_lost": 12,
@@ -1910,21 +2338,21 @@ window.SEASON = {
       ],
       "partners": [
         {
+          "games_lost": 14,
+          "games_won": 15,
+          "lost": 2,
+          "name": "Anastacia Akkari",
+          "sets": 4,
+          "slug": "anastacia-akkari",
+          "won": 2
+        },
+        {
           "games_lost": 12,
           "games_won": 6,
           "lost": 2,
           "name": "Alyssa Mills",
           "sets": 2,
           "slug": "alyssa-mills",
-          "won": 0
-        },
-        {
-          "games_lost": 12,
-          "games_won": 3,
-          "lost": 2,
-          "name": "Anastacia Akkari",
-          "sets": 2,
-          "slug": "anastacia-akkari",
           "won": 0
         }
       ],
@@ -1947,29 +2375,34 @@ window.SEASON = {
           "doubles": 2.65,
           "round": "3",
           "singles": 3.67
+        },
+        {
+          "doubles": 2.65,
+          "round": "4",
+          "singles": 3.67
         }
       ],
       "sets_lost": 6,
-      "sets_played": 6,
-      "sets_won": 0,
+      "sets_played": 9,
+      "sets_won": 3,
       "singles": {
-        "games_lost": 12,
-        "games_won": 0,
+        "games_lost": 14,
+        "games_won": 6,
         "lost": 2,
-        "played": 2,
-        "won": 0
+        "played": 3,
+        "won": 1
       },
       "slug": "alyx-jakovich",
       "streak": {
-        "length": 6,
-        "type": "L"
+        "length": 3,
+        "type": "W"
       },
       "team": "UQ Triple A Batteries",
       "team_code": 2,
-      "win_pct": 0.0
+      "win_pct": 33.3
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
           "played": 2,
@@ -1990,8 +2423,8 @@ window.SEASON = {
       },
       "contribution": {
         "games_won": 16,
-        "share_pct": 69.6,
-        "team_games_won": 23
+        "share_pct": 34.0,
+        "team_games_won": 47
       },
       "doubles": {
         "games_lost": 18,
@@ -2085,6 +2518,11 @@ window.SEASON = {
           "doubles": 2.69,
           "round": "3",
           "singles": 2.57
+        },
+        {
+          "doubles": 2.69,
+          "round": "4",
+          "singles": 2.57
         }
       ],
       "sets_lost": 5,
@@ -2107,19 +2545,19 @@ window.SEASON = {
       "win_pct": 0.0
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 2,
+          "played": 3,
           "won": 2
         },
         "D2": {
-          "played": 2,
-          "won": 2
+          "played": 3,
+          "won": 3
         },
         "S1": {
-          "played": 1,
-          "won": 1
+          "played": 2,
+          "won": 2
         },
         "S2": {
           "played": 1,
@@ -2127,24 +2565,24 @@ window.SEASON = {
         }
       },
       "contribution": {
-        "games_won": 36,
-        "share_pct": 53.7,
-        "team_games_won": 67
+        "games_won": 52,
+        "share_pct": 58.4,
+        "team_games_won": 89
       },
       "doubles": {
-        "games_lost": 8,
-        "games_won": 24,
-        "lost": 0,
-        "played": 4,
-        "won": 4
+        "games_lost": 17,
+        "games_won": 34,
+        "lost": 1,
+        "played": 6,
+        "won": 5
       },
       "fill_in_appearances": 0,
-      "games_diff": 28,
-      "games_lost": 8,
-      "games_won": 36,
+      "games_diff": 33,
+      "games_lost": 19,
+      "games_won": 52,
       "is_captain": false,
       "longest_win_streak": 6,
-      "matches": 2,
+      "matches": 3,
       "name": "Sri Krishna Dharmapuri",
       "opponents": [
         {
@@ -2166,6 +2604,15 @@ window.SEASON = {
           "won": 3
         },
         {
+          "games_lost": 11,
+          "games_won": 16,
+          "lost": 1,
+          "name": "Henry Bange",
+          "sets": 3,
+          "slug": "henry-bange",
+          "won": 2
+        },
+        {
           "games_lost": 6,
           "games_won": 12,
           "lost": 0,
@@ -2182,17 +2629,26 @@ window.SEASON = {
           "sets": 2,
           "slug": "becky-zhong",
           "won": 2
+        },
+        {
+          "games_lost": 9,
+          "games_won": 10,
+          "lost": 1,
+          "name": "Emily Rozanc",
+          "sets": 2,
+          "slug": "emily-rozanc",
+          "won": 1
         }
       ],
       "partners": [
         {
-          "games_lost": 8,
-          "games_won": 24,
-          "lost": 0,
+          "games_lost": 17,
+          "games_won": 34,
+          "lost": 1,
           "name": "Guillaume Evrard",
-          "sets": 4,
+          "sets": 6,
           "slug": "guillaume-evrard",
-          "won": 4
+          "won": 5
         }
       ],
       "rating": {
@@ -2214,29 +2670,34 @@ window.SEASON = {
           "doubles": 4.18,
           "round": "3",
           "singles": 4.34
+        },
+        {
+          "doubles": 4.18,
+          "round": "4",
+          "singles": 4.34
         }
       ],
-      "sets_lost": 0,
-      "sets_played": 6,
-      "sets_won": 6,
+      "sets_lost": 1,
+      "sets_played": 9,
+      "sets_won": 8,
       "singles": {
-        "games_lost": 0,
-        "games_won": 12,
+        "games_lost": 2,
+        "games_won": 18,
         "lost": 0,
-        "played": 2,
-        "won": 2
+        "played": 3,
+        "won": 3
       },
       "slug": "sri-krishna-dharmapuri",
       "streak": {
-        "length": 6,
+        "length": 2,
         "type": "W"
       },
       "team": "UQ Iguanas",
       "team_code": 3,
-      "win_pct": 100.0
+      "win_pct": 88.9
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
           "played": 0,
@@ -2258,7 +2719,7 @@ window.SEASON = {
       "contribution": {
         "games_won": 0,
         "share_pct": 0.0,
-        "team_games_won": 67
+        "team_games_won": 89
       },
       "doubles": {
         "games_lost": 0,
@@ -2296,6 +2757,11 @@ window.SEASON = {
           "doubles": 1.82,
           "round": "3",
           "singles": 1.82
+        },
+        {
+          "doubles": 1.82,
+          "round": "4",
+          "singles": 1.82
         }
       ],
       "sets_lost": 0,
@@ -2318,44 +2784,44 @@ window.SEASON = {
       "win_pct": 0.0
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 3,
+          "played": 4,
           "won": 2
         },
         "D2": {
-          "played": 3,
-          "won": 2
+          "played": 4,
+          "won": 3
         },
         "S1": {
           "played": 2,
           "won": 2
         },
         "S2": {
-          "played": 1,
-          "won": 1
+          "played": 2,
+          "won": 2
         }
       },
       "contribution": {
-        "games_won": 49,
-        "share_pct": 73.1,
-        "team_games_won": 67
+        "games_won": 65,
+        "share_pct": 73.0,
+        "team_games_won": 89
       },
       "doubles": {
-        "games_lost": 19,
-        "games_won": 31,
-        "lost": 1,
-        "played": 6,
-        "won": 4
+        "games_lost": 28,
+        "games_won": 41,
+        "lost": 2,
+        "played": 8,
+        "won": 5
       },
       "fill_in_appearances": 0,
-      "games_diff": 22,
-      "games_lost": 27,
-      "games_won": 49,
+      "games_diff": 27,
+      "games_lost": 38,
+      "games_won": 65,
       "is_captain": false,
       "longest_win_streak": 6,
-      "matches": 3,
+      "matches": 4,
       "name": "Guillaume Evrard",
       "opponents": [
         {
@@ -2375,6 +2841,15 @@ window.SEASON = {
           "sets": 3,
           "slug": "becky-zhong",
           "won": 3
+        },
+        {
+          "games_lost": 11,
+          "games_won": 16,
+          "lost": 1,
+          "name": "Emily Rozanc",
+          "sets": 3,
+          "slug": "emily-rozanc",
+          "won": 2
         },
         {
           "games_lost": 14,
@@ -2404,6 +2879,15 @@ window.SEASON = {
           "won": 2
         },
         {
+          "games_lost": 9,
+          "games_won": 10,
+          "lost": 1,
+          "name": "Henry Bange",
+          "sets": 2,
+          "slug": "henry-bange",
+          "won": 1
+        },
+        {
           "games_lost": 11,
           "games_won": 7,
           "lost": 1,
@@ -2415,13 +2899,13 @@ window.SEASON = {
       ],
       "partners": [
         {
-          "games_lost": 8,
-          "games_won": 24,
-          "lost": 0,
+          "games_lost": 17,
+          "games_won": 34,
+          "lost": 1,
           "name": "Sri Krishna Dharmapuri",
-          "sets": 4,
+          "sets": 6,
           "slug": "sri-krishna-dharmapuri",
-          "won": 4
+          "won": 5
         },
         {
           "games_lost": 11,
@@ -2452,40 +2936,45 @@ window.SEASON = {
           "doubles": 3.92,
           "round": "3",
           "singles": 3.82
+        },
+        {
+          "doubles": 3.92,
+          "round": "4",
+          "singles": 3.82
         }
       ],
-      "sets_lost": 1,
-      "sets_played": 9,
-      "sets_won": 7,
+      "sets_lost": 2,
+      "sets_played": 12,
+      "sets_won": 9,
       "singles": {
-        "games_lost": 8,
-        "games_won": 18,
+        "games_lost": 10,
+        "games_won": 24,
         "lost": 0,
-        "played": 3,
-        "won": 3
+        "played": 4,
+        "won": 4
       },
       "slug": "guillaume-evrard",
       "streak": {
-        "length": 1,
+        "length": 2,
         "type": "W"
       },
       "team": "UQ Iguanas",
       "team_code": 3,
-      "win_pct": 87.5
+      "win_pct": 81.8
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 2,
+          "played": 3,
           "won": 0
         },
         "D2": {
-          "played": 2,
+          "played": 3,
           "won": 0
         },
         "S1": {
-          "played": 1,
+          "played": 2,
           "won": 0
         },
         "S2": {
@@ -2494,24 +2983,24 @@ window.SEASON = {
         }
       },
       "contribution": {
-        "games_won": 6,
-        "share_pct": 42.9,
-        "team_games_won": 14
+        "games_won": 10,
+        "share_pct": 50.0,
+        "team_games_won": 20
       },
       "doubles": {
-        "games_lost": 24,
-        "games_won": 5,
-        "lost": 4,
-        "played": 4,
+        "games_lost": 36,
+        "games_won": 7,
+        "lost": 6,
+        "played": 6,
         "won": 0
       },
       "fill_in_appearances": 0,
-      "games_diff": -30,
-      "games_lost": 36,
-      "games_won": 6,
+      "games_diff": -44,
+      "games_lost": 54,
+      "games_won": 10,
       "is_captain": false,
       "longest_win_streak": 0,
-      "matches": 2,
+      "matches": 3,
       "name": "Wanlin Chen",
       "opponents": [
         {
@@ -2521,6 +3010,15 @@ window.SEASON = {
           "name": "Joven Chia",
           "sets": 3,
           "slug": "joven-chia",
+          "won": 0
+        },
+        {
+          "games_lost": 18,
+          "games_won": 4,
+          "lost": 3,
+          "name": "Alyx Jakovich",
+          "sets": 3,
+          "slug": "alyx-jakovich",
           "won": 0
         },
         {
@@ -2543,6 +3041,15 @@ window.SEASON = {
         },
         {
           "games_lost": 12,
+          "games_won": 2,
+          "lost": 2,
+          "name": "Anastacia Akkari",
+          "sets": 2,
+          "slug": "anastacia-akkari",
+          "won": 0
+        },
+        {
+          "games_lost": 12,
           "games_won": 0,
           "lost": 2,
           "name": "Brendan Ta",
@@ -2559,6 +3066,15 @@ window.SEASON = {
           "name": "Irene Yang",
           "sets": 4,
           "slug": "irene-yang",
+          "won": 0
+        },
+        {
+          "games_lost": 12,
+          "games_won": 2,
+          "lost": 2,
+          "name": "Becky Zhong",
+          "sets": 2,
+          "slug": "becky-zhong",
           "won": 0
         }
       ],
@@ -2581,21 +3097,26 @@ window.SEASON = {
           "doubles": 1.0,
           "round": "3",
           "singles": 1.63
+        },
+        {
+          "doubles": 1.0,
+          "round": "4",
+          "singles": 1.63
         }
       ],
-      "sets_lost": 6,
-      "sets_played": 6,
+      "sets_lost": 9,
+      "sets_played": 9,
       "sets_won": 0,
       "singles": {
-        "games_lost": 12,
-        "games_won": 1,
-        "lost": 2,
-        "played": 2,
+        "games_lost": 18,
+        "games_won": 3,
+        "lost": 3,
+        "played": 3,
         "won": 0
       },
       "slug": "wanlin-chen",
       "streak": {
-        "length": 6,
+        "length": 9,
         "type": "L"
       },
       "team": "UQ ICBC",
@@ -2603,7 +3124,7 @@ window.SEASON = {
       "win_pct": 0.0
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
           "played": 3,
@@ -2624,8 +3145,8 @@ window.SEASON = {
       },
       "contribution": {
         "games_won": 10,
-        "share_pct": 71.4,
-        "team_games_won": 14
+        "share_pct": 50.0,
+        "team_games_won": 20
       },
       "doubles": {
         "games_lost": 36,
@@ -2737,6 +3258,11 @@ window.SEASON = {
           "doubles": 1.85,
           "round": "3",
           "singles": 1.98
+        },
+        {
+          "doubles": 1.85,
+          "round": "4",
+          "singles": 1.98
         }
       ],
       "sets_lost": 9,
@@ -2759,14 +3285,14 @@ window.SEASON = {
       "win_pct": 0.0
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 1,
+          "played": 2,
           "won": 0
         },
         "D2": {
-          "played": 1,
+          "played": 2,
           "won": 0
         },
         "S1": {
@@ -2774,29 +3300,29 @@ window.SEASON = {
           "won": 0
         },
         "S2": {
-          "played": 0,
+          "played": 1,
           "won": 0
         }
       },
       "contribution": {
-        "games_won": 5,
-        "share_pct": 35.7,
-        "team_games_won": 14
+        "games_won": 9,
+        "share_pct": 45.0,
+        "team_games_won": 20
       },
       "doubles": {
-        "games_lost": 12,
-        "games_won": 2,
-        "lost": 2,
-        "played": 2,
+        "games_lost": 24,
+        "games_won": 4,
+        "lost": 4,
+        "played": 4,
         "won": 0
       },
       "fill_in_appearances": 0,
-      "games_diff": -13,
-      "games_lost": 18,
-      "games_won": 5,
+      "games_diff": -27,
+      "games_lost": 36,
+      "games_won": 9,
       "is_captain": false,
       "longest_win_streak": 0,
-      "matches": 1,
+      "matches": 2,
       "name": "Becky Zhong",
       "opponents": [
         {
@@ -2806,6 +3332,24 @@ window.SEASON = {
           "name": "Guillaume Evrard",
           "sets": 3,
           "slug": "guillaume-evrard",
+          "won": 0
+        },
+        {
+          "games_lost": 18,
+          "games_won": 4,
+          "lost": 3,
+          "name": "Anastacia Akkari",
+          "sets": 3,
+          "slug": "anastacia-akkari",
+          "won": 0
+        },
+        {
+          "games_lost": 12,
+          "games_won": 2,
+          "lost": 2,
+          "name": "Alyx Jakovich",
+          "sets": 2,
+          "slug": "alyx-jakovich",
           "won": 0
         },
         {
@@ -2826,6 +3370,15 @@ window.SEASON = {
           "name": "Irene Yang",
           "sets": 2,
           "slug": "irene-yang",
+          "won": 0
+        },
+        {
+          "games_lost": 12,
+          "games_won": 2,
+          "lost": 2,
+          "name": "Wanlin Chen",
+          "sets": 2,
+          "slug": "wanlin-chen",
           "won": 0
         }
       ],
@@ -2848,21 +3401,26 @@ window.SEASON = {
           "doubles": 2.52,
           "round": "3",
           "singles": 2.99
+        },
+        {
+          "doubles": 2.52,
+          "round": "4",
+          "singles": 2.99
         }
       ],
-      "sets_lost": 3,
-      "sets_played": 3,
+      "sets_lost": 6,
+      "sets_played": 6,
       "sets_won": 0,
       "singles": {
-        "games_lost": 6,
-        "games_won": 3,
-        "lost": 1,
-        "played": 1,
+        "games_lost": 12,
+        "games_won": 5,
+        "lost": 2,
+        "played": 2,
         "won": 0
       },
       "slug": "becky-zhong",
       "streak": {
-        "length": 3,
+        "length": 6,
         "type": "L"
       },
       "team": "UQ ICBC",
@@ -2870,7 +3428,7 @@ window.SEASON = {
       "win_pct": 0.0
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
           "played": 2,
@@ -2891,8 +3449,8 @@ window.SEASON = {
       },
       "contribution": {
         "games_won": 33,
-        "share_pct": 51.6,
-        "team_games_won": 64
+        "share_pct": 37.5,
+        "team_games_won": 88
       },
       "doubles": {
         "games_lost": 8,
@@ -2986,6 +3544,11 @@ window.SEASON = {
           "doubles": 3.85,
           "round": "3",
           "singles": 5.24
+        },
+        {
+          "doubles": 3.85,
+          "round": "4",
+          "singles": 5.24
         }
       ],
       "sets_lost": 1,
@@ -3008,19 +3571,19 @@ window.SEASON = {
       "win_pct": 80.0
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 2,
-          "won": 1
+          "played": 3,
+          "won": 2
         },
         "D2": {
-          "played": 2,
-          "won": 1
+          "played": 3,
+          "won": 2
         },
         "S1": {
-          "played": 1,
-          "won": 0
+          "played": 2,
+          "won": 1
         },
         "S2": {
           "played": 1,
@@ -3028,24 +3591,24 @@ window.SEASON = {
         }
       },
       "contribution": {
-        "games_won": 28,
-        "share_pct": 43.8,
-        "team_games_won": 64
+        "games_won": 46,
+        "share_pct": 52.3,
+        "team_games_won": 88
       },
       "doubles": {
-        "games_lost": 11,
-        "games_won": 21,
+        "games_lost": 16,
+        "games_won": 33,
         "lost": 1,
-        "played": 4,
-        "won": 2
+        "played": 6,
+        "won": 4
       },
       "fill_in_appearances": 0,
-      "games_diff": 11,
-      "games_lost": 17,
-      "games_won": 28,
+      "games_diff": 23,
+      "games_lost": 23,
+      "games_won": 46,
       "is_captain": true,
       "longest_win_streak": 3,
-      "matches": 2,
+      "matches": 3,
       "name": "Ewan MacKenzie",
       "opponents": [
         {
@@ -3055,6 +3618,15 @@ window.SEASON = {
           "name": "Alyx Jakovich",
           "sets": 3,
           "slug": "alyx-jakovich",
+          "won": 3
+        },
+        {
+          "games_lost": 6,
+          "games_won": 18,
+          "lost": 0,
+          "name": "Joshua La Palma",
+          "sets": 3,
+          "slug": "joshua-la-palma",
           "won": 3
         },
         {
@@ -3076,6 +3648,15 @@ window.SEASON = {
           "won": 2
         },
         {
+          "games_lost": 5,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Joven Chia",
+          "sets": 2,
+          "slug": "joven-chia",
+          "won": 2
+        },
+        {
           "games_lost": 8,
           "games_won": 9,
           "lost": 1,
@@ -3087,13 +3668,13 @@ window.SEASON = {
       ],
       "partners": [
         {
-          "games_lost": 3,
-          "games_won": 12,
+          "games_lost": 8,
+          "games_won": 24,
           "lost": 0,
           "name": "Brendan Ta",
-          "sets": 2,
+          "sets": 4,
           "slug": "brendan-ta",
-          "won": 2
+          "won": 4
         },
         {
           "games_lost": 8,
@@ -3124,66 +3705,71 @@ window.SEASON = {
           "doubles": 4.08,
           "round": "3",
           "singles": 1.33
+        },
+        {
+          "doubles": 4.08,
+          "round": "4",
+          "singles": 1.33
         }
       ],
       "sets_lost": 2,
-      "sets_played": 6,
-      "sets_won": 3,
+      "sets_played": 9,
+      "sets_won": 6,
       "singles": {
-        "games_lost": 6,
-        "games_won": 7,
+        "games_lost": 7,
+        "games_won": 13,
         "lost": 1,
-        "played": 2,
-        "won": 1
+        "played": 3,
+        "won": 2
       },
       "slug": "ewan-mackenzie",
       "streak": {
-        "length": 2,
-        "type": "L"
+        "length": 3,
+        "type": "W"
       },
       "team": "UQ Tempests",
       "team_code": 5,
-      "win_pct": 60.0
+      "win_pct": 75.0
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 2,
-          "won": 2
+          "played": 3,
+          "won": 3
         },
         "D2": {
-          "played": 2,
-          "won": 2
+          "played": 3,
+          "won": 3
         },
         "S1": {
           "played": 1,
           "won": 1
         },
         "S2": {
-          "played": 1,
-          "won": 1
+          "played": 2,
+          "won": 2
         }
       },
       "contribution": {
-        "games_won": 36,
-        "share_pct": 56.2,
-        "team_games_won": 64
+        "games_won": 54,
+        "share_pct": 61.4,
+        "team_games_won": 88
       },
       "doubles": {
-        "games_lost": 3,
-        "games_won": 24,
+        "games_lost": 8,
+        "games_won": 36,
         "lost": 0,
-        "played": 4,
-        "won": 4
+        "played": 6,
+        "won": 6
       },
       "fill_in_appearances": 0,
-      "games_diff": 33,
-      "games_lost": 3,
-      "games_won": 36,
+      "games_diff": 43,
+      "games_lost": 11,
+      "games_won": 54,
       "is_captain": false,
-      "longest_win_streak": 6,
-      "matches": 2,
+      "longest_win_streak": 9,
+      "matches": 3,
       "name": "Brendan Ta",
       "opponents": [
         {
@@ -3205,12 +3791,30 @@ window.SEASON = {
           "won": 3
         },
         {
+          "games_lost": 8,
+          "games_won": 18,
+          "lost": 0,
+          "name": "Joven Chia",
+          "sets": 3,
+          "slug": "joven-chia",
+          "won": 3
+        },
+        {
           "games_lost": 3,
           "games_won": 12,
           "lost": 0,
           "name": "Alyx Jakovich",
           "sets": 2,
           "slug": "alyx-jakovich",
+          "won": 2
+        },
+        {
+          "games_lost": 5,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Joshua La Palma",
+          "sets": 2,
+          "slug": "joshua-la-palma",
           "won": 2
         },
         {
@@ -3225,13 +3829,13 @@ window.SEASON = {
       ],
       "partners": [
         {
-          "games_lost": 3,
-          "games_won": 12,
+          "games_lost": 8,
+          "games_won": 24,
           "lost": 0,
           "name": "Ewan MacKenzie",
-          "sets": 2,
+          "sets": 4,
           "slug": "ewan-mackenzie",
-          "won": 2
+          "won": 4
         },
         {
           "games_lost": 0,
@@ -3262,21 +3866,26 @@ window.SEASON = {
           "doubles": 4.7,
           "round": "3",
           "singles": 3.41
+        },
+        {
+          "doubles": 4.7,
+          "round": "4",
+          "singles": 3.41
         }
       ],
       "sets_lost": 0,
-      "sets_played": 6,
-      "sets_won": 6,
+      "sets_played": 9,
+      "sets_won": 9,
       "singles": {
-        "games_lost": 0,
-        "games_won": 12,
+        "games_lost": 3,
+        "games_won": 18,
         "lost": 0,
-        "played": 2,
-        "won": 2
+        "played": 3,
+        "won": 3
       },
       "slug": "brendan-ta",
       "streak": {
-        "length": 6,
+        "length": 9,
         "type": "W"
       },
       "team": "UQ Tempests",
@@ -3284,18 +3893,18 @@ window.SEASON = {
       "win_pct": 100.0
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 2,
-          "won": 2
+          "played": 3,
+          "won": 3
         },
         "D2": {
-          "played": 2,
+          "played": 3,
           "won": 0
         },
         "S1": {
-          "played": 1,
+          "played": 2,
           "won": 1
         },
         "S2": {
@@ -3304,24 +3913,24 @@ window.SEASON = {
         }
       },
       "contribution": {
-        "games_won": 23,
-        "share_pct": 43.4,
-        "team_games_won": 53
+        "games_won": 34,
+        "share_pct": 51.5,
+        "team_games_won": 66
       },
       "doubles": {
-        "games_lost": 12,
-        "games_won": 14,
-        "lost": 0,
-        "played": 4,
-        "won": 2
+        "games_lost": 22,
+        "games_won": 23,
+        "lost": 1,
+        "played": 6,
+        "won": 3
       },
       "fill_in_appearances": 0,
-      "games_diff": 1,
-      "games_lost": 22,
-      "games_won": 23,
+      "games_diff": -4,
+      "games_lost": 38,
+      "games_won": 34,
       "is_captain": false,
-      "longest_win_streak": 2,
-      "matches": 2,
+      "longest_win_streak": 3,
+      "matches": 3,
       "name": "Henry Bange",
       "opponents": [
         {
@@ -3340,6 +3949,24 @@ window.SEASON = {
           "name": "Kris Briese",
           "sets": 3,
           "slug": "kris-briese",
+          "won": 1
+        },
+        {
+          "games_lost": 16,
+          "games_won": 11,
+          "lost": 2,
+          "name": "Sri Krishna Dharmapuri",
+          "sets": 3,
+          "slug": "sri-krishna-dharmapuri",
+          "won": 1
+        },
+        {
+          "games_lost": 10,
+          "games_won": 9,
+          "lost": 1,
+          "name": "Guillaume Evrard",
+          "sets": 2,
+          "slug": "guillaume-evrard",
           "won": 1
         },
         {
@@ -3363,13 +3990,13 @@ window.SEASON = {
       ],
       "partners": [
         {
-          "games_lost": 12,
-          "games_won": 14,
-          "lost": 0,
+          "games_lost": 22,
+          "games_won": 23,
+          "lost": 1,
           "name": "Emily Rozanc",
-          "sets": 4,
+          "sets": 6,
           "slug": "emily-rozanc",
-          "won": 2
+          "won": 3
         }
       ],
       "rating": {
@@ -3391,29 +4018,34 @@ window.SEASON = {
           "doubles": 4.24,
           "round": "3",
           "singles": 4.22
+        },
+        {
+          "doubles": 4.24,
+          "round": "4",
+          "singles": 4.22
         }
       ],
-      "sets_lost": 1,
-      "sets_played": 6,
-      "sets_won": 3,
+      "sets_lost": 3,
+      "sets_played": 9,
+      "sets_won": 4,
       "singles": {
-        "games_lost": 10,
-        "games_won": 9,
-        "lost": 1,
-        "played": 2,
+        "games_lost": 16,
+        "games_won": 11,
+        "lost": 2,
+        "played": 3,
         "won": 1
       },
       "slug": "henry-bange",
       "streak": {
         "length": 2,
-        "type": "W"
+        "type": "L"
       },
       "team": "UQ Unforced Errors",
       "team_code": 6,
-      "win_pct": 75.0
+      "win_pct": 57.1
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
           "played": 1,
@@ -3434,8 +4066,8 @@ window.SEASON = {
       },
       "contribution": {
         "games_won": 18,
-        "share_pct": 34.0,
-        "team_games_won": 53
+        "share_pct": 27.3,
+        "team_games_won": 66
       },
       "doubles": {
         "games_lost": 2,
@@ -3508,14 +4140,14 @@ window.SEASON = {
       "win_pct": 100.0
     },
     {
-      "available": 3,
+      "available": 4,
       "by_slot": {
         "D1": {
-          "played": 3,
-          "won": 3
+          "played": 4,
+          "won": 4
         },
         "D2": {
-          "played": 3,
+          "played": 4,
           "won": 1
         },
         "S1": {
@@ -3523,29 +4155,29 @@ window.SEASON = {
           "won": 1
         },
         "S2": {
-          "played": 1,
+          "played": 2,
           "won": 1
         }
       },
       "contribution": {
-        "games_won": 38,
-        "share_pct": 71.7,
-        "team_games_won": 53
+        "games_won": 49,
+        "share_pct": 74.2,
+        "team_games_won": 66
       },
       "doubles": {
-        "games_lost": 14,
-        "games_won": 26,
-        "lost": 0,
-        "played": 6,
-        "won": 4
+        "games_lost": 24,
+        "games_won": 35,
+        "lost": 1,
+        "played": 8,
+        "won": 5
       },
       "fill_in_appearances": 0,
-      "games_diff": 12,
-      "games_lost": 26,
-      "games_won": 38,
+      "games_diff": 7,
+      "games_lost": 42,
+      "games_won": 49,
       "is_captain": false,
-      "longest_win_streak": 5,
-      "matches": 3,
+      "longest_win_streak": 6,
+      "matches": 4,
       "name": "Emily Rozanc",
       "opponents": [
         {
@@ -3576,6 +4208,15 @@ window.SEASON = {
           "won": 2
         },
         {
+          "games_lost": 16,
+          "games_won": 11,
+          "lost": 2,
+          "name": "Guillaume Evrard",
+          "sets": 3,
+          "slug": "guillaume-evrard",
+          "won": 1
+        },
+        {
           "games_lost": 2,
           "games_won": 12,
           "lost": 0,
@@ -3583,6 +4224,15 @@ window.SEASON = {
           "sets": 2,
           "slug": "joshua-la-palma",
           "won": 2
+        },
+        {
+          "games_lost": 10,
+          "games_won": 9,
+          "lost": 1,
+          "name": "Sri Krishna Dharmapuri",
+          "sets": 2,
+          "slug": "sri-krishna-dharmapuri",
+          "won": 1
         },
         {
           "games_lost": 9,
@@ -3605,13 +4255,13 @@ window.SEASON = {
       ],
       "partners": [
         {
-          "games_lost": 12,
-          "games_won": 14,
-          "lost": 0,
+          "games_lost": 22,
+          "games_won": 23,
+          "lost": 1,
           "name": "Henry Bange",
-          "sets": 4,
+          "sets": 6,
           "slug": "henry-bange",
-          "won": 2
+          "won": 3
         },
         {
           "games_lost": 2,
@@ -3642,26 +4292,31 @@ window.SEASON = {
           "doubles": 3.64,
           "round": "3",
           "singles": 2.81
+        },
+        {
+          "doubles": 3.64,
+          "round": "4",
+          "singles": 2.81
         }
       ],
-      "sets_lost": 1,
-      "sets_played": 9,
-      "sets_won": 6,
+      "sets_lost": 3,
+      "sets_played": 12,
+      "sets_won": 7,
       "singles": {
-        "games_lost": 12,
-        "games_won": 12,
-        "lost": 1,
-        "played": 3,
+        "games_lost": 18,
+        "games_won": 14,
+        "lost": 2,
+        "played": 4,
         "won": 2
       },
       "slug": "emily-rozanc",
       "streak": {
-        "length": 5,
-        "type": "W"
+        "length": 2,
+        "type": "L"
       },
       "team": "UQ Unforced Errors",
       "team_code": 6,
-      "win_pct": 85.7
+      "win_pct": 70.0
     },
     {
       "available": 1,
@@ -3796,9 +4451,13 @@ window.SEASON = {
     {
       "date": "2026-09-08",
       "is_finals": false,
-      "matches": [],
+      "matches": [
+        "3665619",
+        "3665620",
+        "3665621"
+      ],
       "number": "4",
-      "played": false
+      "played": true
     },
     {
       "date": "2026-09-15",
@@ -3854,10 +4513,10 @@ window.SEASON = {
     {
       "away": {
         "drawn": 0,
-        "games_lost": 9,
-        "games_won": 24,
-        "lost": 0,
-        "played": 1,
+        "games_lost": 33,
+        "games_won": 33,
+        "lost": 1,
+        "played": 2,
         "won": 1
       },
       "best_round": {
@@ -3866,27 +4525,27 @@ window.SEASON = {
       },
       "by_slot": {
         "D1": {
-          "games_lost": 11,
-          "games_won": 13,
-          "lost": 1,
+          "games_lost": 17,
+          "games_won": 16,
+          "lost": 2,
           "won": 2
         },
         "D2": {
-          "games_lost": 13,
-          "games_won": 12,
-          "lost": 1,
+          "games_lost": 19,
+          "games_won": 14,
+          "lost": 2,
           "won": 1
         },
         "S1": {
-          "games_lost": 9,
-          "games_won": 15,
-          "lost": 1,
+          "games_lost": 15,
+          "games_won": 16,
+          "lost": 2,
           "won": 2
         },
         "S2": {
-          "games_lost": 13,
-          "games_won": 10,
-          "lost": 2,
+          "games_lost": 19,
+          "games_won": 13,
+          "lost": 3,
           "won": 1
         }
       },
@@ -3896,11 +4555,12 @@ window.SEASON = {
       "form": [
         "L",
         "W",
+        "L",
         "L"
       ],
-      "games_diff": 4,
-      "games_lost": 46,
-      "games_won": 50,
+      "games_diff": -11,
+      "games_lost": 70,
+      "games_won": 59,
       "home": {
         "drawn": 0,
         "games_lost": 37,
@@ -3925,30 +4585,35 @@ window.SEASON = {
           "points_average": 4.333333,
           "position": 4,
           "round": "3"
+        },
+        {
+          "points_average": 3.975,
+          "position": 4,
+          "round": "4"
         }
       ],
-      "lost": 2,
+      "lost": 3,
       "name": "UQ Only Aces",
-      "played": 3,
+      "played": 4,
       "players": [
         "joven-chia",
         "heath-coggan",
         "joshua-la-palma"
       ],
-      "points": 13.0,
-      "points_average": 4.333333,
+      "points": 15.9,
+      "points_average": 3.975,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 13.0
+        "earned": 15.9
       },
       "position": 4,
-      "sets_lost": 5,
+      "sets_lost": 9,
       "sets_won": 6,
       "short": "Only Aces",
       "slug": "uq-only-aces",
       "streak": {
-        "length": 1,
+        "length": 2,
         "type": "L"
       },
       "won": 1,
@@ -3967,33 +4632,33 @@ window.SEASON = {
         "won": 0
       },
       "best_round": {
-        "points": 3.2,
-        "round": "3"
+        "points": 6.4,
+        "round": "4"
       },
       "by_slot": {
         "D1": {
           "games_lost": 18,
-          "games_won": 8,
+          "games_won": 14,
           "lost": 3,
-          "won": 0
+          "won": 1
         },
         "D2": {
-          "games_lost": 12,
-          "games_won": 4,
+          "games_lost": 14,
+          "games_won": 10,
           "lost": 2,
-          "won": 0
+          "won": 1
         },
         "S1": {
-          "games_lost": 18,
-          "games_won": 4,
+          "games_lost": 20,
+          "games_won": 10,
           "lost": 3,
-          "won": 0
+          "won": 1
         },
         "S2": {
-          "games_lost": 18,
-          "games_won": 7,
+          "games_lost": 20,
+          "games_won": 13,
           "lost": 3,
-          "won": 0
+          "won": 1
         }
       },
       "captain": "Alyssa Mills",
@@ -4002,18 +4667,19 @@ window.SEASON = {
       "form": [
         "L",
         "L",
-        "L"
+        "L",
+        "W"
       ],
-      "games_diff": -43,
-      "games_lost": 66,
-      "games_won": 23,
+      "games_diff": -25,
+      "games_lost": 72,
+      "games_won": 47,
       "home": {
         "drawn": 0,
-        "games_lost": 24,
-        "games_won": 8,
+        "games_lost": 30,
+        "games_won": 32,
         "lost": 1,
-        "played": 1,
-        "won": 0
+        "played": 2,
+        "won": 1
       },
       "home_court": 2,
       "ladder_history": [
@@ -4031,33 +4697,38 @@ window.SEASON = {
           "points_average": 2.766667,
           "position": 5,
           "round": "3"
+        },
+        {
+          "points_average": 3.675,
+          "position": 5,
+          "round": "4"
         }
       ],
       "lost": 3,
       "name": "UQ Triple A Batteries",
-      "played": 3,
+      "played": 4,
       "players": [
         "anastacia-akkari",
         "alyx-jakovich",
         "alyssa-mills"
       ],
-      "points": 8.3,
-      "points_average": 2.766667,
+      "points": 14.7,
+      "points_average": 3.675,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 8.3
+        "earned": 14.7
       },
       "position": 5,
       "sets_lost": 11,
-      "sets_won": 0,
+      "sets_won": 4,
       "short": "Triple A Batteries",
       "slug": "uq-triple-a-batteries",
       "streak": {
-        "length": 3,
-        "type": "L"
+        "length": 1,
+        "type": "W"
       },
-      "won": 0,
+      "won": 1,
       "worst_round": {
         "points": 2.3,
         "round": "1"
@@ -4078,28 +4749,28 @@ window.SEASON = {
       },
       "by_slot": {
         "D1": {
-          "games_lost": 12,
-          "games_won": 14,
-          "lost": 1,
+          "games_lost": 18,
+          "games_won": 18,
+          "lost": 2,
           "won": 2
         },
         "D2": {
-          "games_lost": 7,
-          "games_won": 17,
+          "games_lost": 10,
+          "games_won": 23,
           "lost": 0,
-          "won": 2
+          "won": 3
         },
         "S1": {
-          "games_lost": 6,
-          "games_won": 18,
+          "games_lost": 8,
+          "games_won": 24,
           "lost": 0,
-          "won": 3
+          "won": 4
         },
         "S2": {
-          "games_lost": 5,
-          "games_won": 18,
+          "games_lost": 7,
+          "games_won": 24,
           "lost": 0,
-          "won": 3
+          "won": 4
         }
       },
       "captain": "Jonathan Ellis",
@@ -4108,18 +4779,19 @@ window.SEASON = {
       "form": [
         "W",
         "W",
+        "W",
         "W"
       ],
-      "games_diff": 37,
-      "games_lost": 30,
-      "games_won": 67,
+      "games_diff": 46,
+      "games_lost": 43,
+      "games_won": 89,
       "home": {
         "drawn": 0,
-        "games_lost": 5,
-        "games_won": 24,
+        "games_lost": 18,
+        "games_won": 46,
         "lost": 0,
-        "played": 1,
-        "won": 1
+        "played": 2,
+        "won": 2
       },
       "home_court": 1,
       "ladder_history": [
@@ -4137,33 +4809,38 @@ window.SEASON = {
           "points_average": 6.233333,
           "position": 1,
           "round": "3"
+        },
+        {
+          "points_average": 6.225,
+          "position": 1,
+          "round": "4"
         }
       ],
       "lost": 0,
       "name": "UQ Iguanas",
-      "played": 3,
+      "played": 4,
       "players": [
         "sri-krishna-dharmapuri",
         "jonathan-ellis",
         "guillaume-evrard"
       ],
-      "points": 18.7,
-      "points_average": 6.233333,
+      "points": 24.9,
+      "points_average": 6.225,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 18.7
+        "earned": 24.9
       },
       "position": 1,
-      "sets_lost": 1,
-      "sets_won": 10,
+      "sets_lost": 2,
+      "sets_won": 13,
       "short": "Iguanas",
       "slug": "uq-iguanas",
       "streak": {
-        "length": 3,
+        "length": 4,
         "type": "W"
       },
-      "won": 3,
+      "won": 4,
       "worst_round": {
         "points": 5.9,
         "round": "3"
@@ -4172,10 +4849,10 @@ window.SEASON = {
     {
       "away": {
         "drawn": 0,
-        "games_lost": 24,
-        "games_won": 5,
-        "lost": 1,
-        "played": 1,
+        "games_lost": 48,
+        "games_won": 11,
+        "lost": 2,
+        "played": 2,
         "won": 0
       },
       "best_round": {
@@ -4184,27 +4861,27 @@ window.SEASON = {
       },
       "by_slot": {
         "D1": {
-          "games_lost": 18,
+          "games_lost": 24,
           "games_won": 5,
-          "lost": 3,
+          "lost": 4,
           "won": 0
         },
         "D2": {
-          "games_lost": 18,
-          "games_won": 2,
-          "lost": 3,
+          "games_lost": 24,
+          "games_won": 4,
+          "lost": 4,
           "won": 0
         },
         "S1": {
-          "games_lost": 18,
-          "games_won": 6,
-          "lost": 3,
+          "games_lost": 24,
+          "games_won": 8,
+          "lost": 4,
           "won": 0
         },
         "S2": {
-          "games_lost": 18,
-          "games_won": 1,
-          "lost": 3,
+          "games_lost": 24,
+          "games_won": 3,
+          "lost": 4,
           "won": 0
         }
       },
@@ -4214,11 +4891,12 @@ window.SEASON = {
       "form": [
         "L",
         "L",
+        "L",
         "L"
       ],
-      "games_diff": -58,
-      "games_lost": 72,
-      "games_won": 14,
+      "games_diff": -76,
+      "games_lost": 96,
+      "games_won": 20,
       "home": {
         "drawn": 0,
         "games_lost": 48,
@@ -4243,30 +4921,35 @@ window.SEASON = {
           "points_average": 2.466667,
           "position": 6,
           "round": "3"
+        },
+        {
+          "points_average": 2.5,
+          "position": 6,
+          "round": "4"
         }
       ],
-      "lost": 3,
+      "lost": 4,
       "name": "UQ ICBC",
-      "played": 3,
+      "played": 4,
       "players": [
         "wanlin-chen",
         "irene-yang",
         "becky-zhong"
       ],
-      "points": 7.4,
-      "points_average": 2.466667,
+      "points": 10.0,
+      "points_average": 2.5,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 7.4
+        "earned": 10.0
       },
       "position": 6,
-      "sets_lost": 12,
+      "sets_lost": 16,
       "sets_won": 0,
       "short": "ICBC",
       "slug": "uq-icbc",
       "streak": {
-        "length": 3,
+        "length": 4,
         "type": "L"
       },
       "won": 0,
@@ -4290,28 +4973,28 @@ window.SEASON = {
       },
       "by_slot": {
         "D1": {
-          "games_lost": 7,
-          "games_won": 17,
+          "games_lost": 10,
+          "games_won": 23,
           "lost": 1,
-          "won": 2
+          "won": 3
         },
         "D2": {
-          "games_lost": 4,
-          "games_won": 16,
-          "lost": 0,
-          "won": 2
-        },
-        "S1": {
           "games_lost": 6,
-          "games_won": 13,
-          "lost": 1,
-          "won": 2
-        },
-        "S2": {
-          "games_lost": 3,
-          "games_won": 18,
+          "games_won": 22,
           "lost": 0,
           "won": 3
+        },
+        "S1": {
+          "games_lost": 7,
+          "games_won": 19,
+          "lost": 1,
+          "won": 3
+        },
+        "S2": {
+          "games_lost": 6,
+          "games_won": 24,
+          "lost": 0,
+          "won": 4
         }
       },
       "captain": "Ewan MacKenzie",
@@ -4320,18 +5003,19 @@ window.SEASON = {
       "form": [
         "W",
         "L",
+        "W",
         "W"
       ],
-      "games_diff": 44,
-      "games_lost": 20,
-      "games_won": 64,
+      "games_diff": 59,
+      "games_lost": 29,
+      "games_won": 88,
       "home": {
         "drawn": 0,
-        "games_lost": 3,
-        "games_won": 24,
+        "games_lost": 12,
+        "games_won": 48,
         "lost": 0,
-        "played": 1,
-        "won": 1
+        "played": 2,
+        "won": 2
       },
       "home_court": 18,
       "ladder_history": [
@@ -4349,33 +5033,38 @@ window.SEASON = {
           "points_average": 5.466667,
           "position": 3,
           "round": "3"
+        },
+        {
+          "points_average": 5.7,
+          "position": 2,
+          "round": "4"
         }
       ],
       "lost": 1,
       "name": "UQ Tempests",
-      "played": 3,
+      "played": 4,
       "players": [
         "kris-briese",
         "ewan-mackenzie",
         "brendan-ta"
       ],
-      "points": 16.4,
-      "points_average": 5.466667,
+      "points": 22.8,
+      "points_average": 5.7,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 16.4
+        "earned": 22.8
       },
-      "position": 3,
+      "position": 2,
       "sets_lost": 2,
-      "sets_won": 9,
+      "sets_won": 13,
       "short": "Tempests",
       "slug": "uq-tempests",
       "streak": {
-        "length": 1,
+        "length": 2,
         "type": "W"
       },
-      "won": 2,
+      "won": 3,
       "worst_round": {
         "points": 3.6,
         "round": "2"
@@ -4384,10 +5073,10 @@ window.SEASON = {
     {
       "away": {
         "drawn": 0,
-        "games_lost": 9,
-        "games_won": 18,
-        "lost": 0,
-        "played": 1,
+        "games_lost": 31,
+        "games_won": 31,
+        "lost": 1,
+        "played": 2,
         "won": 1
       },
       "best_round": {
@@ -4396,27 +5085,27 @@ window.SEASON = {
       },
       "by_slot": {
         "D1": {
-          "games_lost": 9,
-          "games_won": 18,
+          "games_lost": 13,
+          "games_won": 24,
           "lost": 0,
-          "won": 3
+          "won": 4
         },
         "D2": {
-          "games_lost": 5,
-          "games_won": 8,
-          "lost": 0,
+          "games_lost": 11,
+          "games_won": 11,
+          "lost": 1,
           "won": 1
         },
         "S1": {
-          "games_lost": 11,
-          "games_won": 12,
-          "lost": 1,
+          "games_lost": 17,
+          "games_won": 14,
+          "lost": 2,
           "won": 2
         },
         "S2": {
-          "games_lost": 12,
-          "games_won": 15,
-          "lost": 1,
+          "games_lost": 18,
+          "games_won": 17,
+          "lost": 2,
           "won": 2
         }
       },
@@ -4426,11 +5115,12 @@ window.SEASON = {
       "form": [
         "W",
         "W",
-        "W"
+        "W",
+        "L"
       ],
-      "games_diff": 16,
-      "games_lost": 37,
-      "games_won": 53,
+      "games_diff": 7,
+      "games_lost": 59,
+      "games_won": 66,
       "home": {
         "drawn": 0,
         "games_lost": 28,
@@ -4455,36 +5145,41 @@ window.SEASON = {
           "points_average": 5.766667,
           "position": 2,
           "round": "3"
+        },
+        {
+          "points_average": 5.15,
+          "position": 3,
+          "round": "4"
         }
       ],
-      "lost": 0,
+      "lost": 1,
       "name": "UQ Unforced Errors",
-      "played": 3,
+      "played": 4,
       "players": [
         "henry-bange",
         "alex-freire",
         "emily-rozanc"
       ],
-      "points": 17.3,
-      "points_average": 5.766667,
+      "points": 20.6,
+      "points_average": 5.15,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 17.3
+        "earned": 20.6
       },
-      "position": 2,
-      "sets_lost": 2,
-      "sets_won": 8,
+      "position": 3,
+      "sets_lost": 5,
+      "sets_won": 9,
       "short": "Unforced Errors",
       "slug": "uq-unforced-errors",
       "streak": {
-        "length": 3,
-        "type": "W"
+        "length": 1,
+        "type": "L"
       },
       "won": 3,
       "worst_round": {
-        "points": 5.7,
-        "round": "2"
+        "points": 3.3,
+        "round": "4"
       }
     }
   ],
