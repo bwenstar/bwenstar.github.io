@@ -642,12 +642,26 @@ function roundTitle(label) {
   return isNumericRound(label) ? 'Round ' + label : String(label);
 }
 
+/* Whether a match happened, and so has numbers worth counting. Mirrors
+ * Match.counts_as_played in model.py, and must keep mirroring it: the aggregates
+ * in season.json are computed there, so anything this page counts for itself has
+ * to skip the same matches or the tiles disagree with the ladder beside them.
+ *
+ * Part of a cancelled night's card is often filled in before play stops — a
+ * washout can leave two and a half rubbers scored — and those games belong
+ * nowhere. */
+function countsAsPlayed(match) {
+  var status = match && match.status;
+  return status !== 'bye' && status !== 'cancelled' && status !== 'unplayed';
+}
+
 /* Every set a player appeared in, derived from the match list — the document
  * keeps per-player aggregates but not their per-set trail, and the player view
  * needs the trail to show results rather than only totals. */
 function setsOfPlayer(slug) {
   var out = [];
   (S.matches || []).slice().sort(byRound).forEach(function (m) {
+    if (!countsAsPlayed(m)) return;
     (m.sets || []).forEach(function (st) {
       var side = null;
       if ((st.home_players || []).indexOf(slug) >= 0) side = 'home';
@@ -1599,9 +1613,7 @@ function scheduledRow(fx) {
 function renderOverview(main) {
   var m = meta();
   var ladder = IDX.ladder;
-  var played = (S.matches || []).filter(function (x) {
-    return x.status !== 'unplayed' && x.status !== 'bye';
-  });
+  var played = (S.matches || []).filter(countsAsPlayed);
   var scheduled = (S.fixtures || []).length;
   var drawDeclared = m.draw_source === 'declared';
 
@@ -2396,9 +2408,14 @@ function slotAppearanceTable(p) {
     table(['Slot', 'Played', 'Won', 'Win rate'], rows,
       { caption: 'Which of this format’s set slots the player is used in.' })
   ]));
+  // Matches, not sets: stats.py counts fill_in_appearances as the number of
+  // distinct match keys the player appeared in off their own roster -- the same
+  // keys it counts as match_ids -- so a player used in three rubbers of one
+  // night is one appearance here, not three. The word said "set" until it was
+  // checked against what the field holds.
   if (p.fill_in_appearances) {
     out.appendChild(note('warning', 'Fill-in', p.name + ' has played ' +
-      p.fill_in_appearances + ' ' + plural(p.fill_in_appearances, 'set') +
+      p.fill_in_appearances + ' ' + plural(p.fill_in_appearances, 'match', 'matches') +
       ' outside their registered roster.'));
   }
   return out;
@@ -3208,7 +3225,14 @@ function boot() {
     window.addEventListener('resize', onResize);
     var footer = document.getElementById('foot-note');
     if (footer) {
-      footer.textContent = 'Generated ' + (m.generated || '—') + ' from ' +
+      // The version leads, because this line is what somebody reads back when
+      // they report that a figure on this page looks wrong. Falls back rather
+      // than printing 'undefined' for a season.json written before the key
+      // existed -- an older document still renders, and saying the version is
+      // unrecorded is the honest form of not knowing it.
+      footer.textContent = 'matchcentre-dashboard ' +
+        (m.version || 'version not recorded') + ' · generated ' +
+        (m.generated || '—') + ' from ' +
         (m.source_dir || 'the scorecard folder') + ' · ' + SOURCE_NOTE +
         ' · points, ladder and averages computed by matchcentre/stats.py.';
     }
