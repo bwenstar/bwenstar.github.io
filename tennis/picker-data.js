@@ -2,34 +2,34 @@
 window.PICKER_DATA = {
   "competitions": [
     {
-      "cards": 10,
+      "cards": 12,
       "day": "Monday",
       "division": "B2",
       "draw_source": "cards",
-      "errors": 0,
-      "generated": "2026-09-21T09:04:36",
+      "errors": 2,
+      "generated": "2026-09-28T11:41:23",
       "has_data": true,
       "href": "monday-division-b2/index.html",
       "id": "monday-division-b2",
       "label": "Monday Division B2",
       "ladder_complete": false,
       "leader": null,
-      "percent": 50,
+      "percent": 60,
       "rejected": 0,
-      "rounds_played": 5,
+      "rounds_played": 6,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 5,
-      "warnings": 8
+      "warnings": 14
     },
     {
-      "cards": 15,
+      "cards": 18,
       "day": "Tuesday",
       "division": "C",
       "draw_source": "cards",
       "errors": 0,
-      "generated": "2026-09-21T09:04:36",
+      "generated": "2026-09-28T11:41:23",
       "has_data": true,
       "href": "tuesday-division-c/index.html",
       "id": "tuesday-division-c",
@@ -37,19 +37,19 @@ window.PICKER_DATA = {
       "ladder_complete": true,
       "leader": {
         "name": "UQ Iguanas",
-        "value": 6.18
+        "value": 6.216667
       },
-      "percent": 50,
+      "percent": 60,
       "rejected": 0,
-      "rounds_played": 5,
+      "rounds_played": 6,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 6,
-      "warnings": 8
+      "warnings": 9
     }
   ],
-  "generated": "2026-09-21T09:04:36",
+  "generated": "2026-09-28T11:41:23",
   "seasons_mode": "single",
   "subtitle": "2 of 2 competitions with results",
   "theme_key": "the-university-of-queensland-tennis-club-inc-theme",
