@@ -1,0 +1,5971 @@
+{
+  "fixtures": [
+    {
+      "away": "uq-tornadoes",
+      "away_name": "UQ Tornadoes",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-08-17",
+      "home": "uq-engenes",
+      "home_name": "UQ Engenes",
+      "keys": [
+        "1/uq-engenes/uq-tornadoes/1"
+      ],
+      "played": true,
+      "round": "1"
+    },
+    {
+      "away": "uq-kraits",
+      "away_name": "UQ Kraits",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-08-17",
+      "home": "uq-piranhas",
+      "home_name": "UQ Piranhas",
+      "keys": [
+        "1/uq-piranhas/uq-kraits/1"
+      ],
+      "played": true,
+      "round": "1"
+    },
+    {
+      "away": "uq-engenes",
+      "away_name": "UQ Engenes",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-08-24",
+      "home": "uq-bananas",
+      "home_name": "UQ Bananas",
+      "keys": [
+        "2/uq-bananas/uq-engenes/1"
+      ],
+      "played": true,
+      "round": "2"
+    },
+    {
+      "away": "uq-piranhas",
+      "away_name": "UQ Piranhas",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-08-24",
+      "home": "uq-tornadoes",
+      "home_name": "UQ Tornadoes",
+      "keys": [
+        "2/uq-tornadoes/uq-piranhas/1"
+      ],
+      "played": true,
+      "round": "2"
+    },
+    {
+      "away": "uq-tornadoes",
+      "away_name": "UQ Tornadoes",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-08-31",
+      "home": "uq-bananas",
+      "home_name": "UQ Bananas",
+      "keys": [
+        "3/uq-bananas/uq-tornadoes/1"
+      ],
+      "played": true,
+      "round": "3"
+    },
+    {
+      "away": "uq-engenes",
+      "away_name": "UQ Engenes",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-08-31",
+      "home": "uq-kraits",
+      "home_name": "UQ Kraits",
+      "keys": [
+        "3/uq-kraits/uq-engenes/1"
+      ],
+      "played": true,
+      "round": "3"
+    },
+    {
+      "away": "uq-bananas",
+      "away_name": "UQ Bananas",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-09-07",
+      "home": "uq-piranhas",
+      "home_name": "UQ Piranhas",
+      "keys": [
+        "4/uq-piranhas/uq-bananas/1"
+      ],
+      "played": true,
+      "round": "4"
+    },
+    {
+      "away": "uq-kraits",
+      "away_name": "UQ Kraits",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-09-07",
+      "home": "uq-tornadoes",
+      "home_name": "UQ Tornadoes",
+      "keys": [
+        "4/uq-tornadoes/uq-kraits/1"
+      ],
+      "played": true,
+      "round": "4"
+    },
+    {
+      "away": "uq-kraits",
+      "away_name": "UQ Kraits",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-09-14",
+      "home": "uq-bananas",
+      "home_name": "UQ Bananas",
+      "keys": [
+        "5/uq-bananas/uq-kraits/1"
+      ],
+      "played": true,
+      "round": "5"
+    },
+    {
+      "away": "uq-engenes",
+      "away_name": "UQ Engenes",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-09-14",
+      "home": "uq-piranhas",
+      "home_name": "UQ Piranhas",
+      "keys": [
+        "5/uq-piranhas/uq-engenes/1"
+      ],
+      "played": true,
+      "round": "5"
+    },
+    {
+      "away": "uq-piranhas",
+      "away_name": "UQ Piranhas",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-09-21",
+      "home": "uq-kraits",
+      "home_name": "UQ Kraits",
+      "keys": [
+        "6/uq-kraits/uq-piranhas/1"
+      ],
+      "played": true,
+      "round": "6"
+    },
+    {
+      "away": "uq-engenes",
+      "away_name": "UQ Engenes",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-09-21",
+      "home": "uq-tornadoes",
+      "home_name": "UQ Tornadoes",
+      "keys": [
+        "6/uq-tornadoes/uq-engenes/1"
+      ],
+      "played": true,
+      "round": "6"
+    },
+    {
+      "away": "uq-bananas",
+      "away_name": "UQ Bananas",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-09-28",
+      "home": "uq-engenes",
+      "home_name": "UQ Engenes",
+      "keys": [
+        "7/uq-engenes/uq-bananas/1"
+      ],
+      "played": true,
+      "round": "7"
+    },
+    {
+      "away": "uq-tornadoes",
+      "away_name": "UQ Tornadoes",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-09-28",
+      "home": "uq-piranhas",
+      "home_name": "UQ Piranhas",
+      "keys": [
+        "7/uq-piranhas/uq-tornadoes/1"
+      ],
+      "played": true,
+      "round": "7"
+    },
+    {
+      "away": "uq-kraits",
+      "away_name": "UQ Kraits",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-10-05",
+      "home": "uq-engenes",
+      "home_name": "UQ Engenes",
+      "keys": [
+        "8/uq-engenes/uq-kraits/1"
+      ],
+      "played": true,
+      "round": "8"
+    },
+    {
+      "away": "uq-bananas",
+      "away_name": "UQ Bananas",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-10-05",
+      "home": "uq-tornadoes",
+      "home_name": "UQ Tornadoes",
+      "keys": [
+        "8/uq-tornadoes/uq-bananas/1"
+      ],
+      "played": true,
+      "round": "8"
+    }
+  ],
+  "format": 4,
+  "head_to_head": {
+    "uq-bananas|uq-engenes": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 14,
+      "games_low": 21,
+      "played": 1,
+      "undecided": 0,
+      "wins_high": 0,
+      "wins_low": 1
+    },
+    "uq-bananas|uq-kraits": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 7,
+      "games_low": 24,
+      "played": 1,
+      "undecided": 0,
+      "wins_high": 0,
+      "wins_low": 1
+    },
+    "uq-bananas|uq-piranhas": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 16,
+      "games_low": 18,
+      "played": 1,
+      "undecided": 0,
+      "wins_high": 0,
+      "wins_low": 1
+    },
+    "uq-bananas|uq-tornadoes": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 35,
+      "games_low": 34,
+      "played": 2,
+      "undecided": 0,
+      "wins_high": 2,
+      "wins_low": 0
+    },
+    "uq-engenes|uq-kraits": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 37,
+      "games_low": 30,
+      "played": 2,
+      "undecided": 0,
+      "wins_high": 1,
+      "wins_low": 1
+    },
+    "uq-engenes|uq-piranhas": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 7,
+      "games_low": 23,
+      "played": 1,
+      "undecided": 0,
+      "wins_high": 0,
+      "wins_low": 1
+    },
+    "uq-engenes|uq-tornadoes": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 24,
+      "games_low": 0,
+      "played": 1,
+      "undecided": 0,
+      "wins_high": 1,
+      "wins_low": 0
+    },
+    "uq-kraits|uq-piranhas": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 41,
+      "games_low": 20,
+      "played": 2,
+      "undecided": 0,
+      "wins_high": 2,
+      "wins_low": 0
+    },
+    "uq-kraits|uq-tornadoes": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 22,
+      "games_low": 7,
+      "played": 1,
+      "undecided": 0,
+      "wins_high": 1,
+      "wins_low": 0
+    },
+    "uq-piranhas|uq-tornadoes": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 24,
+      "games_low": 10,
+      "played": 1,
+      "undecided": 0,
+      "wins_high": 1,
+      "wins_low": 0
+    }
+  },
+  "matches": [
+    {
+      "away": "uq-tornadoes",
+      "away_games": 13,
+      "away_name": "UQ Tornadoes",
+      "away_points": null,
+      "away_roster": [
+        "joven-chia",
+        "stephen-dang",
+        "connor-phan"
+      ],
+      "away_sets": 2,
+      "counts_as_played": false,
+      "counts_for_ladder": true,
+      "court": 5,
+      "date": "2026-08-17",
+      "decided": false,
+      "decided_by": null,
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-engenes",
+      "home_games": 11,
+      "home_name": "UQ Engenes",
+      "home_points": null,
+      "home_roster": [
+        "kara-nguyen",
+        "joyce-zhao"
+      ],
+      "home_sets": 1,
+      "id": "3665402",
+      "key": "1/uq-engenes/uq-tornadoes/1",
+      "margin": 2,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 13,
+      "printed_home_games": 11,
+      "result": "none",
+      "round": "1",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "joven-chia",
+            "connor-phan"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 4,
+          "home_players": [
+            "kara-nguyen",
+            "joyce-zhao"
+          ],
+          "label": "Doubles 1",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 4,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 1,
+          "away_players": [
+            "joven-chia"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "kara-nguyen"
+          ],
+          "label": "Singles 1",
+          "margin": 5,
+          "nobody_played": false,
+          "printed_away_games": 1,
+          "printed_home_games": 6,
+          "slot": "s1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "connor-phan"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 1,
+          "home_players": [
+            "joyce-zhao"
+          ],
+          "label": "Singles 2",
+          "margin": 5,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 1,
+          "slot": "s2",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 0,
+          "away_players": [
+            "joven-chia",
+            "connor-phan"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [
+            "kara-nguyen",
+            "joyce-zhao"
+          ],
+          "label": "Doubles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R1/match_scorecard_3665402.pdf",
+      "status": "cancelled",
+      "tied_on_games": false,
+      "warnings": [
+        "row 4: no home games figure printed, read as 0",
+        "row 4: no away games figure printed, read as 0"
+      ]
+    },
+    {
+      "away": "uq-kraits",
+      "away_games": 6,
+      "away_name": "UQ Kraits",
+      "away_points": 2.6,
+      "away_roster": [
+        "teegan-yunran-zhang",
+        "paul-lange",
+        "john-wanis"
+      ],
+      "away_sets": 0,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 4,
+      "date": "2026-08-17",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [
+        "sri-krishna-dharmapuri"
+      ],
+      "forfeited_by": null,
+      "home": "uq-piranhas",
+      "home_games": 23,
+      "home_name": "UQ Piranhas",
+      "home_points": 6.3,
+      "home_roster": [
+        "luke-huntly",
+        "malcolm-lovemore"
+      ],
+      "home_sets": 3,
+      "id": "3665401",
+      "key": "1/uq-piranhas/uq-kraits/1",
+      "margin": 17,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 6,
+      "printed_home_games": 23,
+      "result": "home",
+      "round": "1",
+      "sets": [
+        {
+          "away_games": 2,
+          "away_players": [
+            "teegan-yunran-zhang",
+            "paul-lange"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "malcolm-lovemore",
+            "sri-krishna-dharmapuri"
+          ],
+          "label": "Doubles 1",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 2,
+          "printed_home_games": 6,
+          "slot": "d1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 0,
+          "away_players": [
+            "teegan-yunran-zhang"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "malcolm-lovemore"
+          ],
+          "label": "Singles 1",
+          "margin": 6,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 6,
+          "slot": "s1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 3,
+          "away_players": [
+            "paul-lange"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "sri-krishna-dharmapuri"
+          ],
+          "label": "Singles 2",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 3,
+          "printed_home_games": 6,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 1,
+          "away_players": [
+            "teegan-yunran-zhang",
+            "paul-lange"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 5,
+          "home_players": [
+            "malcolm-lovemore",
+            "sri-krishna-dharmapuri"
+          ],
+          "label": "Doubles 2",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 1,
+          "printed_home_games": 5,
+          "slot": "d2",
+          "status": "incomplete",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R1/match_scorecard_3665401.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-engenes",
+      "away_games": 0,
+      "away_name": "UQ Engenes",
+      "away_points": null,
+      "away_roster": [
+        "kara-nguyen",
+        "joyce-zhao"
+      ],
+      "away_sets": 0,
+      "counts_as_played": false,
+      "counts_for_ladder": true,
+      "court": 5,
+      "date": "2026-08-24",
+      "decided": false,
+      "decided_by": null,
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-bananas",
+      "home_games": 0,
+      "home_name": "UQ Bananas",
+      "home_points": null,
+      "home_roster": [
+        "david-lee",
+        "zachary-conroy"
+      ],
+      "home_sets": 0,
+      "id": "3665405",
+      "key": "2/uq-bananas/uq-engenes/1",
+      "margin": 0,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 0,
+      "printed_home_games": 0,
+      "result": "none",
+      "round": "2",
+      "sets": [
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Doubles 1",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "d1",
+          "status": "played",
+          "winner": null
+        },
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": false,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Singles 1",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "s1",
+          "status": "played",
+          "winner": null
+        },
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": false,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Singles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "s2",
+          "status": "played",
+          "winner": null
+        },
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Doubles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R2/match_scorecard_3665405.pdf",
+      "status": "cancelled",
+      "tied_on_games": false,
+      "warnings": [
+        "row 1: no home games figure printed, read as 0",
+        "row 1: no away games figure printed, read as 0",
+        "row 2: no home games figure printed, read as 0",
+        "row 2: no away games figure printed, read as 0",
+        "row 3: no home games figure printed, read as 0",
+        "row 3: no away games figure printed, read as 0",
+        "row 4: no home games figure printed, read as 0",
+        "row 4: no away games figure printed, read as 0"
+      ]
+    },
+    {
+      "away": "uq-piranhas",
+      "away_games": 3,
+      "away_name": "UQ Piranhas",
+      "away_points": null,
+      "away_roster": [
+        "luke-huntly",
+        "malcolm-lovemore"
+      ],
+      "away_sets": 0,
+      "counts_as_played": false,
+      "counts_for_ladder": true,
+      "court": 6,
+      "date": "2026-08-24",
+      "decided": false,
+      "decided_by": null,
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-tornadoes",
+      "home_games": 10,
+      "home_name": "UQ Tornadoes",
+      "home_points": null,
+      "home_roster": [
+        "joven-chia",
+        "stephen-dang",
+        "connor-phan"
+      ],
+      "home_sets": 1,
+      "id": "3665403",
+      "key": "2/uq-tornadoes/uq-piranhas/1",
+      "margin": 7,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 3,
+      "printed_home_games": 10,
+      "result": "none",
+      "round": "2",
+      "sets": [
+        {
+          "away_games": 1,
+          "away_players": [
+            "malcolm-lovemore",
+            "luke-huntly"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "stephen-dang",
+            "connor-phan"
+          ],
+          "label": "Doubles 1",
+          "margin": 5,
+          "nobody_played": false,
+          "printed_away_games": 1,
+          "printed_home_games": 6,
+          "slot": "d1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 2,
+          "away_players": [
+            "malcolm-lovemore"
+          ],
+          "completed": false,
+          "doubles": false,
+          "home_games": 4,
+          "home_players": [
+            "stephen-dang"
+          ],
+          "label": "Singles 1",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 2,
+          "printed_home_games": 4,
+          "slot": "s1",
+          "status": "played",
+          "winner": null
+        },
+        {
+          "away_games": 0,
+          "away_players": [
+            "luke-huntly"
+          ],
+          "completed": false,
+          "doubles": false,
+          "home_games": 0,
+          "home_players": [
+            "connor-phan"
+          ],
+          "label": "Singles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "s2",
+          "status": "played",
+          "winner": null
+        },
+        {
+          "away_games": 0,
+          "away_players": [
+            "malcolm-lovemore",
+            "luke-huntly"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [
+            "stephen-dang",
+            "connor-phan"
+          ],
+          "label": "Doubles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R2/match_scorecard_3665403.pdf",
+      "status": "cancelled",
+      "tied_on_games": false,
+      "warnings": [
+        "row 3: no home games figure printed, read as 0",
+        "row 3: no away games figure printed, read as 0",
+        "row 4: no home games figure printed, read as 0",
+        "row 4: no away games figure printed, read as 0"
+      ]
+    },
+    {
+      "away": "uq-tornadoes",
+      "away_games": 18,
+      "away_name": "UQ Tornadoes",
+      "away_points": 5.8,
+      "away_roster": [
+        "joven-chia",
+        "stephen-dang",
+        "connor-phan"
+      ],
+      "away_sets": 1,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 5,
+      "date": "2026-08-31",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [
+        "luke-huntly"
+      ],
+      "forfeited_by": null,
+      "home": "uq-bananas",
+      "home_games": 17,
+      "home_name": "UQ Bananas",
+      "home_points": 3.7,
+      "home_roster": [
+        "david-lee",
+        "zachary-conroy"
+      ],
+      "home_sets": 2,
+      "id": "3665408",
+      "key": "3/uq-bananas/uq-tornadoes/1",
+      "margin": 1,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 18,
+      "printed_home_games": 17,
+      "result": "away",
+      "round": "3",
+      "sets": [
+        {
+          "away_games": 5,
+          "away_players": [
+            "stephen-dang",
+            "joven-chia"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "david-lee",
+            "luke-huntly"
+          ],
+          "label": "Doubles 1",
+          "margin": 1,
+          "nobody_played": false,
+          "printed_away_games": 5,
+          "printed_home_games": 6,
+          "slot": "d1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 4,
+          "away_players": [
+            "stephen-dang"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "david-lee"
+          ],
+          "label": "Singles 1",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 4,
+          "printed_home_games": 6,
+          "slot": "s1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "joven-chia"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 2,
+          "home_players": [
+            "luke-huntly"
+          ],
+          "label": "Singles 2",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 2,
+          "slot": "s2",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 3,
+          "away_players": [
+            "stephen-dang",
+            "joven-chia"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 3,
+          "home_players": [
+            "david-lee",
+            "luke-huntly"
+          ],
+          "label": "Doubles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 3,
+          "printed_home_games": 3,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R3/match_scorecard_3665408.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-engenes",
+      "away_games": 19,
+      "away_name": "UQ Engenes",
+      "away_points": 5.9,
+      "away_roster": [
+        "kara-nguyen",
+        "joyce-zhao"
+      ],
+      "away_sets": 2,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 4,
+      "date": "2026-08-31",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-kraits",
+      "home_games": 15,
+      "home_name": "UQ Kraits",
+      "home_points": 3.5,
+      "home_roster": [
+        "teegan-yunran-zhang",
+        "paul-lange",
+        "john-wanis"
+      ],
+      "home_sets": 1,
+      "id": "3665407",
+      "key": "3/uq-kraits/uq-engenes/1",
+      "margin": 4,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 19,
+      "printed_home_games": 15,
+      "result": "away",
+      "round": "3",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "kara-nguyen",
+            "joyce-zhao"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 4,
+          "home_players": [
+            "paul-lange",
+            "john-wanis"
+          ],
+          "label": "Doubles 1",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 4,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "kara-nguyen"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 2,
+          "home_players": [
+            "paul-lange"
+          ],
+          "label": "Singles 1",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 2,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 4,
+          "away_players": [
+            "joyce-zhao"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "john-wanis"
+          ],
+          "label": "Singles 2",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 4,
+          "printed_home_games": 6,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 3,
+          "away_players": [
+            "kara-nguyen",
+            "joyce-zhao"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 3,
+          "home_players": [
+            "paul-lange",
+            "john-wanis"
+          ],
+          "label": "Doubles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 3,
+          "printed_home_games": 3,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R3/match_scorecard_3665407.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-bananas",
+      "away_games": 18,
+      "away_name": "UQ Bananas",
+      "away_points": 5.8,
+      "away_roster": [
+        "david-lee",
+        "zachary-conroy"
+      ],
+      "away_sets": 2,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 4,
+      "date": "2026-09-07",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-piranhas",
+      "home_games": 16,
+      "home_name": "UQ Piranhas",
+      "home_points": 3.6,
+      "home_roster": [
+        "luke-huntly",
+        "malcolm-lovemore"
+      ],
+      "home_sets": 1,
+      "id": "3665410",
+      "key": "4/uq-piranhas/uq-bananas/1",
+      "margin": 2,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 18,
+      "printed_home_games": 16,
+      "result": "away",
+      "round": "4",
+      "sets": [
+        {
+          "away_games": 3,
+          "away_players": [
+            "david-lee",
+            "zachary-conroy"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "luke-huntly",
+            "malcolm-lovemore"
+          ],
+          "label": "Doubles 1",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 3,
+          "printed_home_games": 6,
+          "slot": "d1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "david-lee"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 3,
+          "home_players": [
+            "luke-huntly"
+          ],
+          "label": "Singles 1",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 3,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "zachary-conroy"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 5,
+          "home_players": [
+            "malcolm-lovemore"
+          ],
+          "label": "Singles 2",
+          "margin": 1,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 5,
+          "slot": "s2",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 3,
+          "away_players": [
+            "david-lee",
+            "zachary-conroy"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 2,
+          "home_players": [
+            "luke-huntly",
+            "malcolm-lovemore"
+          ],
+          "label": "Doubles 2",
+          "margin": 1,
+          "nobody_played": false,
+          "printed_away_games": 3,
+          "printed_home_games": 2,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R4/match_scorecard_3665410.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-kraits",
+      "away_games": 7,
+      "away_name": "UQ Kraits",
+      "away_points": 2.7,
+      "away_roster": [
+        "teegan-yunran-zhang",
+        "paul-lange",
+        "john-wanis"
+      ],
+      "away_sets": 0,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 6,
+      "date": "2026-09-07",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-tornadoes",
+      "home_games": 22,
+      "home_name": "UQ Tornadoes",
+      "home_points": 6.2,
+      "home_roster": [
+        "joven-chia",
+        "stephen-dang",
+        "connor-phan"
+      ],
+      "home_sets": 3,
+      "id": "3665409",
+      "key": "4/uq-tornadoes/uq-kraits/1",
+      "margin": 15,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 7,
+      "printed_home_games": 22,
+      "result": "home",
+      "round": "4",
+      "sets": [
+        {
+          "away_games": 1,
+          "away_players": [
+            "teegan-yunran-zhang",
+            "paul-lange"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "stephen-dang",
+            "connor-phan"
+          ],
+          "label": "Doubles 1",
+          "margin": 5,
+          "nobody_played": false,
+          "printed_away_games": 1,
+          "printed_home_games": 6,
+          "slot": "d1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 0,
+          "away_players": [
+            "teegan-yunran-zhang"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "stephen-dang"
+          ],
+          "label": "Singles 1",
+          "margin": 6,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 6,
+          "slot": "s1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 3,
+          "away_players": [
+            "paul-lange"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "connor-phan"
+          ],
+          "label": "Singles 2",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 3,
+          "printed_home_games": 6,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 3,
+          "away_players": [
+            "teegan-yunran-zhang",
+            "paul-lange"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 4,
+          "home_players": [
+            "stephen-dang",
+            "connor-phan"
+          ],
+          "label": "Doubles 2",
+          "margin": 1,
+          "nobody_played": false,
+          "printed_away_games": 3,
+          "printed_home_games": 4,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R4/match_scorecard_3665409.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-kraits",
+      "away_games": 7,
+      "away_name": "UQ Kraits",
+      "away_points": 2.7,
+      "away_roster": [
+        "teegan-yunran-zhang",
+        "paul-lange",
+        "john-wanis"
+      ],
+      "away_sets": 0,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 5,
+      "date": "2026-09-14",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-bananas",
+      "home_games": 24,
+      "home_name": "UQ Bananas",
+      "home_points": 6.4,
+      "home_roster": [
+        "david-lee",
+        "zachary-conroy"
+      ],
+      "home_sets": 4,
+      "id": "3665414",
+      "key": "5/uq-bananas/uq-kraits/1",
+      "margin": 17,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 7,
+      "printed_home_games": 24,
+      "result": "home",
+      "round": "5",
+      "sets": [
+        {
+          "away_games": 1,
+          "away_players": [
+            "teegan-yunran-zhang",
+            "john-wanis"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "zachary-conroy",
+            "david-lee"
+          ],
+          "label": "Doubles 1",
+          "margin": 5,
+          "nobody_played": false,
+          "printed_away_games": 1,
+          "printed_home_games": 6,
+          "slot": "d1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 0,
+          "away_players": [
+            "teegan-yunran-zhang"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "zachary-conroy"
+          ],
+          "label": "Singles 1",
+          "margin": 6,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 6,
+          "slot": "s1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 5,
+          "away_players": [
+            "john-wanis"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "david-lee"
+          ],
+          "label": "Singles 2",
+          "margin": 1,
+          "nobody_played": false,
+          "printed_away_games": 5,
+          "printed_home_games": 6,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 1,
+          "away_players": [
+            "teegan-yunran-zhang",
+            "john-wanis"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "zachary-conroy",
+            "david-lee"
+          ],
+          "label": "Doubles 2",
+          "margin": 5,
+          "nobody_played": false,
+          "printed_away_games": 1,
+          "printed_home_games": 6,
+          "slot": "d2",
+          "status": "played",
+          "winner": "home"
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R5/match_scorecard_3665414.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-engenes",
+      "away_games": 23,
+      "away_name": "UQ Engenes",
+      "away_points": 6.3,
+      "away_roster": [
+        "kara-nguyen",
+        "joyce-zhao"
+      ],
+      "away_sets": 3,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 4,
+      "date": "2026-09-14",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [
+        "joven-chia"
+      ],
+      "forfeited_by": null,
+      "home": "uq-piranhas",
+      "home_games": 7,
+      "home_name": "UQ Piranhas",
+      "home_points": 2.7,
+      "home_roster": [
+        "luke-huntly",
+        "malcolm-lovemore"
+      ],
+      "home_sets": 1,
+      "id": "3665413",
+      "key": "5/uq-piranhas/uq-engenes/1",
+      "margin": 16,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 23,
+      "printed_home_games": 7,
+      "result": "away",
+      "round": "5",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "kara-nguyen",
+            "joven-chia"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 1,
+          "home_players": [
+            "luke-huntly",
+            "malcolm-lovemore"
+          ],
+          "label": "Doubles 1",
+          "margin": 5,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 1,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "kara-nguyen"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 0,
+          "home_players": [
+            "luke-huntly"
+          ],
+          "label": "Singles 1",
+          "margin": 6,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 0,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 5,
+          "away_players": [
+            "joven-chia"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "malcolm-lovemore"
+          ],
+          "label": "Singles 2",
+          "margin": 1,
+          "nobody_played": false,
+          "printed_away_games": 5,
+          "printed_home_games": 6,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "kara-nguyen",
+            "joven-chia"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [
+            "luke-huntly",
+            "malcolm-lovemore"
+          ],
+          "label": "Doubles 2",
+          "margin": 6,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": "away"
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R5/match_scorecard_3665413.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-piranhas",
+      "away_games": 18,
+      "away_name": "UQ Piranhas",
+      "away_points": 5.8,
+      "away_roster": [
+        "luke-huntly",
+        "malcolm-lovemore"
+      ],
+      "away_sets": 2,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 4,
+      "date": "2026-09-21",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-kraits",
+      "home_games": 14,
+      "home_name": "UQ Kraits",
+      "home_points": 3.4,
+      "home_roster": [
+        "teegan-yunran-zhang",
+        "paul-lange",
+        "john-wanis"
+      ],
+      "home_sets": 1,
+      "id": "3665416",
+      "key": "6/uq-kraits/uq-piranhas/1",
+      "margin": 4,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 18,
+      "printed_home_games": 14,
+      "result": "away",
+      "round": "6",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "luke-huntly",
+            "malcolm-lovemore"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 3,
+          "home_players": [
+            "paul-lange",
+            "teegan-yunran-zhang"
+          ],
+          "label": "Doubles 1",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 3,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 2,
+          "away_players": [
+            "luke-huntly"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "paul-lange"
+          ],
+          "label": "Singles 1",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 2,
+          "printed_home_games": 6,
+          "slot": "s1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "malcolm-lovemore"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 1,
+          "home_players": [
+            "teegan-yunran-zhang"
+          ],
+          "label": "Singles 2",
+          "margin": 5,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 1,
+          "slot": "s2",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 4,
+          "away_players": [
+            "luke-huntly",
+            "malcolm-lovemore"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 4,
+          "home_players": [
+            "paul-lange",
+            "teegan-yunran-zhang"
+          ],
+          "label": "Doubles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 4,
+          "printed_home_games": 4,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R6/match_scorecard_3665416.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-engenes",
+      "away_games": 0,
+      "away_name": "UQ Engenes",
+      "away_points": 0.0,
+      "away_roster": [
+        "kara-nguyen",
+        "joyce-zhao"
+      ],
+      "away_sets": 0,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 6,
+      "date": "2026-09-21",
+      "decided": true,
+      "decided_by": null,
+      "disputed": false,
+      "fill_ins": [
+        "dominic-ton",
+        "joven-chia"
+      ],
+      "forfeited_by": "away",
+      "home": "uq-tornadoes",
+      "home_games": 24,
+      "home_name": "UQ Tornadoes",
+      "home_points": 6.4,
+      "home_roster": [
+        "joven-chia",
+        "stephen-dang",
+        "connor-phan"
+      ],
+      "home_sets": 4,
+      "id": "3665417",
+      "key": "6/uq-tornadoes/uq-engenes/1",
+      "margin": 24,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 16,
+      "printed_home_games": 11,
+      "result": "home",
+      "round": "6",
+      "sets": [
+        {
+          "away_games": 0,
+          "away_players": [
+            "joven-chia",
+            "dominic-ton"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "stephen-dang",
+            "connor-phan"
+          ],
+          "label": "Doubles 1",
+          "margin": 6,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 2,
+          "slot": "d1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 0,
+          "away_players": [
+            "joven-chia"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "stephen-dang"
+          ],
+          "label": "Singles 1",
+          "margin": 6,
+          "nobody_played": false,
+          "printed_away_games": 4,
+          "printed_home_games": 6,
+          "slot": "s1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 0,
+          "away_players": [
+            "dominic-ton"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "connor-phan"
+          ],
+          "label": "Singles 2",
+          "margin": 6,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 3,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 0,
+          "away_players": [
+            "joven-chia",
+            "dominic-ton"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "stephen-dang",
+            "connor-phan"
+          ],
+          "label": "Doubles 2",
+          "margin": 6,
+          "nobody_played": true,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": "home"
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R6/match_scorecard_3665417.pdf",
+      "status": "forfeit",
+      "tied_on_games": false,
+      "warnings": [
+        "row 4: no home games figure printed, read as 0",
+        "row 4: no away games figure printed, read as 0"
+      ]
+    },
+    {
+      "away": "uq-bananas",
+      "away_games": 21,
+      "away_name": "UQ Bananas",
+      "away_points": 6.1,
+      "away_roster": [
+        "david-lee",
+        "zachary-conroy"
+      ],
+      "away_sets": 2,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 5,
+      "date": "2026-09-28",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [
+        "stephen-dang"
+      ],
+      "forfeited_by": null,
+      "home": "uq-engenes",
+      "home_games": 14,
+      "home_name": "UQ Engenes",
+      "home_points": 3.4,
+      "home_roster": [
+        "kara-nguyen",
+        "joyce-zhao"
+      ],
+      "home_sets": 1,
+      "id": "3665420",
+      "key": "7/uq-engenes/uq-bananas/1",
+      "margin": 7,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 21,
+      "printed_home_games": 14,
+      "result": "away",
+      "round": "7",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "zachary-conroy",
+            "david-lee"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 3,
+          "home_players": [
+            "joyce-zhao",
+            "stephen-dang"
+          ],
+          "label": "Doubles 1",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 3,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "zachary-conroy"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 2,
+          "home_players": [
+            "joyce-zhao"
+          ],
+          "label": "Singles 1",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 2,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 4,
+          "away_players": [
+            "david-lee"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "stephen-dang"
+          ],
+          "label": "Singles 2",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 4,
+          "printed_home_games": 6,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 5,
+          "away_players": [
+            "zachary-conroy",
+            "david-lee"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 3,
+          "home_players": [
+            "joyce-zhao",
+            "stephen-dang"
+          ],
+          "label": "Doubles 2",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 5,
+          "printed_home_games": 3,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R7/match_scorecard_3665420.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-tornadoes",
+      "away_games": 24,
+      "away_name": "UQ Tornadoes",
+      "away_points": 6.4,
+      "away_roster": [
+        "joven-chia",
+        "stephen-dang",
+        "connor-phan"
+      ],
+      "away_sets": 4,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 4,
+      "date": "2026-09-28",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-piranhas",
+      "home_games": 10,
+      "home_name": "UQ Piranhas",
+      "home_points": 3.0,
+      "home_roster": [
+        "luke-huntly",
+        "malcolm-lovemore"
+      ],
+      "home_sets": 0,
+      "id": "3665418",
+      "key": "7/uq-piranhas/uq-tornadoes/1",
+      "margin": 14,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 24,
+      "printed_home_games": 10,
+      "result": "away",
+      "round": "7",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "connor-phan",
+            "joven-chia"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 1,
+          "home_players": [
+            "malcolm-lovemore",
+            "luke-huntly"
+          ],
+          "label": "Doubles 1",
+          "margin": 5,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 1,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "connor-phan"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 4,
+          "home_players": [
+            "malcolm-lovemore"
+          ],
+          "label": "Singles 1",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 4,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "joven-chia"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 2,
+          "home_players": [
+            "luke-huntly"
+          ],
+          "label": "Singles 2",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 2,
+          "slot": "s2",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "connor-phan",
+            "joven-chia"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 3,
+          "home_players": [
+            "malcolm-lovemore",
+            "luke-huntly"
+          ],
+          "label": "Doubles 2",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 3,
+          "slot": "d2",
+          "status": "played",
+          "winner": "away"
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R7/match_scorecard_3665418.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-kraits",
+      "away_games": 22,
+      "away_name": "UQ Kraits",
+      "away_points": 6.2,
+      "away_roster": [
+        "teegan-yunran-zhang",
+        "paul-lange",
+        "john-wanis"
+      ],
+      "away_sets": 2,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 5,
+      "date": "2026-10-05",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [
+        "malcolm-lovemore"
+      ],
+      "forfeited_by": null,
+      "home": "uq-engenes",
+      "home_games": 11,
+      "home_name": "UQ Engenes",
+      "home_points": 3.1,
+      "home_roster": [
+        "kara-nguyen",
+        "joyce-zhao"
+      ],
+      "home_sets": 1,
+      "id": "3665422",
+      "key": "8/uq-engenes/uq-kraits/1",
+      "margin": 11,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 22,
+      "printed_home_games": 11,
+      "result": "away",
+      "round": "8",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "john-wanis",
+            "paul-lange"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 3,
+          "home_players": [
+            "malcolm-lovemore",
+            "joyce-zhao"
+          ],
+          "label": "Doubles 1",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 3,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 5,
+          "away_players": [
+            "john-wanis"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "malcolm-lovemore"
+          ],
+          "label": "Singles 1",
+          "margin": 1,
+          "nobody_played": false,
+          "printed_away_games": 5,
+          "printed_home_games": 6,
+          "slot": "s1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "paul-lange"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 2,
+          "home_players": [
+            "joyce-zhao"
+          ],
+          "label": "Singles 2",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 2,
+          "slot": "s2",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 5,
+          "away_players": [
+            "john-wanis",
+            "paul-lange"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [
+            "malcolm-lovemore",
+            "joyce-zhao"
+          ],
+          "label": "Doubles 2",
+          "margin": 5,
+          "nobody_played": false,
+          "printed_away_games": 5,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R8/match_scorecard_3665422.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-bananas",
+      "away_games": 17,
+      "away_name": "UQ Bananas",
+      "away_points": 3.7,
+      "away_roster": [
+        "david-lee",
+        "zachary-conroy"
+      ],
+      "away_sets": 1,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 6,
+      "date": "2026-10-05",
+      "decided": true,
+      "decided_by": "sets",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-tornadoes",
+      "home_games": 17,
+      "home_name": "UQ Tornadoes",
+      "home_points": 5.7,
+      "home_roster": [
+        "joven-chia",
+        "stephen-dang",
+        "connor-phan"
+      ],
+      "home_sets": 2,
+      "id": "3665423",
+      "key": "8/uq-tornadoes/uq-bananas/1",
+      "margin": 0,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 17,
+      "printed_home_games": 17,
+      "result": "home",
+      "round": "8",
+      "sets": [
+        {
+          "away_games": 4,
+          "away_players": [
+            "zachary-conroy",
+            "david-lee"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "joven-chia",
+            "stephen-dang"
+          ],
+          "label": "Doubles 1",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 4,
+          "printed_home_games": 6,
+          "slot": "d1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "zachary-conroy"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 3,
+          "home_players": [
+            "joven-chia"
+          ],
+          "label": "Singles 1",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 3,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 3,
+          "away_players": [
+            "david-lee"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "stephen-dang"
+          ],
+          "label": "Singles 2",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 3,
+          "printed_home_games": 6,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 4,
+          "away_players": [
+            "zachary-conroy",
+            "david-lee"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 2,
+          "home_players": [
+            "joven-chia",
+            "stephen-dang"
+          ],
+          "label": "Doubles 2",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 4,
+          "printed_home_games": 2,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c1/R8/match_scorecard_3665423.pdf",
+      "status": "played",
+      "tied_on_games": true,
+      "warnings": []
+    }
+  ],
+  "meta": {
+    "cards_rejected": 0,
+    "cards_scored": 16,
+    "cards_seen": 16,
+    "club": "The University of Queensland Tennis Club Inc",
+    "competition": "monday-division-c1",
+    "day": "Monday",
+    "division": "C1",
+    "draw_source": "cards",
+    "folders_unlisted": 0,
+    "generated": "2026-10-08T16:48:59",
+    "label": "Monday Division C1",
+    "ladder_complete": false,
+    "ladder_detail": "teams have played unequal numbers of matches",
+    "ladder_state": "in-progress",
+    "leader": null,
+    "matches_played": 13,
+    "matches_total": 16,
+    "provenance": {
+      "captains": "declared",
+      "draw": "card",
+      "format": "card",
+      "players": "card",
+      "rounds_total": "declared",
+      "season": "declared",
+      "teams": "declared"
+    },
+    "regular_fixtures": {
+      "played": 13,
+      "total": 16
+    },
+    "rounds_played": 8,
+    "rounds_present": [
+      "1",
+      "2",
+      "3",
+      "4",
+      "5",
+      "6",
+      "7",
+      "8"
+    ],
+    "rounds_total": 10,
+    "rules": {
+      "allows_draw": true,
+      "average_unplayed": false,
+      "draws": "",
+      "draws_detail": "",
+      "format": "doubles-singles-doubles",
+      "format_detail": "Doubles 1, Singles 1, Singles 2, Doubles 2 (first to 6)",
+      "ladder_by": [
+        "points_average",
+        "points",
+        "games_diff",
+        "games_won",
+        "head_to_head",
+        "name"
+      ],
+      "min_sets_for_result": 3,
+      "scoring": "games-bonus",
+      "scoring_detail": "win 4, draw 3, loss 2, 0.1 per game; a match forfeited whole pays the side that turned up a win with every rubber a love set, and the side that gave it up 0; decided on games then sets",
+      "set_rule": "first-to-6",
+      "set_rule_detail": "first to 6",
+      "slots": [
+        {
+          "doubles": true,
+          "key": "d1",
+          "label": "Doubles 1"
+        },
+        {
+          "doubles": false,
+          "key": "s1",
+          "label": "Singles 1"
+        },
+        {
+          "doubles": false,
+          "key": "s2",
+          "label": "Singles 2"
+        },
+        {
+          "doubles": true,
+          "key": "d2",
+          "label": "Doubles 2"
+        }
+      ],
+      "unplayed": "zero",
+      "unplayed_detail": "a bye or a washout is scored as nothing, and not counted as a match played",
+      "unplayed_worth": "scored as nothing, and not counted as a match played"
+    },
+    "season": "Season 2",
+    "season_key": "",
+    "season_label": "Season 2",
+    "season_label_from": "",
+    "seasons_mode": "single",
+    "source_dir": "data",
+    "teams_declared": true,
+    "teams_total": 5,
+    "version": "0.1.0"
+  },
+  "player_names": {
+    "connor-phan": "Connor Phan",
+    "david-lee": "David Lee",
+    "dominic-ton": "Dominic Ton",
+    "john-wanis": "John Wanis",
+    "joven-chia": "Joven Chia",
+    "joyce-zhao": "Joyce Zhao",
+    "kara-nguyen": "Kara Nguyen",
+    "luke-huntly": "Luke Huntly",
+    "malcolm-lovemore": "Malcolm Lovemore",
+    "paul-lange": "Paul Lange",
+    "sri-krishna-dharmapuri": "Sri Krishna Dharmapuri",
+    "stephen-dang": "Stephen Dang",
+    "teegan-yunran-zhang": "Teegan Yunran Zhang",
+    "zachary-conroy": "Zachary Conroy"
+  },
+  "players": [
+    {
+      "available": 5,
+      "by_slot": {
+        "d1": {
+          "played": 5,
+          "win_pct": 60.0,
+          "won": 3
+        },
+        "d2": {
+          "played": 5,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "s1": {
+          "played": 2,
+          "win_pct": 100.0,
+          "won": 2
+        },
+        "s2": {
+          "played": 3,
+          "win_pct": 33.3,
+          "won": 1
+        }
+      },
+      "contribution": {
+        "games_won": 48.0,
+        "share_pct": 49.5,
+        "team_games_won": 97
+      },
+      "doubles": {
+        "games_lost": 32,
+        "games_won": 46,
+        "lost": 2,
+        "played": 10,
+        "won": 4
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 15,
+      "games_lost": 56,
+      "games_won": 71,
+      "is_captain": false,
+      "longest_win_streak": 5,
+      "matches": 5,
+      "name": "David Lee",
+      "opponents": [
+        {
+          "games_lost": 38,
+          "games_won": 41,
+          "lost": 3,
+          "name": "Stephen Dang",
+          "sets": 9,
+          "slug": "stephen-dang",
+          "won": 3
+        },
+        {
+          "games_lost": 16,
+          "games_won": 17,
+          "lost": 1,
+          "name": "Joven Chia",
+          "sets": 4,
+          "slug": "joven-chia",
+          "won": 1
+        },
+        {
+          "games_lost": 7,
+          "games_won": 18,
+          "lost": 0,
+          "name": "John Wanis",
+          "sets": 3,
+          "slug": "john-wanis",
+          "won": 3
+        },
+        {
+          "games_lost": 11,
+          "games_won": 12,
+          "lost": 1,
+          "name": "Luke Huntly",
+          "sets": 3,
+          "slug": "luke-huntly",
+          "won": 1
+        },
+        {
+          "games_lost": 2,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Teegan Yunran Zhang",
+          "sets": 2,
+          "slug": "teegan-yunran-zhang",
+          "won": 2
+        },
+        {
+          "games_lost": 6,
+          "games_won": 11,
+          "lost": 0,
+          "name": "Joyce Zhao",
+          "sets": 2,
+          "slug": "joyce-zhao",
+          "won": 1
+        },
+        {
+          "games_lost": 8,
+          "games_won": 6,
+          "lost": 1,
+          "name": "Malcolm Lovemore",
+          "sets": 2,
+          "slug": "malcolm-lovemore",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 24,
+          "games_won": 37,
+          "lost": 2,
+          "name": "Zachary Conroy",
+          "sets": 8,
+          "slug": "zachary-conroy",
+          "won": 3
+        },
+        {
+          "games_lost": 8,
+          "games_won": 9,
+          "lost": 0,
+          "name": "Luke Huntly",
+          "sets": 2,
+          "slug": "luke-huntly",
+          "won": 1
+        }
+      ],
+      "rating": {
+        "doubles": 3.68,
+        "singles": 3.07
+      },
+      "rating_history": [
+        {
+          "doubles": 3.68,
+          "round": "3",
+          "singles": 3.07
+        },
+        {
+          "doubles": 3.68,
+          "round": "4",
+          "singles": 3.07
+        },
+        {
+          "doubles": 3.68,
+          "round": "5",
+          "singles": 3.07
+        },
+        {
+          "doubles": 3.68,
+          "round": "7",
+          "singles": 3.07
+        },
+        {
+          "doubles": 3.68,
+          "round": "8",
+          "singles": 3.07
+        }
+      ],
+      "registered_elsewhere": null,
+      "sets_lost": 4,
+      "sets_played": 15,
+      "sets_won": 7,
+      "singles": {
+        "games_lost": 24,
+        "games_won": 25,
+        "lost": 2,
+        "played": 5,
+        "won": 3
+      },
+      "slug": "david-lee",
+      "streak": {
+        "length": 3,
+        "type": "L"
+      },
+      "team": "uq-bananas",
+      "team_code": null,
+      "team_matches": 5,
+      "team_name": "UQ Bananas",
+      "win_pct": 63.6
+    },
+    {
+      "available": 5,
+      "by_slot": {
+        "d1": {
+          "played": 4,
+          "win_pct": 50.0,
+          "won": 2
+        },
+        "d2": {
+          "played": 4,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "s1": {
+          "played": 3,
+          "win_pct": 100.0,
+          "won": 3
+        },
+        "s2": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        }
+      },
+      "contribution": {
+        "games_won": 42.5,
+        "share_pct": 43.8,
+        "team_games_won": 97
+      },
+      "doubles": {
+        "games_lost": 24,
+        "games_won": 37,
+        "lost": 2,
+        "played": 8,
+        "won": 3
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 27,
+      "games_lost": 34,
+      "games_won": 61,
+      "is_captain": true,
+      "longest_win_streak": 6,
+      "matches": 4,
+      "name": "Zachary Conroy",
+      "opponents": [
+        {
+          "games_lost": 14,
+          "games_won": 19,
+          "lost": 1,
+          "name": "Stephen Dang",
+          "sets": 4,
+          "slug": "stephen-dang",
+          "won": 1
+        },
+        {
+          "games_lost": 2,
+          "games_won": 18,
+          "lost": 0,
+          "name": "Teegan Yunran Zhang",
+          "sets": 3,
+          "slug": "teegan-yunran-zhang",
+          "won": 3
+        },
+        {
+          "games_lost": 8,
+          "games_won": 17,
+          "lost": 0,
+          "name": "Joyce Zhao",
+          "sets": 3,
+          "slug": "joyce-zhao",
+          "won": 2
+        },
+        {
+          "games_lost": 11,
+          "games_won": 14,
+          "lost": 1,
+          "name": "Joven Chia",
+          "sets": 3,
+          "slug": "joven-chia",
+          "won": 1
+        },
+        {
+          "games_lost": 13,
+          "games_won": 12,
+          "lost": 1,
+          "name": "Malcolm Lovemore",
+          "sets": 3,
+          "slug": "malcolm-lovemore",
+          "won": 1
+        },
+        {
+          "games_lost": 2,
+          "games_won": 12,
+          "lost": 0,
+          "name": "John Wanis",
+          "sets": 2,
+          "slug": "john-wanis",
+          "won": 2
+        },
+        {
+          "games_lost": 8,
+          "games_won": 6,
+          "lost": 1,
+          "name": "Luke Huntly",
+          "sets": 2,
+          "slug": "luke-huntly",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 24,
+          "games_won": 37,
+          "lost": 2,
+          "name": "David Lee",
+          "sets": 8,
+          "slug": "david-lee",
+          "won": 3
+        }
+      ],
+      "rating": {
+        "doubles": 2.79,
+        "singles": 3.27
+      },
+      "rating_history": [
+        {
+          "doubles": 2.79,
+          "round": "3",
+          "singles": 3.27
+        },
+        {
+          "doubles": 2.79,
+          "round": "4",
+          "singles": 3.27
+        },
+        {
+          "doubles": 2.79,
+          "round": "5",
+          "singles": 3.27
+        },
+        {
+          "doubles": 2.79,
+          "round": "7",
+          "singles": 3.27
+        },
+        {
+          "doubles": 2.79,
+          "round": "8",
+          "singles": 3.27
+        }
+      ],
+      "registered_elsewhere": null,
+      "sets_lost": 2,
+      "sets_played": 12,
+      "sets_won": 7,
+      "singles": {
+        "games_lost": 10,
+        "games_won": 24,
+        "lost": 0,
+        "played": 4,
+        "won": 4
+      },
+      "slug": "zachary-conroy",
+      "streak": {
+        "length": 1,
+        "type": "W"
+      },
+      "team": "uq-bananas",
+      "team_code": null,
+      "team_matches": 4,
+      "team_name": "UQ Bananas",
+      "win_pct": 77.8
+    },
+    {
+      "available": 5,
+      "by_slot": {
+        "d1": {
+          "played": 3,
+          "win_pct": 33.3,
+          "won": 1
+        },
+        "d2": {
+          "played": 3,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "s2": {
+          "played": 2,
+          "win_pct": 0.0,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 17.0,
+        "share_pct": 25.4,
+        "team_games_won": 67
+      },
+      "doubles": {
+        "games_lost": 29,
+        "games_won": 18,
+        "lost": 2,
+        "played": 6,
+        "won": 1
+      },
+      "fill_in_appearances": 0,
+      "games_diff": -21,
+      "games_lost": 47,
+      "games_won": 26,
+      "is_captain": true,
+      "longest_win_streak": 1,
+      "matches": 3,
+      "name": "Joyce Zhao",
+      "opponents": [
+        {
+          "games_lost": 24,
+          "games_won": 16,
+          "lost": 2,
+          "name": "John Wanis",
+          "sets": 5,
+          "slug": "john-wanis",
+          "won": 1
+        },
+        {
+          "games_lost": 24,
+          "games_won": 14,
+          "lost": 2,
+          "name": "Paul Lange",
+          "sets": 5,
+          "slug": "paul-lange",
+          "won": 1
+        },
+        {
+          "games_lost": 17,
+          "games_won": 8,
+          "lost": 2,
+          "name": "Zachary Conroy",
+          "sets": 3,
+          "slug": "zachary-conroy",
+          "won": 0
+        },
+        {
+          "games_lost": 11,
+          "games_won": 6,
+          "lost": 1,
+          "name": "David Lee",
+          "sets": 2,
+          "slug": "david-lee",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 7,
+          "games_won": 9,
+          "lost": 0,
+          "name": "Kara Nguyen",
+          "sets": 2,
+          "slug": "kara-nguyen",
+          "won": 1
+        },
+        {
+          "games_lost": 11,
+          "games_won": 6,
+          "lost": 1,
+          "name": "Stephen Dang",
+          "sets": 2,
+          "slug": "stephen-dang",
+          "won": 0
+        },
+        {
+          "games_lost": 11,
+          "games_won": 3,
+          "lost": 1,
+          "name": "Malcolm Lovemore",
+          "sets": 2,
+          "slug": "malcolm-lovemore",
+          "won": 0
+        }
+      ],
+      "rating": {
+        "doubles": 1.86,
+        "singles": 2.16
+      },
+      "rating_history": [
+        {
+          "doubles": 1.86,
+          "round": "3",
+          "singles": 2.16
+        },
+        {
+          "doubles": 1.86,
+          "round": "5",
+          "singles": 2.16
+        },
+        {
+          "doubles": 1.86,
+          "round": "6",
+          "singles": 2.16
+        },
+        {
+          "doubles": 1.86,
+          "round": "7",
+          "singles": 2.16
+        },
+        {
+          "doubles": 1.86,
+          "round": "8",
+          "singles": 2.16
+        }
+      ],
+      "registered_elsewhere": null,
+      "sets_lost": 5,
+      "sets_played": 9,
+      "sets_won": 1,
+      "singles": {
+        "games_lost": 18,
+        "games_won": 8,
+        "lost": 3,
+        "played": 3,
+        "won": 0
+      },
+      "slug": "joyce-zhao",
+      "streak": {
+        "length": 5,
+        "type": "L"
+      },
+      "team": "uq-engenes",
+      "team_code": null,
+      "team_matches": 3,
+      "team_name": "UQ Engenes",
+      "win_pct": 16.7
+    },
+    {
+      "available": 5,
+      "by_slot": {
+        "d1": {
+          "played": 2,
+          "win_pct": 100.0,
+          "won": 2
+        },
+        "d2": {
+          "played": 2,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "s1": {
+          "played": 2,
+          "win_pct": 100.0,
+          "won": 2
+        },
+        "s2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 22.5,
+        "share_pct": 33.6,
+        "team_games_won": 67
+      },
+      "doubles": {
+        "games_lost": 8,
+        "games_won": 21,
+        "lost": 0,
+        "played": 4,
+        "won": 3
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 23,
+      "games_lost": 10,
+      "games_won": 33,
+      "is_captain": false,
+      "longest_win_streak": 5,
+      "matches": 2,
+      "name": "Kara Nguyen",
+      "opponents": [
+        {
+          "games_lost": 1,
+          "games_won": 18,
+          "lost": 0,
+          "name": "Luke Huntly",
+          "sets": 3,
+          "slug": "luke-huntly",
+          "won": 3
+        },
+        {
+          "games_lost": 9,
+          "games_won": 15,
+          "lost": 0,
+          "name": "Paul Lange",
+          "sets": 3,
+          "slug": "paul-lange",
+          "won": 2
+        },
+        {
+          "games_lost": 1,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Malcolm Lovemore",
+          "sets": 2,
+          "slug": "malcolm-lovemore",
+          "won": 2
+        },
+        {
+          "games_lost": 7,
+          "games_won": 9,
+          "lost": 0,
+          "name": "John Wanis",
+          "sets": 2,
+          "slug": "john-wanis",
+          "won": 1
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 1,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Joven Chia",
+          "sets": 2,
+          "slug": "joven-chia",
+          "won": 2
+        },
+        {
+          "games_lost": 7,
+          "games_won": 9,
+          "lost": 0,
+          "name": "Joyce Zhao",
+          "sets": 2,
+          "slug": "joyce-zhao",
+          "won": 1
+        }
+      ],
+      "rating": {
+        "doubles": 4.94,
+        "singles": 4.65
+      },
+      "rating_history": [
+        {
+          "doubles": 4.94,
+          "round": "3",
+          "singles": 4.65
+        },
+        {
+          "doubles": 4.94,
+          "round": "5",
+          "singles": 4.65
+        },
+        {
+          "doubles": 4.94,
+          "round": "6",
+          "singles": 4.65
+        },
+        {
+          "doubles": 4.94,
+          "round": "7",
+          "singles": 4.65
+        },
+        {
+          "doubles": 4.94,
+          "round": "8",
+          "singles": 4.65
+        }
+      ],
+      "registered_elsewhere": null,
+      "sets_lost": 0,
+      "sets_played": 6,
+      "sets_won": 5,
+      "singles": {
+        "games_lost": 2,
+        "games_won": 12,
+        "lost": 0,
+        "played": 2,
+        "won": 2
+      },
+      "slug": "kara-nguyen",
+      "streak": {
+        "length": 5,
+        "type": "W"
+      },
+      "team": "uq-engenes",
+      "team_code": null,
+      "team_matches": 2,
+      "team_name": "UQ Engenes",
+      "win_pct": 100.0
+    },
+    {
+      "available": 6,
+      "by_slot": {
+        "d1": {
+          "played": 3,
+          "win_pct": 33.3,
+          "won": 1
+        },
+        "d2": {
+          "played": 3,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "s1": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "s2": {
+          "played": 2,
+          "win_pct": 50.0,
+          "won": 1
+        }
+      },
+      "contribution": {
+        "games_won": 26.0,
+        "share_pct": 36.6,
+        "team_games_won": 71
+      },
+      "doubles": {
+        "games_lost": 24,
+        "games_won": 20,
+        "lost": 3,
+        "played": 6,
+        "won": 1
+      },
+      "fill_in_appearances": 0,
+      "games_diff": -4,
+      "games_lost": 40,
+      "games_won": 36,
+      "is_captain": true,
+      "longest_win_streak": 1,
+      "matches": 3,
+      "name": "John Wanis",
+      "opponents": [
+        {
+          "games_lost": 16,
+          "games_won": 24,
+          "lost": 1,
+          "name": "Joyce Zhao",
+          "sets": 5,
+          "slug": "joyce-zhao",
+          "won": 2
+        },
+        {
+          "games_lost": 9,
+          "games_won": 16,
+          "lost": 1,
+          "name": "Malcolm Lovemore",
+          "sets": 3,
+          "slug": "malcolm-lovemore",
+          "won": 1
+        },
+        {
+          "games_lost": 18,
+          "games_won": 7,
+          "lost": 3,
+          "name": "David Lee",
+          "sets": 3,
+          "slug": "david-lee",
+          "won": 0
+        },
+        {
+          "games_lost": 9,
+          "games_won": 7,
+          "lost": 1,
+          "name": "Kara Nguyen",
+          "sets": 2,
+          "slug": "kara-nguyen",
+          "won": 0
+        },
+        {
+          "games_lost": 12,
+          "games_won": 2,
+          "lost": 2,
+          "name": "Zachary Conroy",
+          "sets": 2,
+          "slug": "zachary-conroy",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 12,
+          "games_won": 18,
+          "lost": 1,
+          "name": "Paul Lange",
+          "sets": 4,
+          "slug": "paul-lange",
+          "won": 1
+        },
+        {
+          "games_lost": 12,
+          "games_won": 2,
+          "lost": 2,
+          "name": "Teegan Yunran Zhang",
+          "sets": 2,
+          "slug": "teegan-yunran-zhang",
+          "won": 0
+        }
+      ],
+      "rating": {
+        "doubles": 2.72,
+        "singles": 2.93
+      },
+      "rating_history": [
+        {
+          "doubles": 2.72,
+          "round": "1",
+          "singles": 2.93
+        },
+        {
+          "doubles": 2.72,
+          "round": "3",
+          "singles": 2.93
+        },
+        {
+          "doubles": 2.72,
+          "round": "4",
+          "singles": 2.93
+        },
+        {
+          "doubles": 2.72,
+          "round": "5",
+          "singles": 2.93
+        },
+        {
+          "doubles": 2.72,
+          "round": "6",
+          "singles": 2.93
+        },
+        {
+          "doubles": 2.72,
+          "round": "8",
+          "singles": 2.93
+        }
+      ],
+      "registered_elsewhere": null,
+      "sets_lost": 5,
+      "sets_played": 9,
+      "sets_won": 2,
+      "singles": {
+        "games_lost": 16,
+        "games_won": 16,
+        "lost": 2,
+        "played": 3,
+        "won": 1
+      },
+      "slug": "john-wanis",
+      "streak": {
+        "length": 1,
+        "type": "L"
+      },
+      "team": "uq-kraits",
+      "team_code": null,
+      "team_matches": 3,
+      "team_name": "UQ Kraits",
+      "win_pct": 28.6
+    },
+    {
+      "available": 6,
+      "by_slot": {
+        "d1": {
+          "played": 5,
+          "win_pct": 20.0,
+          "won": 1
+        },
+        "d2": {
+          "played": 5,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 2,
+          "win_pct": 50.0,
+          "won": 1
+        },
+        "s2": {
+          "played": 3,
+          "win_pct": 33.3,
+          "won": 1
+        }
+      },
+      "contribution": {
+        "games_won": 36.0,
+        "share_pct": 50.7,
+        "team_games_won": 71
+      },
+      "doubles": {
+        "games_lost": 43,
+        "games_won": 32,
+        "lost": 4,
+        "played": 10,
+        "won": 1
+      },
+      "fill_in_appearances": 0,
+      "games_diff": -13,
+      "games_lost": 65,
+      "games_won": 52,
+      "is_captain": false,
+      "longest_win_streak": 3,
+      "matches": 5,
+      "name": "Paul Lange",
+      "opponents": [
+        {
+          "games_lost": 24,
+          "games_won": 21,
+          "lost": 2,
+          "name": "Malcolm Lovemore",
+          "sets": 6,
+          "slug": "malcolm-lovemore",
+          "won": 1
+        },
+        {
+          "games_lost": 14,
+          "games_won": 24,
+          "lost": 1,
+          "name": "Joyce Zhao",
+          "sets": 5,
+          "slug": "joyce-zhao",
+          "won": 2
+        },
+        {
+          "games_lost": 12,
+          "games_won": 13,
+          "lost": 1,
+          "name": "Luke Huntly",
+          "sets": 3,
+          "slug": "luke-huntly",
+          "won": 1
+        },
+        {
+          "games_lost": 15,
+          "games_won": 9,
+          "lost": 2,
+          "name": "Kara Nguyen",
+          "sets": 3,
+          "slug": "kara-nguyen",
+          "won": 0
+        },
+        {
+          "games_lost": 16,
+          "games_won": 7,
+          "lost": 2,
+          "name": "Connor Phan",
+          "sets": 3,
+          "slug": "connor-phan",
+          "won": 0
+        },
+        {
+          "games_lost": 17,
+          "games_won": 6,
+          "lost": 2,
+          "name": "Sri Krishna Dharmapuri",
+          "sets": 3,
+          "slug": "sri-krishna-dharmapuri",
+          "won": 0
+        },
+        {
+          "games_lost": 10,
+          "games_won": 4,
+          "lost": 1,
+          "name": "Stephen Dang",
+          "sets": 2,
+          "slug": "stephen-dang",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 31,
+          "games_won": 14,
+          "lost": 3,
+          "name": "Teegan Yunran Zhang",
+          "sets": 6,
+          "slug": "teegan-yunran-zhang",
+          "won": 0
+        },
+        {
+          "games_lost": 12,
+          "games_won": 18,
+          "lost": 1,
+          "name": "John Wanis",
+          "sets": 4,
+          "slug": "john-wanis",
+          "won": 1
+        }
+      ],
+      "rating": {
+        "doubles": 2.95,
+        "singles": 3.45
+      },
+      "rating_history": [
+        {
+          "doubles": 2.95,
+          "round": "1",
+          "singles": 3.45
+        },
+        {
+          "doubles": 2.95,
+          "round": "3",
+          "singles": 3.45
+        },
+        {
+          "doubles": 2.95,
+          "round": "4",
+          "singles": 3.45
+        },
+        {
+          "doubles": 2.95,
+          "round": "5",
+          "singles": 3.45
+        },
+        {
+          "doubles": 2.95,
+          "round": "6",
+          "singles": 3.45
+        },
+        {
+          "doubles": 2.95,
+          "round": "8",
+          "singles": 3.45
+        }
+      ],
+      "registered_elsewhere": null,
+      "sets_lost": 7,
+      "sets_played": 15,
+      "sets_won": 3,
+      "singles": {
+        "games_lost": 22,
+        "games_won": 20,
+        "lost": 3,
+        "played": 5,
+        "won": 2
+      },
+      "slug": "paul-lange",
+      "streak": {
+        "length": 3,
+        "type": "W"
+      },
+      "team": "uq-kraits",
+      "team_code": null,
+      "team_matches": 5,
+      "team_name": "UQ Kraits",
+      "win_pct": 30.0
+    },
+    {
+      "available": 6,
+      "by_slot": {
+        "d1": {
+          "played": 4,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "d2": {
+          "played": 4,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "s1": {
+          "played": 3,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "s2": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 9.0,
+        "share_pct": 12.7,
+        "team_games_won": 71
+      },
+      "doubles": {
+        "games_lost": 43,
+        "games_won": 16,
+        "lost": 5,
+        "played": 8,
+        "won": 0
+      },
+      "fill_in_appearances": 0,
+      "games_diff": -50,
+      "games_lost": 67,
+      "games_won": 17,
+      "is_captain": false,
+      "longest_win_streak": 0,
+      "matches": 4,
+      "name": "Teegan Yunran Zhang",
+      "opponents": [
+        {
+          "games_lost": 33,
+          "games_won": 11,
+          "lost": 4,
+          "name": "Malcolm Lovemore",
+          "sets": 6,
+          "slug": "malcolm-lovemore",
+          "won": 0
+        },
+        {
+          "games_lost": 16,
+          "games_won": 4,
+          "lost": 2,
+          "name": "Stephen Dang",
+          "sets": 3,
+          "slug": "stephen-dang",
+          "won": 0
+        },
+        {
+          "games_lost": 18,
+          "games_won": 2,
+          "lost": 3,
+          "name": "Zachary Conroy",
+          "sets": 3,
+          "slug": "zachary-conroy",
+          "won": 0
+        },
+        {
+          "games_lost": 10,
+          "games_won": 7,
+          "lost": 1,
+          "name": "Luke Huntly",
+          "sets": 2,
+          "slug": "luke-huntly",
+          "won": 0
+        },
+        {
+          "games_lost": 10,
+          "games_won": 4,
+          "lost": 1,
+          "name": "Connor Phan",
+          "sets": 2,
+          "slug": "connor-phan",
+          "won": 0
+        },
+        {
+          "games_lost": 11,
+          "games_won": 3,
+          "lost": 1,
+          "name": "Sri Krishna Dharmapuri",
+          "sets": 2,
+          "slug": "sri-krishna-dharmapuri",
+          "won": 0
+        },
+        {
+          "games_lost": 12,
+          "games_won": 2,
+          "lost": 2,
+          "name": "David Lee",
+          "sets": 2,
+          "slug": "david-lee",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 31,
+          "games_won": 14,
+          "lost": 3,
+          "name": "Paul Lange",
+          "sets": 6,
+          "slug": "paul-lange",
+          "won": 0
+        },
+        {
+          "games_lost": 12,
+          "games_won": 2,
+          "lost": 2,
+          "name": "John Wanis",
+          "sets": 2,
+          "slug": "john-wanis",
+          "won": 0
+        }
+      ],
+      "rating": {
+        "doubles": 1.09,
+        "singles": 1.0
+      },
+      "rating_history": [
+        {
+          "doubles": 1.09,
+          "round": "1",
+          "singles": 1.0
+        },
+        {
+          "doubles": 1.09,
+          "round": "3",
+          "singles": 1.0
+        },
+        {
+          "doubles": 1.09,
+          "round": "4",
+          "singles": 1.0
+        },
+        {
+          "doubles": 1.09,
+          "round": "5",
+          "singles": 1.0
+        },
+        {
+          "doubles": 1.09,
+          "round": "6",
+          "singles": 1.0
+        },
+        {
+          "doubles": 1.09,
+          "round": "8",
+          "singles": 1.0
+        }
+      ],
+      "registered_elsewhere": null,
+      "sets_lost": 9,
+      "sets_played": 12,
+      "sets_won": 0,
+      "singles": {
+        "games_lost": 24,
+        "games_won": 1,
+        "lost": 4,
+        "played": 4,
+        "won": 0
+      },
+      "slug": "teegan-yunran-zhang",
+      "streak": {
+        "length": 9,
+        "type": "L"
+      },
+      "team": "uq-kraits",
+      "team_code": null,
+      "team_matches": 4,
+      "team_name": "UQ Kraits",
+      "win_pct": 0.0
+    },
+    {
+      "available": 5,
+      "by_slot": {
+        "d1": {
+          "played": 5,
+          "win_pct": 60.0,
+          "won": 3
+        },
+        "d2": {
+          "played": 5,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "s1": {
+          "played": 3,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "s2": {
+          "played": 2,
+          "win_pct": 0.0,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 18.5,
+        "share_pct": 25.0,
+        "team_games_won": 74
+      },
+      "doubles": {
+        "games_lost": 45,
+        "games_won": 32,
+        "lost": 4,
+        "played": 10,
+        "won": 3
+      },
+      "fill_in_appearances": 1,
+      "games_diff": -34,
+      "games_lost": 75,
+      "games_won": 41,
+      "is_captain": true,
+      "longest_win_streak": 1,
+      "matches": 5,
+      "name": "Luke Huntly",
+      "opponents": [
+        {
+          "games_lost": 44,
+          "games_won": 18,
+          "lost": 6,
+          "name": "Joven Chia",
+          "sets": 8,
+          "slug": "joven-chia",
+          "won": 1
+        },
+        {
+          "games_lost": 13,
+          "games_won": 12,
+          "lost": 1,
+          "name": "Paul Lange",
+          "sets": 3,
+          "slug": "paul-lange",
+          "won": 1
+        },
+        {
+          "games_lost": 12,
+          "games_won": 11,
+          "lost": 1,
+          "name": "David Lee",
+          "sets": 3,
+          "slug": "david-lee",
+          "won": 1
+        },
+        {
+          "games_lost": 18,
+          "games_won": 1,
+          "lost": 3,
+          "name": "Kara Nguyen",
+          "sets": 3,
+          "slug": "kara-nguyen",
+          "won": 0
+        },
+        {
+          "games_lost": 7,
+          "games_won": 10,
+          "lost": 0,
+          "name": "Teegan Yunran Zhang",
+          "sets": 2,
+          "slug": "teegan-yunran-zhang",
+          "won": 1
+        },
+        {
+          "games_lost": 8,
+          "games_won": 9,
+          "lost": 0,
+          "name": "Stephen Dang",
+          "sets": 2,
+          "slug": "stephen-dang",
+          "won": 1
+        },
+        {
+          "games_lost": 6,
+          "games_won": 8,
+          "lost": 0,
+          "name": "Zachary Conroy",
+          "sets": 2,
+          "slug": "zachary-conroy",
+          "won": 1
+        },
+        {
+          "games_lost": 12,
+          "games_won": 4,
+          "lost": 2,
+          "name": "Connor Phan",
+          "sets": 2,
+          "slug": "connor-phan",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 37,
+          "games_won": 23,
+          "lost": 4,
+          "name": "Malcolm Lovemore",
+          "sets": 8,
+          "slug": "malcolm-lovemore",
+          "won": 2
+        },
+        {
+          "games_lost": 8,
+          "games_won": 9,
+          "lost": 0,
+          "name": "David Lee",
+          "sets": 2,
+          "slug": "david-lee",
+          "won": 1
+        }
+      ],
+      "rating": {
+        "doubles": 2.44,
+        "singles": 2.04
+      },
+      "rating_history": [
+        {
+          "doubles": 2.44,
+          "round": "1",
+          "singles": 2.04
+        },
+        {
+          "doubles": 2.44,
+          "round": "4",
+          "singles": 2.04
+        },
+        {
+          "doubles": 2.44,
+          "round": "5",
+          "singles": 2.04
+        },
+        {
+          "doubles": 2.44,
+          "round": "6",
+          "singles": 2.04
+        },
+        {
+          "doubles": 2.44,
+          "round": "7",
+          "singles": 2.04
+        }
+      ],
+      "registered_elsewhere": null,
+      "sets_lost": 9,
+      "sets_played": 15,
+      "sets_won": 3,
+      "singles": {
+        "games_lost": 30,
+        "games_won": 9,
+        "lost": 5,
+        "played": 5,
+        "won": 0
+      },
+      "slug": "luke-huntly",
+      "streak": {
+        "length": 4,
+        "type": "L"
+      },
+      "team": "uq-piranhas",
+      "team_code": null,
+      "team_matches": 4,
+      "team_name": "UQ Piranhas",
+      "win_pct": 25.0
+    },
+    {
+      "available": 5,
+      "by_slot": {
+        "d1": {
+          "played": 6,
+          "win_pct": 50.0,
+          "won": 3
+        },
+        "d2": {
+          "played": 6,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "s1": {
+          "played": 3,
+          "win_pct": 66.7,
+          "won": 2
+        },
+        "s2": {
+          "played": 3,
+          "win_pct": 66.7,
+          "won": 2
+        }
+      },
+      "contribution": {
+        "games_won": 44.0,
+        "share_pct": 59.5,
+        "team_games_won": 74
+      },
+      "doubles": {
+        "games_lost": 51,
+        "games_won": 37,
+        "lost": 5,
+        "played": 12,
+        "won": 3
+      },
+      "fill_in_appearances": 1,
+      "games_diff": -4,
+      "games_lost": 74,
+      "games_won": 70,
+      "is_captain": false,
+      "longest_win_streak": 3,
+      "matches": 6,
+      "name": "Malcolm Lovemore",
+      "opponents": [
+        {
+          "games_lost": 11,
+          "games_won": 33,
+          "lost": 0,
+          "name": "Teegan Yunran Zhang",
+          "sets": 6,
+          "slug": "teegan-yunran-zhang",
+          "won": 4
+        },
+        {
+          "games_lost": 21,
+          "games_won": 24,
+          "lost": 1,
+          "name": "Paul Lange",
+          "sets": 6,
+          "slug": "paul-lange",
+          "won": 2
+        },
+        {
+          "games_lost": 29,
+          "games_won": 11,
+          "lost": 4,
+          "name": "Joven Chia",
+          "sets": 5,
+          "slug": "joven-chia",
+          "won": 1
+        },
+        {
+          "games_lost": 12,
+          "games_won": 13,
+          "lost": 1,
+          "name": "Zachary Conroy",
+          "sets": 3,
+          "slug": "zachary-conroy",
+          "won": 1
+        },
+        {
+          "games_lost": 16,
+          "games_won": 9,
+          "lost": 1,
+          "name": "John Wanis",
+          "sets": 3,
+          "slug": "john-wanis",
+          "won": 1
+        },
+        {
+          "games_lost": 18,
+          "games_won": 8,
+          "lost": 3,
+          "name": "Connor Phan",
+          "sets": 3,
+          "slug": "connor-phan",
+          "won": 0
+        },
+        {
+          "games_lost": 6,
+          "games_won": 8,
+          "lost": 0,
+          "name": "David Lee",
+          "sets": 2,
+          "slug": "david-lee",
+          "won": 1
+        },
+        {
+          "games_lost": 12,
+          "games_won": 1,
+          "lost": 2,
+          "name": "Kara Nguyen",
+          "sets": 2,
+          "slug": "kara-nguyen",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 37,
+          "games_won": 23,
+          "lost": 4,
+          "name": "Luke Huntly",
+          "sets": 8,
+          "slug": "luke-huntly",
+          "won": 2
+        },
+        {
+          "games_lost": 3,
+          "games_won": 11,
+          "lost": 0,
+          "name": "Sri Krishna Dharmapuri",
+          "sets": 2,
+          "slug": "sri-krishna-dharmapuri",
+          "won": 1
+        },
+        {
+          "games_lost": 11,
+          "games_won": 3,
+          "lost": 1,
+          "name": "Joyce Zhao",
+          "sets": 2,
+          "slug": "joyce-zhao",
+          "won": 0
+        }
+      ],
+      "rating": {
+        "doubles": 2.36,
+        "singles": 2.74
+      },
+      "rating_history": [
+        {
+          "doubles": 2.36,
+          "round": "1",
+          "singles": 2.74
+        },
+        {
+          "doubles": 2.36,
+          "round": "4",
+          "singles": 2.74
+        },
+        {
+          "doubles": 2.36,
+          "round": "5",
+          "singles": 2.74
+        },
+        {
+          "doubles": 2.36,
+          "round": "6",
+          "singles": 2.74
+        },
+        {
+          "doubles": 2.36,
+          "round": "7",
+          "singles": 2.74
+        }
+      ],
+      "registered_elsewhere": null,
+      "sets_lost": 7,
+      "sets_played": 18,
+      "sets_won": 7,
+      "singles": {
+        "games_lost": 23,
+        "games_won": 33,
+        "lost": 2,
+        "played": 6,
+        "won": 4
+      },
+      "slug": "malcolm-lovemore",
+      "streak": {
+        "length": 1,
+        "type": "W"
+      },
+      "team": "uq-piranhas",
+      "team_code": null,
+      "team_matches": 5,
+      "team_name": "UQ Piranhas",
+      "win_pct": 50.0
+    },
+    {
+      "available": 5,
+      "by_slot": {
+        "d1": {
+          "played": 3,
+          "win_pct": 100.0,
+          "won": 3
+        },
+        "d2": {
+          "played": 2,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "s1": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "s2": {
+          "played": 2,
+          "win_pct": 100.0,
+          "won": 2
+        }
+      },
+      "contribution": {
+        "games_won": 32.0,
+        "share_pct": 30.5,
+        "team_games_won": 105
+      },
+      "doubles": {
+        "games_lost": 8,
+        "games_won": 28,
+        "lost": 0,
+        "played": 5,
+        "won": 4
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 31,
+      "games_lost": 15,
+      "games_won": 46,
+      "is_captain": false,
+      "longest_win_streak": 7,
+      "matches": 3,
+      "name": "Connor Phan",
+      "opponents": [
+        {
+          "games_lost": 8,
+          "games_won": 18,
+          "lost": 0,
+          "name": "Malcolm Lovemore",
+          "sets": 3,
+          "slug": "malcolm-lovemore",
+          "won": 3
+        },
+        {
+          "games_lost": 7,
+          "games_won": 16,
+          "lost": 0,
+          "name": "Paul Lange",
+          "sets": 3,
+          "slug": "paul-lange",
+          "won": 2
+        },
+        {
+          "games_lost": 0,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Dominic Ton",
+          "sets": 2,
+          "slug": "dominic-ton",
+          "won": 2
+        },
+        {
+          "games_lost": 4,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Luke Huntly",
+          "sets": 2,
+          "slug": "luke-huntly",
+          "won": 2
+        },
+        {
+          "games_lost": 4,
+          "games_won": 10,
+          "lost": 0,
+          "name": "Teegan Yunran Zhang",
+          "sets": 2,
+          "slug": "teegan-yunran-zhang",
+          "won": 1
+        },
+        {
+          "games_lost": 0,
+          "games_won": 6,
+          "lost": 0,
+          "name": "Joven Chia",
+          "sets": 1,
+          "slug": "joven-chia",
+          "won": 1
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 4,
+          "games_won": 16,
+          "lost": 0,
+          "name": "Stephen Dang",
+          "sets": 3,
+          "slug": "stephen-dang",
+          "won": 2
+        },
+        {
+          "games_lost": 4,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Joven Chia",
+          "sets": 2,
+          "slug": "joven-chia",
+          "won": 2
+        }
+      ],
+      "rating": {
+        "doubles": null,
+        "singles": null
+      },
+      "rating_history": [],
+      "registered_elsewhere": null,
+      "sets_lost": 0,
+      "sets_played": 8,
+      "sets_won": 7,
+      "singles": {
+        "games_lost": 7,
+        "games_won": 18,
+        "lost": 0,
+        "played": 3,
+        "won": 3
+      },
+      "slug": "connor-phan",
+      "streak": {
+        "length": 7,
+        "type": "W"
+      },
+      "team": "uq-tornadoes",
+      "team_code": null,
+      "team_matches": 3,
+      "team_name": "UQ Tornadoes",
+      "win_pct": 100.0
+    },
+    {
+      "available": 5,
+      "by_slot": {
+        "d1": {
+          "played": 5,
+          "win_pct": 60.0,
+          "won": 3
+        },
+        "d2": {
+          "played": 4,
+          "win_pct": 100.0,
+          "won": 2
+        },
+        "s1": {
+          "played": 2,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "s2": {
+          "played": 3,
+          "win_pct": 66.7,
+          "won": 2
+        }
+      },
+      "contribution": {
+        "games_won": 29.0,
+        "share_pct": 27.6,
+        "team_games_won": 105
+      },
+      "doubles": {
+        "games_lost": 28,
+        "games_won": 40,
+        "lost": 2,
+        "played": 9,
+        "won": 5
+      },
+      "fill_in_appearances": 2,
+      "games_diff": 10,
+      "games_lost": 50,
+      "games_won": 60,
+      "is_captain": false,
+      "longest_win_streak": 4,
+      "matches": 5,
+      "name": "Joven Chia",
+      "opponents": [
+        {
+          "games_lost": 18,
+          "games_won": 44,
+          "lost": 1,
+          "name": "Luke Huntly",
+          "sets": 8,
+          "slug": "luke-huntly",
+          "won": 6
+        },
+        {
+          "games_lost": 11,
+          "games_won": 29,
+          "lost": 1,
+          "name": "Malcolm Lovemore",
+          "sets": 5,
+          "slug": "malcolm-lovemore",
+          "won": 4
+        },
+        {
+          "games_lost": 17,
+          "games_won": 16,
+          "lost": 1,
+          "name": "David Lee",
+          "sets": 4,
+          "slug": "david-lee",
+          "won": 1
+        },
+        {
+          "games_lost": 14,
+          "games_won": 11,
+          "lost": 1,
+          "name": "Zachary Conroy",
+          "sets": 3,
+          "slug": "zachary-conroy",
+          "won": 1
+        },
+        {
+          "games_lost": 12,
+          "games_won": 0,
+          "lost": 2,
+          "name": "Stephen Dang",
+          "sets": 2,
+          "slug": "stephen-dang",
+          "won": 0
+        },
+        {
+          "games_lost": 6,
+          "games_won": 0,
+          "lost": 1,
+          "name": "Connor Phan",
+          "sets": 1,
+          "slug": "connor-phan",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 17,
+          "games_won": 16,
+          "lost": 1,
+          "name": "Stephen Dang",
+          "sets": 4,
+          "slug": "stephen-dang",
+          "won": 1
+        },
+        {
+          "games_lost": 4,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Connor Phan",
+          "sets": 2,
+          "slug": "connor-phan",
+          "won": 2
+        },
+        {
+          "games_lost": 1,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Kara Nguyen",
+          "sets": 2,
+          "slug": "kara-nguyen",
+          "won": 2
+        },
+        {
+          "games_lost": 6,
+          "games_won": 0,
+          "lost": 1,
+          "name": "Dominic Ton",
+          "sets": 1,
+          "slug": "dominic-ton",
+          "won": 0
+        }
+      ],
+      "rating": {
+        "doubles": 2.98,
+        "singles": 2.78
+      },
+      "rating_history": [
+        {
+          "doubles": 2.98,
+          "round": "3",
+          "singles": 2.78
+        },
+        {
+          "doubles": 2.98,
+          "round": "4",
+          "singles": 2.78
+        },
+        {
+          "doubles": 2.98,
+          "round": "6",
+          "singles": 2.78
+        },
+        {
+          "doubles": 2.98,
+          "round": "7",
+          "singles": 2.78
+        },
+        {
+          "doubles": 2.98,
+          "round": "8",
+          "singles": 2.78
+        }
+      ],
+      "registered_elsewhere": null,
+      "sets_lost": 5,
+      "sets_played": 14,
+      "sets_won": 7,
+      "singles": {
+        "games_lost": 22,
+        "games_won": 20,
+        "lost": 3,
+        "played": 5,
+        "won": 2
+      },
+      "slug": "joven-chia",
+      "streak": {
+        "length": 1,
+        "type": "L"
+      },
+      "team": "uq-tornadoes",
+      "team_code": null,
+      "team_matches": 3,
+      "team_name": "UQ Tornadoes",
+      "win_pct": 58.3
+    },
+    {
+      "available": 5,
+      "by_slot": {
+        "d1": {
+          "played": 5,
+          "win_pct": 60.0,
+          "won": 3
+        },
+        "d2": {
+          "played": 4,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 3,
+          "win_pct": 66.7,
+          "won": 2
+        },
+        "s2": {
+          "played": 2,
+          "win_pct": 100.0,
+          "won": 2
+        }
+      },
+      "contribution": {
+        "games_won": 38.0,
+        "share_pct": 36.2,
+        "team_games_won": 105
+      },
+      "doubles": {
+        "games_lost": 32,
+        "games_won": 38,
+        "lost": 2,
+        "played": 9,
+        "won": 3
+      },
+      "fill_in_appearances": 1,
+      "games_diff": 21,
+      "games_lost": 45,
+      "games_won": 66,
+      "is_captain": true,
+      "longest_win_streak": 4,
+      "matches": 5,
+      "name": "Stephen Dang",
+      "opponents": [
+        {
+          "games_lost": 41,
+          "games_won": 38,
+          "lost": 3,
+          "name": "David Lee",
+          "sets": 9,
+          "slug": "david-lee",
+          "won": 3
+        },
+        {
+          "games_lost": 19,
+          "games_won": 14,
+          "lost": 1,
+          "name": "Zachary Conroy",
+          "sets": 4,
+          "slug": "zachary-conroy",
+          "won": 1
+        },
+        {
+          "games_lost": 4,
+          "games_won": 16,
+          "lost": 0,
+          "name": "Teegan Yunran Zhang",
+          "sets": 3,
+          "slug": "teegan-yunran-zhang",
+          "won": 2
+        },
+        {
+          "games_lost": 0,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Joven Chia",
+          "sets": 2,
+          "slug": "joven-chia",
+          "won": 2
+        },
+        {
+          "games_lost": 4,
+          "games_won": 10,
+          "lost": 0,
+          "name": "Paul Lange",
+          "sets": 2,
+          "slug": "paul-lange",
+          "won": 1
+        },
+        {
+          "games_lost": 9,
+          "games_won": 8,
+          "lost": 1,
+          "name": "Luke Huntly",
+          "sets": 2,
+          "slug": "luke-huntly",
+          "won": 0
+        },
+        {
+          "games_lost": 0,
+          "games_won": 6,
+          "lost": 0,
+          "name": "Dominic Ton",
+          "sets": 1,
+          "slug": "dominic-ton",
+          "won": 1
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 17,
+          "games_won": 16,
+          "lost": 1,
+          "name": "Joven Chia",
+          "sets": 4,
+          "slug": "joven-chia",
+          "won": 1
+        },
+        {
+          "games_lost": 4,
+          "games_won": 16,
+          "lost": 0,
+          "name": "Connor Phan",
+          "sets": 3,
+          "slug": "connor-phan",
+          "won": 2
+        },
+        {
+          "games_lost": 11,
+          "games_won": 6,
+          "lost": 1,
+          "name": "Joyce Zhao",
+          "sets": 2,
+          "slug": "joyce-zhao",
+          "won": 0
+        }
+      ],
+      "rating": {
+        "doubles": 3.47,
+        "singles": 2.88
+      },
+      "rating_history": [
+        {
+          "doubles": 3.47,
+          "round": "3",
+          "singles": 2.88
+        },
+        {
+          "doubles": 3.47,
+          "round": "4",
+          "singles": 2.88
+        },
+        {
+          "doubles": 3.47,
+          "round": "6",
+          "singles": 2.88
+        },
+        {
+          "doubles": 3.47,
+          "round": "7",
+          "singles": 2.88
+        },
+        {
+          "doubles": 3.47,
+          "round": "8",
+          "singles": 2.88
+        }
+      ],
+      "registered_elsewhere": null,
+      "sets_lost": 3,
+      "sets_played": 14,
+      "sets_won": 7,
+      "singles": {
+        "games_lost": 13,
+        "games_won": 28,
+        "lost": 1,
+        "played": 5,
+        "won": 4
+      },
+      "slug": "stephen-dang",
+      "streak": {
+        "length": 3,
+        "type": "W"
+      },
+      "team": "uq-tornadoes",
+      "team_code": null,
+      "team_matches": 4,
+      "team_name": "UQ Tornadoes",
+      "win_pct": 70.0
+    },
+    {
+      "available": null,
+      "by_slot": {
+        "d1": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "d2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s2": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 0.0,
+        "share_pct": null,
+        "team_games_won": 0
+      },
+      "doubles": {
+        "games_lost": 6,
+        "games_won": 0,
+        "lost": 1,
+        "played": 1,
+        "won": 0
+      },
+      "fill_in_appearances": 1,
+      "games_diff": -12,
+      "games_lost": 12,
+      "games_won": 0,
+      "is_captain": false,
+      "longest_win_streak": 0,
+      "matches": 1,
+      "name": "Dominic Ton",
+      "opponents": [
+        {
+          "games_lost": 12,
+          "games_won": 0,
+          "lost": 2,
+          "name": "Connor Phan",
+          "sets": 2,
+          "slug": "connor-phan",
+          "won": 0
+        },
+        {
+          "games_lost": 6,
+          "games_won": 0,
+          "lost": 1,
+          "name": "Stephen Dang",
+          "sets": 1,
+          "slug": "stephen-dang",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 6,
+          "games_won": 0,
+          "lost": 1,
+          "name": "Joven Chia",
+          "sets": 1,
+          "slug": "joven-chia",
+          "won": 0
+        }
+      ],
+      "rating": {
+        "doubles": null,
+        "singles": null
+      },
+      "rating_history": [],
+      "registered_elsewhere": null,
+      "sets_lost": 2,
+      "sets_played": 2,
+      "sets_won": 0,
+      "singles": {
+        "games_lost": 6,
+        "games_won": 0,
+        "lost": 1,
+        "played": 1,
+        "won": 0
+      },
+      "slug": "dominic-ton",
+      "streak": {
+        "length": 2,
+        "type": "L"
+      },
+      "team": null,
+      "team_code": null,
+      "team_matches": null,
+      "team_name": null,
+      "win_pct": 0.0
+    },
+    {
+      "available": null,
+      "by_slot": {
+        "d1": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "d2": {
+          "played": 1,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s2": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        }
+      },
+      "contribution": {
+        "games_won": 0.0,
+        "share_pct": null,
+        "team_games_won": 0
+      },
+      "doubles": {
+        "games_lost": 3,
+        "games_won": 11,
+        "lost": 0,
+        "played": 2,
+        "won": 1
+      },
+      "fill_in_appearances": 1,
+      "games_diff": 11,
+      "games_lost": 6,
+      "games_won": 17,
+      "is_captain": false,
+      "longest_win_streak": 2,
+      "matches": 1,
+      "name": "Sri Krishna Dharmapuri",
+      "opponents": [
+        {
+          "games_lost": 6,
+          "games_won": 17,
+          "lost": 0,
+          "name": "Paul Lange",
+          "sets": 3,
+          "slug": "paul-lange",
+          "won": 2
+        },
+        {
+          "games_lost": 3,
+          "games_won": 11,
+          "lost": 0,
+          "name": "Teegan Yunran Zhang",
+          "sets": 2,
+          "slug": "teegan-yunran-zhang",
+          "won": 1
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 3,
+          "games_won": 11,
+          "lost": 0,
+          "name": "Malcolm Lovemore",
+          "sets": 2,
+          "slug": "malcolm-lovemore",
+          "won": 1
+        }
+      ],
+      "rating": {
+        "doubles": null,
+        "singles": null
+      },
+      "rating_history": [],
+      "registered_elsewhere": "tuesday-division-c",
+      "sets_lost": 0,
+      "sets_played": 3,
+      "sets_won": 2,
+      "singles": {
+        "games_lost": 3,
+        "games_won": 6,
+        "lost": 0,
+        "played": 1,
+        "won": 1
+      },
+      "slug": "sri-krishna-dharmapuri",
+      "streak": {
+        "length": 2,
+        "type": "W"
+      },
+      "team": null,
+      "team_code": null,
+      "team_matches": null,
+      "team_name": null,
+      "win_pct": 100.0
+    }
+  ],
+  "rounds": [
+    {
+      "byes": [
+        "uq-bananas"
+      ],
+      "cards": 2,
+      "cards_played": 1,
+      "date": "2026-08-17",
+      "is_finals": false,
+      "keys": [
+        "1/uq-engenes/uq-tornadoes/1",
+        "1/uq-piranhas/uq-kraits/1"
+      ],
+      "note": "",
+      "number": "1",
+      "numbered": true,
+      "played": true,
+      "source": "cards"
+    },
+    {
+      "byes": [
+        "uq-kraits"
+      ],
+      "cards": 2,
+      "cards_played": 0,
+      "date": "2026-08-24",
+      "is_finals": false,
+      "keys": [
+        "2/uq-bananas/uq-engenes/1",
+        "2/uq-tornadoes/uq-piranhas/1"
+      ],
+      "note": "",
+      "number": "2",
+      "numbered": true,
+      "played": true,
+      "source": "cards"
+    },
+    {
+      "byes": [
+        "uq-piranhas"
+      ],
+      "cards": 2,
+      "cards_played": 2,
+      "date": "2026-08-31",
+      "is_finals": false,
+      "keys": [
+        "3/uq-bananas/uq-tornadoes/1",
+        "3/uq-kraits/uq-engenes/1"
+      ],
+      "note": "",
+      "number": "3",
+      "numbered": true,
+      "played": true,
+      "source": "cards"
+    },
+    {
+      "byes": [
+        "uq-engenes"
+      ],
+      "cards": 2,
+      "cards_played": 2,
+      "date": "2026-09-07",
+      "is_finals": false,
+      "keys": [
+        "4/uq-piranhas/uq-bananas/1",
+        "4/uq-tornadoes/uq-kraits/1"
+      ],
+      "note": "",
+      "number": "4",
+      "numbered": true,
+      "played": true,
+      "source": "cards"
+    },
+    {
+      "byes": [
+        "uq-tornadoes"
+      ],
+      "cards": 2,
+      "cards_played": 2,
+      "date": "2026-09-14",
+      "is_finals": false,
+      "keys": [
+        "5/uq-bananas/uq-kraits/1",
+        "5/uq-piranhas/uq-engenes/1"
+      ],
+      "note": "",
+      "number": "5",
+      "numbered": true,
+      "played": true,
+      "source": "cards"
+    },
+    {
+      "byes": [
+        "uq-bananas"
+      ],
+      "cards": 2,
+      "cards_played": 2,
+      "date": "2026-09-21",
+      "is_finals": false,
+      "keys": [
+        "6/uq-kraits/uq-piranhas/1",
+        "6/uq-tornadoes/uq-engenes/1"
+      ],
+      "note": "",
+      "number": "6",
+      "numbered": true,
+      "played": true,
+      "source": "cards"
+    },
+    {
+      "byes": [
+        "uq-kraits"
+      ],
+      "cards": 2,
+      "cards_played": 2,
+      "date": "2026-09-28",
+      "is_finals": false,
+      "keys": [
+        "7/uq-engenes/uq-bananas/1",
+        "7/uq-piranhas/uq-tornadoes/1"
+      ],
+      "note": "",
+      "number": "7",
+      "numbered": true,
+      "played": true,
+      "source": "cards"
+    },
+    {
+      "byes": [
+        "uq-piranhas"
+      ],
+      "cards": 2,
+      "cards_played": 2,
+      "date": "2026-10-05",
+      "is_finals": false,
+      "keys": [
+        "8/uq-engenes/uq-kraits/1",
+        "8/uq-tornadoes/uq-bananas/1"
+      ],
+      "note": "",
+      "number": "8",
+      "numbered": true,
+      "played": true,
+      "source": "cards"
+    },
+    {
+      "byes": [
+        "uq-engenes"
+      ],
+      "cards": 0,
+      "cards_played": 0,
+      "date": "",
+      "is_finals": false,
+      "keys": [],
+      "note": "",
+      "number": "9",
+      "numbered": true,
+      "played": false,
+      "source": "cards"
+    },
+    {
+      "byes": [
+        "uq-tornadoes"
+      ],
+      "cards": 0,
+      "cards_played": 0,
+      "date": "",
+      "is_finals": false,
+      "keys": [],
+      "note": "",
+      "number": "10",
+      "numbered": true,
+      "played": false,
+      "source": "cards"
+    }
+  ],
+  "teams": [
+    {
+      "away": {
+        "drawn": 0,
+        "games_lost": 47,
+        "games_won": 56,
+        "lost": 1,
+        "played": 3,
+        "won": 2
+      },
+      "best_round": {
+        "points": 6.4,
+        "round": "5"
+      },
+      "by_slot": {
+        "d1": {
+          "games_lost": 21,
+          "games_won": 25,
+          "lost": 2,
+          "won": 3
+        },
+        "d2": {
+          "games_lost": 11,
+          "games_won": 21,
+          "lost": 0,
+          "won": 1
+        },
+        "s1": {
+          "games_lost": 12,
+          "games_won": 30,
+          "lost": 0,
+          "won": 5
+        },
+        "s2": {
+          "games_lost": 28,
+          "games_won": 21,
+          "lost": 3,
+          "won": 2
+        }
+      },
+      "captain": "Zachary Conroy",
+      "code": null,
+      "contribution_gap": {
+        "games": 6.5,
+        "nights_not_credited": 0,
+        "rubbers_nobody_played": 0,
+        "rubbers_overfull": 0,
+        "rubbers_short_a_name": 0,
+        "rubbers_with_outsiders": 3,
+        "share_pct": 6.7,
+        "team_games_won": 97
+      },
+      "counted": 5,
+      "drawn": 0,
+      "form": [
+        "L",
+        "W",
+        "W",
+        "W",
+        "L"
+      ],
+      "games_diff": 25,
+      "games_lost": 72,
+      "games_won": 97,
+      "home": {
+        "drawn": 0,
+        "games_lost": 25,
+        "games_won": 41,
+        "lost": 1,
+        "played": 2,
+        "won": 1
+      },
+      "home_court": 5,
+      "ladder_history": [
+        {
+          "points_average": null,
+          "position": 3,
+          "round": "1"
+        },
+        {
+          "points_average": null,
+          "position": 3,
+          "round": "2"
+        },
+        {
+          "points_average": 3.7,
+          "position": 4,
+          "round": "3"
+        },
+        {
+          "points_average": 4.75,
+          "position": 4,
+          "round": "4"
+        },
+        {
+          "points_average": 5.3,
+          "position": 3,
+          "round": "5"
+        },
+        {
+          "points_average": 5.3,
+          "position": 2,
+          "round": "6"
+        },
+        {
+          "points_average": 5.5,
+          "position": 2,
+          "round": "7"
+        },
+        {
+          "points_average": 5.14,
+          "position": 2,
+          "round": "8"
+        }
+      ],
+      "lost": 2,
+      "name": "UQ Bananas",
+      "played": 5,
+      "players": [
+        "david-lee",
+        "zachary-conroy"
+      ],
+      "points": 25.7,
+      "points_average": 5.14,
+      "points_breakdown": {
+        "averaged": 0.0,
+        "averaged_matches": 0,
+        "earned": 25.7
+      },
+      "position": 2,
+      "sets_diff": 6,
+      "sets_lost": 5,
+      "sets_won": 11,
+      "short": "UQ Bananas",
+      "slug": "uq-bananas",
+      "streak": {
+        "length": 1,
+        "type": "L"
+      },
+      "win_pct": 68.8,
+      "won": 3,
+      "worst_round": {
+        "points": 3.7,
+        "round": "3"
+      }
+    },
+    {
+      "away": {
+        "drawn": 0,
+        "games_lost": 46,
+        "games_won": 42,
+        "lost": 1,
+        "played": 3,
+        "won": 2
+      },
+      "best_round": {
+        "points": 6.3,
+        "round": "5"
+      },
+      "by_slot": {
+        "d1": {
+          "games_lost": 23,
+          "games_won": 18,
+          "lost": 3,
+          "won": 2
+        },
+        "d2": {
+          "games_lost": 19,
+          "games_won": 12,
+          "lost": 1,
+          "won": 1
+        },
+        "s1": {
+          "games_lost": 19,
+          "games_won": 20,
+          "lost": 2,
+          "won": 3
+        },
+        "s2": {
+          "games_lost": 28,
+          "games_won": 17,
+          "lost": 4,
+          "won": 1
+        }
+      },
+      "captain": "Joyce Zhao",
+      "code": null,
+      "contribution_gap": {
+        "games": 27.5,
+        "nights_not_credited": 0,
+        "rubbers_nobody_played": 0,
+        "rubbers_overfull": 0,
+        "rubbers_short_a_name": 0,
+        "rubbers_with_outsiders": 12,
+        "share_pct": 41.0,
+        "team_games_won": 67
+      },
+      "counted": 5,
+      "drawn": 0,
+      "form": [
+        "W",
+        "W",
+        "L",
+        "L",
+        "L"
+      ],
+      "games_diff": -22,
+      "games_lost": 89,
+      "games_won": 67,
+      "home": {
+        "drawn": 0,
+        "games_lost": 43,
+        "games_won": 25,
+        "lost": 2,
+        "played": 2,
+        "won": 0
+      },
+      "home_court": 5,
+      "ladder_history": [
+        {
+          "points_average": null,
+          "position": 4,
+          "round": "1"
+        },
+        {
+          "points_average": null,
+          "position": 4,
+          "round": "2"
+        },
+        {
+          "points_average": 5.9,
+          "position": 2,
+          "round": "3"
+        },
+        {
+          "points_average": 5.9,
+          "position": 2,
+          "round": "4"
+        },
+        {
+          "points_average": 6.1,
+          "position": 1,
+          "round": "5"
+        },
+        {
+          "points_average": 4.066667,
+          "position": 4,
+          "round": "6"
+        },
+        {
+          "points_average": 3.9,
+          "position": 4,
+          "round": "7"
+        },
+        {
+          "points_average": 3.74,
+          "position": 4,
+          "round": "8"
+        }
+      ],
+      "lost": 3,
+      "name": "UQ Engenes",
+      "played": 5,
+      "players": [
+        "joyce-zhao",
+        "kara-nguyen"
+      ],
+      "points": 18.7,
+      "points_average": 3.74,
+      "points_breakdown": {
+        "averaged": 0.0,
+        "averaged_matches": 0,
+        "earned": 18.7
+      },
+      "position": 4,
+      "sets_diff": -3,
+      "sets_lost": 10,
+      "sets_won": 7,
+      "short": "UQ Engenes",
+      "slug": "uq-engenes",
+      "streak": {
+        "length": 3,
+        "type": "L"
+      },
+      "win_pct": 41.2,
+      "won": 2,
+      "worst_round": {
+        "points": 0.0,
+        "round": "6"
+      }
+    },
+    {
+      "away": {
+        "drawn": 0,
+        "games_lost": 80,
+        "games_won": 42,
+        "lost": 3,
+        "played": 4,
+        "won": 1
+      },
+      "best_round": {
+        "points": 6.2,
+        "round": "8"
+      },
+      "by_slot": {
+        "d1": {
+          "games_lost": 33,
+          "games_won": 17,
+          "lost": 5,
+          "won": 1
+        },
+        "d2": {
+          "games_lost": 22,
+          "games_won": 17,
+          "lost": 1,
+          "won": 0
+        },
+        "s1": {
+          "games_lost": 32,
+          "games_won": 13,
+          "lost": 5,
+          "won": 1
+        },
+        "s2": {
+          "games_lost": 30,
+          "games_won": 24,
+          "lost": 4,
+          "won": 2
+        }
+      },
+      "captain": "John Wanis",
+      "code": null,
+      "contribution_gap": {
+        "games": 0.0,
+        "nights_not_credited": 0,
+        "rubbers_nobody_played": 0,
+        "rubbers_overfull": 0,
+        "rubbers_short_a_name": 0,
+        "rubbers_with_outsiders": 0,
+        "share_pct": 0.0,
+        "team_games_won": 71
+      },
+      "counted": 6,
+      "drawn": 0,
+      "form": [
+        "L",
+        "L",
+        "L",
+        "L",
+        "W"
+      ],
+      "games_diff": -46,
+      "games_lost": 117,
+      "games_won": 71,
+      "home": {
+        "drawn": 0,
+        "games_lost": 37,
+        "games_won": 29,
+        "lost": 2,
+        "played": 2,
+        "won": 0
+      },
+      "home_court": 4,
+      "ladder_history": [
+        {
+          "points_average": 2.6,
+          "position": 2,
+          "round": "1"
+        },
+        {
+          "points_average": 2.6,
+          "position": 2,
+          "round": "2"
+        },
+        {
+          "points_average": 3.05,
+          "position": 5,
+          "round": "3"
+        },
+        {
+          "points_average": 2.933333,
+          "position": 5,
+          "round": "4"
+        },
+        {
+          "points_average": 2.875,
+          "position": 5,
+          "round": "5"
+        },
+        {
+          "points_average": 2.98,
+          "position": 5,
+          "round": "6"
+        },
+        {
+          "points_average": 2.98,
+          "position": 5,
+          "round": "7"
+        },
+        {
+          "points_average": 3.516667,
+          "position": 5,
+          "round": "8"
+        }
+      ],
+      "lost": 5,
+      "name": "UQ Kraits",
+      "played": 6,
+      "players": [
+        "john-wanis",
+        "paul-lange",
+        "teegan-yunran-zhang"
+      ],
+      "points": 21.1,
+      "points_average": 3.516667,
+      "points_breakdown": {
+        "averaged": 0.0,
+        "averaged_matches": 0,
+        "earned": 21.1
+      },
+      "position": 5,
+      "sets_diff": -11,
+      "sets_lost": 15,
+      "sets_won": 4,
+      "short": "UQ Kraits",
+      "slug": "uq-kraits",
+      "streak": {
+        "length": 1,
+        "type": "W"
+      },
+      "win_pct": 21.1,
+      "won": 1,
+      "worst_round": {
+        "points": 2.6,
+        "round": "1"
+      }
+    },
+    {
+      "away": {
+        "drawn": 0,
+        "games_lost": 14,
+        "games_won": 18,
+        "lost": 0,
+        "played": 1,
+        "won": 1
+      },
+      "best_round": {
+        "points": 6.3,
+        "round": "1"
+      },
+      "by_slot": {
+        "d1": {
+          "games_lost": 20,
+          "games_won": 20,
+          "lost": 2,
+          "won": 3
+        },
+        "d2": {
+          "games_lost": 20,
+          "games_won": 14,
+          "lost": 2,
+          "won": 0
+        },
+        "s1": {
+          "games_lost": 24,
+          "games_won": 15,
+          "lost": 4,
+          "won": 1
+        },
+        "s2": {
+          "games_lost": 21,
+          "games_won": 25,
+          "lost": 2,
+          "won": 3
+        }
+      },
+      "captain": "Luke Huntly",
+      "code": null,
+      "contribution_gap": {
+        "games": 11.5,
+        "nights_not_credited": 0,
+        "rubbers_nobody_played": 0,
+        "rubbers_overfull": 0,
+        "rubbers_short_a_name": 0,
+        "rubbers_with_outsiders": 3,
+        "share_pct": 15.5,
+        "team_games_won": 74
+      },
+      "counted": 5,
+      "drawn": 0,
+      "form": [
+        "W",
+        "L",
+        "L",
+        "W",
+        "L"
+      ],
+      "games_diff": -11,
+      "games_lost": 85,
+      "games_won": 74,
+      "home": {
+        "drawn": 0,
+        "games_lost": 71,
+        "games_won": 56,
+        "lost": 3,
+        "played": 4,
+        "won": 1
+      },
+      "home_court": 4,
+      "ladder_history": [
+        {
+          "points_average": 6.3,
+          "position": 1,
+          "round": "1"
+        },
+        {
+          "points_average": 6.3,
+          "position": 1,
+          "round": "2"
+        },
+        {
+          "points_average": 6.3,
+          "position": 1,
+          "round": "3"
+        },
+        {
+          "points_average": 4.95,
+          "position": 3,
+          "round": "4"
+        },
+        {
+          "points_average": 4.2,
+          "position": 4,
+          "round": "5"
+        },
+        {
+          "points_average": 4.6,
+          "position": 3,
+          "round": "6"
+        },
+        {
+          "points_average": 4.28,
+          "position": 3,
+          "round": "7"
+        },
+        {
+          "points_average": 4.28,
+          "position": 3,
+          "round": "8"
+        }
+      ],
+      "lost": 3,
+      "name": "UQ Piranhas",
+      "played": 5,
+      "players": [
+        "luke-huntly",
+        "malcolm-lovemore"
+      ],
+      "points": 21.4,
+      "points_average": 4.28,
+      "points_breakdown": {
+        "averaged": 0.0,
+        "averaged_matches": 0,
+        "earned": 21.4
+      },
+      "position": 3,
+      "sets_diff": -3,
+      "sets_lost": 10,
+      "sets_won": 7,
+      "short": "UQ Piranhas",
+      "slug": "uq-piranhas",
+      "streak": {
+        "length": 1,
+        "type": "L"
+      },
+      "win_pct": 41.2,
+      "won": 2,
+      "worst_round": {
+        "points": 2.7,
+        "round": "5"
+      }
+    },
+    {
+      "away": {
+        "drawn": 0,
+        "games_lost": 27,
+        "games_won": 42,
+        "lost": 0,
+        "played": 2,
+        "won": 2
+      },
+      "best_round": {
+        "points": 6.4,
+        "round": "6"
+      },
+      "by_slot": {
+        "d1": {
+          "games_lost": 12,
+          "games_won": 29,
+          "lost": 1,
+          "won": 4
+        },
+        "d2": {
+          "games_lost": 13,
+          "games_won": 21,
+          "lost": 0,
+          "won": 2
+        },
+        "s1": {
+          "games_lost": 16,
+          "games_won": 25,
+          "lost": 2,
+          "won": 3
+        },
+        "s2": {
+          "games_lost": 10,
+          "games_won": 30,
+          "lost": 0,
+          "won": 5
+        }
+      },
+      "captain": "Stephen Dang",
+      "code": null,
+      "contribution_gap": {
+        "games": 6.0,
+        "nights_not_credited": 0,
+        "rubbers_nobody_played": 1,
+        "rubbers_overfull": 0,
+        "rubbers_short_a_name": 0,
+        "rubbers_with_outsiders": 0,
+        "share_pct": 5.7,
+        "team_games_won": 105
+      },
+      "counted": 5,
+      "drawn": 0,
+      "form": [
+        "W",
+        "W",
+        "W",
+        "W",
+        "W"
+      ],
+      "games_diff": 54,
+      "games_lost": 51,
+      "games_won": 105,
+      "home": {
+        "drawn": 0,
+        "games_lost": 24,
+        "games_won": 63,
+        "lost": 0,
+        "played": 3,
+        "won": 3
+      },
+      "home_court": 6,
+      "ladder_history": [
+        {
+          "points_average": null,
+          "position": 5,
+          "round": "1"
+        },
+        {
+          "points_average": null,
+          "position": 5,
+          "round": "2"
+        },
+        {
+          "points_average": 5.8,
+          "position": 3,
+          "round": "3"
+        },
+        {
+          "points_average": 6.0,
+          "position": 1,
+          "round": "4"
+        },
+        {
+          "points_average": 6.0,
+          "position": 2,
+          "round": "5"
+        },
+        {
+          "points_average": 6.133333,
+          "position": 1,
+          "round": "6"
+        },
+        {
+          "points_average": 6.2,
+          "position": 1,
+          "round": "7"
+        },
+        {
+          "points_average": 6.1,
+          "position": 1,
+          "round": "8"
+        }
+      ],
+      "lost": 0,
+      "name": "UQ Tornadoes",
+      "played": 5,
+      "players": [
+        "connor-phan",
+        "joven-chia",
+        "stephen-dang"
+      ],
+      "points": 30.5,
+      "points_average": 6.1,
+      "points_breakdown": {
+        "averaged": 0.0,
+        "averaged_matches": 0,
+        "earned": 30.5
+      },
+      "position": 1,
+      "sets_diff": 11,
+      "sets_lost": 3,
+      "sets_won": 14,
+      "short": "UQ Tornadoes",
+      "slug": "uq-tornadoes",
+      "streak": {
+        "length": 5,
+        "type": "W"
+      },
+      "win_pct": 82.4,
+      "won": 5,
+      "worst_round": {
+        "points": 5.7,
+        "round": "8"
+      }
+    }
+  ],
+  "validation": {
+    "duplicates": [],
+    "errors": [],
+    "ok": true,
+    "own_errors": 0,
+    "rejected": [],
+    "warnings": [
+      {
+        "detail": "data/2026-2-monday-c1/R1/match_scorecard_3665402.pdf",
+        "message": "R1 uq-engenes v uq-tornadoes: recorded as cancelled, so it is not counted in the ladder. The card also ticks away as Match Winner and the verb 'DEF. BY' means away won; the Match Cancelled tick decides.",
+        "rule": "no-result",
+        "severity": "warning",
+        "subject": "R1 uq-engenes v uq-tornadoes",
+        "subject_said": true
+      },
+      {
+        "detail": "data/2026-2-monday-c1/R2/match_scorecard_3665405.pdf",
+        "message": "R2 uq-bananas v uq-engenes: recorded as cancelled, so it is not counted in the ladder.",
+        "rule": "no-result",
+        "severity": "warning",
+        "subject": "R2 uq-bananas v uq-engenes",
+        "subject_said": true
+      },
+      {
+        "detail": "data/2026-2-monday-c1/R2/match_scorecard_3665403.pdf",
+        "message": "R2 uq-tornadoes v uq-piranhas: recorded as cancelled, so it is not counted in the ladder.",
+        "rule": "no-result",
+        "severity": "warning",
+        "subject": "R2 uq-tornadoes v uq-piranhas",
+        "subject_said": true
+      },
+      {
+        "detail": "VS",
+        "message": "data/2026-2-monday-c1/R3/match_scorecard_3665408.pdf: the card prints 'VS' between the team names instead of a result, which is what Match Centre prints for a fixture it holds no result for. The set rows were still read and scored; what could not run is this one cross-check against them.",
+        "rule": "verb-absent",
+        "severity": "warning",
+        "subject": "data/2026-2-monday-c1/R3/match_scorecard_3665408.pdf",
+        "subject_said": true
+      },
+      {
+        "detail": "set rows 2-6, 6-4, 3-6, 0-0; printed sets 4-0 games 24-0",
+        "message": "data/2026-2-monday-c1/R6/match_scorecard_3665417.pdf: the card ticks Match Cancelled and prints the TOTAL row of a walkover conceded by away, every rubber to home as a love set, but its set rows hold games 11-16 that the TOTAL row does not count. The match is scored as the walkover the TOTAL row, the home Match Winner tick and the verb 'DEFEATS' describe, a forfeit by away.",
+        "rule": "walkover-rows-played",
+        "severity": "warning",
+        "subject": "data/2026-2-monday-c1/R6/match_scorecard_3665417.pdf",
+        "subject_said": true
+      },
+      {
+        "detail": "data/2026-2-monday-c1/R3/match_scorecard_3665408.pdf, data/2026-2-monday-c1/R3/match_scorecard_3665407.pdf, data/2026-2-monday-c1/R6/match_scorecard_3665416.pdf",
+        "message": "3 rubbers were left level, so nobody won those sets and nothing on the cards says why they stopped: R3 uq-bananas v uq-tornadoes d2 3-3, R3 uq-kraits v uq-engenes d2 3-3 and R6 uq-kraits v uq-piranhas d2 4-4.",
+        "rule": "set-tied",
+        "severity": "warning",
+        "subject": "",
+        "subject_said": false
+      },
+      {
+        "detail": "data/2026-2-monday-c1/R4/match_scorecard_3665410.pdf, data/2026-2-monday-c1/R4/match_scorecard_3665409.pdf, data/2026-2-monday-c1/R7/match_scorecard_3665420.pdf, data/2026-2-monday-c1/R8/match_scorecard_3665422.pdf, data/2026-2-monday-c1/R8/match_scorecard_3665423.pdf",
+        "message": "5 rubbers stopped short of a finished set under first-to-6 (first to 6) and are not marked forfeit, retired or incomplete, so nobody is credited them: R4 uq-piranhas v uq-bananas d2 2-3, R4 uq-tornadoes v uq-kraits d2 4-3, R7 uq-engenes v uq-bananas d2 3-5, R8 uq-engenes v uq-kraits d2 0-5 and R8 uq-tornadoes v uq-bananas d2 2-4.",
+        "rule": "set-unfinished",
+        "severity": "warning",
+        "subject": "",
+        "subject_said": false
+      },
+      {
+        "detail": "tuesday-division-c",
+        "message": "R1 uq-piranhas v uq-kraits d1, s2 and d2: sri-krishna-dharmapuri is registered in tuesday-division-c, not in monday-division-c1, and played home for uq-piranhas — counted as a fill-in.",
+        "rule": "fill-in-other-competition",
+        "severity": "warning",
+        "subject": "R1 uq-piranhas v uq-kraits d1, s2 and d2",
+        "subject_said": true
+      },
+      {
+        "detail": "registered to uq-piranhas",
+        "message": "R3 uq-bananas v uq-tornadoes d1, s2 and d2: Luke Huntly is registered to uq-piranhas but played home for uq-bananas — counted as a fill-in.",
+        "rule": "fill-in",
+        "severity": "warning",
+        "subject": "R3 uq-bananas v uq-tornadoes d1, s2 and d2",
+        "subject_said": true
+      },
+      {
+        "detail": "registered to uq-tornadoes",
+        "message": "R5 uq-piranhas v uq-engenes d1, s2 and d2: Joven Chia is registered to uq-tornadoes but played away for uq-engenes — counted as a fill-in.",
+        "rule": "fill-in",
+        "severity": "warning",
+        "subject": "R5 uq-piranhas v uq-engenes d1, s2 and d2",
+        "subject_said": true
+      },
+      {
+        "detail": "registered to uq-tornadoes",
+        "message": "R6 uq-tornadoes v uq-engenes d1, s1 and d2: Joven Chia is registered to uq-tornadoes but played away for uq-engenes — counted as a fill-in.",
+        "rule": "fill-in",
+        "severity": "warning",
+        "subject": "R6 uq-tornadoes v uq-engenes d1, s1 and d2",
+        "subject_said": true
+      },
+      {
+        "detail": "data/2026-2-monday-c1/R6/match_scorecard_3665417.pdf",
+        "message": "R6 uq-tornadoes v uq-engenes d1, s2 and d2: dominic-ton is on neither the away roster nor any registered squad, so this is either a fill-in or a spelling that needs an alias.",
+        "rule": "unknown-player",
+        "severity": "warning",
+        "subject": "R6 uq-tornadoes v uq-engenes d1, s2 and d2",
+        "subject_said": true
+      },
+      {
+        "detail": "registered to uq-tornadoes",
+        "message": "R7 uq-engenes v uq-bananas d1, s2 and d2: Stephen Dang is registered to uq-tornadoes but played home for uq-engenes — counted as a fill-in.",
+        "rule": "fill-in",
+        "severity": "warning",
+        "subject": "R7 uq-engenes v uq-bananas d1, s2 and d2",
+        "subject_said": true
+      },
+      {
+        "detail": "registered to uq-piranhas",
+        "message": "R8 uq-engenes v uq-kraits d1, s1 and d2: Malcolm Lovemore is registered to uq-piranhas but played home for uq-engenes — counted as a fill-in.",
+        "rule": "fill-in",
+        "severity": "warning",
+        "subject": "R8 uq-engenes v uq-kraits d1, s1 and d2",
+        "subject_said": true
+      },
+      {
+        "detail": "data/2026-2-monday-c1/R4/match_scorecard_3665409.pdf",
+        "message": "R4 uq-tornadoes v uq-kraits: the roster block gives no rating for connor-phan, who played, so connor-phan shows none for this round.",
+        "rule": "ratings-missing",
+        "severity": "warning",
+        "subject": "R4 uq-tornadoes v uq-kraits",
+        "subject_said": true
+      },
+      {
+        "detail": "data/2026-2-monday-c1/R6/match_scorecard_3665417.pdf",
+        "message": "R6 uq-tornadoes v uq-engenes: the roster block gives no rating for connor-phan, who played, so connor-phan shows none for this round.",
+        "rule": "ratings-missing",
+        "severity": "warning",
+        "subject": "R6 uq-tornadoes v uq-engenes",
+        "subject_said": true
+      },
+      {
+        "detail": "data/2026-2-monday-c1/R7/match_scorecard_3665418.pdf",
+        "message": "R7 uq-piranhas v uq-tornadoes: the roster block gives no rating for connor-phan, who played, so connor-phan shows none for this round.",
+        "rule": "ratings-missing",
+        "severity": "warning",
+        "subject": "R7 uq-piranhas v uq-tornadoes",
+        "subject_said": true
+      },
+      {
+        "detail": "uq-bananas 5; uq-engenes 5; uq-kraits 6; uq-piranhas 5; uq-tornadoes 5",
+        "message": "the ladder is in progress — teams have played unequal numbers of matches, so the order is not settled. uq-bananas, uq-engenes, uq-piranhas and uq-tornadoes have fewer than the 6 counted by the rest.",
+        "rule": "F10",
+        "severity": "warning",
+        "subject": "",
+        "subject_said": false
+      }
+    ]
+  }
+}

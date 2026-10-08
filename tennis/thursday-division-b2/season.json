@@ -1,0 +1,1081 @@
+{
+  "fixtures": [
+    {
+      "away": "uq-malaka",
+      "away_name": "UQ Malaka",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-09-24",
+      "home": "uq-propellerheads",
+      "home_name": "UQ Propellerheads",
+      "keys": [
+        "6/uq-propellerheads/uq-malaka/1"
+      ],
+      "played": true,
+      "round": "6"
+    }
+  ],
+  "format": 4,
+  "head_to_head": {
+    "uq-malaka|uq-propellerheads": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 8,
+      "games_low": 21,
+      "played": 1,
+      "undecided": 0,
+      "wins_high": 0,
+      "wins_low": 1
+    }
+  },
+  "matches": [
+    {
+      "away": "uq-malaka",
+      "away_games": 21,
+      "away_name": "UQ Malaka",
+      "away_points": 6.1,
+      "away_roster": [
+        "aikaterini-vaxevani",
+        "joselito-cenita",
+        "camille-maunder"
+      ],
+      "away_sets": 3,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 5,
+      "date": "2026-09-24",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-propellerheads",
+      "home_games": 8,
+      "home_name": "UQ Propellerheads",
+      "home_points": 2.8,
+      "home_roster": [
+        "ryan-simms",
+        "paul-scholz",
+        "rayner-chandra"
+      ],
+      "home_sets": 0,
+      "id": "3665595",
+      "key": "6/uq-propellerheads/uq-malaka/1",
+      "margin": 13,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "result": "away",
+      "round": "6",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "joselito-cenita",
+            "camille-maunder"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 1,
+          "home_players": [
+            "rayner-chandra",
+            "paul-scholz"
+          ],
+          "label": "Doubles 1",
+          "margin": 5,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "joselito-cenita"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 3,
+          "home_players": [
+            "rayner-chandra"
+          ],
+          "label": "Singles 1",
+          "margin": 3,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "camille-maunder"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 1,
+          "home_players": [
+            "paul-scholz"
+          ],
+          "label": "Singles 2",
+          "margin": 5,
+          "slot": "s2",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 3,
+          "away_players": [
+            "joselito-cenita",
+            "camille-maunder"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 3,
+          "home_players": [
+            "rayner-chandra",
+            "paul-scholz"
+          ],
+          "label": "Doubles 2",
+          "margin": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-tuesday-b2/R6/match_scorecard_3665595.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    }
+  ],
+  "meta": {
+    "cards_rejected": 0,
+    "cards_scored": 1,
+    "cards_seen": 1,
+    "club": "THE UNIVERSITY OF QUEENSLAND TENNIS CLUB INC",
+    "competition": "thursday-division-b2",
+    "day": "Thursday",
+    "division": "B2",
+    "draw_source": "cards",
+    "folders_unlisted": 0,
+    "generated": "2026-10-07T13:33:27",
+    "label": "Thursday Division B2",
+    "ladder_complete": true,
+    "matches_total": 1,
+    "provenance": {
+      "captains": "card",
+      "draw": "card",
+      "format": "card",
+      "players": "card",
+      "rounds_total": "derived",
+      "season": "card",
+      "teams": "derived"
+    },
+    "regular_fixtures": {
+      "played": 1,
+      "total": 1
+    },
+    "rounds_played": 1,
+    "rounds_present": [
+      "6"
+    ],
+    "rounds_total": null,
+    "rules": {
+      "allows_draw": true,
+      "average_unplayed": false,
+      "draws": "",
+      "draws_detail": "",
+      "format": "doubles-singles-doubles",
+      "format_detail": "Doubles 1, Singles 1, Singles 2, Doubles 2 (first to 6)",
+      "ladder_by": [
+        "points_average",
+        "points",
+        "games_diff",
+        "games_won",
+        "head_to_head",
+        "name"
+      ],
+      "min_sets_for_result": 3,
+      "scoring": "games-bonus",
+      "scoring_detail": "win 4, draw 3, loss 2, 0.1 per game; decided on games then sets",
+      "set_rule": "first-to-6",
+      "set_rule_detail": "first to 6",
+      "slots": [
+        {
+          "doubles": true,
+          "key": "d1",
+          "label": "Doubles 1"
+        },
+        {
+          "doubles": false,
+          "key": "s1",
+          "label": "Singles 1"
+        },
+        {
+          "doubles": false,
+          "key": "s2",
+          "label": "Singles 2"
+        },
+        {
+          "doubles": true,
+          "key": "d2",
+          "label": "Doubles 2"
+        }
+      ],
+      "unplayed": "zero",
+      "unplayed_detail": "a bye or a washout is scored as nothing, and not counted as a match played",
+      "unplayed_worth": "scored as nothing, and not counted as a match played"
+    },
+    "season": "Season 2",
+    "season_key": "",
+    "season_label": "Season 2",
+    "seasons_mode": "single",
+    "source_dir": "data",
+    "teams_declared": false,
+    "teams_total": 2,
+    "version": "0.1.0"
+  },
+  "player_names": {
+    "aikaterini-vaxevani": "Aikaterini Vaxevani",
+    "camille-maunder": "Camille Maunder",
+    "joselito-cenita": "Joselito Cenita",
+    "paul-scholz": "Paul Scholz",
+    "rayner-chandra": "Rayner Chandra",
+    "ryan-simms": "Ryan Simms"
+  },
+  "players": [
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "d2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 0.0,
+        "share_pct": 0.0,
+        "team_games_won": 21
+      },
+      "doubles": {
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 0,
+      "games_lost": 0,
+      "games_won": 0,
+      "is_captain": true,
+      "longest_win_streak": 0,
+      "matches": 0,
+      "name": "Aikaterini Vaxevani",
+      "opponents": [],
+      "partners": [],
+      "rating": {
+        "doubles": 5.01,
+        "singles": 3.14
+      },
+      "rating_history": [
+        {
+          "doubles": 5.01,
+          "round": "6",
+          "singles": 3.14
+        }
+      ],
+      "sets_lost": 0,
+      "sets_played": 0,
+      "sets_won": 0,
+      "singles": {
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "slug": "aikaterini-vaxevani",
+      "streak": {
+        "length": 0,
+        "type": null
+      },
+      "team": "uq-malaka",
+      "team_code": null,
+      "team_name": "UQ Malaka",
+      "win_pct": null
+    },
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "d2": {
+          "played": 1,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s2": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        }
+      },
+      "contribution": {
+        "games_won": 10.5,
+        "share_pct": 50.0,
+        "team_games_won": 21
+      },
+      "doubles": {
+        "games_lost": 4,
+        "games_won": 9,
+        "lost": 0,
+        "played": 2,
+        "won": 1
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 10,
+      "games_lost": 5,
+      "games_won": 15,
+      "is_captain": false,
+      "longest_win_streak": 2,
+      "matches": 1,
+      "name": "Camille Maunder",
+      "opponents": [
+        {
+          "games_lost": 5,
+          "games_won": 15,
+          "lost": 0,
+          "name": "Paul Scholz",
+          "sets": 3,
+          "slug": "paul-scholz",
+          "won": 2
+        },
+        {
+          "games_lost": 4,
+          "games_won": 9,
+          "lost": 0,
+          "name": "Rayner Chandra",
+          "sets": 2,
+          "slug": "rayner-chandra",
+          "won": 1
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 4,
+          "games_won": 9,
+          "lost": 0,
+          "name": "Joselito Cenita",
+          "sets": 2,
+          "slug": "joselito-cenita",
+          "won": 1
+        }
+      ],
+      "rating": {
+        "doubles": 4.3,
+        "singles": 4.15
+      },
+      "rating_history": [
+        {
+          "doubles": 4.3,
+          "round": "6",
+          "singles": 4.15
+        }
+      ],
+      "sets_lost": 0,
+      "sets_played": 3,
+      "sets_won": 2,
+      "singles": {
+        "games_lost": 1,
+        "games_won": 6,
+        "lost": 0,
+        "played": 1,
+        "won": 1
+      },
+      "slug": "camille-maunder",
+      "streak": {
+        "length": 2,
+        "type": "W"
+      },
+      "team": "uq-malaka",
+      "team_code": null,
+      "team_name": "UQ Malaka",
+      "win_pct": 100.0
+    },
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "d2": {
+          "played": 1,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "s2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 10.5,
+        "share_pct": 50.0,
+        "team_games_won": 21
+      },
+      "doubles": {
+        "games_lost": 4,
+        "games_won": 9,
+        "lost": 0,
+        "played": 2,
+        "won": 1
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 8,
+      "games_lost": 7,
+      "games_won": 15,
+      "is_captain": false,
+      "longest_win_streak": 2,
+      "matches": 1,
+      "name": "Joselito Cenita",
+      "opponents": [
+        {
+          "games_lost": 7,
+          "games_won": 15,
+          "lost": 0,
+          "name": "Rayner Chandra",
+          "sets": 3,
+          "slug": "rayner-chandra",
+          "won": 2
+        },
+        {
+          "games_lost": 4,
+          "games_won": 9,
+          "lost": 0,
+          "name": "Paul Scholz",
+          "sets": 2,
+          "slug": "paul-scholz",
+          "won": 1
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 4,
+          "games_won": 9,
+          "lost": 0,
+          "name": "Camille Maunder",
+          "sets": 2,
+          "slug": "camille-maunder",
+          "won": 1
+        }
+      ],
+      "rating": {
+        "doubles": 4.54,
+        "singles": 4.84
+      },
+      "rating_history": [
+        {
+          "doubles": 4.54,
+          "round": "6",
+          "singles": 4.84
+        }
+      ],
+      "sets_lost": 0,
+      "sets_played": 3,
+      "sets_won": 2,
+      "singles": {
+        "games_lost": 3,
+        "games_won": 6,
+        "lost": 0,
+        "played": 1,
+        "won": 1
+      },
+      "slug": "joselito-cenita",
+      "streak": {
+        "length": 2,
+        "type": "W"
+      },
+      "team": "uq-malaka",
+      "team_code": null,
+      "team_name": "UQ Malaka",
+      "win_pct": 100.0
+    },
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "d2": {
+          "played": 1,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s2": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 3.0,
+        "share_pct": 37.5,
+        "team_games_won": 8
+      },
+      "doubles": {
+        "games_lost": 9,
+        "games_won": 4,
+        "lost": 1,
+        "played": 2,
+        "won": 0
+      },
+      "fill_in_appearances": 0,
+      "games_diff": -10,
+      "games_lost": 15,
+      "games_won": 5,
+      "is_captain": false,
+      "longest_win_streak": 0,
+      "matches": 1,
+      "name": "Paul Scholz",
+      "opponents": [
+        {
+          "games_lost": 15,
+          "games_won": 5,
+          "lost": 2,
+          "name": "Camille Maunder",
+          "sets": 3,
+          "slug": "camille-maunder",
+          "won": 0
+        },
+        {
+          "games_lost": 9,
+          "games_won": 4,
+          "lost": 1,
+          "name": "Joselito Cenita",
+          "sets": 2,
+          "slug": "joselito-cenita",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 9,
+          "games_won": 4,
+          "lost": 1,
+          "name": "Rayner Chandra",
+          "sets": 2,
+          "slug": "rayner-chandra",
+          "won": 0
+        }
+      ],
+      "rating": {
+        "doubles": 4.26,
+        "singles": 2.85
+      },
+      "rating_history": [
+        {
+          "doubles": 4.26,
+          "round": "6",
+          "singles": 2.85
+        }
+      ],
+      "sets_lost": 2,
+      "sets_played": 3,
+      "sets_won": 0,
+      "singles": {
+        "games_lost": 6,
+        "games_won": 1,
+        "lost": 1,
+        "played": 1,
+        "won": 0
+      },
+      "slug": "paul-scholz",
+      "streak": {
+        "length": 2,
+        "type": "L"
+      },
+      "team": "uq-propellerheads",
+      "team_code": null,
+      "team_name": "UQ Propellerheads",
+      "win_pct": 0.0
+    },
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "d2": {
+          "played": 1,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "s2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 5.0,
+        "share_pct": 62.5,
+        "team_games_won": 8
+      },
+      "doubles": {
+        "games_lost": 9,
+        "games_won": 4,
+        "lost": 1,
+        "played": 2,
+        "won": 0
+      },
+      "fill_in_appearances": 0,
+      "games_diff": -8,
+      "games_lost": 15,
+      "games_won": 7,
+      "is_captain": false,
+      "longest_win_streak": 0,
+      "matches": 1,
+      "name": "Rayner Chandra",
+      "opponents": [
+        {
+          "games_lost": 15,
+          "games_won": 7,
+          "lost": 2,
+          "name": "Joselito Cenita",
+          "sets": 3,
+          "slug": "joselito-cenita",
+          "won": 0
+        },
+        {
+          "games_lost": 9,
+          "games_won": 4,
+          "lost": 1,
+          "name": "Camille Maunder",
+          "sets": 2,
+          "slug": "camille-maunder",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 9,
+          "games_won": 4,
+          "lost": 1,
+          "name": "Paul Scholz",
+          "sets": 2,
+          "slug": "paul-scholz",
+          "won": 0
+        }
+      ],
+      "rating": {
+        "doubles": 4.13,
+        "singles": 4.13
+      },
+      "rating_history": [
+        {
+          "doubles": 4.13,
+          "round": "6",
+          "singles": 4.13
+        }
+      ],
+      "sets_lost": 2,
+      "sets_played": 3,
+      "sets_won": 0,
+      "singles": {
+        "games_lost": 6,
+        "games_won": 3,
+        "lost": 1,
+        "played": 1,
+        "won": 0
+      },
+      "slug": "rayner-chandra",
+      "streak": {
+        "length": 2,
+        "type": "L"
+      },
+      "team": "uq-propellerheads",
+      "team_code": null,
+      "team_name": "UQ Propellerheads",
+      "win_pct": 0.0
+    },
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "d2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 0.0,
+        "share_pct": 0.0,
+        "team_games_won": 8
+      },
+      "doubles": {
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 0,
+      "games_lost": 0,
+      "games_won": 0,
+      "is_captain": true,
+      "longest_win_streak": 0,
+      "matches": 0,
+      "name": "Ryan Simms",
+      "opponents": [],
+      "partners": [],
+      "rating": {
+        "doubles": 4.37,
+        "singles": 4.16
+      },
+      "rating_history": [
+        {
+          "doubles": 4.37,
+          "round": "6",
+          "singles": 4.16
+        }
+      ],
+      "sets_lost": 0,
+      "sets_played": 0,
+      "sets_won": 0,
+      "singles": {
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "slug": "ryan-simms",
+      "streak": {
+        "length": 0,
+        "type": null
+      },
+      "team": "uq-propellerheads",
+      "team_code": null,
+      "team_name": "UQ Propellerheads",
+      "win_pct": null
+    }
+  ],
+  "rounds": [
+    {
+      "byes": [],
+      "cards": 1,
+      "date": "2026-09-24",
+      "is_finals": false,
+      "keys": [
+        "6/uq-propellerheads/uq-malaka/1"
+      ],
+      "note": "",
+      "number": "6",
+      "numbered": true,
+      "played": true,
+      "source": "cards"
+    }
+  ],
+  "teams": [
+    {
+      "away": {
+        "drawn": 0,
+        "games_lost": 8,
+        "games_won": 21,
+        "lost": 0,
+        "played": 1,
+        "won": 1
+      },
+      "best_round": {
+        "points": 6.1,
+        "round": "6"
+      },
+      "by_slot": {
+        "d1": {
+          "games_lost": 1,
+          "games_won": 6,
+          "lost": 0,
+          "won": 1
+        },
+        "d2": {
+          "games_lost": 3,
+          "games_won": 3,
+          "lost": 0,
+          "won": 0
+        },
+        "s1": {
+          "games_lost": 3,
+          "games_won": 6,
+          "lost": 0,
+          "won": 1
+        },
+        "s2": {
+          "games_lost": 1,
+          "games_won": 6,
+          "lost": 0,
+          "won": 1
+        }
+      },
+      "captain": "Aikaterini Vaxevani",
+      "code": null,
+      "contribution_gap": {
+        "games": 0.0,
+        "nights_not_credited": 0,
+        "rubbers_overfull": 0,
+        "rubbers_short_a_name": 0,
+        "rubbers_with_outsiders": 0,
+        "share_pct": 0.0,
+        "team_games_won": 21
+      },
+      "counted": 1,
+      "drawn": 0,
+      "form": [
+        "W"
+      ],
+      "games_diff": 13,
+      "games_lost": 8,
+      "games_won": 21,
+      "home": {
+        "drawn": 0,
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "home_court": null,
+      "ladder_history": [
+        {
+          "points_average": 6.1,
+          "position": 1,
+          "round": "6"
+        }
+      ],
+      "lost": 0,
+      "name": "UQ Malaka",
+      "played": 1,
+      "players": [
+        "aikaterini-vaxevani",
+        "camille-maunder",
+        "joselito-cenita"
+      ],
+      "points": 6.1,
+      "points_average": 6.1,
+      "points_breakdown": {
+        "averaged": 0.0,
+        "averaged_matches": 0,
+        "earned": 6.1
+      },
+      "position": 1,
+      "sets_diff": 3,
+      "sets_lost": 0,
+      "sets_won": 3,
+      "short": "UQ Malaka",
+      "slug": "uq-malaka",
+      "streak": {
+        "length": 1,
+        "type": "W"
+      },
+      "win_pct": 100.0,
+      "won": 1,
+      "worst_round": {
+        "points": 6.1,
+        "round": "6"
+      }
+    },
+    {
+      "away": {
+        "drawn": 0,
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "best_round": {
+        "points": 2.8,
+        "round": "6"
+      },
+      "by_slot": {
+        "d1": {
+          "games_lost": 6,
+          "games_won": 1,
+          "lost": 1,
+          "won": 0
+        },
+        "d2": {
+          "games_lost": 3,
+          "games_won": 3,
+          "lost": 0,
+          "won": 0
+        },
+        "s1": {
+          "games_lost": 6,
+          "games_won": 3,
+          "lost": 1,
+          "won": 0
+        },
+        "s2": {
+          "games_lost": 6,
+          "games_won": 1,
+          "lost": 1,
+          "won": 0
+        }
+      },
+      "captain": "Ryan Simms",
+      "code": null,
+      "contribution_gap": {
+        "games": 0.0,
+        "nights_not_credited": 0,
+        "rubbers_overfull": 0,
+        "rubbers_short_a_name": 0,
+        "rubbers_with_outsiders": 0,
+        "share_pct": 0.0,
+        "team_games_won": 8
+      },
+      "counted": 1,
+      "drawn": 0,
+      "form": [
+        "L"
+      ],
+      "games_diff": -13,
+      "games_lost": 21,
+      "games_won": 8,
+      "home": {
+        "drawn": 0,
+        "games_lost": 21,
+        "games_won": 8,
+        "lost": 1,
+        "played": 1,
+        "won": 0
+      },
+      "home_court": null,
+      "ladder_history": [
+        {
+          "points_average": 2.8,
+          "position": 2,
+          "round": "6"
+        }
+      ],
+      "lost": 1,
+      "name": "UQ Propellerheads",
+      "played": 1,
+      "players": [
+        "paul-scholz",
+        "rayner-chandra",
+        "ryan-simms"
+      ],
+      "points": 2.8,
+      "points_average": 2.8,
+      "points_breakdown": {
+        "averaged": 0.0,
+        "averaged_matches": 0,
+        "earned": 2.8
+      },
+      "position": 2,
+      "sets_diff": -3,
+      "sets_lost": 3,
+      "sets_won": 0,
+      "short": "UQ Propellerheads",
+      "slug": "uq-propellerheads",
+      "streak": {
+        "length": 1,
+        "type": "L"
+      },
+      "win_pct": 0.0,
+      "won": 0,
+      "worst_round": {
+        "points": 2.8,
+        "round": "6"
+      }
+    }
+  ],
+  "validation": {
+    "duplicates": [],
+    "errors": [],
+    "ok": true,
+    "own_errors": 0,
+    "rejected": [],
+    "warnings": [
+      {
+        "detail": "uq-malaka, uq-propellerheads",
+        "message": "the team list was derived from the cards, not declared, so an unknown team can only be reported as a suspicion.",
+        "rule": "F8",
+        "severity": "warning",
+        "subject": "",
+        "subject_said": false
+      },
+      {
+        "detail": "data/2026-2-tuesday-b2/R6/match_scorecard_3665595.pdf",
+        "message": "R6 uq-propellerheads v uq-malaka d2: level at 3-3, so nobody won the set and nothing on the card says why it stopped.",
+        "rule": "set-tied",
+        "severity": "warning",
+        "subject": "R6 uq-propellerheads v uq-malaka d2",
+        "subject_said": true
+      }
+    ]
+  }
+}

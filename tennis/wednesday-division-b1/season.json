@@ -1,0 +1,1084 @@
+{
+  "fixtures": [
+    {
+      "away": "uq-assassins",
+      "away_name": "UQ Assassins",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-09-23",
+      "home": "uq-big-three",
+      "home_name": "UQ BIG Three",
+      "keys": [
+        "6/uq-big-three/uq-assassins/1"
+      ],
+      "played": true,
+      "round": "6"
+    }
+  ],
+  "format": 4,
+  "head_to_head": {
+    "uq-assassins|uq-big-three": {
+      "draws": 0,
+      "finals": 0,
+      "games_high": 18,
+      "games_low": 9,
+      "played": 1,
+      "undecided": 0,
+      "wins_high": 1,
+      "wins_low": 0
+    }
+  },
+  "matches": [
+    {
+      "away": "uq-assassins",
+      "away_games": 9,
+      "away_name": "UQ Assassins",
+      "away_points": 2.9,
+      "away_roster": [
+        "vander-deng",
+        "ximeng-zhang",
+        "junqing-li"
+      ],
+      "away_sets": 0,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 10,
+      "date": "2026-09-23",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-big-three",
+      "home_games": 18,
+      "home_name": "UQ BIG Three",
+      "home_points": 5.8,
+      "home_roster": [
+        "ziming-ye",
+        "vishal-gupta",
+        "german-lastra"
+      ],
+      "home_sets": 3,
+      "id": "3665356",
+      "key": "6/uq-big-three/uq-assassins/1",
+      "margin": 9,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "result": "home",
+      "round": "6",
+      "sets": [
+        {
+          "away_games": 3,
+          "away_players": [
+            "vander-deng",
+            "junqing-li"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "german-lastra",
+            "ziming-ye"
+          ],
+          "label": "Doubles 1",
+          "margin": 3,
+          "slot": "d1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 1,
+          "away_players": [
+            "vander-deng"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "german-lastra"
+          ],
+          "label": "Singles 1",
+          "margin": 5,
+          "slot": "s1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 5,
+          "away_players": [
+            "junqing-li"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "ziming-ye"
+          ],
+          "label": "Singles 2",
+          "margin": 1,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 0,
+          "away_players": [
+            "vander-deng",
+            "junqing-li"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [
+            "german-lastra",
+            "ziming-ye"
+          ],
+          "label": "Doubles 2",
+          "margin": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-b1/R6/match_scorecard_3665356.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": [
+        "row 4: no home games figure printed, read as 0",
+        "row 4: no away games figure printed, read as 0"
+      ]
+    }
+  ],
+  "meta": {
+    "cards_rejected": 0,
+    "cards_scored": 1,
+    "cards_seen": 1,
+    "club": "THE UNIVERSITY OF QUEENSLAND TENNIS CLUB INC",
+    "competition": "wednesday-division-b1",
+    "day": "Wednesday",
+    "division": "B1",
+    "draw_source": "cards",
+    "folders_unlisted": 0,
+    "generated": "2026-10-07T13:33:27",
+    "label": "Wednesday Division B1",
+    "ladder_complete": true,
+    "matches_total": 1,
+    "provenance": {
+      "captains": "card",
+      "draw": "card",
+      "format": "card",
+      "players": "mixed",
+      "rounds_total": "derived",
+      "season": "card",
+      "teams": "derived"
+    },
+    "regular_fixtures": {
+      "played": 1,
+      "total": 1
+    },
+    "rounds_played": 1,
+    "rounds_present": [
+      "6"
+    ],
+    "rounds_total": null,
+    "rules": {
+      "allows_draw": true,
+      "average_unplayed": false,
+      "draws": "",
+      "draws_detail": "",
+      "format": "doubles-singles-doubles",
+      "format_detail": "Doubles 1, Singles 1, Singles 2, Doubles 2 (first to 6)",
+      "ladder_by": [
+        "points_average",
+        "points",
+        "games_diff",
+        "games_won",
+        "head_to_head",
+        "name"
+      ],
+      "min_sets_for_result": 3,
+      "scoring": "games-bonus",
+      "scoring_detail": "win 4, draw 3, loss 2, 0.1 per game; decided on games then sets",
+      "set_rule": "first-to-6",
+      "set_rule_detail": "first to 6",
+      "slots": [
+        {
+          "doubles": true,
+          "key": "d1",
+          "label": "Doubles 1"
+        },
+        {
+          "doubles": false,
+          "key": "s1",
+          "label": "Singles 1"
+        },
+        {
+          "doubles": false,
+          "key": "s2",
+          "label": "Singles 2"
+        },
+        {
+          "doubles": true,
+          "key": "d2",
+          "label": "Doubles 2"
+        }
+      ],
+      "unplayed": "zero",
+      "unplayed_detail": "a bye or a washout is scored as nothing, and not counted as a match played",
+      "unplayed_worth": "scored as nothing, and not counted as a match played"
+    },
+    "season": "Season 2",
+    "season_key": "",
+    "season_label": "Season 2",
+    "seasons_mode": "single",
+    "source_dir": "data",
+    "teams_declared": false,
+    "teams_total": 2,
+    "version": "0.1.0"
+  },
+  "player_names": {
+    "german-lastra": "German Lastra",
+    "junqing-li": "Junqing Li",
+    "vander-deng": "Vander Deng",
+    "vishal-gupta": "Vishal Gupta",
+    "ximeng-zhang": "Ximeng Zhang",
+    "ziming-ye": "Ziming Ye"
+  },
+  "players": [
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "d2": {
+          "played": 1,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s2": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 6.5,
+        "share_pct": 72.2,
+        "team_games_won": 9
+      },
+      "doubles": {
+        "games_lost": 6,
+        "games_won": 3,
+        "lost": 1,
+        "played": 2,
+        "won": 0
+      },
+      "fill_in_appearances": 0,
+      "games_diff": -4,
+      "games_lost": 12,
+      "games_won": 8,
+      "is_captain": false,
+      "longest_win_streak": 0,
+      "matches": 1,
+      "name": "Junqing Li",
+      "opponents": [
+        {
+          "games_lost": 12,
+          "games_won": 8,
+          "lost": 2,
+          "name": "Ziming Ye",
+          "sets": 3,
+          "slug": "ziming-ye",
+          "won": 0
+        },
+        {
+          "games_lost": 6,
+          "games_won": 3,
+          "lost": 1,
+          "name": "German Lastra",
+          "sets": 2,
+          "slug": "german-lastra",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 6,
+          "games_won": 3,
+          "lost": 1,
+          "name": "Vander Deng",
+          "sets": 2,
+          "slug": "vander-deng",
+          "won": 0
+        }
+      ],
+      "rating": {
+        "doubles": 4.25,
+        "singles": 4.17
+      },
+      "rating_history": [
+        {
+          "doubles": 4.25,
+          "round": "6",
+          "singles": 4.17
+        }
+      ],
+      "sets_lost": 2,
+      "sets_played": 3,
+      "sets_won": 0,
+      "singles": {
+        "games_lost": 6,
+        "games_won": 5,
+        "lost": 1,
+        "played": 1,
+        "won": 0
+      },
+      "slug": "junqing-li",
+      "streak": {
+        "length": 2,
+        "type": "L"
+      },
+      "team": "uq-assassins",
+      "team_code": null,
+      "team_name": "UQ Assassins",
+      "win_pct": 0.0
+    },
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "d2": {
+          "played": 1,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 1,
+          "win_pct": 0.0,
+          "won": 0
+        },
+        "s2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 2.5,
+        "share_pct": 27.8,
+        "team_games_won": 9
+      },
+      "doubles": {
+        "games_lost": 6,
+        "games_won": 3,
+        "lost": 1,
+        "played": 2,
+        "won": 0
+      },
+      "fill_in_appearances": 0,
+      "games_diff": -8,
+      "games_lost": 12,
+      "games_won": 4,
+      "is_captain": true,
+      "longest_win_streak": 0,
+      "matches": 1,
+      "name": "Vander Deng",
+      "opponents": [
+        {
+          "games_lost": 12,
+          "games_won": 4,
+          "lost": 2,
+          "name": "German Lastra",
+          "sets": 3,
+          "slug": "german-lastra",
+          "won": 0
+        },
+        {
+          "games_lost": 6,
+          "games_won": 3,
+          "lost": 1,
+          "name": "Ziming Ye",
+          "sets": 2,
+          "slug": "ziming-ye",
+          "won": 0
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 6,
+          "games_won": 3,
+          "lost": 1,
+          "name": "Junqing Li",
+          "sets": 2,
+          "slug": "junqing-li",
+          "won": 0
+        }
+      ],
+      "rating": {
+        "doubles": 4.23,
+        "singles": 4.43
+      },
+      "rating_history": [
+        {
+          "doubles": 4.23,
+          "round": "6",
+          "singles": 4.43
+        }
+      ],
+      "sets_lost": 2,
+      "sets_played": 3,
+      "sets_won": 0,
+      "singles": {
+        "games_lost": 6,
+        "games_won": 1,
+        "lost": 1,
+        "played": 1,
+        "won": 0
+      },
+      "slug": "vander-deng",
+      "streak": {
+        "length": 2,
+        "type": "L"
+      },
+      "team": "uq-assassins",
+      "team_code": null,
+      "team_name": "UQ Assassins",
+      "win_pct": 0.0
+    },
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "d2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 0.0,
+        "share_pct": 0.0,
+        "team_games_won": 9
+      },
+      "doubles": {
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 0,
+      "games_lost": 0,
+      "games_won": 0,
+      "is_captain": false,
+      "longest_win_streak": 0,
+      "matches": 0,
+      "name": "Ximeng Zhang",
+      "opponents": [],
+      "partners": [],
+      "rating": {
+        "doubles": 4.46,
+        "singles": 4.59
+      },
+      "rating_history": [
+        {
+          "doubles": 4.46,
+          "round": "6",
+          "singles": 4.59
+        }
+      ],
+      "sets_lost": 0,
+      "sets_played": 0,
+      "sets_won": 0,
+      "singles": {
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "slug": "ximeng-zhang",
+      "streak": {
+        "length": 0,
+        "type": null
+      },
+      "team": "uq-assassins",
+      "team_code": null,
+      "team_name": "UQ Assassins",
+      "win_pct": null
+    },
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "d2": {
+          "played": 1,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "s2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 9.0,
+        "share_pct": 50.0,
+        "team_games_won": 18
+      },
+      "doubles": {
+        "games_lost": 3,
+        "games_won": 6,
+        "lost": 0,
+        "played": 2,
+        "won": 1
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 8,
+      "games_lost": 4,
+      "games_won": 12,
+      "is_captain": true,
+      "longest_win_streak": 2,
+      "matches": 1,
+      "name": "German Lastra",
+      "opponents": [
+        {
+          "games_lost": 4,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Vander Deng",
+          "sets": 3,
+          "slug": "vander-deng",
+          "won": 2
+        },
+        {
+          "games_lost": 3,
+          "games_won": 6,
+          "lost": 0,
+          "name": "Junqing Li",
+          "sets": 2,
+          "slug": "junqing-li",
+          "won": 1
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 3,
+          "games_won": 6,
+          "lost": 0,
+          "name": "Ziming Ye",
+          "sets": 2,
+          "slug": "ziming-ye",
+          "won": 1
+        }
+      ],
+      "rating": {
+        "doubles": 5.24,
+        "singles": 5.43
+      },
+      "rating_history": [
+        {
+          "doubles": 5.24,
+          "round": "6",
+          "singles": 5.43
+        }
+      ],
+      "sets_lost": 0,
+      "sets_played": 3,
+      "sets_won": 2,
+      "singles": {
+        "games_lost": 1,
+        "games_won": 6,
+        "lost": 0,
+        "played": 1,
+        "won": 1
+      },
+      "slug": "german-lastra",
+      "streak": {
+        "length": 2,
+        "type": "W"
+      },
+      "team": "uq-big-three",
+      "team_code": null,
+      "team_name": "UQ BIG Three",
+      "win_pct": 100.0
+    },
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "d2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s2": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        }
+      },
+      "contribution": {
+        "games_won": 0.0,
+        "share_pct": 0.0,
+        "team_games_won": 18
+      },
+      "doubles": {
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 0,
+      "games_lost": 0,
+      "games_won": 0,
+      "is_captain": false,
+      "longest_win_streak": 0,
+      "matches": 0,
+      "name": "Vishal Gupta",
+      "opponents": [],
+      "partners": [],
+      "rating": {
+        "doubles": 4.41,
+        "singles": 4.32
+      },
+      "rating_history": [
+        {
+          "doubles": 4.41,
+          "round": "6",
+          "singles": 4.32
+        }
+      ],
+      "sets_lost": 0,
+      "sets_played": 0,
+      "sets_won": 0,
+      "singles": {
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "slug": "vishal-gupta",
+      "streak": {
+        "length": 0,
+        "type": null
+      },
+      "team": "uq-big-three",
+      "team_code": null,
+      "team_name": "UQ BIG Three",
+      "win_pct": null
+    },
+    {
+      "available": 1,
+      "by_slot": {
+        "d1": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        },
+        "d2": {
+          "played": 1,
+          "win_pct": null,
+          "won": 0
+        },
+        "s1": {
+          "played": 0,
+          "win_pct": null,
+          "won": 0
+        },
+        "s2": {
+          "played": 1,
+          "win_pct": 100.0,
+          "won": 1
+        }
+      },
+      "contribution": {
+        "games_won": 9.0,
+        "share_pct": 50.0,
+        "team_games_won": 18
+      },
+      "doubles": {
+        "games_lost": 3,
+        "games_won": 6,
+        "lost": 0,
+        "played": 2,
+        "won": 1
+      },
+      "fill_in_appearances": 0,
+      "games_diff": 4,
+      "games_lost": 8,
+      "games_won": 12,
+      "is_captain": false,
+      "longest_win_streak": 2,
+      "matches": 1,
+      "name": "Ziming Ye",
+      "opponents": [
+        {
+          "games_lost": 8,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Junqing Li",
+          "sets": 3,
+          "slug": "junqing-li",
+          "won": 2
+        },
+        {
+          "games_lost": 3,
+          "games_won": 6,
+          "lost": 0,
+          "name": "Vander Deng",
+          "sets": 2,
+          "slug": "vander-deng",
+          "won": 1
+        }
+      ],
+      "partners": [
+        {
+          "games_lost": 3,
+          "games_won": 6,
+          "lost": 0,
+          "name": "German Lastra",
+          "sets": 2,
+          "slug": "german-lastra",
+          "won": 1
+        }
+      ],
+      "rating": {
+        "doubles": 5.17,
+        "singles": 4.72
+      },
+      "rating_history": [
+        {
+          "doubles": 5.17,
+          "round": "6",
+          "singles": 4.72
+        }
+      ],
+      "sets_lost": 0,
+      "sets_played": 3,
+      "sets_won": 2,
+      "singles": {
+        "games_lost": 5,
+        "games_won": 6,
+        "lost": 0,
+        "played": 1,
+        "won": 1
+      },
+      "slug": "ziming-ye",
+      "streak": {
+        "length": 2,
+        "type": "W"
+      },
+      "team": "uq-big-three",
+      "team_code": null,
+      "team_name": "UQ BIG Three",
+      "win_pct": 100.0
+    }
+  ],
+  "rounds": [
+    {
+      "byes": [],
+      "cards": 1,
+      "date": "2026-09-23",
+      "is_finals": false,
+      "keys": [
+        "6/uq-big-three/uq-assassins/1"
+      ],
+      "note": "",
+      "number": "6",
+      "numbered": true,
+      "played": true,
+      "source": "cards"
+    }
+  ],
+  "teams": [
+    {
+      "away": {
+        "drawn": 0,
+        "games_lost": 18,
+        "games_won": 9,
+        "lost": 1,
+        "played": 1,
+        "won": 0
+      },
+      "best_round": {
+        "points": 2.9,
+        "round": "6"
+      },
+      "by_slot": {
+        "d1": {
+          "games_lost": 6,
+          "games_won": 3,
+          "lost": 1,
+          "won": 0
+        },
+        "d2": {
+          "games_lost": 0,
+          "games_won": 0,
+          "lost": 0,
+          "won": 0
+        },
+        "s1": {
+          "games_lost": 6,
+          "games_won": 1,
+          "lost": 1,
+          "won": 0
+        },
+        "s2": {
+          "games_lost": 6,
+          "games_won": 5,
+          "lost": 1,
+          "won": 0
+        }
+      },
+      "captain": "Vander Deng",
+      "code": null,
+      "contribution_gap": {
+        "games": 0.0,
+        "nights_not_credited": 0,
+        "rubbers_overfull": 0,
+        "rubbers_short_a_name": 0,
+        "rubbers_with_outsiders": 0,
+        "share_pct": 0.0,
+        "team_games_won": 9
+      },
+      "counted": 1,
+      "drawn": 0,
+      "form": [
+        "L"
+      ],
+      "games_diff": -9,
+      "games_lost": 18,
+      "games_won": 9,
+      "home": {
+        "drawn": 0,
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "home_court": null,
+      "ladder_history": [
+        {
+          "points_average": 2.9,
+          "position": 2,
+          "round": "6"
+        }
+      ],
+      "lost": 1,
+      "name": "UQ Assassins",
+      "played": 1,
+      "players": [
+        "junqing-li",
+        "vander-deng",
+        "ximeng-zhang"
+      ],
+      "points": 2.9,
+      "points_average": 2.9,
+      "points_breakdown": {
+        "averaged": 0.0,
+        "averaged_matches": 0,
+        "earned": 2.9
+      },
+      "position": 2,
+      "sets_diff": -3,
+      "sets_lost": 3,
+      "sets_won": 0,
+      "short": "UQ Assassins",
+      "slug": "uq-assassins",
+      "streak": {
+        "length": 1,
+        "type": "L"
+      },
+      "win_pct": 0.0,
+      "won": 0,
+      "worst_round": {
+        "points": 2.9,
+        "round": "6"
+      }
+    },
+    {
+      "away": {
+        "drawn": 0,
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "best_round": {
+        "points": 5.8,
+        "round": "6"
+      },
+      "by_slot": {
+        "d1": {
+          "games_lost": 3,
+          "games_won": 6,
+          "lost": 0,
+          "won": 1
+        },
+        "d2": {
+          "games_lost": 0,
+          "games_won": 0,
+          "lost": 0,
+          "won": 0
+        },
+        "s1": {
+          "games_lost": 1,
+          "games_won": 6,
+          "lost": 0,
+          "won": 1
+        },
+        "s2": {
+          "games_lost": 5,
+          "games_won": 6,
+          "lost": 0,
+          "won": 1
+        }
+      },
+      "captain": "German Lastra",
+      "code": null,
+      "contribution_gap": {
+        "games": 0.0,
+        "nights_not_credited": 0,
+        "rubbers_overfull": 0,
+        "rubbers_short_a_name": 0,
+        "rubbers_with_outsiders": 0,
+        "share_pct": 0.0,
+        "team_games_won": 18
+      },
+      "counted": 1,
+      "drawn": 0,
+      "form": [
+        "W"
+      ],
+      "games_diff": 9,
+      "games_lost": 9,
+      "games_won": 18,
+      "home": {
+        "drawn": 0,
+        "games_lost": 9,
+        "games_won": 18,
+        "lost": 0,
+        "played": 1,
+        "won": 1
+      },
+      "home_court": null,
+      "ladder_history": [
+        {
+          "points_average": 5.8,
+          "position": 1,
+          "round": "6"
+        }
+      ],
+      "lost": 0,
+      "name": "UQ BIG Three",
+      "played": 1,
+      "players": [
+        "german-lastra",
+        "vishal-gupta",
+        "ziming-ye"
+      ],
+      "points": 5.8,
+      "points_average": 5.8,
+      "points_breakdown": {
+        "averaged": 0.0,
+        "averaged_matches": 0,
+        "earned": 5.8
+      },
+      "position": 1,
+      "sets_diff": 3,
+      "sets_lost": 0,
+      "sets_won": 3,
+      "short": "UQ BIG Three",
+      "slug": "uq-big-three",
+      "streak": {
+        "length": 1,
+        "type": "W"
+      },
+      "win_pct": 100.0,
+      "won": 1,
+      "worst_round": {
+        "points": 5.8,
+        "round": "6"
+      }
+    }
+  ],
+  "validation": {
+    "duplicates": [],
+    "errors": [],
+    "ok": true,
+    "own_errors": 0,
+    "rejected": [],
+    "warnings": [
+      {
+        "detail": "uq-assassins, uq-big-three",
+        "message": "the team list was derived from the cards, not declared, so an unknown team can only be reported as a suspicion.",
+        "rule": "F8",
+        "severity": "warning",
+        "subject": "",
+        "subject_said": false
+      },
+      {
+        "detail": "data/2026-2-monday-b1/R6/match_scorecard_3665356.pdf",
+        "message": "R6 uq-big-three v uq-assassins d2: no games on the row at all and no box ticked, so nobody is credited the set. A rubber that was never played reads like this when the card does not say so.",
+        "rule": "set-no-games",
+        "severity": "warning",
+        "subject": "R6 uq-big-three v uq-assassins d2",
+        "subject_said": true
+      }
+    ]
+  }
+}

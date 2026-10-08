@@ -1,0 +1,476 @@
+{
+  "fixtures": [
+    {
+      "away": "uq-cougars",
+      "away_name": "UQ Cougars",
+      "card_missing": false,
+      "cards": 1,
+      "date": "",
+      "home": "uq-eik",
+      "home_name": "UQ EIK",
+      "keys": [
+        "7/uq-eik/uq-cougars/1"
+      ],
+      "played": true,
+      "round": "7"
+    }
+  ],
+  "format": 4,
+  "head_to_head": {},
+  "matches": [
+    {
+      "away": "uq-cougars",
+      "away_games": 0,
+      "away_name": "UQ Cougars",
+      "away_points": null,
+      "away_roster": [
+        "clara-elliott",
+        "thomas-moloney",
+        "anton-horneman"
+      ],
+      "away_sets": 0,
+      "counts_as_played": false,
+      "counts_for_ladder": true,
+      "court": 2,
+      "date": "",
+      "decided": false,
+      "decided_by": null,
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-eik",
+      "home_games": 0,
+      "home_name": "UQ EIK",
+      "home_points": null,
+      "home_roster": [
+        "iris-gu",
+        "kitty-jiang",
+        "lanlan-wang"
+      ],
+      "home_sets": 0,
+      "id": "3665448",
+      "key": "7/uq-eik/uq-cougars/1",
+      "margin": 0,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "result": "none",
+      "round": "7",
+      "sets": [
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Doubles 1",
+          "margin": 0,
+          "slot": "d1",
+          "status": "played",
+          "winner": null
+        },
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": false,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Singles 1",
+          "margin": 0,
+          "slot": "s1",
+          "status": "played",
+          "winner": null
+        },
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": false,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Singles 2",
+          "margin": 0,
+          "slot": "s2",
+          "status": "played",
+          "winner": null
+        },
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Doubles 2",
+          "margin": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-c2/R7/match_scorecard_3665448.pdf",
+      "status": "unplayed",
+      "tied_on_games": false,
+      "warnings": [
+        "no date above the set table is printed in a form this reader accepts (DD/MM/YYYY, DD-MM-YYYY, DD.MM.YYYY, DD/MM/YY, D Month YYYY, D Mon YYYY or YYYY-MM-DD, with YY as 20YY), so the match is undated and is filed by the Sunday it prints",
+        "row 1: no home games figure printed, read as 0",
+        "row 1: no away games figure printed, read as 0",
+        "row 2: no home games figure printed, read as 0",
+        "row 2: no away games figure printed, read as 0",
+        "row 3: no home games figure printed, read as 0",
+        "row 3: no away games figure printed, read as 0",
+        "row 4: no home games figure printed, read as 0",
+        "row 4: no away games figure printed, read as 0",
+        "the card's TOTAL row has no figures under its headings, so its own totals were not read",
+        "the card prints no TOTAL row and no Match Winner tick, and it prints 'VS' between the team names instead of a result, so nothing on it confirms the set rows were read correctly"
+      ]
+    }
+  ],
+  "meta": {
+    "cards_rejected": 0,
+    "cards_scored": 1,
+    "cards_seen": 1,
+    "club": "THE UNIVERSITY OF QUEENSLAND TENNIS CLUB INC",
+    "competition": "sunday-division-c2",
+    "day": "Sunday",
+    "division": "C2",
+    "draw_source": "cards",
+    "folders_unlisted": 0,
+    "generated": "2026-10-07T13:33:27",
+    "label": "Sunday Division C2",
+    "ladder_complete": false,
+    "matches_total": 1,
+    "provenance": {
+      "captains": "derived",
+      "draw": "card",
+      "format": "card",
+      "players": "derived",
+      "rounds_total": "derived",
+      "season": "card",
+      "teams": "mixed"
+    },
+    "regular_fixtures": {
+      "played": 0,
+      "total": 1
+    },
+    "rounds_played": 1,
+    "rounds_present": [
+      "7"
+    ],
+    "rounds_total": null,
+    "rules": {
+      "allows_draw": true,
+      "average_unplayed": false,
+      "draws": "",
+      "draws_detail": "",
+      "format": "doubles-singles-doubles",
+      "format_detail": "Doubles 1, Singles 1, Singles 2, Doubles 2 (first to 6)",
+      "ladder_by": [
+        "points_average",
+        "points",
+        "games_diff",
+        "games_won",
+        "head_to_head",
+        "name"
+      ],
+      "min_sets_for_result": 3,
+      "scoring": "games-bonus",
+      "scoring_detail": "win 4, draw 3, loss 2, 0.1 per game; decided on games then sets",
+      "set_rule": "first-to-6",
+      "set_rule_detail": "first to 6",
+      "slots": [
+        {
+          "doubles": true,
+          "key": "d1",
+          "label": "Doubles 1"
+        },
+        {
+          "doubles": false,
+          "key": "s1",
+          "label": "Singles 1"
+        },
+        {
+          "doubles": false,
+          "key": "s2",
+          "label": "Singles 2"
+        },
+        {
+          "doubles": true,
+          "key": "d2",
+          "label": "Doubles 2"
+        }
+      ],
+      "unplayed": "zero",
+      "unplayed_detail": "a bye or a washout is scored as nothing, and not counted as a match played",
+      "unplayed_worth": "scored as nothing, and not counted as a match played"
+    },
+    "season": "Season 2",
+    "season_key": "",
+    "season_label": "Season 2",
+    "seasons_mode": "single",
+    "source_dir": "data",
+    "teams_declared": false,
+    "teams_total": 2,
+    "version": "0.1.0"
+  },
+  "player_names": {},
+  "players": [],
+  "rounds": [
+    {
+      "byes": [],
+      "cards": 1,
+      "date": "",
+      "is_finals": false,
+      "keys": [
+        "7/uq-eik/uq-cougars/1"
+      ],
+      "note": "",
+      "number": "7",
+      "numbered": true,
+      "played": true,
+      "source": "cards"
+    }
+  ],
+  "teams": [
+    {
+      "away": {
+        "drawn": 0,
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "best_round": null,
+      "by_slot": {
+        "d1": {
+          "games_lost": 0,
+          "games_won": 0,
+          "lost": 0,
+          "won": 0
+        },
+        "d2": {
+          "games_lost": 0,
+          "games_won": 0,
+          "lost": 0,
+          "won": 0
+        },
+        "s1": {
+          "games_lost": 0,
+          "games_won": 0,
+          "lost": 0,
+          "won": 0
+        },
+        "s2": {
+          "games_lost": 0,
+          "games_won": 0,
+          "lost": 0,
+          "won": 0
+        }
+      },
+      "captain": null,
+      "code": null,
+      "contribution_gap": {
+        "games": 0.0,
+        "nights_not_credited": 0,
+        "rubbers_overfull": 0,
+        "rubbers_short_a_name": 0,
+        "rubbers_with_outsiders": 0,
+        "share_pct": null,
+        "team_games_won": 0
+      },
+      "counted": 0,
+      "drawn": 0,
+      "form": [],
+      "games_diff": 0,
+      "games_lost": 0,
+      "games_won": 0,
+      "home": {
+        "drawn": 0,
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "home_court": null,
+      "ladder_history": [
+        {
+          "points_average": null,
+          "position": 1,
+          "round": "7"
+        }
+      ],
+      "lost": 0,
+      "name": "UQ Cougars",
+      "played": 0,
+      "players": [],
+      "points": 0.0,
+      "points_average": null,
+      "points_breakdown": {
+        "averaged": 0.0,
+        "averaged_matches": 0,
+        "earned": 0.0
+      },
+      "position": 1,
+      "sets_diff": 0,
+      "sets_lost": 0,
+      "sets_won": 0,
+      "short": "UQ Cougars",
+      "slug": "uq-cougars",
+      "streak": {
+        "length": 0,
+        "type": null
+      },
+      "win_pct": null,
+      "won": 0,
+      "worst_round": null
+    },
+    {
+      "away": {
+        "drawn": 0,
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "best_round": null,
+      "by_slot": {
+        "d1": {
+          "games_lost": 0,
+          "games_won": 0,
+          "lost": 0,
+          "won": 0
+        },
+        "d2": {
+          "games_lost": 0,
+          "games_won": 0,
+          "lost": 0,
+          "won": 0
+        },
+        "s1": {
+          "games_lost": 0,
+          "games_won": 0,
+          "lost": 0,
+          "won": 0
+        },
+        "s2": {
+          "games_lost": 0,
+          "games_won": 0,
+          "lost": 0,
+          "won": 0
+        }
+      },
+      "captain": null,
+      "code": null,
+      "contribution_gap": {
+        "games": 0.0,
+        "nights_not_credited": 0,
+        "rubbers_overfull": 0,
+        "rubbers_short_a_name": 0,
+        "rubbers_with_outsiders": 0,
+        "share_pct": null,
+        "team_games_won": 0
+      },
+      "counted": 0,
+      "drawn": 0,
+      "form": [],
+      "games_diff": 0,
+      "games_lost": 0,
+      "games_won": 0,
+      "home": {
+        "drawn": 0,
+        "games_lost": 0,
+        "games_won": 0,
+        "lost": 0,
+        "played": 0,
+        "won": 0
+      },
+      "home_court": null,
+      "ladder_history": [
+        {
+          "points_average": null,
+          "position": 2,
+          "round": "7"
+        }
+      ],
+      "lost": 0,
+      "name": "UQ EIK",
+      "played": 0,
+      "players": [],
+      "points": 0.0,
+      "points_average": null,
+      "points_breakdown": {
+        "averaged": 0.0,
+        "averaged_matches": 0,
+        "earned": 0.0
+      },
+      "position": 2,
+      "sets_diff": 0,
+      "sets_lost": 0,
+      "sets_won": 0,
+      "short": "UQ EIK",
+      "slug": "uq-eik",
+      "streak": {
+        "length": 0,
+        "type": null
+      },
+      "win_pct": null,
+      "won": 0,
+      "worst_round": null
+    }
+  ],
+  "validation": {
+    "duplicates": [],
+    "errors": [],
+    "ok": true,
+    "own_errors": 0,
+    "rejected": [],
+    "warnings": [
+      {
+        "detail": "uq-cougars, uq-eik",
+        "message": "the team list was derived from the cards, not declared, so an unknown team can only be reported as a suspicion.",
+        "rule": "F8",
+        "severity": "warning",
+        "subject": "",
+        "subject_said": false
+      },
+      {
+        "detail": "data/2026-2-monday-c2/R7/match_scorecard_3665448.pdf",
+        "message": "R7 uq-eik v uq-cougars: recorded as unplayed, so it is not counted in the ladder.",
+        "rule": "no-result",
+        "severity": "warning",
+        "subject": "R7 uq-eik v uq-cougars",
+        "subject_said": true
+      },
+      {
+        "detail": "4 set row(s) read",
+        "message": "data/2026-2-monday-c2/R7/match_scorecard_3665448.pdf: the card prints no TOTAL row or winner tick, and it prints 'VS' between the team names instead of a result, so nothing on it confirms the set rows were read correctly.",
+        "rule": "F6",
+        "severity": "warning",
+        "subject": "data/2026-2-monday-c2/R7/match_scorecard_3665448.pdf",
+        "subject_said": true
+      },
+      {
+        "detail": "",
+        "message": "data/2026-2-monday-c2/R7/match_scorecard_3665448.pdf: no TOTAL row was read, so the computed games and sets are unverified by it.",
+        "rule": "totals-missing",
+        "severity": "warning",
+        "subject": "data/2026-2-monday-c2/R7/match_scorecard_3665448.pdf",
+        "subject_said": true
+      },
+      {
+        "detail": "0 counted matches",
+        "message": "no team has a counted match yet, so there is no ladder to present.",
+        "rule": "F10",
+        "severity": "warning",
+        "subject": "",
+        "subject_said": false
+      }
+    ]
+  }
+}
