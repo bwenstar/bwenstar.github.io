@@ -3665,14 +3665,20 @@
     "division": "B1",
     "draw_source": "cards",
     "folders_unlisted": 0,
-    "generated": "2026-10-08T16:48:59",
+    "generated": "2026-10-12T13:15:12",
     "label": "Monday Division B1",
     "ladder_complete": false,
     "ladder_detail": "teams have played unequal numbers of matches",
     "ladder_state": "in-progress",
-    "leader": null,
+    "leader": {
+      "slug": "uq-big-three",
+      "value": 5.3
+    },
+    "leader_withheld": null,
     "matches_played": 20,
     "matches_total": 24,
+    "order_stands": true,
+    "ordered_on_average": true,
     "provenance": {
       "captains": "declared",
       "draw": "card",
@@ -8491,7 +8497,7 @@
       },
       {
         "detail": "uq-aces 7; uq-assassins 7; uq-big-three 6; uq-cheetahs 7; uq-hurricanes 7; uq-raptors 6",
-        "message": "the ladder is in progress — teams have played unequal numbers of matches, so the order is not settled. uq-big-three and uq-raptors have fewer than the 7 counted by the rest.",
+        "message": "the ladder is in progress — teams have played unequal numbers of matches. uq-big-three and uq-raptors have fewer than the 7 counted by the rest; the ladder is ordered on the average, so that costs them no place.",
         "rule": "F10",
         "severity": "warning",
         "subject": "",

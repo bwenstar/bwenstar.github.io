@@ -3637,14 +3637,20 @@
     "division": "A1",
     "draw_source": "cards",
     "folders_unlisted": 0,
-    "generated": "2026-10-08T16:48:59",
+    "generated": "2026-10-12T13:15:13",
     "label": "Tuesday Division A1",
     "ladder_complete": false,
     "ladder_detail": "teams have played unequal numbers of matches",
     "ladder_state": "in-progress",
-    "leader": null,
+    "leader": {
+      "slug": "uq-grinders",
+      "value": 5.55
+    },
+    "leader_withheld": null,
     "matches_played": 20,
     "matches_total": 24,
+    "order_stands": true,
+    "ordered_on_average": true,
     "provenance": {
       "captains": "declared",
       "draw": "card",
@@ -8377,7 +8383,7 @@
       },
       {
         "detail": "uq-faulty-servers 6; uq-grinders 6; uq-lightning 7; uq-net-results 6; uq-phantoms 7; uq-sharks 8",
-        "message": "the ladder is in progress — teams have played unequal numbers of matches, so the order is not settled. uq-faulty-servers, uq-grinders, uq-lightning, uq-net-results and uq-phantoms have fewer than the 8 counted by the rest.",
+        "message": "the ladder is in progress — teams have played unequal numbers of matches. uq-faulty-servers, uq-grinders, uq-lightning, uq-net-results and uq-phantoms have fewer than the 8 counted by the rest; the ladder is ordered on the average, so that costs them no place.",
         "rule": "F10",
         "severity": "warning",
         "subject": "",

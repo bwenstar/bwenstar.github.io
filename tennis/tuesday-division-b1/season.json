@@ -3697,14 +3697,20 @@
     "division": "B1",
     "draw_source": "cards",
     "folders_unlisted": 0,
-    "generated": "2026-10-08T16:49:00",
+    "generated": "2026-10-12T13:15:13",
     "label": "Tuesday Division B1",
     "ladder_complete": false,
     "ladder_detail": "teams have played unequal numbers of matches",
     "ladder_state": "in-progress",
-    "leader": null,
+    "leader": {
+      "slug": "uq-bin-chickens",
+      "value": 6.257143
+    },
+    "leader_withheld": null,
     "matches_played": 22,
     "matches_total": 24,
+    "order_stands": true,
+    "ordered_on_average": true,
     "provenance": {
       "captains": "declared",
       "draw": "card",
@@ -8785,7 +8791,7 @@
       },
       {
         "detail": "uq-bin-chickens 7; uq-double-faults 7; uq-in-a-queue 7; uq-puzzlers 8; uq-scorpions 8; uq-vipers 7",
-        "message": "the ladder is in progress — teams have played unequal numbers of matches, so the order is not settled. uq-bin-chickens, uq-double-faults, uq-in-a-queue and uq-vipers have fewer than the 8 counted by the rest.",
+        "message": "the ladder is in progress — teams have played unequal numbers of matches. uq-bin-chickens, uq-double-faults, uq-in-a-queue and uq-vipers have fewer than the 8 counted by the rest; the ladder is ordered on the average, so that costs them no place.",
         "rule": "F10",
         "severity": "warning",
         "subject": "",

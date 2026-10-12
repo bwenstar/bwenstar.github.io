@@ -3670,7 +3670,7 @@
     "division": "A",
     "draw_source": "cards",
     "folders_unlisted": 0,
-    "generated": "2026-10-08T16:48:59",
+    "generated": "2026-10-12T13:15:12",
     "label": "Monday Division A",
     "ladder_complete": true,
     "ladder_detail": "every team has played the same number",
@@ -3679,8 +3679,11 @@
       "slug": "uq-sharks",
       "value": 6.4
     },
+    "leader_withheld": null,
     "matches_played": 21,
     "matches_total": 24,
+    "order_stands": true,
+    "ordered_on_average": true,
     "provenance": {
       "captains": "declared",
       "draw": "card",

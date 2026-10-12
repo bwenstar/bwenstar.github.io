@@ -2462,14 +2462,20 @@
     "division": "C1",
     "draw_source": "cards",
     "folders_unlisted": 0,
-    "generated": "2026-10-08T16:48:59",
+    "generated": "2026-10-12T13:15:13",
     "label": "Monday Division C1",
     "ladder_complete": false,
     "ladder_detail": "teams have played unequal numbers of matches",
     "ladder_state": "in-progress",
-    "leader": null,
+    "leader": {
+      "slug": "uq-tornadoes",
+      "value": 6.1
+    },
+    "leader_withheld": null,
     "matches_played": 13,
     "matches_total": 16,
+    "order_stands": true,
+    "ordered_on_average": true,
     "provenance": {
       "captains": "declared",
       "draw": "card",
@@ -5960,7 +5966,7 @@
       },
       {
         "detail": "uq-bananas 5; uq-engenes 5; uq-kraits 6; uq-piranhas 5; uq-tornadoes 5",
-        "message": "the ladder is in progress — teams have played unequal numbers of matches, so the order is not settled. uq-bananas, uq-engenes, uq-piranhas and uq-tornadoes have fewer than the 6 counted by the rest.",
+        "message": "the ladder is in progress — teams have played unequal numbers of matches. uq-bananas, uq-engenes, uq-piranhas and uq-tornadoes have fewer than the 6 counted by the rest; the ladder is ordered on the average, so that costs them no place.",
         "rule": "F10",
         "severity": "warning",
         "subject": "",
