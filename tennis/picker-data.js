@@ -2,7 +2,7 @@
 window.PICKER_DATA = {
   "competitions": [
     {
-      "cards": 24,
+      "cards": 27,
       "day": "Monday",
       "declared_as": "",
       "declared_in": "",
@@ -10,7 +10,7 @@ window.PICKER_DATA = {
       "draw_source": "cards",
       "errors": 0,
       "first_round": null,
-      "generated": "2026-10-12T13:15:12",
+      "generated": "2026-10-22T14:05:28",
       "has_data": true,
       "has_results": true,
       "href": "monday-division-a/index.html",
@@ -24,18 +24,18 @@ window.PICKER_DATA = {
         "value": 6.4
       },
       "leader_withheld": "",
-      "percent": 80,
+      "percent": 100,
       "rejected": 0,
-      "rounds_played": 8,
+      "rounds_played": 10,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 6,
       "unlisted": 0,
-      "warnings": 8
+      "warnings": 7
     },
     {
-      "cards": 24,
+      "cards": 27,
       "day": "Monday",
       "declared_as": "",
       "declared_in": "",
@@ -43,7 +43,7 @@ window.PICKER_DATA = {
       "draw_source": "cards",
       "errors": 0,
       "first_round": null,
-      "generated": "2026-10-12T13:15:12",
+      "generated": "2026-10-22T14:05:28",
       "has_data": true,
       "has_results": true,
       "href": "monday-division-b1/index.html",
@@ -54,21 +54,21 @@ window.PICKER_DATA = {
       "ladder_state": "in-progress",
       "leader": {
         "name": "UQ Big Three",
-        "value": 5.3
+        "value": 5.414286
       },
       "leader_withheld": "",
-      "percent": 80,
+      "percent": 100,
       "rejected": 0,
-      "rounds_played": 8,
+      "rounds_played": 10,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 6,
       "unlisted": 0,
-      "warnings": 11
+      "warnings": 9
     },
     {
-      "cards": 16,
+      "cards": 18,
       "day": "Monday",
       "declared_as": "",
       "declared_in": "",
@@ -76,7 +76,7 @@ window.PICKER_DATA = {
       "draw_source": "cards",
       "errors": 0,
       "first_round": null,
-      "generated": "2026-10-12T13:15:12",
+      "generated": "2026-10-22T14:05:28",
       "has_data": true,
       "has_results": true,
       "href": "monday-division-b2/index.html",
@@ -87,21 +87,21 @@ window.PICKER_DATA = {
       "ladder_state": "in-progress",
       "leader": {
         "name": "UQ Tigers",
-        "value": 5.5
+        "value": 5.6
       },
       "leader_withheld": "",
-      "percent": 80,
+      "percent": 100,
       "rejected": 0,
-      "rounds_played": 8,
+      "rounds_played": 10,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 5,
       "unlisted": 0,
-      "warnings": 11
+      "warnings": 9
     },
     {
-      "cards": 16,
+      "cards": 18,
       "day": "Monday",
       "declared_as": "",
       "declared_in": "",
@@ -109,7 +109,7 @@ window.PICKER_DATA = {
       "draw_source": "cards",
       "errors": 0,
       "first_round": null,
-      "generated": "2026-10-12T13:15:13",
+      "generated": "2026-10-22T14:05:28",
       "has_data": true,
       "has_results": true,
       "href": "monday-division-c1/index.html",
@@ -120,21 +120,21 @@ window.PICKER_DATA = {
       "ladder_state": "in-progress",
       "leader": {
         "name": "UQ Tornadoes",
-        "value": 6.1
+        "value": 5.6
       },
       "leader_withheld": "",
-      "percent": 80,
+      "percent": 100,
       "rejected": 0,
-      "rounds_played": 8,
+      "rounds_played": 10,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 5,
       "unlisted": 0,
-      "warnings": 18
+      "warnings": 15
     },
     {
-      "cards": 16,
+      "cards": 18,
       "day": "Monday",
       "declared_as": "",
       "declared_in": "",
@@ -142,7 +142,7 @@ window.PICKER_DATA = {
       "draw_source": "cards",
       "errors": 0,
       "first_round": null,
-      "generated": "2026-10-12T13:15:13",
+      "generated": "2026-10-22T14:05:29",
       "has_data": true,
       "has_results": true,
       "href": "monday-division-c2/index.html",
@@ -153,21 +153,21 @@ window.PICKER_DATA = {
       "ladder_state": "in-progress",
       "leader": {
         "name": "UQ Cobras",
-        "value": 6.26
+        "value": 6.266667
       },
       "leader_withheld": "",
-      "percent": 80,
+      "percent": 100,
       "rejected": 0,
-      "rounds_played": 8,
+      "rounds_played": 10,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 5,
       "unlisted": 0,
-      "warnings": 8
+      "warnings": 6
     },
     {
-      "cards": 24,
+      "cards": 27,
       "day": "Tuesday",
       "declared_as": "",
       "declared_in": "",
@@ -175,7 +175,7 @@ window.PICKER_DATA = {
       "draw_source": "cards",
       "errors": 0,
       "first_round": null,
-      "generated": "2026-10-12T13:15:13",
+      "generated": "2026-10-22T14:05:29",
       "has_data": true,
       "has_results": true,
       "href": "tuesday-division-a1/index.html",
@@ -186,21 +186,21 @@ window.PICKER_DATA = {
       "ladder_state": "in-progress",
       "leader": {
         "name": "UQ Grinders",
-        "value": 5.55
+        "value": 5.614286
       },
       "leader_withheld": "",
-      "percent": 80,
+      "percent": 100,
       "rejected": 0,
-      "rounds_played": 8,
+      "rounds_played": 10,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 6,
       "unlisted": 0,
-      "warnings": 12
+      "warnings": 14
     },
     {
-      "cards": 24,
+      "cards": 27,
       "day": "Tuesday",
       "declared_as": "",
       "declared_in": "",
@@ -208,32 +208,32 @@ window.PICKER_DATA = {
       "draw_source": "cards",
       "errors": 0,
       "first_round": null,
-      "generated": "2026-10-12T13:15:13",
+      "generated": "2026-10-22T14:05:29",
       "has_data": true,
       "has_results": true,
       "href": "tuesday-division-a2/index.html",
       "id": "tuesday-division-a2",
       "label": "Tuesday Division A2",
-      "ladder_complete": true,
-      "ladder_detail": "every team has played the same number",
-      "ladder_state": "complete",
+      "ladder_complete": false,
+      "ladder_detail": "teams have played unequal numbers of matches",
+      "ladder_state": "in-progress",
       "leader": {
         "name": "UQ Taipans",
         "value": 5.6
       },
       "leader_withheld": "",
-      "percent": 80,
+      "percent": 100,
       "rejected": 0,
-      "rounds_played": 8,
+      "rounds_played": 10,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 6,
       "unlisted": 0,
-      "warnings": 5
+      "warnings": 7
     },
     {
-      "cards": 24,
+      "cards": 27,
       "day": "Tuesday",
       "declared_as": "",
       "declared_in": "",
@@ -241,7 +241,7 @@ window.PICKER_DATA = {
       "draw_source": "cards",
       "errors": 0,
       "first_round": null,
-      "generated": "2026-10-12T13:15:13",
+      "generated": "2026-10-22T14:05:29",
       "has_data": true,
       "has_results": true,
       "href": "tuesday-division-b1/index.html",
@@ -252,21 +252,21 @@ window.PICKER_DATA = {
       "ladder_state": "in-progress",
       "leader": {
         "name": "UQ Bin Chickens",
-        "value": 6.257143
+        "value": 6.25
       },
       "leader_withheld": "",
-      "percent": 80,
+      "percent": 100,
       "rejected": 0,
-      "rounds_played": 8,
+      "rounds_played": 10,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 6,
       "unlisted": 0,
-      "warnings": 9
+      "warnings": 10
     },
     {
-      "cards": 24,
+      "cards": 27,
       "day": "Tuesday",
       "declared_as": "",
       "declared_in": "",
@@ -274,7 +274,7 @@ window.PICKER_DATA = {
       "draw_source": "cards",
       "errors": 0,
       "first_round": null,
-      "generated": "2026-10-12T13:15:13",
+      "generated": "2026-10-22T14:05:29",
       "has_data": true,
       "has_results": true,
       "href": "tuesday-division-b2/index.html",
@@ -285,21 +285,21 @@ window.PICKER_DATA = {
       "ladder_state": "in-progress",
       "leader": {
         "name": "UQ Long Feds",
-        "value": 5.383333
+        "value": 5.528571
       },
       "leader_withheld": "",
-      "percent": 80,
+      "percent": 100,
       "rejected": 0,
-      "rounds_played": 8,
+      "rounds_played": 10,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 6,
       "unlisted": 0,
-      "warnings": 18
+      "warnings": 15
     },
     {
-      "cards": 24,
+      "cards": 27,
       "day": "Tuesday",
       "declared_as": "",
       "declared_in": "",
@@ -307,32 +307,32 @@ window.PICKER_DATA = {
       "draw_source": "cards",
       "errors": 0,
       "first_round": null,
-      "generated": "2026-10-12T13:15:13",
+      "generated": "2026-10-22T14:05:29",
       "has_data": true,
       "has_results": true,
       "href": "tuesday-division-c/index.html",
       "id": "tuesday-division-c",
       "label": "Tuesday Division C",
-      "ladder_complete": true,
-      "ladder_detail": "every team has played the same number",
-      "ladder_state": "complete",
+      "ladder_complete": false,
+      "ladder_detail": "teams have played unequal numbers of matches",
+      "ladder_state": "in-progress",
       "leader": {
         "name": "UQ Iguanas",
-        "value": 6.1875
+        "value": 5.755556
       },
       "leader_withheld": "",
-      "percent": 80,
+      "percent": 100,
       "rejected": 0,
-      "rounds_played": 8,
+      "rounds_played": 10,
       "rounds_total": 10,
       "season_key": "",
       "season_label": "",
       "teams": 6,
       "unlisted": 0,
-      "warnings": 11
+      "warnings": 14
     }
   ],
-  "generated": "2026-10-12T13:15:13",
+  "generated": "2026-10-22T14:05:29",
   "seasons_mode": "single",
   "subtitle": "10 of 10 competitions with results",
   "theme_key": "the-university-of-queensland-tennis-club-inc-theme",

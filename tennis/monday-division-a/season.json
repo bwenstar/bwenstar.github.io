@@ -12,7 +12,8 @@
         "1/uq-hornets/uq-leopards/1"
       ],
       "played": true,
-      "round": "1"
+      "round": "1",
+      "washed_out": false
     },
     {
       "away": "uq-tyrants",
@@ -26,7 +27,8 @@
         "1/uq-sharks/uq-tyrants/1"
       ],
       "played": true,
-      "round": "1"
+      "round": "1",
+      "washed_out": false
     },
     {
       "away": "uq-kestrels",
@@ -40,7 +42,8 @@
         "1/uq-strikers/uq-kestrels/1"
       ],
       "played": true,
-      "round": "1"
+      "round": "1",
+      "washed_out": false
     },
     {
       "away": "uq-hornets",
@@ -54,7 +57,8 @@
         "2/uq-kestrels/uq-hornets/1"
       ],
       "played": true,
-      "round": "2"
+      "round": "2",
+      "washed_out": true
     },
     {
       "away": "uq-sharks",
@@ -68,7 +72,8 @@
         "2/uq-leopards/uq-sharks/1"
       ],
       "played": true,
-      "round": "2"
+      "round": "2",
+      "washed_out": true
     },
     {
       "away": "uq-strikers",
@@ -82,7 +87,8 @@
         "2/uq-tyrants/uq-strikers/1"
       ],
       "played": true,
-      "round": "2"
+      "round": "2",
+      "washed_out": true
     },
     {
       "away": "uq-strikers",
@@ -96,7 +102,8 @@
         "3/uq-hornets/uq-strikers/1"
       ],
       "played": true,
-      "round": "3"
+      "round": "3",
+      "washed_out": false
     },
     {
       "away": "uq-sharks",
@@ -110,7 +117,8 @@
         "3/uq-kestrels/uq-sharks/1"
       ],
       "played": true,
-      "round": "3"
+      "round": "3",
+      "washed_out": false
     },
     {
       "away": "uq-tyrants",
@@ -124,7 +132,8 @@
         "3/uq-leopards/uq-tyrants/1"
       ],
       "played": true,
-      "round": "3"
+      "round": "3",
+      "washed_out": false
     },
     {
       "away": "uq-hornets",
@@ -138,7 +147,8 @@
         "4/uq-sharks/uq-hornets/1"
       ],
       "played": true,
-      "round": "4"
+      "round": "4",
+      "washed_out": false
     },
     {
       "away": "uq-leopards",
@@ -152,7 +162,8 @@
         "4/uq-strikers/uq-leopards/1"
       ],
       "played": true,
-      "round": "4"
+      "round": "4",
+      "washed_out": false
     },
     {
       "away": "uq-kestrels",
@@ -166,7 +177,8 @@
         "4/uq-tyrants/uq-kestrels/1"
       ],
       "played": true,
-      "round": "4"
+      "round": "4",
+      "washed_out": false
     },
     {
       "away": "uq-tyrants",
@@ -180,7 +192,8 @@
         "5/uq-hornets/uq-tyrants/1"
       ],
       "played": true,
-      "round": "5"
+      "round": "5",
+      "washed_out": false
     },
     {
       "away": "uq-kestrels",
@@ -194,7 +207,8 @@
         "5/uq-leopards/uq-kestrels/1"
       ],
       "played": true,
-      "round": "5"
+      "round": "5",
+      "washed_out": false
     },
     {
       "away": "uq-sharks",
@@ -208,7 +222,8 @@
         "5/uq-strikers/uq-sharks/1"
       ],
       "played": true,
-      "round": "5"
+      "round": "5",
+      "washed_out": false
     },
     {
       "away": "uq-strikers",
@@ -222,7 +237,8 @@
         "6/uq-kestrels/uq-strikers/1"
       ],
       "played": true,
-      "round": "6"
+      "round": "6",
+      "washed_out": false
     },
     {
       "away": "uq-hornets",
@@ -236,7 +252,8 @@
         "6/uq-leopards/uq-hornets/1"
       ],
       "played": true,
-      "round": "6"
+      "round": "6",
+      "washed_out": false
     },
     {
       "away": "uq-sharks",
@@ -250,7 +267,8 @@
         "6/uq-tyrants/uq-sharks/1"
       ],
       "played": true,
-      "round": "6"
+      "round": "6",
+      "washed_out": false
     },
     {
       "away": "uq-kestrels",
@@ -264,7 +282,8 @@
         "7/uq-hornets/uq-kestrels/1"
       ],
       "played": true,
-      "round": "7"
+      "round": "7",
+      "washed_out": false
     },
     {
       "away": "uq-leopards",
@@ -278,7 +297,8 @@
         "7/uq-sharks/uq-leopards/1"
       ],
       "played": true,
-      "round": "7"
+      "round": "7",
+      "washed_out": false
     },
     {
       "away": "uq-tyrants",
@@ -292,7 +312,8 @@
         "7/uq-strikers/uq-tyrants/1"
       ],
       "played": true,
-      "round": "7"
+      "round": "7",
+      "washed_out": false
     },
     {
       "away": "uq-kestrels",
@@ -306,7 +327,8 @@
         "8/uq-sharks/uq-kestrels/1"
       ],
       "played": true,
-      "round": "8"
+      "round": "8",
+      "washed_out": false
     },
     {
       "away": "uq-hornets",
@@ -320,7 +342,8 @@
         "8/uq-strikers/uq-hornets/1"
       ],
       "played": true,
-      "round": "8"
+      "round": "8",
+      "washed_out": false
     },
     {
       "away": "uq-leopards",
@@ -334,7 +357,53 @@
         "8/uq-tyrants/uq-leopards/1"
       ],
       "played": true,
-      "round": "8"
+      "round": "8",
+      "washed_out": false
+    },
+    {
+      "away": "uq-sharks",
+      "away_name": "UQ Sharks",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-10-12",
+      "home": "uq-hornets",
+      "home_name": "UQ Hornets",
+      "keys": [
+        "9/uq-hornets/uq-sharks/1"
+      ],
+      "played": true,
+      "round": "9",
+      "washed_out": false
+    },
+    {
+      "away": "uq-tyrants",
+      "away_name": "UQ Tyrants",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-10-12",
+      "home": "uq-kestrels",
+      "home_name": "UQ Kestrels",
+      "keys": [
+        "9/uq-kestrels/uq-tyrants/1"
+      ],
+      "played": true,
+      "round": "9",
+      "washed_out": false
+    },
+    {
+      "away": "uq-strikers",
+      "away_name": "UQ Strikers",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-10-12",
+      "home": "uq-leopards",
+      "home_name": "UQ Leopards",
+      "keys": [
+        "9/uq-leopards/uq-strikers/1"
+      ],
+      "played": true,
+      "round": "9",
+      "washed_out": false
     }
   ],
   "format": 4,
@@ -362,11 +431,11 @@
     "uq-hornets|uq-sharks": {
       "draws": 0,
       "finals": 0,
-      "games_high": 24,
+      "games_high": 48,
       "games_low": 7,
-      "played": 1,
+      "played": 2,
       "undecided": 0,
-      "wins_high": 1,
+      "wins_high": 2,
       "wins_low": 0
     },
     "uq-hornets|uq-strikers": {
@@ -422,11 +491,11 @@
     "uq-kestrels|uq-tyrants": {
       "draws": 0,
       "finals": 0,
-      "games_high": 11,
-      "games_low": 21,
-      "played": 1,
+      "games_high": 31,
+      "games_low": 30,
+      "played": 2,
       "undecided": 0,
-      "wins_high": 0,
+      "wins_high": 1,
       "wins_low": 1
     },
     "uq-leopards|uq-sharks": {
@@ -442,11 +511,11 @@
     "uq-leopards|uq-strikers": {
       "draws": 0,
       "finals": 0,
-      "games_high": 24,
-      "games_low": 8,
-      "played": 1,
+      "games_high": 41,
+      "games_low": 21,
+      "played": 2,
       "undecided": 0,
-      "wins_high": 1,
+      "wins_high": 2,
       "wins_low": 0
     },
     "uq-leopards|uq-tyrants": {
@@ -3658,19 +3727,410 @@
       "status": "played",
       "tied_on_games": false,
       "warnings": []
+    },
+    {
+      "away": "uq-sharks",
+      "away_games": 24,
+      "away_name": "UQ Sharks",
+      "away_points": 6.4,
+      "away_roster": [
+        "tom-ladbrook",
+        "luke-angus",
+        "simon-thomas"
+      ],
+      "away_sets": 4,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 16,
+      "date": "2026-10-12",
+      "decided": true,
+      "decided_by": null,
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": "home",
+      "home": "uq-hornets",
+      "home_games": 0,
+      "home_name": "UQ Hornets",
+      "home_points": 0.0,
+      "home_roster": [
+        "kaan-deniz-gecer",
+        "tristan-fitzgerald",
+        "jack-sorrensen"
+      ],
+      "home_sets": 0,
+      "id": "3665336",
+      "key": "9/uq-hornets/uq-sharks/1",
+      "margin": 24,
+      "no_rubber_played": true,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 0,
+      "printed_home_games": 0,
+      "result": "away",
+      "round": "9",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [],
+          "completed": true,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Doubles 1",
+          "margin": 6,
+          "nobody_played": true,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [],
+          "completed": true,
+          "doubles": false,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Singles 1",
+          "margin": 6,
+          "nobody_played": true,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [],
+          "completed": true,
+          "doubles": false,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Singles 2",
+          "margin": 6,
+          "nobody_played": true,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "s2",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [],
+          "completed": true,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Doubles 2",
+          "margin": 6,
+          "nobody_played": true,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": "away"
+        }
+      ],
+      "source": "data/2026-2-monday-a/R9/match_scorecard_3665336.pdf",
+      "status": "forfeit",
+      "tied_on_games": false,
+      "warnings": [
+        "row 1: no home games figure printed, read as 0",
+        "row 1: no away games figure printed, read as 0",
+        "row 2: no home games figure printed, read as 0",
+        "row 2: no away games figure printed, read as 0",
+        "row 3: no home games figure printed, read as 0",
+        "row 3: no away games figure printed, read as 0",
+        "row 4: no home games figure printed, read as 0",
+        "row 4: no away games figure printed, read as 0"
+      ]
+    },
+    {
+      "away": "uq-tyrants",
+      "away_games": 20,
+      "away_name": "UQ Tyrants",
+      "away_points": 6.0,
+      "away_roster": [
+        "mick-keys",
+        "andrew-smith",
+        "carlton-sinn"
+      ],
+      "away_sets": 3,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 13,
+      "date": "2026-10-12",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-kestrels",
+      "home_games": 9,
+      "home_name": "UQ Kestrels",
+      "home_points": 2.9,
+      "home_roster": [
+        "harry-ward",
+        "scott-connell",
+        "andrew-lau"
+      ],
+      "home_sets": 1,
+      "id": "3665334",
+      "key": "9/uq-kestrels/uq-tyrants/1",
+      "margin": 11,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 20,
+      "printed_home_games": 9,
+      "result": "away",
+      "round": "9",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "mick-keys",
+            "carlton-sinn"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [
+            "harry-ward",
+            "andrew-lau"
+          ],
+          "label": "Doubles 1",
+          "margin": 6,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 0,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "mick-keys"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 3,
+          "home_players": [
+            "harry-ward"
+          ],
+          "label": "Singles 1",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 3,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 2,
+          "away_players": [
+            "carlton-sinn"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "andrew-lau"
+          ],
+          "label": "Singles 2",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 2,
+          "printed_home_games": 6,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "mick-keys",
+            "carlton-sinn"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [
+            "harry-ward",
+            "andrew-lau"
+          ],
+          "label": "Doubles 2",
+          "margin": 6,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": "away"
+        }
+      ],
+      "source": "data/2026-2-monday-a/R9/match_scorecard_3665334.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-strikers",
+      "away_games": 17,
+      "away_name": "UQ Strikers",
+      "away_points": 5.7,
+      "away_roster": [
+        "andrew-bradbury",
+        "alex-sinclair",
+        "neal-grayson"
+      ],
+      "away_sets": 2,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 15,
+      "date": "2026-10-12",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-leopards",
+      "home_games": 13,
+      "home_name": "UQ Leopards",
+      "home_points": 3.3,
+      "home_roster": [
+        "mark-bettington",
+        "andrew-bettington",
+        "jonathan-shaw"
+      ],
+      "home_sets": 1,
+      "id": "3665335",
+      "key": "9/uq-leopards/uq-strikers/1",
+      "margin": 4,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 17,
+      "printed_home_games": 13,
+      "result": "away",
+      "round": "9",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "andrew-bradbury",
+            "neal-grayson"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 2,
+          "home_players": [
+            "andrew-bettington",
+            "mark-bettington"
+          ],
+          "label": "Doubles 1",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 2,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "andrew-bradbury"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 5,
+          "home_players": [
+            "andrew-bettington"
+          ],
+          "label": "Singles 1",
+          "margin": 1,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 5,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 5,
+          "away_players": [
+            "neal-grayson"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "mark-bettington"
+          ],
+          "label": "Singles 2",
+          "margin": 1,
+          "nobody_played": false,
+          "printed_away_games": 5,
+          "printed_home_games": 6,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 0,
+          "away_players": [
+            "andrew-bradbury",
+            "neal-grayson"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [
+            "andrew-bettington",
+            "mark-bettington"
+          ],
+          "label": "Doubles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-a/R9/match_scorecard_3665335.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": [
+        "row 4: no home games figure printed, read as 0",
+        "row 4: no away games figure printed, read as 0"
+      ]
     }
   ],
   "meta": {
     "cards_rejected": 0,
-    "cards_scored": 24,
-    "cards_seen": 24,
+    "cards_scored": 27,
+    "cards_seen": 27,
     "club": "The University of Queensland Tennis Club Inc",
     "competition": "monday-division-a",
     "day": "Monday",
     "division": "A",
     "draw_source": "cards",
     "folders_unlisted": 0,
-    "generated": "2026-10-12T13:15:12",
+    "generated": "2026-10-22T14:05:28",
     "label": "Monday Division A",
     "ladder_complete": true,
     "ladder_detail": "every team has played the same number",
@@ -3680,8 +4140,8 @@
       "value": 6.4
     },
     "leader_withheld": null,
-    "matches_played": 21,
-    "matches_total": 24,
+    "matches_played": 24,
+    "matches_total": 27,
     "order_stands": true,
     "ordered_on_average": true,
     "provenance": {
@@ -3694,10 +4154,10 @@
       "teams": "declared"
     },
     "regular_fixtures": {
-      "played": 21,
-      "total": 24
+      "played": 24,
+      "total": 27
     },
-    "rounds_played": 8,
+    "rounds_played": 10,
     "rounds_present": [
       "1",
       "2",
@@ -3706,7 +4166,8 @@
       "5",
       "6",
       "7",
-      "8"
+      "8",
+      "9"
     ],
     "rounds_total": 10,
     "rules": {
@@ -3763,7 +4224,7 @@
     "source_dir": "data",
     "teams_declared": true,
     "teams_total": 6,
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "player_names": {
     "alan-loi": "Alan Loi",
@@ -3789,7 +4250,7 @@
   },
   "players": [
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
           "played": 2,
@@ -3892,7 +4353,7 @@
       ],
       "rating": {
         "doubles": 5.58,
-        "singles": 5.77
+        "singles": 5.87
       },
       "rating_history": [
         {
@@ -3929,6 +4390,11 @@
           "doubles": 5.58,
           "round": "8",
           "singles": 5.77
+        },
+        {
+          "doubles": 5.58,
+          "round": "9",
+          "singles": 5.87
         }
       ],
       "registered_elsewhere": null,
@@ -3954,7 +4420,7 @@
       "win_pct": 75.0
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
           "played": 4,
@@ -4074,7 +4540,7 @@
         }
       ],
       "rating": {
-        "doubles": 6.53,
+        "doubles": 6.5,
         "singles": 4.97
       },
       "rating_history": [
@@ -4112,6 +4578,11 @@
           "doubles": 6.53,
           "round": "8",
           "singles": 4.97
+        },
+        {
+          "doubles": 6.5,
+          "round": "9",
+          "singles": 4.97
         }
       ],
       "registered_elsewhere": null,
@@ -4137,7 +4608,7 @@
       "win_pct": 36.4
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
           "played": 6,
@@ -4320,8 +4791,8 @@
         }
       ],
       "rating": {
-        "doubles": 6.62,
-        "singles": 7.06
+        "doubles": 6.6,
+        "singles": 7.05
       },
       "rating_history": [
         {
@@ -4358,6 +4829,11 @@
           "doubles": 6.62,
           "round": "8",
           "singles": 7.06
+        },
+        {
+          "doubles": 6.6,
+          "round": "9",
+          "singles": 7.05
         }
       ],
       "registered_elsewhere": null,
@@ -4383,15 +4859,15 @@
       "win_pct": 82.4
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
-          "played": 5,
-          "win_pct": 40.0,
+          "played": 6,
+          "win_pct": 33.3,
           "won": 2
         },
         "d2": {
-          "played": 5,
+          "played": 6,
           "win_pct": 0.0,
           "won": 0
         },
@@ -4401,32 +4877,41 @@
           "won": 2
         },
         "s2": {
-          "played": 1,
-          "win_pct": 0.0,
-          "won": 0
+          "played": 2,
+          "win_pct": 50.0,
+          "won": 1
         }
       },
       "contribution": {
-        "games_won": 37.0,
-        "share_pct": 42.0,
-        "team_games_won": 88
+        "games_won": 43.0,
+        "share_pct": 44.3,
+        "team_games_won": 97
       },
       "doubles": {
-        "games_lost": 42,
+        "games_lost": 54,
         "games_won": 32,
-        "lost": 6,
-        "played": 10,
+        "lost": 8,
+        "played": 12,
         "won": 2
       },
       "fill_in_appearances": 0,
-      "games_diff": -13,
-      "games_lost": 66,
-      "games_won": 53,
+      "games_diff": -21,
+      "games_lost": 80,
+      "games_won": 59,
       "is_captain": false,
       "longest_win_streak": 4,
-      "matches": 5,
+      "matches": 6,
       "name": "Andrew Lau",
       "opponents": [
+        {
+          "games_lost": 19,
+          "games_won": 15,
+          "lost": 2,
+          "name": "Carlton Sinn",
+          "sets": 5,
+          "slug": "carlton-sinn",
+          "won": 2
+        },
         {
           "games_lost": 24,
           "games_won": 13,
@@ -4482,15 +4967,6 @@
           "won": 1
         },
         {
-          "games_lost": 5,
-          "games_won": 9,
-          "lost": 0,
-          "name": "Carlton Sinn",
-          "sets": 2,
-          "slug": "carlton-sinn",
-          "won": 1
-        },
-        {
           "games_lost": 12,
           "games_won": 5,
           "lost": 2,
@@ -4507,15 +4983,24 @@
           "sets": 2,
           "slug": "andrew-bradbury",
           "won": 0
+        },
+        {
+          "games_lost": 12,
+          "games_won": 0,
+          "lost": 2,
+          "name": "Mick Keys",
+          "sets": 2,
+          "slug": "mick-keys",
+          "won": 0
         }
       ],
       "partners": [
         {
-          "games_lost": 30,
+          "games_lost": 42,
           "games_won": 27,
-          "lost": 4,
+          "lost": 6,
           "name": "Harry Ward",
-          "sets": 8,
+          "sets": 10,
           "slug": "harry-ward",
           "won": 2
         },
@@ -4530,8 +5015,8 @@
         }
       ],
       "rating": {
-        "doubles": 4.96,
-        "singles": 5.42
+        "doubles": 4.98,
+        "singles": 5.43
       },
       "rating_history": [
         {
@@ -4568,46 +5053,51 @@
           "doubles": 4.96,
           "round": "8",
           "singles": 5.42
+        },
+        {
+          "doubles": 4.98,
+          "round": "9",
+          "singles": 5.43
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 9,
-      "sets_played": 15,
-      "sets_won": 4,
+      "sets_lost": 11,
+      "sets_played": 18,
+      "sets_won": 5,
       "singles": {
-        "games_lost": 24,
-        "games_won": 21,
+        "games_lost": 26,
+        "games_won": 27,
         "lost": 3,
-        "played": 5,
-        "won": 2
+        "played": 6,
+        "won": 3
       },
       "slug": "andrew-lau",
       "streak": {
-        "length": 3,
+        "length": 1,
         "type": "L"
       },
       "team": "uq-kestrels",
       "team_code": null,
-      "team_matches": 5,
+      "team_matches": 6,
       "team_name": "UQ Kestrels",
-      "win_pct": 30.8
+      "win_pct": 31.3
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
-          "played": 6,
-          "win_pct": 33.3,
+          "played": 7,
+          "win_pct": 28.6,
           "won": 2
         },
         "d2": {
-          "played": 6,
+          "played": 7,
           "win_pct": 0.0,
           "won": 0
         },
         "s1": {
-          "played": 3,
-          "win_pct": 33.3,
+          "played": 4,
+          "win_pct": 25.0,
           "won": 1
         },
         "s2": {
@@ -4617,26 +5107,35 @@
         }
       },
       "contribution": {
-        "games_won": 42.0,
-        "share_pct": 47.7,
-        "team_games_won": 88
+        "games_won": 45.0,
+        "share_pct": 46.4,
+        "team_games_won": 97
       },
       "doubles": {
-        "games_lost": 54,
+        "games_lost": 66,
         "games_won": 36,
-        "lost": 8,
-        "played": 12,
+        "lost": 10,
+        "played": 14,
         "won": 2
       },
       "fill_in_appearances": 0,
-      "games_diff": -20,
-      "games_lost": 80,
-      "games_won": 60,
+      "games_diff": -35,
+      "games_lost": 98,
+      "games_won": 63,
       "is_captain": false,
       "longest_win_streak": 4,
-      "matches": 6,
+      "matches": 7,
       "name": "Harry Ward",
       "opponents": [
+        {
+          "games_lost": 21,
+          "games_won": 15,
+          "lost": 2,
+          "name": "Carlton Sinn",
+          "sets": 5,
+          "slug": "carlton-sinn",
+          "won": 2
+        },
         {
           "games_lost": 24,
           "games_won": 9,
@@ -4653,15 +5152,6 @@
           "name": "Andrew Bettington",
           "sets": 3,
           "slug": "andrew-bettington",
-          "won": 2
-        },
-        {
-          "games_lost": 9,
-          "games_won": 15,
-          "lost": 0,
-          "name": "Carlton Sinn",
-          "sets": 3,
-          "slug": "carlton-sinn",
           "won": 2
         },
         {
@@ -4689,6 +5179,15 @@
           "name": "Simon Thomas",
           "sets": 3,
           "slug": "simon-thomas",
+          "won": 0
+        },
+        {
+          "games_lost": 18,
+          "games_won": 3,
+          "lost": 3,
+          "name": "Mick Keys",
+          "sets": 3,
+          "slug": "mick-keys",
           "won": 0
         },
         {
@@ -4739,11 +5238,11 @@
       ],
       "partners": [
         {
-          "games_lost": 30,
+          "games_lost": 42,
           "games_won": 27,
-          "lost": 4,
+          "lost": 6,
           "name": "Andrew Lau",
-          "sets": 8,
+          "sets": 10,
           "slug": "andrew-lau",
           "won": 2
         },
@@ -4758,8 +5257,8 @@
         }
       ],
       "rating": {
-        "doubles": 5.0,
-        "singles": 5.71
+        "doubles": 5.01,
+        "singles": 5.72
       },
       "rating_history": [
         {
@@ -4796,32 +5295,37 @@
           "doubles": 5.0,
           "round": "8",
           "singles": 5.71
+        },
+        {
+          "doubles": 5.01,
+          "round": "9",
+          "singles": 5.72
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 11,
-      "sets_played": 18,
+      "sets_lost": 14,
+      "sets_played": 21,
       "sets_won": 5,
       "singles": {
-        "games_lost": 26,
-        "games_won": 24,
-        "lost": 3,
-        "played": 6,
+        "games_lost": 32,
+        "games_won": 27,
+        "lost": 4,
+        "played": 7,
         "won": 3
       },
       "slug": "harry-ward",
       "streak": {
-        "length": 4,
+        "length": 7,
         "type": "L"
       },
       "team": "uq-kestrels",
       "team_code": null,
-      "team_matches": 6,
+      "team_matches": 7,
       "team_name": "UQ Kestrels",
-      "win_pct": 31.3
+      "win_pct": 26.3
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
           "played": 3,
@@ -4846,8 +5350,8 @@
       },
       "contribution": {
         "games_won": 9.0,
-        "share_pct": 10.2,
-        "team_games_won": 88
+        "share_pct": 9.3,
+        "team_games_won": 97
       },
       "doubles": {
         "games_lost": 36,
@@ -4932,8 +5436,8 @@
         }
       ],
       "rating": {
-        "doubles": 5.32,
-        "singles": 5.17
+        "doubles": 5.31,
+        "singles": 5.18
       },
       "rating_history": [
         {
@@ -4970,6 +5474,11 @@
           "doubles": 5.32,
           "round": "8",
           "singles": 5.17
+        },
+        {
+          "doubles": 5.31,
+          "round": "9",
+          "singles": 5.18
         }
       ],
       "registered_elsewhere": null,
@@ -4995,20 +5504,20 @@
       "win_pct": 0.0
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
-          "played": 4,
+          "played": 5,
           "win_pct": 0.0,
           "won": 0
         },
         "d2": {
-          "played": 4,
+          "played": 5,
           "win_pct": 50.0,
           "won": 1
         },
         "s1": {
-          "played": 2,
+          "played": 3,
           "win_pct": 0.0,
           "won": 0
         },
@@ -5019,24 +5528,24 @@
         }
       },
       "contribution": {
-        "games_won": 22.0,
-        "share_pct": 27.5,
-        "team_games_won": 80
+        "games_won": 28.0,
+        "share_pct": 30.1,
+        "team_games_won": 93
       },
       "doubles": {
-        "games_lost": 43,
-        "games_won": 24,
-        "lost": 5,
-        "played": 8,
+        "games_lost": 49,
+        "games_won": 26,
+        "lost": 6,
+        "played": 10,
         "won": 1
       },
       "fill_in_appearances": 0,
-      "games_diff": -33,
-      "games_lost": 67,
-      "games_won": 34,
+      "games_diff": -38,
+      "games_lost": 79,
+      "games_won": 41,
       "is_captain": true,
       "longest_win_streak": 1,
-      "matches": 4,
+      "matches": 5,
       "name": "Andrew Bettington",
       "opponents": [
         {
@@ -5076,6 +5585,15 @@
           "won": 0
         },
         {
+          "games_lost": 12,
+          "games_won": 7,
+          "lost": 2,
+          "name": "Andrew Bradbury",
+          "sets": 3,
+          "slug": "andrew-bradbury",
+          "won": 0
+        },
+        {
           "games_lost": 10,
           "games_won": 9,
           "lost": 1,
@@ -5101,15 +5619,24 @@
           "sets": 2,
           "slug": "jack-sorrensen",
           "won": 0
+        },
+        {
+          "games_lost": 6,
+          "games_won": 2,
+          "lost": 1,
+          "name": "Neal Grayson",
+          "sets": 2,
+          "slug": "neal-grayson",
+          "won": 0
         }
       ],
       "partners": [
         {
-          "games_lost": 21,
-          "games_won": 14,
-          "lost": 2,
+          "games_lost": 27,
+          "games_won": 16,
+          "lost": 3,
           "name": "Mark Bettington",
-          "sets": 4,
+          "sets": 6,
           "slug": "mark-bettington",
           "won": 0
         },
@@ -5124,7 +5651,7 @@
         }
       ],
       "rating": {
-        "doubles": 5.43,
+        "doubles": 5.29,
         "singles": 5.38
       },
       "rating_history": [
@@ -5162,32 +5689,37 @@
           "doubles": 5.43,
           "round": "8",
           "singles": 5.38
+        },
+        {
+          "doubles": 5.29,
+          "round": "9",
+          "singles": 5.38
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 9,
-      "sets_played": 12,
+      "sets_lost": 11,
+      "sets_played": 15,
       "sets_won": 1,
       "singles": {
-        "games_lost": 24,
-        "games_won": 10,
-        "lost": 4,
-        "played": 4,
+        "games_lost": 30,
+        "games_won": 15,
+        "lost": 5,
+        "played": 5,
         "won": 0
       },
       "slug": "andrew-bettington",
       "streak": {
-        "length": 3,
+        "length": 5,
         "type": "L"
       },
       "team": "uq-leopards",
       "team_code": null,
-      "team_matches": 4,
+      "team_matches": 5,
       "team_name": "UQ Leopards",
-      "win_pct": 10.0
+      "win_pct": 8.3
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
           "played": 4,
@@ -5212,8 +5744,8 @@
       },
       "contribution": {
         "games_won": 18.0,
-        "share_pct": 22.5,
-        "team_games_won": 80
+        "share_pct": 19.4,
+        "team_games_won": 93
       },
       "doubles": {
         "games_lost": 46,
@@ -5325,8 +5857,8 @@
         }
       ],
       "rating": {
-        "doubles": 5.23,
-        "singles": 5.97
+        "doubles": 5.18,
+        "singles": 5.87
       },
       "rating_history": [
         {
@@ -5363,6 +5895,11 @@
           "doubles": 5.23,
           "round": "8",
           "singles": 5.97
+        },
+        {
+          "doubles": 5.18,
+          "round": "9",
+          "singles": 5.87
         }
       ],
       "registered_elsewhere": null,
@@ -5388,15 +5925,15 @@
       "win_pct": 8.3
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
-          "played": 5,
+          "played": 6,
           "win_pct": 0.0,
           "won": 0
         },
         "d2": {
-          "played": 5,
+          "played": 6,
           "win_pct": 0.0,
           "won": 0
         },
@@ -5406,30 +5943,30 @@
           "won": 0
         },
         "s2": {
-          "played": 4,
-          "win_pct": 50.0,
-          "won": 2
+          "played": 5,
+          "win_pct": 60.0,
+          "won": 3
         }
       },
       "contribution": {
-        "games_won": 37.5,
-        "share_pct": 46.9,
-        "team_games_won": 80
+        "games_won": 44.5,
+        "share_pct": 47.8,
+        "team_games_won": 93
       },
       "doubles": {
-        "games_lost": 57,
-        "games_won": 29,
-        "lost": 8,
-        "played": 10,
+        "games_lost": 63,
+        "games_won": 31,
+        "lost": 9,
+        "played": 12,
         "won": 0
       },
       "fill_in_appearances": 0,
-      "games_diff": -29,
-      "games_lost": 81,
-      "games_won": 52,
+      "games_diff": -32,
+      "games_lost": 92,
+      "games_won": 60,
       "is_captain": false,
       "longest_win_streak": 1,
-      "matches": 5,
+      "matches": 6,
       "name": "Mark Bettington",
       "opponents": [
         {
@@ -5440,6 +5977,24 @@
           "sets": 6,
           "slug": "andrew-smith",
           "won": 2
+        },
+        {
+          "games_lost": 23,
+          "games_won": 13,
+          "lost": 3,
+          "name": "Neal Grayson",
+          "sets": 5,
+          "slug": "neal-grayson",
+          "won": 1
+        },
+        {
+          "games_lost": 24,
+          "games_won": 10,
+          "lost": 4,
+          "name": "Andrew Bradbury",
+          "sets": 5,
+          "slug": "andrew-bradbury",
+          "won": 0
         },
         {
           "games_lost": 22,
@@ -5461,29 +6016,11 @@
         },
         {
           "games_lost": 18,
-          "games_won": 8,
-          "lost": 3,
-          "name": "Andrew Bradbury",
-          "sets": 3,
-          "slug": "andrew-bradbury",
-          "won": 0
-        },
-        {
-          "games_lost": 18,
           "games_won": 7,
           "lost": 3,
           "name": "Tom Ladbrook",
           "sets": 3,
           "slug": "tom-ladbrook",
-          "won": 0
-        },
-        {
-          "games_lost": 12,
-          "games_won": 5,
-          "lost": 2,
-          "name": "Neal Grayson",
-          "sets": 2,
-          "slug": "neal-grayson",
           "won": 0
         },
         {
@@ -5507,11 +6044,11 @@
       ],
       "partners": [
         {
-          "games_lost": 21,
-          "games_won": 14,
-          "lost": 2,
+          "games_lost": 27,
+          "games_won": 16,
+          "lost": 3,
           "name": "Andrew Bettington",
-          "sets": 4,
+          "sets": 6,
           "slug": "andrew-bettington",
           "won": 0
         },
@@ -5535,8 +6072,8 @@
         }
       ],
       "rating": {
-        "doubles": 5.54,
-        "singles": 5.4
+        "doubles": 5.36,
+        "singles": 5.5
       },
       "rating_history": [
         {
@@ -5573,32 +6110,37 @@
           "doubles": 5.54,
           "round": "8",
           "singles": 5.4
+        },
+        {
+          "doubles": 5.36,
+          "round": "9",
+          "singles": 5.5
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 11,
-      "sets_played": 15,
-      "sets_won": 2,
+      "sets_lost": 12,
+      "sets_played": 18,
+      "sets_won": 3,
       "singles": {
-        "games_lost": 24,
-        "games_won": 23,
+        "games_lost": 29,
+        "games_won": 29,
         "lost": 3,
-        "played": 5,
-        "won": 2
+        "played": 6,
+        "won": 3
       },
       "slug": "mark-bettington",
       "streak": {
         "length": 1,
-        "type": "L"
+        "type": "W"
       },
       "team": "uq-leopards",
       "team_code": null,
-      "team_matches": 5,
+      "team_matches": 6,
       "team_name": "UQ Leopards",
-      "win_pct": 15.4
+      "win_pct": 20.0
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
           "played": 7,
@@ -5623,8 +6165,8 @@
       },
       "contribution": {
         "games_won": 72.0,
-        "share_pct": 42.9,
-        "team_games_won": 168
+        "share_pct": 37.5,
+        "team_games_won": 192
       },
       "doubles": {
         "games_lost": 28,
@@ -5763,7 +6305,7 @@
         }
       ],
       "rating": {
-        "doubles": 7.14,
+        "doubles": 7.09,
         "singles": 7.69
       },
       "rating_history": [
@@ -5801,6 +6343,11 @@
           "doubles": 7.14,
           "round": "8",
           "singles": 7.69
+        },
+        {
+          "doubles": 7.09,
+          "round": "9",
+          "singles": 7.69
         }
       ],
       "registered_elsewhere": null,
@@ -5826,7 +6373,7 @@
       "win_pct": 100.0
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
           "played": 5,
@@ -5851,8 +6398,8 @@
       },
       "contribution": {
         "games_won": 60.0,
-        "share_pct": 35.7,
-        "team_games_won": 168
+        "share_pct": 31.3,
+        "team_games_won": 192
       },
       "doubles": {
         "games_lost": 19,
@@ -5973,8 +6520,8 @@
         }
       ],
       "rating": {
-        "doubles": 7.32,
-        "singles": 8.4
+        "doubles": 7.18,
+        "singles": 8.47
       },
       "rating_history": [
         {
@@ -6011,6 +6558,11 @@
           "doubles": 7.32,
           "round": "8",
           "singles": 8.4
+        },
+        {
+          "doubles": 7.18,
+          "round": "9",
+          "singles": 8.47
         }
       ],
       "registered_elsewhere": null,
@@ -6036,7 +6588,7 @@
       "win_pct": 100.0
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
           "played": 3,
@@ -6061,8 +6613,8 @@
       },
       "contribution": {
         "games_won": 36.0,
-        "share_pct": 21.4,
-        "team_games_won": 168
+        "share_pct": 18.8,
+        "team_games_won": 192
       },
       "doubles": {
         "games_lost": 14,
@@ -6156,7 +6708,7 @@
         }
       ],
       "rating": {
-        "doubles": 7.03,
+        "doubles": 6.99,
         "singles": 6.71
       },
       "rating_history": [
@@ -6194,6 +6746,11 @@
           "doubles": 7.03,
           "round": "8",
           "singles": 6.71
+        },
+        {
+          "doubles": 6.99,
+          "round": "9",
+          "singles": 6.71
         }
       ],
       "registered_elsewhere": null,
@@ -6219,7 +6776,7 @@
       "win_pct": 100.0
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
           "played": 5,
@@ -6244,8 +6801,8 @@
       },
       "contribution": {
         "games_won": 41.0,
-        "share_pct": 31.5,
-        "team_games_won": 130
+        "share_pct": 27.9,
+        "team_games_won": 147
       },
       "doubles": {
         "games_lost": 48,
@@ -6366,8 +6923,8 @@
         }
       ],
       "rating": {
-        "doubles": 5.56,
-        "singles": 5.57
+        "doubles": 5.61,
+        "singles": 5.59
       },
       "rating_history": [
         {
@@ -6404,6 +6961,11 @@
           "doubles": 5.56,
           "round": "8",
           "singles": 5.57
+        },
+        {
+          "doubles": 5.61,
+          "round": "9",
+          "singles": 5.59
         }
       ],
       "registered_elsewhere": null,
@@ -6429,22 +6991,22 @@
       "win_pct": 57.1
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
-          "played": 4,
-          "win_pct": 75.0,
-          "won": 3
+          "played": 5,
+          "win_pct": 80.0,
+          "won": 4
         },
         "d2": {
-          "played": 4,
+          "played": 5,
           "win_pct": 66.7,
           "won": 2
         },
         "s1": {
-          "played": 2,
+          "played": 3,
           "win_pct": 100.0,
-          "won": 2
+          "won": 3
         },
         "s2": {
           "played": 2,
@@ -6453,26 +7015,35 @@
         }
       },
       "contribution": {
-        "games_won": 39.5,
-        "share_pct": 30.4,
-        "team_games_won": 130
+        "games_won": 48.5,
+        "share_pct": 33.0,
+        "team_games_won": 147
       },
       "doubles": {
-        "games_lost": 27,
-        "games_won": 35,
+        "games_lost": 29,
+        "games_won": 41,
         "lost": 2,
-        "played": 8,
-        "won": 5
+        "played": 10,
+        "won": 6
       },
       "fill_in_appearances": 0,
-      "games_diff": 14,
-      "games_lost": 43,
-      "games_won": 57,
+      "games_diff": 19,
+      "games_lost": 50,
+      "games_won": 69,
       "is_captain": true,
-      "longest_win_streak": 5,
-      "matches": 4,
+      "longest_win_streak": 7,
+      "matches": 5,
       "name": "Andrew Bradbury",
       "opponents": [
+        {
+          "games_lost": 10,
+          "games_won": 24,
+          "lost": 0,
+          "name": "Mark Bettington",
+          "sets": 5,
+          "slug": "mark-bettington",
+          "won": 4
+        },
         {
           "games_lost": 12,
           "games_won": 18,
@@ -6483,13 +7054,13 @@
           "won": 3
         },
         {
-          "games_lost": 8,
-          "games_won": 18,
+          "games_lost": 7,
+          "games_won": 12,
           "lost": 0,
-          "name": "Mark Bettington",
+          "name": "Andrew Bettington",
           "sets": 3,
-          "slug": "mark-bettington",
-          "won": 3
+          "slug": "andrew-bettington",
+          "won": 2
         },
         {
           "games_lost": 5,
@@ -6548,13 +7119,13 @@
       ],
       "partners": [
         {
-          "games_lost": 5,
-          "games_won": 18,
+          "games_lost": 7,
+          "games_won": 24,
           "lost": 0,
           "name": "Neal Grayson",
-          "sets": 4,
+          "sets": 6,
           "slug": "neal-grayson",
-          "won": 3
+          "won": 4
         },
         {
           "games_lost": 22,
@@ -6567,8 +7138,8 @@
         }
       ],
       "rating": {
-        "doubles": 6.1,
-        "singles": 5.12
+        "doubles": 5.91,
+        "singles": 5.15
       },
       "rating_history": [
         {
@@ -6605,40 +7176,45 @@
           "doubles": 6.1,
           "round": "8",
           "singles": 5.12
+        },
+        {
+          "doubles": 5.91,
+          "round": "9",
+          "singles": 5.15
         }
       ],
       "registered_elsewhere": null,
       "sets_lost": 3,
-      "sets_played": 12,
-      "sets_won": 8,
+      "sets_played": 15,
+      "sets_won": 10,
       "singles": {
-        "games_lost": 16,
-        "games_won": 22,
+        "games_lost": 21,
+        "games_won": 28,
         "lost": 1,
-        "played": 4,
-        "won": 3
+        "played": 5,
+        "won": 4
       },
       "slug": "andrew-bradbury",
       "streak": {
-        "length": 5,
+        "length": 7,
         "type": "W"
       },
       "team": "uq-strikers",
       "team_code": null,
-      "team_matches": 4,
+      "team_matches": 5,
       "team_name": "UQ Strikers",
-      "win_pct": 72.7
+      "win_pct": 76.9
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
-          "played": 5,
-          "win_pct": 80.0,
-          "won": 4
+          "played": 6,
+          "win_pct": 83.3,
+          "won": 5
         },
         "d2": {
-          "played": 5,
+          "played": 6,
           "win_pct": 66.7,
           "won": 2
         },
@@ -6648,30 +7224,30 @@
           "won": 2
         },
         "s2": {
-          "played": 3,
-          "win_pct": 66.7,
+          "played": 4,
+          "win_pct": 50.0,
           "won": 2
         }
       },
       "contribution": {
-        "games_won": 49.5,
-        "share_pct": 38.1,
-        "team_games_won": 130
+        "games_won": 57.5,
+        "share_pct": 39.1,
+        "team_games_won": 147
       },
       "doubles": {
-        "games_lost": 31,
-        "games_won": 43,
+        "games_lost": 33,
+        "games_won": 49,
         "lost": 2,
-        "played": 10,
-        "won": 6
+        "played": 12,
+        "won": 7
       },
       "fill_in_appearances": 0,
-      "games_diff": 27,
-      "games_lost": 44,
-      "games_won": 71,
+      "games_diff": 30,
+      "games_lost": 52,
+      "games_won": 82,
       "is_captain": false,
       "longest_win_streak": 6,
-      "matches": 5,
+      "matches": 6,
       "name": "Neal Grayson",
       "opponents": [
         {
@@ -6691,6 +7267,15 @@
           "sets": 5,
           "slug": "harry-ward",
           "won": 4
+        },
+        {
+          "games_lost": 13,
+          "games_won": 23,
+          "lost": 1,
+          "name": "Mark Bettington",
+          "sets": 5,
+          "slug": "mark-bettington",
+          "won": 3
         },
         {
           "games_lost": 19,
@@ -6720,13 +7305,13 @@
           "won": 1
         },
         {
-          "games_lost": 5,
-          "games_won": 12,
+          "games_lost": 2,
+          "games_won": 6,
           "lost": 0,
-          "name": "Mark Bettington",
+          "name": "Andrew Bettington",
           "sets": 2,
-          "slug": "mark-bettington",
-          "won": 2
+          "slug": "andrew-bettington",
+          "won": 1
         },
         {
           "games_lost": 12,
@@ -6749,18 +7334,18 @@
           "won": 3
         },
         {
-          "games_lost": 5,
-          "games_won": 18,
+          "games_lost": 7,
+          "games_won": 24,
           "lost": 0,
           "name": "Andrew Bradbury",
-          "sets": 4,
+          "sets": 6,
           "slug": "andrew-bradbury",
-          "won": 3
+          "won": 4
         }
       ],
       "rating": {
-        "doubles": 5.56,
-        "singles": 6.66
+        "doubles": 5.65,
+        "singles": 6.63
       },
       "rating_history": [
         {
@@ -6797,17 +7382,22 @@
           "doubles": 5.56,
           "round": "8",
           "singles": 6.66
+        },
+        {
+          "doubles": 5.65,
+          "round": "9",
+          "singles": 6.63
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 3,
-      "sets_played": 15,
-      "sets_won": 10,
+      "sets_lost": 4,
+      "sets_played": 18,
+      "sets_won": 11,
       "singles": {
-        "games_lost": 13,
-        "games_won": 28,
-        "lost": 1,
-        "played": 5,
+        "games_lost": 19,
+        "games_won": 33,
+        "lost": 2,
+        "played": 6,
         "won": 4
       },
       "slug": "neal-grayson",
@@ -6817,12 +7407,12 @@
       },
       "team": "uq-strikers",
       "team_code": null,
-      "team_matches": 5,
+      "team_matches": 6,
       "team_name": "UQ Strikers",
-      "win_pct": 76.9
+      "win_pct": 73.3
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
           "played": 6,
@@ -6847,8 +7437,8 @@
       },
       "contribution": {
         "games_won": 33.0,
-        "share_pct": 41.3,
-        "team_games_won": 80
+        "share_pct": 33.0,
+        "team_games_won": 100
       },
       "doubles": {
         "games_lost": 60,
@@ -6969,8 +7559,8 @@
         }
       ],
       "rating": {
-        "doubles": 4.72,
-        "singles": 4.93
+        "doubles": 4.74,
+        "singles": 4.96
       },
       "rating_history": [
         {
@@ -7007,6 +7597,11 @@
           "doubles": 4.72,
           "round": "8",
           "singles": 4.93
+        },
+        {
+          "doubles": 4.74,
+          "round": "9",
+          "singles": 4.96
         }
       ],
       "registered_elsewhere": null,
@@ -7032,17 +7627,17 @@
       "win_pct": 18.8
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
-          "played": 4,
-          "win_pct": 0.0,
-          "won": 0
+          "played": 5,
+          "win_pct": 20.0,
+          "won": 1
         },
         "d2": {
-          "played": 4,
-          "win_pct": 0.0,
-          "won": 0
+          "played": 5,
+          "win_pct": 25.0,
+          "won": 1
         },
         "s1": {
           "played": 0,
@@ -7050,30 +7645,30 @@
           "won": 0
         },
         "s2": {
-          "played": 4,
+          "played": 5,
           "win_pct": 0.0,
           "won": 0
         }
       },
       "contribution": {
-        "games_won": 16.5,
-        "share_pct": 20.6,
-        "team_games_won": 80
+        "games_won": 24.5,
+        "share_pct": 24.5,
+        "team_games_won": 100
       },
       "doubles": {
         "games_lost": 45,
-        "games_won": 21,
+        "games_won": 33,
         "lost": 7,
-        "played": 8,
-        "won": 0
+        "played": 10,
+        "won": 2
       },
       "fill_in_appearances": 0,
-      "games_diff": -42,
-      "games_lost": 69,
-      "games_won": 27,
+      "games_diff": -34,
+      "games_lost": 75,
+      "games_won": 41,
       "is_captain": false,
-      "longest_win_streak": 0,
-      "matches": 4,
+      "longest_win_streak": 1,
+      "matches": 5,
       "name": "Carlton Sinn",
       "opponents": [
         {
@@ -7086,6 +7681,24 @@
           "won": 0
         },
         {
+          "games_lost": 15,
+          "games_won": 21,
+          "lost": 2,
+          "name": "Harry Ward",
+          "sets": 5,
+          "slug": "harry-ward",
+          "won": 2
+        },
+        {
+          "games_lost": 15,
+          "games_won": 19,
+          "lost": 2,
+          "name": "Andrew Lau",
+          "sets": 5,
+          "slug": "andrew-lau",
+          "won": 2
+        },
+        {
           "games_lost": 18,
           "games_won": 12,
           "lost": 3,
@@ -7095,30 +7708,12 @@
           "won": 0
         },
         {
-          "games_lost": 15,
-          "games_won": 9,
-          "lost": 2,
-          "name": "Harry Ward",
-          "sets": 3,
-          "slug": "harry-ward",
-          "won": 0
-        },
-        {
           "games_lost": 12,
           "games_won": 10,
           "lost": 2,
           "name": "Andrew Bradbury",
           "sets": 2,
           "slug": "andrew-bradbury",
-          "won": 0
-        },
-        {
-          "games_lost": 9,
-          "games_won": 5,
-          "lost": 1,
-          "name": "Andrew Lau",
-          "sets": 2,
-          "slug": "andrew-lau",
           "won": 0
         },
         {
@@ -7152,17 +7747,17 @@
         },
         {
           "games_lost": 12,
-          "games_won": 5,
+          "games_won": 17,
           "lost": 2,
           "name": "Mick Keys",
-          "sets": 2,
+          "sets": 4,
           "slug": "mick-keys",
-          "won": 0
+          "won": 2
         }
       ],
       "rating": {
-        "doubles": 4.92,
-        "singles": 4.7
+        "doubles": 4.9,
+        "singles": 4.71
       },
       "rating_history": [
         {
@@ -7199,47 +7794,52 @@
           "doubles": 4.92,
           "round": "8",
           "singles": 4.7
+        },
+        {
+          "doubles": 4.9,
+          "round": "9",
+          "singles": 4.71
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 11,
-      "sets_played": 12,
-      "sets_won": 0,
+      "sets_lost": 12,
+      "sets_played": 15,
+      "sets_won": 2,
       "singles": {
-        "games_lost": 24,
-        "games_won": 6,
-        "lost": 4,
-        "played": 4,
+        "games_lost": 30,
+        "games_won": 8,
+        "lost": 5,
+        "played": 5,
         "won": 0
       },
       "slug": "carlton-sinn",
       "streak": {
-        "length": 11,
-        "type": "L"
+        "length": 1,
+        "type": "W"
       },
       "team": "uq-tyrants",
       "team_code": null,
-      "team_matches": 4,
+      "team_matches": 5,
       "team_name": "UQ Tyrants",
-      "win_pct": 0.0
+      "win_pct": 14.3
     },
     {
-      "available": 7,
+      "available": 8,
       "by_slot": {
         "d1": {
-          "played": 4,
-          "win_pct": 50.0,
-          "won": 2
+          "played": 5,
+          "win_pct": 60.0,
+          "won": 3
         },
         "d2": {
-          "played": 4,
-          "win_pct": 33.3,
-          "won": 1
-        },
-        "s1": {
-          "played": 4,
+          "played": 5,
           "win_pct": 50.0,
           "won": 2
+        },
+        "s1": {
+          "played": 5,
+          "win_pct": 60.0,
+          "won": 3
         },
         "s2": {
           "played": 0,
@@ -7248,24 +7848,24 @@
         }
       },
       "contribution": {
-        "games_won": 30.5,
-        "share_pct": 38.1,
-        "team_games_won": 80
+        "games_won": 42.5,
+        "share_pct": 42.5,
+        "team_games_won": 100
       },
       "doubles": {
         "games_lost": 39,
-        "games_won": 31,
+        "games_won": 43,
         "lost": 4,
-        "played": 8,
-        "won": 3
+        "played": 10,
+        "won": 5
       },
       "fill_in_appearances": 0,
-      "games_diff": -7,
-      "games_lost": 53,
-      "games_won": 46,
+      "games_diff": 8,
+      "games_lost": 56,
+      "games_won": 64,
       "is_captain": false,
-      "longest_win_streak": 3,
-      "matches": 4,
+      "longest_win_streak": 6,
+      "matches": 5,
       "name": "Mick Keys",
       "opponents": [
         {
@@ -7285,6 +7885,15 @@
           "sets": 4,
           "slug": "luke-angus",
           "won": 0
+        },
+        {
+          "games_lost": 3,
+          "games_won": 18,
+          "lost": 0,
+          "name": "Harry Ward",
+          "sets": 3,
+          "slug": "harry-ward",
+          "won": 3
         },
         {
           "games_lost": 6,
@@ -7321,6 +7930,15 @@
           "sets": 3,
           "slug": "tristan-fitzgerald",
           "won": 0
+        },
+        {
+          "games_lost": 0,
+          "games_won": 12,
+          "lost": 0,
+          "name": "Andrew Lau",
+          "sets": 2,
+          "slug": "andrew-lau",
+          "won": 2
         }
       ],
       "partners": [
@@ -7335,17 +7953,17 @@
         },
         {
           "games_lost": 12,
-          "games_won": 5,
+          "games_won": 17,
           "lost": 2,
           "name": "Carlton Sinn",
-          "sets": 2,
+          "sets": 4,
           "slug": "carlton-sinn",
-          "won": 0
+          "won": 2
         }
       ],
       "rating": {
-        "doubles": 7.2,
-        "singles": 6.69
+        "doubles": 7.23,
+        "singles": 6.73
       },
       "rating_history": [
         {
@@ -7382,29 +8000,34 @@
           "doubles": 7.2,
           "round": "8",
           "singles": 6.69
+        },
+        {
+          "doubles": 7.23,
+          "round": "9",
+          "singles": 6.73
         }
       ],
       "registered_elsewhere": null,
       "sets_lost": 6,
-      "sets_played": 12,
-      "sets_won": 5,
+      "sets_played": 15,
+      "sets_won": 8,
       "singles": {
-        "games_lost": 14,
-        "games_won": 15,
+        "games_lost": 17,
+        "games_won": 21,
         "lost": 2,
-        "played": 4,
-        "won": 2
+        "played": 5,
+        "won": 3
       },
       "slug": "mick-keys",
       "streak": {
-        "length": 3,
+        "length": 6,
         "type": "W"
       },
       "team": "uq-tyrants",
       "team_code": null,
-      "team_matches": 4,
+      "team_matches": 5,
       "team_name": "UQ Tyrants",
-      "win_pct": 45.5
+      "win_pct": 57.1
     },
     {
       "available": null,
@@ -7627,7 +8250,8 @@
       "number": "1",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7644,7 +8268,8 @@
       "number": "2",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": true
     },
     {
       "byes": [],
@@ -7661,7 +8286,8 @@
       "number": "3",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7678,7 +8304,8 @@
       "number": "4",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7695,7 +8322,8 @@
       "number": "5",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7712,7 +8340,8 @@
       "number": "6",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7729,7 +8358,8 @@
       "number": "7",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7746,7 +8376,40 @@
       "number": "8",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
+    },
+    {
+      "byes": [],
+      "cards": 3,
+      "cards_played": 3,
+      "date": "2026-10-12",
+      "is_finals": false,
+      "keys": [
+        "9/uq-hornets/uq-sharks/1",
+        "9/uq-kestrels/uq-tyrants/1",
+        "9/uq-leopards/uq-strikers/1"
+      ],
+      "note": "",
+      "number": "9",
+      "numbered": true,
+      "played": true,
+      "source": "cards",
+      "washed_out": false
+    },
+    {
+      "byes": [],
+      "cards": 0,
+      "cards_played": 0,
+      "date": "",
+      "is_finals": false,
+      "keys": [],
+      "note": "",
+      "number": "10",
+      "numbered": true,
+      "played": false,
+      "source": "cards",
+      "washed_out": true
     }
   ],
   "teams": [
@@ -7765,27 +8428,27 @@
       },
       "by_slot": {
         "d1": {
-          "games_lost": 21,
+          "games_lost": 27,
           "games_won": 35,
-          "lost": 2,
+          "lost": 3,
           "won": 5
         },
         "d2": {
-          "games_lost": 21,
+          "games_lost": 27,
           "games_won": 34,
-          "lost": 1,
+          "lost": 2,
           "won": 4
         },
         "s1": {
-          "games_lost": 22,
+          "games_lost": 28,
           "games_won": 30,
-          "lost": 3,
+          "lost": 4,
           "won": 4
         },
         "s2": {
-          "games_lost": 26,
+          "games_lost": 32,
           "games_won": 31,
-          "lost": 2,
+          "lost": 3,
           "won": 5
         }
       },
@@ -7801,24 +8464,24 @@
         "share_pct": 18.5,
         "team_games_won": 130
       },
-      "counted": 7,
+      "counted": 8,
       "drawn": 0,
       "form": [
+        "W",
+        "W",
+        "W",
         "L",
-        "W",
-        "W",
-        "W",
         "L"
       ],
-      "games_diff": 40,
-      "games_lost": 90,
+      "games_diff": 16,
+      "games_lost": 114,
       "games_won": 130,
       "home": {
         "drawn": 0,
-        "games_lost": 38,
+        "games_lost": 62,
         "games_won": 86,
-        "lost": 0,
-        "played": 4,
+        "lost": 1,
+        "played": 5,
         "won": 4
       },
       "home_court": 16,
@@ -7862,38 +8525,48 @@
           "points_average": 5.285714,
           "position": 2,
           "round": "8"
+        },
+        {
+          "points_average": 4.625,
+          "position": 3,
+          "round": "9"
+        },
+        {
+          "points_average": 4.625,
+          "position": 3,
+          "round": "10"
         }
       ],
-      "lost": 2,
+      "lost": 3,
       "name": "UQ Hornets",
-      "played": 7,
+      "played": 8,
       "players": [
         "jack-sorrensen",
         "kaan-deniz-gecer",
         "tristan-fitzgerald"
       ],
       "points": 37.0,
-      "points_average": 5.285714,
+      "points_average": 4.625,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
         "earned": 37.0
       },
-      "position": 2,
-      "sets_diff": 10,
-      "sets_lost": 8,
+      "position": 3,
+      "sets_diff": 6,
+      "sets_lost": 12,
       "sets_won": 18,
       "short": "UQ Hornets",
       "slug": "uq-hornets",
       "streak": {
-        "length": 1,
+        "length": 2,
         "type": "L"
       },
-      "win_pct": 69.2,
+      "win_pct": 60.0,
       "won": 5,
       "worst_round": {
-        "points": 2.7,
-        "round": "4"
+        "points": 0.0,
+        "round": "9"
       }
     },
     {
@@ -7911,28 +8584,28 @@
       },
       "by_slot": {
         "d1": {
-          "games_lost": 34,
+          "games_lost": 40,
           "games_won": 18,
-          "lost": 5,
+          "lost": 6,
           "won": 2
         },
         "d2": {
-          "games_lost": 32,
+          "games_lost": 38,
           "games_won": 23,
-          "lost": 5,
+          "lost": 6,
           "won": 0
         },
         "s1": {
-          "games_lost": 32,
-          "games_won": 26,
-          "lost": 4,
+          "games_lost": 38,
+          "games_won": 29,
+          "lost": 5,
           "won": 3
         },
         "s2": {
-          "games_lost": 36,
-          "games_won": 21,
+          "games_lost": 38,
+          "games_won": 27,
           "lost": 5,
-          "won": 2
+          "won": 3
         }
       },
       "captain": "Scott Connell",
@@ -7945,26 +8618,26 @@
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 0,
         "share_pct": 0.0,
-        "team_games_won": 88
+        "team_games_won": 97
       },
-      "counted": 7,
+      "counted": 8,
       "drawn": 0,
       "form": [
         "W",
-        "W",
+        "L",
         "L",
         "L",
         "L"
       ],
-      "games_diff": -46,
-      "games_lost": 134,
-      "games_won": 88,
+      "games_diff": -57,
+      "games_lost": 154,
+      "games_won": 97,
       "home": {
         "drawn": 0,
-        "games_lost": 42,
-        "games_won": 19,
-        "lost": 2,
-        "played": 2,
+        "games_lost": 62,
+        "games_won": 28,
+        "lost": 3,
+        "played": 3,
         "won": 0
       },
       "home_court": 13,
@@ -8008,34 +8681,44 @@
           "points_average": 3.828571,
           "position": 4,
           "round": "8"
+        },
+        {
+          "points_average": 3.7125,
+          "position": 5,
+          "round": "9"
+        },
+        {
+          "points_average": 3.7125,
+          "position": 5,
+          "round": "10"
         }
       ],
-      "lost": 5,
+      "lost": 6,
       "name": "UQ Kestrels",
-      "played": 7,
+      "played": 8,
       "players": [
         "andrew-lau",
         "harry-ward",
         "scott-connell"
       ],
-      "points": 26.8,
-      "points_average": 3.828571,
+      "points": 29.7,
+      "points_average": 3.7125,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 26.8
+        "earned": 29.7
       },
-      "position": 4,
-      "sets_diff": -12,
-      "sets_lost": 19,
-      "sets_won": 7,
+      "position": 5,
+      "sets_diff": -14,
+      "sets_lost": 22,
+      "sets_won": 8,
       "short": "UQ Kestrels",
       "slug": "uq-kestrels",
       "streak": {
-        "length": 3,
+        "length": 4,
         "type": "L"
       },
-      "win_pct": 26.9,
+      "win_pct": 26.7,
       "won": 2,
       "worst_round": {
         "points": 2.5,
@@ -8057,9 +8740,9 @@
       },
       "by_slot": {
         "d1": {
-          "games_lost": 42,
-          "games_won": 18,
-          "lost": 7,
+          "games_lost": 48,
+          "games_won": 20,
+          "lost": 8,
           "won": 0
         },
         "d2": {
@@ -8069,16 +8752,16 @@
           "won": 1
         },
         "s1": {
-          "games_lost": 42,
-          "games_won": 14,
-          "lost": 7,
+          "games_lost": 48,
+          "games_won": 19,
+          "lost": 8,
           "won": 0
         },
         "s2": {
-          "games_lost": 36,
-          "games_won": 27,
+          "games_lost": 41,
+          "games_won": 33,
           "lost": 5,
-          "won": 2
+          "won": 3
         }
       },
       "captain": "Andrew Bettington",
@@ -8090,10 +8773,10 @@
         "rubbers_overfull": 0,
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 3,
-        "share_pct": 3.1,
-        "team_games_won": 80
+        "share_pct": 2.7,
+        "team_games_won": 93
       },
-      "counted": 7,
+      "counted": 8,
       "drawn": 0,
       "form": [
         "L",
@@ -8102,15 +8785,15 @@
         "L",
         "L"
       ],
-      "games_diff": -77,
-      "games_lost": 157,
-      "games_won": 80,
+      "games_diff": -81,
+      "games_lost": 174,
+      "games_won": 93,
       "home": {
         "drawn": 0,
-        "games_lost": 65,
-        "games_won": 40,
-        "lost": 3,
-        "played": 3,
+        "games_lost": 82,
+        "games_won": 53,
+        "lost": 4,
+        "played": 4,
         "won": 0
       },
       "home_court": 15,
@@ -8154,34 +8837,44 @@
           "points_average": 3.142857,
           "position": 6,
           "round": "8"
+        },
+        {
+          "points_average": 3.1625,
+          "position": 6,
+          "round": "9"
+        },
+        {
+          "points_average": 3.1625,
+          "position": 6,
+          "round": "10"
         }
       ],
-      "lost": 7,
+      "lost": 8,
       "name": "UQ Leopards",
-      "played": 7,
+      "played": 8,
       "players": [
         "andrew-bettington",
         "jonathan-shaw",
         "mark-bettington"
       ],
-      "points": 22.0,
-      "points_average": 3.142857,
+      "points": 25.3,
+      "points_average": 3.1625,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 22.0
+        "earned": 25.3
       },
       "position": 6,
-      "sets_diff": -20,
-      "sets_lost": 23,
-      "sets_won": 3,
+      "sets_diff": -21,
+      "sets_lost": 25,
+      "sets_won": 4,
       "short": "UQ Leopards",
       "slug": "uq-leopards",
       "streak": {
-        "length": 7,
+        "length": 8,
         "type": "L"
       },
-      "win_pct": 11.5,
+      "win_pct": 13.8,
       "won": 0,
       "worst_round": {
         "points": 2.8,
@@ -8192,10 +8885,10 @@
       "away": {
         "drawn": 0,
         "games_lost": 28,
-        "games_won": 72,
+        "games_won": 96,
         "lost": 0,
-        "played": 3,
-        "won": 3
+        "played": 4,
+        "won": 4
       },
       "best_round": {
         "points": 6.4,
@@ -8204,42 +8897,42 @@
       "by_slot": {
         "d1": {
           "games_lost": 15,
-          "games_won": 42,
+          "games_won": 48,
           "lost": 0,
-          "won": 7
+          "won": 8
         },
         "d2": {
           "games_lost": 13,
-          "games_won": 42,
+          "games_won": 48,
           "lost": 0,
-          "won": 7
+          "won": 8
         },
         "s1": {
           "games_lost": 11,
-          "games_won": 42,
+          "games_won": 48,
           "lost": 0,
-          "won": 7
+          "won": 8
         },
         "s2": {
           "games_lost": 11,
-          "games_won": 42,
+          "games_won": 48,
           "lost": 0,
-          "won": 7
+          "won": 8
         }
       },
       "captain": "Tom Ladbrook",
       "code": null,
       "contribution_gap": {
-        "games": 0.0,
+        "games": 24.0,
         "nights_not_credited": 0,
-        "rubbers_nobody_played": 0,
+        "rubbers_nobody_played": 4,
         "rubbers_overfull": 0,
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 0,
-        "share_pct": 0.0,
-        "team_games_won": 168
+        "share_pct": 12.5,
+        "team_games_won": 192
       },
-      "counted": 7,
+      "counted": 8,
       "drawn": 0,
       "form": [
         "W",
@@ -8248,9 +8941,9 @@
         "W",
         "W"
       ],
-      "games_diff": 118,
+      "games_diff": 142,
       "games_lost": 50,
-      "games_won": 168,
+      "games_won": 192,
       "home": {
         "drawn": 0,
         "games_lost": 22,
@@ -8300,35 +8993,45 @@
           "points_average": 6.4,
           "position": 1,
           "round": "8"
+        },
+        {
+          "points_average": 6.4,
+          "position": 1,
+          "round": "9"
+        },
+        {
+          "points_average": 6.4,
+          "position": 1,
+          "round": "10"
         }
       ],
       "lost": 0,
       "name": "UQ Sharks",
-      "played": 7,
+      "played": 8,
       "players": [
         "luke-angus",
         "simon-thomas",
         "tom-ladbrook"
       ],
-      "points": 44.8,
+      "points": 51.2,
       "points_average": 6.4,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 44.8
+        "earned": 51.2
       },
       "position": 1,
-      "sets_diff": 28,
+      "sets_diff": 32,
       "sets_lost": 0,
-      "sets_won": 28,
+      "sets_won": 32,
       "short": "UQ Sharks",
       "slug": "uq-sharks",
       "streak": {
-        "length": 7,
+        "length": 8,
         "type": "W"
       },
       "win_pct": 100.0,
-      "won": 7,
+      "won": 8,
       "worst_round": {
         "points": 6.4,
         "round": "1"
@@ -8337,11 +9040,11 @@
     {
       "away": {
         "drawn": 0,
-        "games_lost": 29,
-        "games_won": 29,
+        "games_lost": 42,
+        "games_won": 46,
         "lost": 1,
-        "played": 2,
-        "won": 1
+        "played": 3,
+        "won": 2
       },
       "best_round": {
         "points": 6.4,
@@ -8349,10 +9052,10 @@
       },
       "by_slot": {
         "d1": {
-          "games_lost": 26,
-          "games_won": 37,
+          "games_lost": 28,
+          "games_won": 43,
           "lost": 2,
-          "won": 5
+          "won": 6
         },
         "d2": {
           "games_lost": 27,
@@ -8361,15 +9064,15 @@
           "won": 3
         },
         "s1": {
-          "games_lost": 24,
-          "games_won": 32,
-          "lost": 2,
-          "won": 5
-        },
-        "s2": {
-          "games_lost": 22,
+          "games_lost": 29,
           "games_won": 38,
           "lost": 2,
+          "won": 6
+        },
+        "s2": {
+          "games_lost": 28,
+          "games_won": 43,
+          "lost": 3,
           "won": 5
         }
       },
@@ -8383,20 +9086,20 @@
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 0,
         "share_pct": 0.0,
-        "team_games_won": 130
+        "team_games_won": 147
       },
-      "counted": 7,
+      "counted": 8,
       "drawn": 0,
       "form": [
-        "W",
         "L",
+        "W",
         "W",
         "W",
         "W"
       ],
-      "games_diff": 31,
-      "games_lost": 99,
-      "games_won": 130,
+      "games_diff": 35,
+      "games_lost": 112,
+      "games_won": 147,
       "home": {
         "drawn": 0,
         "games_lost": 70,
@@ -8446,35 +9149,45 @@
           "points_average": 5.285714,
           "position": 3,
           "round": "8"
+        },
+        {
+          "points_average": 5.3375,
+          "position": 2,
+          "round": "9"
+        },
+        {
+          "points_average": 5.3375,
+          "position": 2,
+          "round": "10"
         }
       ],
       "lost": 2,
       "name": "UQ Strikers",
-      "played": 7,
+      "played": 8,
       "players": [
         "alex-sinclair",
         "andrew-bradbury",
         "neal-grayson"
       ],
-      "points": 37.0,
-      "points_average": 5.285714,
+      "points": 42.7,
+      "points_average": 5.3375,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 37.0
+        "earned": 42.7
       },
-      "position": 3,
-      "sets_diff": 10,
-      "sets_lost": 8,
-      "sets_won": 18,
+      "position": 2,
+      "sets_diff": 11,
+      "sets_lost": 9,
+      "sets_won": 20,
       "short": "UQ Strikers",
       "slug": "uq-strikers",
       "streak": {
-        "length": 3,
+        "length": 4,
         "type": "W"
       },
-      "win_pct": 69.2,
-      "won": 5,
+      "win_pct": 69.0,
+      "won": 6,
       "worst_round": {
         "points": 3.1,
         "round": "3"
@@ -8483,11 +9196,11 @@
     {
       "away": {
         "drawn": 0,
-        "games_lost": 89,
-        "games_won": 40,
+        "games_lost": 98,
+        "games_won": 60,
         "lost": 3,
-        "played": 4,
-        "won": 1
+        "played": 5,
+        "won": 2
       },
       "best_round": {
         "points": 6.1,
@@ -8496,26 +9209,26 @@
       "by_slot": {
         "d1": {
           "games_lost": 38,
-          "games_won": 26,
+          "games_won": 32,
           "lost": 5,
-          "won": 2
+          "won": 3
         },
         "d2": {
           "games_lost": 34,
-          "games_won": 21,
+          "games_won": 27,
           "lost": 4,
-          "won": 1
-        },
-        "s1": {
-          "games_lost": 32,
-          "games_won": 19,
-          "lost": 5,
           "won": 2
         },
+        "s1": {
+          "games_lost": 35,
+          "games_won": 25,
+          "lost": 5,
+          "won": 3
+        },
         "s2": {
-          "games_lost": 42,
-          "games_won": 14,
-          "lost": 7,
+          "games_lost": 48,
+          "games_won": 16,
+          "lost": 8,
           "won": 0
         }
       },
@@ -8529,20 +9242,20 @@
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 0,
         "share_pct": 0.0,
-        "team_games_won": 80
+        "team_games_won": 100
       },
-      "counted": 7,
+      "counted": 8,
       "drawn": 0,
       "form": [
         "L",
         "L",
         "L",
-        "L",
+        "W",
         "W"
       ],
-      "games_diff": -66,
-      "games_lost": 146,
-      "games_won": 80,
+      "games_diff": -55,
+      "games_lost": 155,
+      "games_won": 100,
       "home": {
         "drawn": 0,
         "games_lost": 57,
@@ -8592,35 +9305,45 @@
           "points_average": 3.714286,
           "position": 5,
           "round": "8"
+        },
+        {
+          "points_average": 4.0,
+          "position": 4,
+          "round": "9"
+        },
+        {
+          "points_average": 4.0,
+          "position": 4,
+          "round": "10"
         }
       ],
       "lost": 5,
       "name": "UQ Tyrants",
-      "played": 7,
+      "played": 8,
       "players": [
         "andrew-smith",
         "carlton-sinn",
         "mick-keys"
       ],
-      "points": 26.0,
-      "points_average": 3.714286,
+      "points": 32.0,
+      "points_average": 4.0,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 26.0
+        "earned": 32.0
       },
-      "position": 5,
-      "sets_diff": -16,
-      "sets_lost": 21,
-      "sets_won": 5,
+      "position": 4,
+      "sets_diff": -14,
+      "sets_lost": 22,
+      "sets_won": 8,
       "short": "UQ Tyrants",
       "slug": "uq-tyrants",
       "streak": {
-        "length": 1,
+        "length": 2,
         "type": "W"
       },
-      "win_pct": 19.2,
-      "won": 2,
+      "win_pct": 26.7,
+      "won": 3,
       "worst_round": {
         "points": 2.1,
         "round": "1"
@@ -8635,36 +9358,28 @@
     "rejected": [],
     "warnings": [
       {
-        "detail": "data/2026-2-monday-a/R2/match_scorecard_3665314.pdf",
-        "message": "R2 uq-kestrels v uq-hornets: recorded as cancelled, so it is not counted in the ladder.",
-        "rule": "no-result",
+        "detail": "VS",
+        "message": "data/2026-2-monday-a/R9/match_scorecard_3665335.pdf: the card prints 'VS' between the team names instead of a result, which is what Match Centre prints for a fixture it holds no result for. The set rows were still read and scored; what could not run is this one cross-check against them.",
+        "rule": "verb-absent",
         "severity": "warning",
-        "subject": "R2 uq-kestrels v uq-hornets",
+        "subject": "data/2026-2-monday-a/R9/match_scorecard_3665335.pdf",
         "subject_said": true
       },
       {
-        "detail": "data/2026-2-monday-a/R2/match_scorecard_3665315.pdf",
-        "message": "R2 uq-leopards v uq-sharks: recorded as cancelled, so it is not counted in the ladder.",
-        "rule": "no-result",
+        "detail": "12 placeholder cell(s): home in rubber(s) 1, 2, 3, 4; away in rubber(s) 1, 2, 3, 4",
+        "message": "data/2026-2-monday-a/R9/match_scorecard_3665336.pdf: 12 name cell(s) across 4 of 4 rubber(s) print Match Centre's 'Unspecified player' placeholder rather than a person, so no name was recorded for them; this match was forfeited whole, so nobody played those rubbers.",
+        "rule": "players-unrecorded",
         "severity": "warning",
-        "subject": "R2 uq-leopards v uq-sharks",
+        "subject": "data/2026-2-monday-a/R9/match_scorecard_3665336.pdf",
         "subject_said": true
       },
       {
-        "detail": "data/2026-2-monday-a/R2/match_scorecard_3665313.pdf",
-        "message": "R2 uq-tyrants v uq-strikers: recorded as cancelled, so it is not counted in the ladder.",
-        "rule": "no-result",
-        "severity": "warning",
-        "subject": "R2 uq-tyrants v uq-strikers",
-        "subject_said": true
-      },
-      {
-        "detail": "data/2026-2-monday-a/R6/match_scorecard_3665326.pdf",
-        "message": "R6 uq-kestrels v uq-strikers d2: no games on the row at all and no box ticked, so nobody is credited the set. A rubber that was never played reads like this when the card does not say so.",
+        "detail": "data/2026-2-monday-a/R6/match_scorecard_3665326.pdf, data/2026-2-monday-a/R9/match_scorecard_3665335.pdf",
+        "message": "2 rubbers have no games on their rows at all and no box ticked, so nobody is credited them: R6 uq-kestrels v uq-strikers d2 and R9 uq-leopards v uq-strikers d2. A rubber that was never played reads like this when the card does not say so.",
         "rule": "set-no-games",
         "severity": "warning",
-        "subject": "R6 uq-kestrels v uq-strikers d2",
-        "subject_said": true
+        "subject": "",
+        "subject_said": false
       },
       {
         "detail": "data/2026-2-monday-a/R1/match_scorecard_3665310.pdf, data/2026-2-monday-a/R3/match_scorecard_3665318.pdf, data/2026-2-monday-a/R4/match_scorecard_3665319.pdf, data/2026-2-monday-a/R8/match_scorecard_3665331.pdf",

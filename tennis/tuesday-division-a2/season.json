@@ -12,7 +12,8 @@
         "1/uq-alumni/uq-tarantulas/1"
       ],
       "played": true,
-      "round": "1"
+      "round": "1",
+      "washed_out": false
     },
     {
       "away": "uq-fire-horses",
@@ -26,7 +27,8 @@
         "1/uq-phoenix/uq-fire-horses/1"
       ],
       "played": true,
-      "round": "1"
+      "round": "1",
+      "washed_out": false
     },
     {
       "away": "uq-five-finger-discount",
@@ -40,7 +42,8 @@
         "1/uq-taipans/uq-five-finger-discount/1"
       ],
       "played": true,
-      "round": "1"
+      "round": "1",
+      "washed_out": false
     },
     {
       "away": "uq-alumni",
@@ -54,7 +57,8 @@
         "2/uq-fire-horses/uq-alumni/1"
       ],
       "played": true,
-      "round": "2"
+      "round": "2",
+      "washed_out": false
     },
     {
       "away": "uq-phoenix",
@@ -68,7 +72,8 @@
         "2/uq-five-finger-discount/uq-phoenix/1"
       ],
       "played": true,
-      "round": "2"
+      "round": "2",
+      "washed_out": false
     },
     {
       "away": "uq-taipans",
@@ -82,7 +87,8 @@
         "2/uq-tarantulas/uq-taipans/1"
       ],
       "played": true,
-      "round": "2"
+      "round": "2",
+      "washed_out": false
     },
     {
       "away": "uq-phoenix",
@@ -96,7 +102,8 @@
         "3/uq-alumni/uq-phoenix/1"
       ],
       "played": true,
-      "round": "3"
+      "round": "3",
+      "washed_out": false
     },
     {
       "away": "uq-taipans",
@@ -110,7 +117,8 @@
         "3/uq-fire-horses/uq-taipans/1"
       ],
       "played": true,
-      "round": "3"
+      "round": "3",
+      "washed_out": false
     },
     {
       "away": "uq-five-finger-discount",
@@ -124,7 +132,8 @@
         "3/uq-tarantulas/uq-five-finger-discount/1"
       ],
       "played": true,
-      "round": "3"
+      "round": "3",
+      "washed_out": false
     },
     {
       "away": "uq-fire-horses",
@@ -138,7 +147,8 @@
         "4/uq-five-finger-discount/uq-fire-horses/1"
       ],
       "played": true,
-      "round": "4"
+      "round": "4",
+      "washed_out": false
     },
     {
       "away": "uq-tarantulas",
@@ -152,7 +162,8 @@
         "4/uq-phoenix/uq-tarantulas/1"
       ],
       "played": true,
-      "round": "4"
+      "round": "4",
+      "washed_out": false
     },
     {
       "away": "uq-alumni",
@@ -166,7 +177,8 @@
         "4/uq-taipans/uq-alumni/1"
       ],
       "played": true,
-      "round": "4"
+      "round": "4",
+      "washed_out": false
     },
     {
       "away": "uq-five-finger-discount",
@@ -180,7 +192,8 @@
         "5/uq-alumni/uq-five-finger-discount/1"
       ],
       "played": true,
-      "round": "5"
+      "round": "5",
+      "washed_out": false
     },
     {
       "away": "uq-taipans",
@@ -194,7 +207,8 @@
         "5/uq-phoenix/uq-taipans/1"
       ],
       "played": true,
-      "round": "5"
+      "round": "5",
+      "washed_out": false
     },
     {
       "away": "uq-fire-horses",
@@ -208,7 +222,8 @@
         "5/uq-tarantulas/uq-fire-horses/1"
       ],
       "played": true,
-      "round": "5"
+      "round": "5",
+      "washed_out": false
     },
     {
       "away": "uq-phoenix",
@@ -222,7 +237,8 @@
         "6/uq-fire-horses/uq-phoenix/1"
       ],
       "played": true,
-      "round": "6"
+      "round": "6",
+      "washed_out": false
     },
     {
       "away": "uq-taipans",
@@ -236,7 +252,8 @@
         "6/uq-five-finger-discount/uq-taipans/1"
       ],
       "played": true,
-      "round": "6"
+      "round": "6",
+      "washed_out": false
     },
     {
       "away": "uq-alumni",
@@ -250,7 +267,8 @@
         "6/uq-tarantulas/uq-alumni/1"
       ],
       "played": true,
-      "round": "6"
+      "round": "6",
+      "washed_out": false
     },
     {
       "away": "uq-fire-horses",
@@ -264,7 +282,8 @@
         "7/uq-alumni/uq-fire-horses/1"
       ],
       "played": true,
-      "round": "7"
+      "round": "7",
+      "washed_out": false
     },
     {
       "away": "uq-five-finger-discount",
@@ -278,7 +297,8 @@
         "7/uq-phoenix/uq-five-finger-discount/1"
       ],
       "played": true,
-      "round": "7"
+      "round": "7",
+      "washed_out": false
     },
     {
       "away": "uq-tarantulas",
@@ -292,7 +312,8 @@
         "7/uq-taipans/uq-tarantulas/1"
       ],
       "played": true,
-      "round": "7"
+      "round": "7",
+      "washed_out": false
     },
     {
       "away": "uq-tarantulas",
@@ -306,7 +327,8 @@
         "8/uq-five-finger-discount/uq-tarantulas/1"
       ],
       "played": true,
-      "round": "8"
+      "round": "8",
+      "washed_out": false
     },
     {
       "away": "uq-alumni",
@@ -320,7 +342,8 @@
         "8/uq-phoenix/uq-alumni/1"
       ],
       "played": true,
-      "round": "8"
+      "round": "8",
+      "washed_out": false
     },
     {
       "away": "uq-fire-horses",
@@ -334,7 +357,53 @@
         "8/uq-taipans/uq-fire-horses/1"
       ],
       "played": true,
-      "round": "8"
+      "round": "8",
+      "washed_out": false
+    },
+    {
+      "away": "uq-tarantulas",
+      "away_name": "UQ Tarantulas",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-10-20",
+      "home": "uq-fire-horses",
+      "home_name": "UQ Fire Horses",
+      "keys": [
+        "10/uq-fire-horses/uq-tarantulas/1"
+      ],
+      "played": true,
+      "round": "10",
+      "washed_out": false
+    },
+    {
+      "away": "uq-alumni",
+      "away_name": "UQ Alumni",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-10-20",
+      "home": "uq-five-finger-discount",
+      "home_name": "UQ Five Finger Discount",
+      "keys": [
+        "10/uq-five-finger-discount/uq-alumni/1"
+      ],
+      "played": true,
+      "round": "10",
+      "washed_out": false
+    },
+    {
+      "away": "uq-phoenix",
+      "away_name": "UQ Phoenix",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-10-20",
+      "home": "uq-taipans",
+      "home_name": "UQ Taipans",
+      "keys": [
+        "10/uq-taipans/uq-phoenix/1"
+      ],
+      "played": true,
+      "round": "10",
+      "washed_out": false
     }
   ],
   "format": 4,
@@ -352,11 +421,11 @@
     "uq-alumni|uq-five-finger-discount": {
       "draws": 0,
       "finals": 0,
-      "games_high": 12,
-      "games_low": 22,
-      "played": 1,
+      "games_high": 31,
+      "games_low": 37,
+      "played": 2,
       "undecided": 0,
-      "wins_high": 0,
+      "wins_high": 1,
       "wins_low": 1
     },
     "uq-alumni|uq-phoenix": {
@@ -422,11 +491,11 @@
     "uq-fire-horses|uq-tarantulas": {
       "draws": 0,
       "finals": 0,
-      "games_high": 9,
-      "games_low": 22,
-      "played": 1,
+      "games_high": 25,
+      "games_low": 33,
+      "played": 2,
       "undecided": 0,
-      "wins_high": 0,
+      "wins_high": 1,
       "wins_low": 1
     },
     "uq-five-finger-discount|uq-phoenix": {
@@ -3686,30 +3755,419 @@
       "status": "played",
       "tied_on_games": false,
       "warnings": []
+    },
+    {
+      "away": "uq-tarantulas",
+      "away_games": 16,
+      "away_name": "UQ Tarantulas",
+      "away_points": 5.6,
+      "away_roster": [
+        "peter-innes",
+        "monique-cumner",
+        "dien-tran"
+      ],
+      "away_sets": 2,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 10,
+      "date": "2026-10-20",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-fire-horses",
+      "home_games": 11,
+      "home_name": "UQ Fire Horses",
+      "home_points": 3.1,
+      "home_roster": [
+        "marina-johnston",
+        "emma-wallace",
+        "crystal-palliser"
+      ],
+      "home_sets": 1,
+      "id": "3665549",
+      "key": "10/uq-fire-horses/uq-tarantulas/1",
+      "margin": 5,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 16,
+      "printed_home_games": 11,
+      "result": "away",
+      "round": "10",
+      "sets": [
+        {
+          "away_games": 2,
+          "away_players": [
+            "peter-innes",
+            "dien-tran"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 6,
+          "home_players": [
+            "crystal-palliser",
+            "emma-wallace"
+          ],
+          "label": "Doubles 1",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 2,
+          "printed_home_games": 6,
+          "slot": "d1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "peter-innes"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 3,
+          "home_players": [
+            "crystal-palliser"
+          ],
+          "label": "Singles 1",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 3,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "dien-tran"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 2,
+          "home_players": [
+            "emma-wallace"
+          ],
+          "label": "Singles 2",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 2,
+          "slot": "s2",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 2,
+          "away_players": [
+            "peter-innes",
+            "dien-tran"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [
+            "crystal-palliser",
+            "emma-wallace"
+          ],
+          "label": "Doubles 2",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 2,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-tuesday-a2/R10/match_scorecard_3665549.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-alumni",
+      "away_games": 15,
+      "away_name": "UQ Alumni",
+      "away_points": 3.5,
+      "away_roster": [
+        "michael-limerick",
+        "scott-mclean",
+        "robert-zadravec"
+      ],
+      "away_sets": 1,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 14,
+      "date": "2026-10-20",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-five-finger-discount",
+      "home_games": 19,
+      "home_name": "UQ Five Finger Discount",
+      "home_points": 5.9,
+      "home_roster": [
+        "peter-o-sullivan",
+        "andrew-shepherd",
+        "alex-sinclair"
+      ],
+      "home_sets": 2,
+      "id": "3665547",
+      "key": "10/uq-five-finger-discount/uq-alumni/1",
+      "margin": 4,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 15,
+      "printed_home_games": 19,
+      "result": "home",
+      "round": "10",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "michael-limerick",
+            "scott-mclean"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 5,
+          "home_players": [
+            "peter-o-sullivan",
+            "alex-sinclair"
+          ],
+          "label": "Doubles 1",
+          "margin": 1,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 5,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 4,
+          "away_players": [
+            "michael-limerick"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "peter-o-sullivan"
+          ],
+          "label": "Singles 1",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 4,
+          "printed_home_games": 6,
+          "slot": "s1",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 2,
+          "away_players": [
+            "scott-mclean"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 6,
+          "home_players": [
+            "alex-sinclair"
+          ],
+          "label": "Singles 2",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 2,
+          "printed_home_games": 6,
+          "slot": "s2",
+          "status": "played",
+          "winner": "home"
+        },
+        {
+          "away_games": 3,
+          "away_players": [
+            "michael-limerick",
+            "scott-mclean"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 2,
+          "home_players": [
+            "peter-o-sullivan",
+            "alex-sinclair"
+          ],
+          "label": "Doubles 2",
+          "margin": 1,
+          "nobody_played": false,
+          "printed_away_games": 3,
+          "printed_home_games": 2,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-tuesday-a2/R10/match_scorecard_3665547.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-phoenix",
+      "away_games": 0,
+      "away_name": "UQ Phoenix",
+      "away_points": null,
+      "away_roster": [
+        "chris-pham",
+        "agustin-adarraga",
+        "zak-warburton"
+      ],
+      "away_sets": 0,
+      "counts_as_played": false,
+      "counts_for_ladder": true,
+      "court": 9,
+      "date": "2026-10-20",
+      "decided": false,
+      "decided_by": null,
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-taipans",
+      "home_games": 0,
+      "home_name": "UQ Taipans",
+      "home_points": null,
+      "home_roster": [
+        "jack-sorrensen",
+        "jonathan-twine",
+        "alan-loi"
+      ],
+      "home_sets": 0,
+      "id": "3665548",
+      "key": "10/uq-taipans/uq-phoenix/1",
+      "margin": 0,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 0,
+      "printed_home_games": 0,
+      "result": "none",
+      "round": "10",
+      "sets": [
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Doubles 1",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "d1",
+          "status": "played",
+          "winner": null
+        },
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": false,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Singles 1",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "s1",
+          "status": "played",
+          "winner": null
+        },
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": false,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Singles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "s2",
+          "status": "played",
+          "winner": null
+        },
+        {
+          "away_games": 0,
+          "away_players": [],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [],
+          "label": "Doubles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 0,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-tuesday-a2/R10/match_scorecard_3665548.pdf",
+      "status": "unplayed",
+      "tied_on_games": false,
+      "warnings": [
+        "row 1: no home games figure printed, read as 0",
+        "row 1: no away games figure printed, read as 0",
+        "row 2: no home games figure printed, read as 0",
+        "row 2: no away games figure printed, read as 0",
+        "row 3: no home games figure printed, read as 0",
+        "row 3: no away games figure printed, read as 0",
+        "row 4: no home games figure printed, read as 0",
+        "row 4: no away games figure printed, read as 0",
+        "the card's TOTAL row has no figures under its headings, so its own totals were not read"
+      ]
     }
   ],
   "meta": {
     "cards_rejected": 0,
-    "cards_scored": 24,
-    "cards_seen": 24,
+    "cards_scored": 27,
+    "cards_seen": 27,
     "club": "The University of Queensland Tennis Club Inc",
     "competition": "tuesday-division-a2",
     "day": "Tuesday",
     "division": "A2",
     "draw_source": "cards",
     "folders_unlisted": 0,
-    "generated": "2026-10-12T13:15:13",
+    "generated": "2026-10-22T14:05:29",
     "label": "Tuesday Division A2",
-    "ladder_complete": true,
-    "ladder_detail": "every team has played the same number",
-    "ladder_state": "complete",
+    "ladder_complete": false,
+    "ladder_detail": "teams have played unequal numbers of matches",
+    "ladder_state": "in-progress",
     "leader": {
       "slug": "uq-taipans",
       "value": 5.6
     },
     "leader_withheld": null,
-    "matches_played": 24,
-    "matches_total": 24,
+    "matches_played": 26,
+    "matches_total": 27,
     "order_stands": true,
     "ordered_on_average": true,
     "provenance": {
@@ -3722,10 +4180,10 @@
       "teams": "declared"
     },
     "regular_fixtures": {
-      "played": 24,
-      "total": 24
+      "played": 26,
+      "total": 27
     },
-    "rounds_played": 8,
+    "rounds_played": 10,
     "rounds_present": [
       "1",
       "2",
@@ -3734,7 +4192,8 @@
       "5",
       "6",
       "7",
-      "8"
+      "8",
+      "10"
     ],
     "rounds_total": 10,
     "rules": {
@@ -3791,7 +4250,7 @@
     "source_dir": "data",
     "teams_declared": true,
     "teams_total": 6,
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "player_names": {
     "adrian-freeman": "Adrian Freeman",
@@ -3816,21 +4275,21 @@
   },
   "players": [
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
-          "played": 6,
-          "win_pct": 83.3,
-          "won": 5
+          "played": 7,
+          "win_pct": 85.7,
+          "won": 6
         },
         "d2": {
-          "played": 6,
+          "played": 7,
           "win_pct": 75.0,
           "won": 3
         },
         "s1": {
-          "played": 6,
-          "win_pct": 66.7,
+          "played": 7,
+          "win_pct": 57.1,
           "won": 4
         },
         "s2": {
@@ -3840,24 +4299,24 @@
         }
       },
       "contribution": {
-        "games_won": 64.5,
-        "share_pct": 46.7,
-        "team_games_won": 138
+        "games_won": 73.0,
+        "share_pct": 47.7,
+        "team_games_won": 153
       },
       "doubles": {
-        "games_lost": 39,
-        "games_won": 63,
+        "games_lost": 46,
+        "games_won": 72,
         "lost": 2,
-        "played": 12,
-        "won": 8
+        "played": 14,
+        "won": 9
       },
       "fill_in_appearances": 0,
       "games_diff": 35,
-      "games_lost": 61,
-      "games_won": 96,
+      "games_lost": 74,
+      "games_won": 109,
       "is_captain": false,
       "longest_win_streak": 5,
-      "matches": 6,
+      "matches": 7,
       "name": "Michael Limerick",
       "opponents": [
         {
@@ -3870,6 +4329,15 @@
           "won": 4
         },
         {
+          "games_lost": 17,
+          "games_won": 25,
+          "lost": 0,
+          "name": "Alex Sinclair",
+          "sets": 5,
+          "slug": "alex-sinclair",
+          "won": 3
+        },
+        {
           "games_lost": 7,
           "games_won": 18,
           "lost": 0,
@@ -3877,15 +4345,6 @@
           "sets": 3,
           "slug": "crystal-palliser",
           "won": 3
-        },
-        {
-          "games_lost": 10,
-          "games_won": 16,
-          "lost": 0,
-          "name": "Alex Sinclair",
-          "sets": 3,
-          "slug": "alex-sinclair",
-          "won": 2
         },
         {
           "games_lost": 11,
@@ -3912,6 +4371,15 @@
           "name": "Jack Sorrensen",
           "sets": 3,
           "slug": "jack-sorrensen",
+          "won": 1
+        },
+        {
+          "games_lost": 13,
+          "games_won": 13,
+          "lost": 1,
+          "name": "Peter O'Sullivan",
+          "sets": 3,
+          "slug": "peter-o-sullivan",
           "won": 1
         },
         {
@@ -3971,18 +4439,18 @@
           "won": 6
         },
         {
-          "games_lost": 18,
-          "games_won": 18,
+          "games_lost": 25,
+          "games_won": 27,
           "lost": 2,
           "name": "Scott McLean",
-          "sets": 4,
+          "sets": 6,
           "slug": "scott-mclean",
-          "won": 2
+          "won": 3
         }
       ],
       "rating": {
-        "doubles": 6.15,
-        "singles": 5.89
+        "doubles": 6.08,
+        "singles": 5.94
       },
       "rating_history": [
         {
@@ -4024,32 +4492,37 @@
           "doubles": 6.15,
           "round": "8",
           "singles": 5.89
+        },
+        {
+          "doubles": 6.08,
+          "round": "10",
+          "singles": 5.94
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 4,
-      "sets_played": 18,
-      "sets_won": 12,
+      "sets_lost": 5,
+      "sets_played": 21,
+      "sets_won": 13,
       "singles": {
-        "games_lost": 22,
-        "games_won": 33,
-        "lost": 2,
-        "played": 6,
+        "games_lost": 28,
+        "games_won": 37,
+        "lost": 3,
+        "played": 7,
         "won": 4
       },
       "slug": "michael-limerick",
       "streak": {
-        "length": 2,
-        "type": "W"
+        "length": 1,
+        "type": "L"
       },
       "team": "uq-alumni",
       "team_code": null,
-      "team_matches": 6,
+      "team_matches": 7,
       "team_name": "UQ Alumni",
-      "win_pct": 75.0
+      "win_pct": 72.2
     },
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
           "played": 5,
@@ -4074,8 +4547,8 @@
       },
       "contribution": {
         "games_won": 56.0,
-        "share_pct": 40.6,
-        "team_games_won": 138
+        "share_pct": 36.6,
+        "team_games_won": 153
       },
       "doubles": {
         "games_lost": 29,
@@ -4197,7 +4670,7 @@
       ],
       "rating": {
         "doubles": 6.14,
-        "singles": 6.25
+        "singles": 6.18
       },
       "rating_history": [
         {
@@ -4239,6 +4712,11 @@
           "doubles": 6.14,
           "round": "8",
           "singles": 6.25
+        },
+        {
+          "doubles": 6.14,
+          "round": "10",
+          "singles": 6.18
         }
       ],
       "registered_elsewhere": null,
@@ -4264,15 +4742,15 @@
       "win_pct": 91.7
     },
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
-          "played": 3,
-          "win_pct": 66.7,
-          "won": 2
+          "played": 4,
+          "win_pct": 75.0,
+          "won": 3
         },
         "d2": {
-          "played": 3,
+          "played": 4,
           "win_pct": 50.0,
           "won": 1
         },
@@ -4282,30 +4760,30 @@
           "won": 0
         },
         "s2": {
-          "played": 3,
+          "played": 4,
           "win_pct": 0.0,
           "won": 0
         }
       },
       "contribution": {
-        "games_won": 17.5,
-        "share_pct": 12.7,
-        "team_games_won": 138
+        "games_won": 24.0,
+        "share_pct": 15.7,
+        "team_games_won": 153
       },
       "doubles": {
-        "games_lost": 26,
-        "games_won": 27,
+        "games_lost": 33,
+        "games_won": 36,
         "lost": 2,
-        "played": 6,
-        "won": 3
+        "played": 8,
+        "won": 4
       },
       "fill_in_appearances": 0,
-      "games_diff": -13,
-      "games_lost": 44,
-      "games_won": 31,
+      "games_diff": -15,
+      "games_lost": 57,
+      "games_won": 42,
       "is_captain": true,
-      "longest_win_streak": 1,
-      "matches": 3,
+      "longest_win_streak": 2,
+      "matches": 4,
       "name": "Scott McLean",
       "opponents": [
         {
@@ -4327,6 +4805,15 @@
           "won": 1
         },
         {
+          "games_lost": 13,
+          "games_won": 11,
+          "lost": 1,
+          "name": "Alex Sinclair",
+          "sets": 3,
+          "slug": "alex-sinclair",
+          "won": 1
+        },
+        {
           "games_lost": 16,
           "games_won": 9,
           "lost": 2,
@@ -4345,6 +4832,15 @@
           "won": 1
         },
         {
+          "games_lost": 7,
+          "games_won": 9,
+          "lost": 0,
+          "name": "Peter O'Sullivan",
+          "sets": 2,
+          "slug": "peter-o-sullivan",
+          "won": 1
+        },
+        {
           "games_lost": 10,
           "games_won": 8,
           "lost": 1,
@@ -4356,13 +4852,13 @@
       ],
       "partners": [
         {
-          "games_lost": 18,
-          "games_won": 18,
+          "games_lost": 25,
+          "games_won": 27,
           "lost": 2,
           "name": "Michael Limerick",
-          "sets": 4,
+          "sets": 6,
           "slug": "michael-limerick",
-          "won": 2
+          "won": 3
         },
         {
           "games_lost": 8,
@@ -4375,8 +4871,8 @@
         }
       ],
       "rating": {
-        "doubles": 5.97,
-        "singles": 4.8
+        "doubles": 5.94,
+        "singles": 4.58
       },
       "rating_history": [
         {
@@ -4418,46 +4914,51 @@
           "doubles": 5.97,
           "round": "8",
           "singles": 4.8
+        },
+        {
+          "doubles": 5.94,
+          "round": "10",
+          "singles": 4.58
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 5,
-      "sets_played": 9,
-      "sets_won": 3,
+      "sets_lost": 6,
+      "sets_played": 12,
+      "sets_won": 4,
       "singles": {
-        "games_lost": 18,
-        "games_won": 4,
-        "lost": 3,
-        "played": 3,
+        "games_lost": 24,
+        "games_won": 6,
+        "lost": 4,
+        "played": 4,
         "won": 0
       },
       "slug": "scott-mclean",
       "streak": {
         "length": 1,
-        "type": "W"
+        "type": "L"
       },
       "team": "uq-alumni",
       "team_code": null,
-      "team_matches": 3,
+      "team_matches": 4,
       "team_name": "UQ Alumni",
-      "win_pct": 37.5
+      "win_pct": 40.0
     },
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
-          "played": 4,
-          "win_pct": 50.0,
-          "won": 2
+          "played": 5,
+          "win_pct": 60.0,
+          "won": 3
         },
         "d2": {
-          "played": 5,
+          "played": 6,
           "win_pct": 0.0,
           "won": 0
         },
         "s1": {
-          "played": 3,
-          "win_pct": 66.7,
+          "played": 4,
+          "win_pct": 50.0,
           "won": 2
         },
         "s2": {
@@ -4467,24 +4968,24 @@
         }
       },
       "contribution": {
-        "games_won": 41.0,
-        "share_pct": 29.1,
-        "team_games_won": 141
+        "games_won": 47.0,
+        "share_pct": 30.9,
+        "team_games_won": 152
       },
       "doubles": {
-        "games_lost": 42,
-        "games_won": 30,
+        "games_lost": 46,
+        "games_won": 36,
         "lost": 4,
-        "played": 9,
-        "won": 2
+        "played": 11,
+        "won": 3
       },
       "fill_in_appearances": 0,
-      "games_diff": -6,
-      "games_lost": 62,
-      "games_won": 56,
+      "games_diff": -7,
+      "games_lost": 72,
+      "games_won": 65,
       "is_captain": false,
-      "longest_win_streak": 2,
-      "matches": 5,
+      "longest_win_streak": 3,
+      "matches": 6,
       "name": "Crystal Palliser",
       "opponents": [
         {
@@ -4495,6 +4996,15 @@
           "sets": 6,
           "slug": "zak-warburton",
           "won": 4
+        },
+        {
+          "games_lost": 16,
+          "games_won": 13,
+          "lost": 2,
+          "name": "Peter Innes",
+          "sets": 4,
+          "slug": "peter-innes",
+          "won": 1
         },
         {
           "games_lost": 13,
@@ -4542,6 +5052,15 @@
           "won": 1
         },
         {
+          "games_lost": 4,
+          "games_won": 6,
+          "lost": 0,
+          "name": "Dien Tran",
+          "sets": 2,
+          "slug": "dien-tran",
+          "won": 1
+        },
+        {
           "games_lost": 12,
           "games_won": 5,
           "lost": 2,
@@ -4558,18 +5077,18 @@
           "sets": 2,
           "slug": "jonathan-twine",
           "won": 0
-        },
-        {
-          "games_lost": 6,
-          "games_won": 4,
-          "lost": 1,
-          "name": "Peter Innes",
-          "sets": 1,
-          "slug": "peter-innes",
-          "won": 0
         }
       ],
       "partners": [
+        {
+          "games_lost": 22,
+          "games_won": 15,
+          "lost": 3,
+          "name": "Emma Wallace",
+          "sets": 5,
+          "slug": "emma-wallace",
+          "won": 1
+        },
         {
           "games_lost": 16,
           "games_won": 14,
@@ -4578,15 +5097,6 @@
           "sets": 4,
           "slug": "marina-johnston",
           "won": 1
-        },
-        {
-          "games_lost": 18,
-          "games_won": 9,
-          "lost": 3,
-          "name": "Emma Wallace",
-          "sets": 3,
-          "slug": "emma-wallace",
-          "won": 0
         },
         {
           "games_lost": 8,
@@ -4599,8 +5109,8 @@
         }
       ],
       "rating": {
-        "doubles": 4.72,
-        "singles": 5.01
+        "doubles": 4.78,
+        "singles": 5.09
       },
       "rating_history": [
         {
@@ -4642,40 +5152,45 @@
           "doubles": 4.72,
           "round": "8",
           "singles": 5.01
+        },
+        {
+          "doubles": 4.78,
+          "round": "10",
+          "singles": 5.09
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 5,
-      "sets_played": 14,
-      "sets_won": 6,
+      "sets_lost": 6,
+      "sets_played": 17,
+      "sets_won": 7,
       "singles": {
-        "games_lost": 20,
-        "games_won": 26,
-        "lost": 1,
-        "played": 5,
+        "games_lost": 26,
+        "games_won": 29,
+        "lost": 2,
+        "played": 6,
         "won": 4
       },
       "slug": "crystal-palliser",
       "streak": {
-        "length": 2,
-        "type": "W"
+        "length": 1,
+        "type": "L"
       },
       "team": "uq-fire-horses",
       "team_code": null,
-      "team_matches": 5,
+      "team_matches": 6,
       "team_name": "UQ Fire Horses",
-      "win_pct": 54.5
+      "win_pct": 53.8
     },
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
-          "played": 3,
-          "win_pct": 0.0,
-          "won": 0
+          "played": 4,
+          "win_pct": 25.0,
+          "won": 1
         },
         "d2": {
-          "played": 4,
+          "played": 5,
           "win_pct": 0.0,
           "won": 0
         },
@@ -4685,32 +5200,41 @@
           "won": 0
         },
         "s2": {
-          "played": 4,
-          "win_pct": 25.0,
+          "played": 5,
+          "win_pct": 20.0,
           "won": 1
         }
       },
       "contribution": {
-        "games_won": 23.0,
-        "share_pct": 16.3,
-        "team_games_won": 141
+        "games_won": 28.0,
+        "share_pct": 18.4,
+        "team_games_won": 152
       },
       "doubles": {
-        "games_lost": 34,
-        "games_won": 22,
+        "games_lost": 38,
+        "games_won": 28,
         "lost": 5,
-        "played": 7,
-        "won": 0
+        "played": 9,
+        "won": 1
       },
       "fill_in_appearances": 0,
-      "games_diff": -20,
-      "games_lost": 54,
-      "games_won": 34,
+      "games_diff": -22,
+      "games_lost": 64,
+      "games_won": 42,
       "is_captain": true,
       "longest_win_streak": 1,
-      "matches": 4,
+      "matches": 5,
       "name": "Emma Wallace",
       "opponents": [
+        {
+          "games_lost": 12,
+          "games_won": 16,
+          "lost": 1,
+          "name": "Peter Innes",
+          "sets": 4,
+          "slug": "peter-innes",
+          "won": 2
+        },
         {
           "games_lost": 15,
           "games_won": 9,
@@ -4730,6 +5254,15 @@
           "won": 0
         },
         {
+          "games_lost": 10,
+          "games_won": 8,
+          "lost": 1,
+          "name": "Dien Tran",
+          "sets": 3,
+          "slug": "dien-tran",
+          "won": 1
+        },
+        {
           "games_lost": 18,
           "games_won": 6,
           "lost": 3,
@@ -4737,15 +5270,6 @@
           "sets": 3,
           "slug": "robert-zadravec",
           "won": 0
-        },
-        {
-          "games_lost": 8,
-          "games_won": 10,
-          "lost": 1,
-          "name": "Peter Innes",
-          "sets": 2,
-          "slug": "peter-innes",
-          "won": 1
         },
         {
           "games_lost": 9,
@@ -4786,6 +5310,15 @@
       ],
       "partners": [
         {
+          "games_lost": 22,
+          "games_won": 15,
+          "lost": 3,
+          "name": "Crystal Palliser",
+          "sets": 5,
+          "slug": "crystal-palliser",
+          "won": 1
+        },
+        {
           "games_lost": 16,
           "games_won": 13,
           "lost": 2,
@@ -4793,20 +5326,11 @@
           "sets": 4,
           "slug": "marina-johnston",
           "won": 0
-        },
-        {
-          "games_lost": 18,
-          "games_won": 9,
-          "lost": 3,
-          "name": "Crystal Palliser",
-          "sets": 3,
-          "slug": "crystal-palliser",
-          "won": 0
         }
       ],
       "rating": {
-        "doubles": 4.61,
-        "singles": 4.79
+        "doubles": 4.63,
+        "singles": 4.84
       },
       "rating_history": [
         {
@@ -4848,32 +5372,37 @@
           "doubles": 4.61,
           "round": "8",
           "singles": 4.79
+        },
+        {
+          "doubles": 4.63,
+          "round": "10",
+          "singles": 4.84
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 8,
-      "sets_played": 11,
-      "sets_won": 1,
+      "sets_lost": 9,
+      "sets_played": 14,
+      "sets_won": 2,
       "singles": {
-        "games_lost": 20,
-        "games_won": 12,
-        "lost": 3,
-        "played": 4,
+        "games_lost": 26,
+        "games_won": 14,
+        "lost": 4,
+        "played": 5,
         "won": 1
       },
       "slug": "emma-wallace",
       "streak": {
-        "length": 3,
+        "length": 1,
         "type": "L"
       },
       "team": "uq-fire-horses",
       "team_code": null,
-      "team_matches": 4,
+      "team_matches": 5,
       "team_name": "UQ Fire Horses",
-      "win_pct": 11.1
+      "win_pct": 18.2
     },
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
           "played": 4,
@@ -4898,8 +5427,8 @@
       },
       "contribution": {
         "games_won": 37.5,
-        "share_pct": 26.6,
-        "team_games_won": 141
+        "share_pct": 24.7,
+        "team_games_won": 152
       },
       "doubles": {
         "games_lost": 32,
@@ -4993,8 +5522,8 @@
         }
       ],
       "rating": {
-        "doubles": 5.66,
-        "singles": 6.59
+        "doubles": 5.83,
+        "singles": 6.61
       },
       "rating_history": [
         {
@@ -5036,6 +5565,11 @@
           "doubles": 5.66,
           "round": "8",
           "singles": 6.59
+        },
+        {
+          "doubles": 5.83,
+          "round": "10",
+          "singles": 6.61
         }
       ],
       "registered_elsewhere": null,
@@ -5061,15 +5595,15 @@
       "win_pct": 62.5
     },
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
-          "played": 5,
-          "win_pct": 60.0,
+          "played": 6,
+          "win_pct": 50.0,
           "won": 3
         },
         "d2": {
-          "played": 5,
+          "played": 6,
           "win_pct": 66.7,
           "won": 2
         },
@@ -5079,30 +5613,30 @@
           "won": 2
         },
         "s2": {
-          "played": 2,
+          "played": 3,
           "win_pct": 100.0,
-          "won": 2
+          "won": 3
         }
       },
       "contribution": {
-        "games_won": 51.5,
-        "share_pct": 34.8,
-        "team_games_won": 148
+        "games_won": 61.0,
+        "share_pct": 36.5,
+        "team_games_won": 167
       },
       "doubles": {
-        "games_lost": 37,
-        "games_won": 47,
-        "lost": 3,
-        "played": 10,
+        "games_lost": 46,
+        "games_won": 54,
+        "lost": 4,
+        "played": 12,
         "won": 5
       },
       "fill_in_appearances": 0,
-      "games_diff": 24,
-      "games_lost": 51,
-      "games_won": 75,
+      "games_diff": 26,
+      "games_lost": 62,
+      "games_won": 88,
       "is_captain": false,
       "longest_win_streak": 5,
-      "matches": 5,
+      "matches": 6,
       "name": "Alex Sinclair",
       "opponents": [
         {
@@ -5113,6 +5647,15 @@
           "sets": 5,
           "slug": "monique-cumner",
           "won": 5
+        },
+        {
+          "games_lost": 25,
+          "games_won": 17,
+          "lost": 3,
+          "name": "Michael Limerick",
+          "sets": 5,
+          "slug": "michael-limerick",
+          "won": 0
         },
         {
           "games_lost": 8,
@@ -5142,13 +5685,13 @@
           "won": 1
         },
         {
-          "games_lost": 16,
-          "games_won": 10,
-          "lost": 2,
-          "name": "Michael Limerick",
+          "games_lost": 11,
+          "games_won": 13,
+          "lost": 1,
+          "name": "Scott McLean",
           "sets": 3,
-          "slug": "michael-limerick",
-          "won": 0
+          "slug": "scott-mclean",
+          "won": 1
         },
         {
           "games_lost": 2,
@@ -5189,6 +5732,15 @@
       ],
       "partners": [
         {
+          "games_lost": 22,
+          "games_won": 28,
+          "lost": 1,
+          "name": "Peter O'Sullivan",
+          "sets": 6,
+          "slug": "peter-o-sullivan",
+          "won": 3
+        },
+        {
           "games_lost": 24,
           "games_won": 26,
           "lost": 3,
@@ -5196,20 +5748,11 @@
           "sets": 6,
           "slug": "andrew-shepherd",
           "won": 2
-        },
-        {
-          "games_lost": 13,
-          "games_won": 21,
-          "lost": 0,
-          "name": "Peter O'Sullivan",
-          "sets": 4,
-          "slug": "peter-o-sullivan",
-          "won": 3
         }
       ],
       "rating": {
-        "doubles": 5.56,
-        "singles": 5.57
+        "doubles": 5.63,
+        "singles": 5.61
       },
       "rating_history": [
         {
@@ -5251,32 +5794,37 @@
           "doubles": 5.56,
           "round": "8",
           "singles": 5.57
+        },
+        {
+          "doubles": 5.63,
+          "round": "10",
+          "singles": 5.61
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 4,
-      "sets_played": 15,
-      "sets_won": 9,
+      "sets_lost": 5,
+      "sets_played": 18,
+      "sets_won": 10,
       "singles": {
-        "games_lost": 14,
-        "games_won": 28,
+        "games_lost": 16,
+        "games_won": 34,
         "lost": 1,
-        "played": 5,
-        "won": 4
+        "played": 6,
+        "won": 5
       },
       "slug": "alex-sinclair",
       "streak": {
-        "length": 5,
+        "length": 1,
         "type": "W"
       },
       "team": "uq-five-finger-discount",
       "team_code": null,
-      "team_matches": 5,
+      "team_matches": 6,
       "team_name": "UQ Five Finger Discount",
-      "win_pct": 69.2
+      "win_pct": 66.7
     },
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
           "played": 6,
@@ -5301,8 +5849,8 @@
       },
       "contribution": {
         "games_won": 49.0,
-        "share_pct": 33.1,
-        "team_games_won": 148
+        "share_pct": 29.3,
+        "team_games_won": 167
       },
       "doubles": {
         "games_lost": 42,
@@ -5432,8 +5980,8 @@
         }
       ],
       "rating": {
-        "doubles": 5.54,
-        "singles": 5.86
+        "doubles": 5.59,
+        "singles": 5.81
       },
       "rating_history": [
         {
@@ -5475,6 +6023,11 @@
           "doubles": 5.54,
           "round": "8",
           "singles": 5.86
+        },
+        {
+          "doubles": 5.59,
+          "round": "10",
+          "singles": 5.81
         }
       ],
       "registered_elsewhere": null,
@@ -5500,22 +6053,22 @@
       "win_pct": 42.9
     },
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
-          "played": 5,
-          "win_pct": 80.0,
+          "played": 6,
+          "win_pct": 66.7,
           "won": 4
         },
         "d2": {
-          "played": 5,
+          "played": 6,
           "win_pct": 100.0,
           "won": 1
         },
         "s1": {
-          "played": 1,
+          "played": 2,
           "win_pct": 100.0,
-          "won": 1
+          "won": 2
         },
         "s2": {
           "played": 4,
@@ -5524,24 +6077,24 @@
         }
       },
       "contribution": {
-        "games_won": 47.5,
-        "share_pct": 32.1,
-        "team_games_won": 148
+        "games_won": 57.0,
+        "share_pct": 34.1,
+        "team_games_won": 167
       },
       "doubles": {
-        "games_lost": 31,
-        "games_won": 39,
-        "lost": 1,
-        "played": 10,
+        "games_lost": 40,
+        "games_won": 46,
+        "lost": 2,
+        "played": 12,
         "won": 5
       },
       "fill_in_appearances": 0,
       "games_diff": 21,
-      "games_lost": 46,
-      "games_won": 67,
+      "games_lost": 59,
+      "games_won": 80,
       "is_captain": false,
       "longest_win_streak": 7,
-      "matches": 5,
+      "matches": 6,
       "name": "Peter O'Sullivan",
       "opponents": [
         {
@@ -5570,6 +6123,15 @@
           "sets": 3,
           "slug": "emma-wallace",
           "won": 2
+        },
+        {
+          "games_lost": 13,
+          "games_won": 13,
+          "lost": 1,
+          "name": "Michael Limerick",
+          "sets": 3,
+          "slug": "michael-limerick",
+          "won": 1
         },
         {
           "games_lost": 12,
@@ -5608,6 +6170,15 @@
           "won": 1
         },
         {
+          "games_lost": 9,
+          "games_won": 7,
+          "lost": 1,
+          "name": "Scott McLean",
+          "sets": 2,
+          "slug": "scott-mclean",
+          "won": 0
+        },
+        {
           "games_lost": 3,
           "games_won": 6,
           "lost": 0,
@@ -5628,6 +6199,15 @@
       ],
       "partners": [
         {
+          "games_lost": 22,
+          "games_won": 28,
+          "lost": 1,
+          "name": "Alex Sinclair",
+          "sets": 6,
+          "slug": "alex-sinclair",
+          "won": 3
+        },
+        {
           "games_lost": 18,
           "games_won": 18,
           "lost": 1,
@@ -5635,20 +6215,11 @@
           "sets": 6,
           "slug": "andrew-shepherd",
           "won": 2
-        },
-        {
-          "games_lost": 13,
-          "games_won": 21,
-          "lost": 0,
-          "name": "Alex Sinclair",
-          "sets": 4,
-          "slug": "alex-sinclair",
-          "won": 3
         }
       ],
       "rating": {
-        "doubles": 5.7,
-        "singles": 6.01
+        "doubles": 5.74,
+        "singles": 6.36
       },
       "rating_history": [
         {
@@ -5690,18 +6261,23 @@
           "doubles": 5.7,
           "round": "8",
           "singles": 6.01
+        },
+        {
+          "doubles": 5.74,
+          "round": "10",
+          "singles": 6.36
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 2,
-      "sets_played": 15,
-      "sets_won": 9,
+      "sets_lost": 3,
+      "sets_played": 18,
+      "sets_won": 10,
       "singles": {
-        "games_lost": 15,
-        "games_won": 28,
+        "games_lost": 19,
+        "games_won": 34,
         "lost": 1,
-        "played": 5,
-        "won": 4
+        "played": 6,
+        "won": 5
       },
       "slug": "peter-o-sullivan",
       "streak": {
@@ -5710,9 +6286,9 @@
       },
       "team": "uq-five-finger-discount",
       "team_code": null,
-      "team_matches": 5,
+      "team_matches": 6,
       "team_name": "UQ Five Finger Discount",
-      "win_pct": 81.8
+      "win_pct": 76.9
     },
     {
       "available": 8,
@@ -7014,15 +7590,15 @@
       "win_pct": 58.3
     },
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
-          "played": 6,
-          "win_pct": 33.3,
+          "played": 7,
+          "win_pct": 28.6,
           "won": 2
         },
         "d2": {
-          "played": 6,
+          "played": 7,
           "win_pct": 0.0,
           "won": 0
         },
@@ -7032,30 +7608,30 @@
           "won": 0
         },
         "s2": {
-          "played": 3,
-          "win_pct": 0.0,
-          "won": 0
+          "played": 4,
+          "win_pct": 25.0,
+          "won": 1
         }
       },
       "contribution": {
-        "games_won": 23.0,
-        "share_pct": 29.9,
-        "team_games_won": 77
+        "games_won": 31.0,
+        "share_pct": 33.3,
+        "team_games_won": 93
       },
       "doubles": {
-        "games_lost": 62,
-        "games_won": 38,
-        "lost": 6,
-        "played": 12,
+        "games_lost": 68,
+        "games_won": 42,
+        "lost": 7,
+        "played": 14,
         "won": 2
       },
       "fill_in_appearances": 0,
-      "games_diff": -56,
-      "games_lost": 98,
-      "games_won": 42,
+      "games_diff": -54,
+      "games_lost": 106,
+      "games_won": 52,
       "is_captain": false,
       "longest_win_streak": 1,
-      "matches": 6,
+      "matches": 7,
       "name": "Dien Tran",
       "opponents": [
         {
@@ -7104,6 +7680,15 @@
           "won": 1
         },
         {
+          "games_lost": 8,
+          "games_won": 10,
+          "lost": 1,
+          "name": "Emma Wallace",
+          "sets": 3,
+          "slug": "emma-wallace",
+          "won": 1
+        },
+        {
           "games_lost": 18,
           "games_won": 4,
           "lost": 3,
@@ -7122,6 +7707,15 @@
           "won": 1
         },
         {
+          "games_lost": 6,
+          "games_won": 4,
+          "lost": 1,
+          "name": "Crystal Palliser",
+          "sets": 2,
+          "slug": "crystal-palliser",
+          "won": 0
+        },
+        {
           "games_lost": 12,
           "games_won": 2,
           "lost": 2,
@@ -7133,11 +7727,11 @@
       ],
       "partners": [
         {
-          "games_lost": 27,
-          "games_won": 27,
-          "lost": 1,
+          "games_lost": 33,
+          "games_won": 31,
+          "lost": 2,
           "name": "Peter Innes",
-          "sets": 6,
+          "sets": 8,
           "slug": "peter-innes",
           "won": 2
         },
@@ -7152,7 +7746,7 @@
         }
       ],
       "rating": {
-        "doubles": 5.25,
+        "doubles": 5.24,
         "singles": 4.65
       },
       "rating_history": [
@@ -7195,32 +7789,37 @@
           "doubles": 5.25,
           "round": "8",
           "singles": 4.65
+        },
+        {
+          "doubles": 5.24,
+          "round": "10",
+          "singles": 4.65
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 12,
-      "sets_played": 18,
-      "sets_won": 2,
+      "sets_lost": 13,
+      "sets_played": 21,
+      "sets_won": 3,
       "singles": {
-        "games_lost": 36,
-        "games_won": 4,
+        "games_lost": 38,
+        "games_won": 10,
         "lost": 6,
-        "played": 6,
-        "won": 0
+        "played": 7,
+        "won": 1
       },
       "slug": "dien-tran",
       "streak": {
-        "length": 4,
-        "type": "L"
+        "length": 1,
+        "type": "W"
       },
       "team": "uq-tarantulas",
       "team_code": null,
-      "team_matches": 6,
+      "team_matches": 7,
       "team_name": "UQ Tarantulas",
-      "win_pct": 14.3
+      "win_pct": 18.8
     },
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
           "played": 4,
@@ -7245,8 +7844,8 @@
       },
       "contribution": {
         "games_won": 17.0,
-        "share_pct": 22.1,
-        "team_games_won": 77
+        "share_pct": 18.3,
+        "team_games_won": 93
       },
       "doubles": {
         "games_lost": 51,
@@ -7367,8 +7966,8 @@
         }
       ],
       "rating": {
-        "doubles": 4.73,
-        "singles": 4.55
+        "doubles": 4.61,
+        "singles": 4.58
       },
       "rating_history": [
         {
@@ -7410,6 +8009,11 @@
           "doubles": 4.73,
           "round": "8",
           "singles": 4.55
+        },
+        {
+          "doubles": 4.61,
+          "round": "10",
+          "singles": 4.58
         }
       ],
       "registered_elsewhere": null,
@@ -7435,22 +8039,22 @@
       "win_pct": 7.7
     },
     {
-      "available": 8,
+      "available": 9,
       "by_slot": {
         "d1": {
-          "played": 4,
-          "win_pct": 50.0,
+          "played": 5,
+          "win_pct": 40.0,
           "won": 2
         },
         "d2": {
-          "played": 5,
+          "played": 6,
           "win_pct": 50.0,
           "won": 1
         },
         "s1": {
-          "played": 3,
-          "win_pct": 33.3,
-          "won": 1
+          "played": 4,
+          "win_pct": 50.0,
+          "won": 2
         },
         "s2": {
           "played": 2,
@@ -7459,26 +8063,44 @@
         }
       },
       "contribution": {
-        "games_won": 37.0,
-        "share_pct": 48.1,
-        "team_games_won": 77
+        "games_won": 45.0,
+        "share_pct": 48.4,
+        "team_games_won": 93
       },
       "doubles": {
-        "games_lost": 43,
-        "games_won": 38,
-        "lost": 3,
-        "played": 9,
+        "games_lost": 49,
+        "games_won": 42,
+        "lost": 4,
+        "played": 11,
         "won": 3
       },
       "fill_in_appearances": 0,
-      "games_diff": -15,
-      "games_lost": 71,
-      "games_won": 56,
+      "games_diff": -14,
+      "games_lost": 80,
+      "games_won": 66,
       "is_captain": true,
       "longest_win_streak": 2,
-      "matches": 5,
+      "matches": 6,
       "name": "Peter Innes",
       "opponents": [
+        {
+          "games_lost": 13,
+          "games_won": 16,
+          "lost": 1,
+          "name": "Crystal Palliser",
+          "sets": 4,
+          "slug": "crystal-palliser",
+          "won": 2
+        },
+        {
+          "games_lost": 16,
+          "games_won": 12,
+          "lost": 2,
+          "name": "Emma Wallace",
+          "sets": 4,
+          "slug": "emma-wallace",
+          "won": 1
+        },
         {
           "games_lost": 15,
           "games_won": 15,
@@ -7534,15 +8156,6 @@
           "won": 1
         },
         {
-          "games_lost": 10,
-          "games_won": 8,
-          "lost": 1,
-          "name": "Emma Wallace",
-          "sets": 2,
-          "slug": "emma-wallace",
-          "won": 1
-        },
-        {
           "games_lost": 11,
           "games_won": 6,
           "lost": 1,
@@ -7559,24 +8172,15 @@
           "sets": 2,
           "slug": "peter-o-sullivan",
           "won": 0
-        },
-        {
-          "games_lost": 4,
-          "games_won": 6,
-          "lost": 0,
-          "name": "Crystal Palliser",
-          "sets": 1,
-          "slug": "crystal-palliser",
-          "won": 1
         }
       ],
       "partners": [
         {
-          "games_lost": 27,
-          "games_won": 27,
-          "lost": 1,
+          "games_lost": 33,
+          "games_won": 31,
+          "lost": 2,
           "name": "Dien Tran",
-          "sets": 6,
+          "sets": 8,
           "slug": "dien-tran",
           "won": 2
         },
@@ -7591,7 +8195,7 @@
         }
       ],
       "rating": {
-        "doubles": 5.47,
+        "doubles": 5.49,
         "singles": 4.86
       },
       "rating_history": [
@@ -7634,29 +8238,34 @@
           "doubles": 5.47,
           "round": "8",
           "singles": 4.86
+        },
+        {
+          "doubles": 5.49,
+          "round": "10",
+          "singles": 4.86
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 7,
-      "sets_played": 14,
-      "sets_won": 4,
+      "sets_lost": 8,
+      "sets_played": 17,
+      "sets_won": 5,
       "singles": {
-        "games_lost": 28,
-        "games_won": 18,
+        "games_lost": 31,
+        "games_won": 24,
         "lost": 4,
-        "played": 5,
-        "won": 1
+        "played": 6,
+        "won": 2
       },
       "slug": "peter-innes",
       "streak": {
         "length": 1,
-        "type": "L"
+        "type": "W"
       },
       "team": "uq-tarantulas",
       "team_code": null,
-      "team_matches": 5,
+      "team_matches": 6,
       "team_name": "UQ Tarantulas",
-      "win_pct": 36.4
+      "win_pct": 38.5
     },
     {
       "available": null,
@@ -7777,7 +8386,8 @@
       "number": "1",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7794,7 +8404,8 @@
       "number": "2",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7811,7 +8422,8 @@
       "number": "3",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7828,7 +8440,8 @@
       "number": "4",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7845,7 +8458,8 @@
       "number": "5",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7862,7 +8476,8 @@
       "number": "6",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7879,7 +8494,8 @@
       "number": "7",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [],
@@ -7896,17 +8512,50 @@
       "number": "8",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
+    },
+    {
+      "byes": [],
+      "cards": 0,
+      "cards_played": 0,
+      "date": "",
+      "is_finals": false,
+      "keys": [],
+      "note": "",
+      "number": "9",
+      "numbered": true,
+      "played": false,
+      "source": "cards",
+      "washed_out": true
+    },
+    {
+      "byes": [],
+      "cards": 3,
+      "cards_played": 2,
+      "date": "2026-10-20",
+      "is_finals": false,
+      "keys": [
+        "10/uq-fire-horses/uq-tarantulas/1",
+        "10/uq-five-finger-discount/uq-alumni/1",
+        "10/uq-taipans/uq-phoenix/1"
+      ],
+      "note": "",
+      "number": "10",
+      "numbered": true,
+      "played": true,
+      "source": "cards",
+      "washed_out": false
     }
   ],
   "teams": [
     {
       "away": {
         "drawn": 0,
-        "games_lost": 53,
-        "games_won": 78,
-        "lost": 2,
-        "played": 4,
+        "games_lost": 72,
+        "games_won": 93,
+        "lost": 3,
+        "played": 5,
         "won": 2
       },
       "best_round": {
@@ -7915,27 +8564,27 @@
       },
       "by_slot": {
         "d1": {
-          "games_lost": 28,
-          "games_won": 40,
+          "games_lost": 33,
+          "games_won": 46,
           "lost": 2,
-          "won": 6
+          "won": 7
         },
         "d2": {
-          "games_lost": 31,
-          "games_won": 32,
+          "games_lost": 33,
+          "games_won": 35,
           "lost": 2,
           "won": 3
         },
         "s1": {
-          "games_lost": 34,
-          "games_won": 38,
-          "lost": 4,
+          "games_lost": 40,
+          "games_won": 42,
+          "lost": 5,
           "won": 4
         },
         "s2": {
-          "games_lost": 28,
-          "games_won": 28,
-          "lost": 4,
+          "games_lost": 34,
+          "games_won": 30,
+          "lost": 5,
           "won": 4
         }
       },
@@ -7949,20 +8598,20 @@
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 0,
         "share_pct": 0.0,
-        "team_games_won": 138
+        "team_games_won": 153
       },
-      "counted": 8,
+      "counted": 9,
       "drawn": 0,
       "form": [
+        "W",
+        "W",
         "L",
-        "W",
-        "W",
         "L",
         "L"
       ],
-      "games_diff": 17,
-      "games_lost": 121,
-      "games_won": 138,
+      "games_diff": 13,
+      "games_lost": 140,
+      "games_won": 153,
       "home": {
         "drawn": 0,
         "games_lost": 68,
@@ -8012,34 +8661,44 @@
           "points_average": 4.475,
           "position": 5,
           "round": "8"
+        },
+        {
+          "points_average": 4.475,
+          "position": 5,
+          "round": "9"
+        },
+        {
+          "points_average": 4.366667,
+          "position": 5,
+          "round": "10"
         }
       ],
-      "lost": 4,
+      "lost": 5,
       "name": "UQ Alumni",
-      "played": 8,
+      "played": 9,
       "players": [
         "michael-limerick",
         "robert-zadravec",
         "scott-mclean"
       ],
-      "points": 35.8,
-      "points_average": 4.475,
+      "points": 39.3,
+      "points_average": 4.366667,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 35.8
+        "earned": 39.3
       },
       "position": 5,
-      "sets_diff": 5,
-      "sets_lost": 12,
-      "sets_won": 17,
+      "sets_diff": 4,
+      "sets_lost": 14,
+      "sets_won": 18,
       "short": "UQ Alumni",
       "slug": "uq-alumni",
       "streak": {
-        "length": 2,
+        "length": 3,
         "type": "L"
       },
-      "win_pct": 58.6,
+      "win_pct": 56.3,
       "won": 4,
       "worst_round": {
         "points": 0.0,
@@ -8061,27 +8720,27 @@
       },
       "by_slot": {
         "d1": {
-          "games_lost": 33,
-          "games_won": 37,
+          "games_lost": 35,
+          "games_won": 43,
           "lost": 4,
-          "won": 4
+          "won": 5
         },
         "d2": {
-          "games_lost": 25,
+          "games_lost": 27,
           "games_won": 24,
           "lost": 2,
           "won": 1
         },
         "s1": {
-          "games_lost": 26,
-          "games_won": 44,
-          "lost": 1,
+          "games_lost": 32,
+          "games_won": 47,
+          "lost": 2,
           "won": 7
         },
         "s2": {
-          "games_lost": 32,
-          "games_won": 36,
-          "lost": 3,
+          "games_lost": 38,
+          "games_won": 38,
+          "lost": 4,
           "won": 5
         }
       },
@@ -8094,27 +8753,27 @@
         "rubbers_overfull": 0,
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 3,
-        "share_pct": 28.0,
-        "team_games_won": 141
+        "share_pct": 26.0,
+        "team_games_won": 152
       },
-      "counted": 8,
+      "counted": 9,
       "drawn": 0,
       "form": [
+        "W",
+        "W",
+        "W",
         "L",
-        "W",
-        "W",
-        "W",
         "L"
       ],
-      "games_diff": 25,
-      "games_lost": 116,
-      "games_won": 141,
+      "games_diff": 20,
+      "games_lost": 132,
+      "games_won": 152,
       "home": {
         "drawn": 0,
-        "games_lost": 56,
-        "games_won": 46,
-        "lost": 2,
-        "played": 3,
+        "games_lost": 72,
+        "games_won": 57,
+        "lost": 3,
+        "played": 4,
         "won": 1
       },
       "home_court": 10,
@@ -8158,34 +8817,44 @@
           "points_average": 4.7625,
           "position": 3,
           "round": "8"
+        },
+        {
+          "points_average": 4.7625,
+          "position": 3,
+          "round": "9"
+        },
+        {
+          "points_average": 4.577778,
+          "position": 4,
+          "round": "10"
         }
       ],
-      "lost": 4,
+      "lost": 5,
       "name": "UQ Fire Horses",
-      "played": 8,
+      "played": 9,
       "players": [
         "crystal-palliser",
         "emma-wallace",
         "marina-johnston"
       ],
-      "points": 38.1,
-      "points_average": 4.7625,
+      "points": 41.2,
+      "points_average": 4.577778,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 38.1
+        "earned": 41.2
       },
-      "position": 3,
-      "sets_diff": 7,
-      "sets_lost": 10,
-      "sets_won": 17,
+      "position": 4,
+      "sets_diff": 6,
+      "sets_lost": 12,
+      "sets_won": 18,
       "short": "UQ Fire Horses",
       "slug": "uq-fire-horses",
       "streak": {
-        "length": 1,
+        "length": 2,
         "type": "L"
       },
-      "win_pct": 63.0,
+      "win_pct": 60.0,
       "won": 4,
       "worst_round": {
         "points": 2.8,
@@ -8207,28 +8876,28 @@
       },
       "by_slot": {
         "d1": {
-          "games_lost": 28,
-          "games_won": 40,
-          "lost": 3,
+          "games_lost": 34,
+          "games_won": 45,
+          "lost": 4,
           "won": 5
         },
         "d2": {
-          "games_lost": 27,
-          "games_won": 25,
+          "games_lost": 30,
+          "games_won": 27,
           "lost": 1,
           "won": 2
         },
         "s1": {
-          "games_lost": 34,
-          "games_won": 41,
+          "games_lost": 38,
+          "games_won": 47,
           "lost": 4,
-          "won": 4
+          "won": 5
         },
         "s2": {
-          "games_lost": 25,
-          "games_won": 42,
+          "games_lost": 27,
+          "games_won": 48,
           "lost": 2,
-          "won": 6
+          "won": 7
         }
       },
       "captain": "Andrew Shepherd",
@@ -8241,27 +8910,27 @@
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 0,
         "share_pct": 0.0,
-        "team_games_won": 148
+        "team_games_won": 167
       },
-      "counted": 8,
+      "counted": 9,
       "drawn": 0,
       "form": [
-        "W",
         "L",
         "W",
         "L",
+        "W",
         "W"
       ],
-      "games_diff": 34,
-      "games_lost": 114,
-      "games_won": 148,
+      "games_diff": 38,
+      "games_lost": 129,
+      "games_won": 167,
       "home": {
         "drawn": 0,
-        "games_lost": 50,
-        "games_won": 81,
+        "games_lost": 65,
+        "games_won": 100,
         "lost": 0,
-        "played": 4,
-        "won": 4
+        "played": 5,
+        "won": 5
       },
       "home_court": 14,
       "ladder_history": [
@@ -8304,35 +8973,45 @@
           "points_average": 5.1,
           "position": 2,
           "round": "8"
+        },
+        {
+          "points_average": 5.1,
+          "position": 2,
+          "round": "9"
+        },
+        {
+          "points_average": 5.188889,
+          "position": 2,
+          "round": "10"
         }
       ],
       "lost": 3,
       "name": "UQ Five Finger Discount",
-      "played": 8,
+      "played": 9,
       "players": [
         "alex-sinclair",
         "andrew-shepherd",
         "peter-o-sullivan"
       ],
-      "points": 40.8,
-      "points_average": 5.1,
+      "points": 46.7,
+      "points_average": 5.188889,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 40.8
+        "earned": 46.7
       },
       "position": 2,
-      "sets_diff": 7,
-      "sets_lost": 10,
-      "sets_won": 17,
+      "sets_diff": 8,
+      "sets_lost": 11,
+      "sets_won": 19,
       "short": "UQ Five Finger Discount",
       "slug": "uq-five-finger-discount",
       "streak": {
-        "length": 1,
+        "length": 2,
         "type": "W"
       },
-      "win_pct": 63.0,
-      "won": 5,
+      "win_pct": 63.3,
+      "won": 6,
       "worst_round": {
         "points": 3.2,
         "round": "5"
@@ -8450,6 +9129,16 @@
           "points_average": 4.725,
           "position": 4,
           "round": "8"
+        },
+        {
+          "points_average": 4.725,
+          "position": 4,
+          "round": "9"
+        },
+        {
+          "points_average": 4.725,
+          "position": 3,
+          "round": "10"
         }
       ],
       "lost": 4,
@@ -8467,7 +9156,7 @@
         "averaged_matches": 0,
         "earned": 37.8
       },
-      "position": 4,
+      "position": 3,
       "sets_diff": -6,
       "sets_lost": 16,
       "sets_won": 10,
@@ -8596,6 +9285,16 @@
           "points_average": 5.6,
           "position": 1,
           "round": "8"
+        },
+        {
+          "points_average": 5.6,
+          "position": 1,
+          "round": "9"
+        },
+        {
+          "points_average": 5.6,
+          "position": 1,
+          "round": "10"
         }
       ],
       "lost": 1,
@@ -8633,40 +9332,40 @@
     {
       "away": {
         "drawn": 0,
-        "games_lost": 85,
-        "games_won": 46,
+        "games_lost": 96,
+        "games_won": 62,
         "lost": 4,
-        "played": 4,
-        "won": 0
+        "played": 5,
+        "won": 1
       },
       "best_round": {
-        "points": 3.5,
-        "round": "7"
+        "points": 5.6,
+        "round": "10"
       },
       "by_slot": {
         "d1": {
-          "games_lost": 46,
-          "games_won": 21,
-          "lost": 6,
+          "games_lost": 52,
+          "games_won": 23,
+          "lost": 7,
           "won": 2
         },
         "d2": {
           "games_lost": 38,
-          "games_won": 28,
+          "games_won": 30,
           "lost": 3,
           "won": 1
         },
         "s1": {
-          "games_lost": 46,
-          "games_won": 20,
+          "games_lost": 49,
+          "games_won": 26,
           "lost": 7,
-          "won": 1
+          "won": 2
         },
         "s2": {
-          "games_lost": 48,
-          "games_won": 8,
+          "games_lost": 50,
+          "games_won": 14,
           "lost": 8,
-          "won": 0
+          "won": 1
         }
       },
       "captain": "Peter Innes",
@@ -8679,20 +9378,20 @@
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 0,
         "share_pct": 0.0,
-        "team_games_won": 77
+        "team_games_won": 93
       },
-      "counted": 8,
+      "counted": 9,
       "drawn": 0,
       "form": [
         "L",
         "L",
         "L",
         "L",
-        "L"
+        "W"
       ],
-      "games_diff": -101,
-      "games_lost": 178,
-      "games_won": 77,
+      "games_diff": -96,
+      "games_lost": 189,
+      "games_won": 93,
       "home": {
         "drawn": 0,
         "games_lost": 93,
@@ -8742,35 +9441,45 @@
           "points_average": 2.9625,
           "position": 6,
           "round": "8"
+        },
+        {
+          "points_average": 2.9625,
+          "position": 6,
+          "round": "9"
+        },
+        {
+          "points_average": 3.255556,
+          "position": 6,
+          "round": "10"
         }
       ],
       "lost": 8,
       "name": "UQ Tarantulas",
-      "played": 8,
+      "played": 9,
       "players": [
         "dien-tran",
         "monique-cumner",
         "peter-innes"
       ],
-      "points": 23.7,
-      "points_average": 2.9625,
+      "points": 29.3,
+      "points_average": 3.255556,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 23.7
+        "earned": 29.3
       },
       "position": 6,
-      "sets_diff": -20,
-      "sets_lost": 24,
-      "sets_won": 4,
+      "sets_diff": -19,
+      "sets_lost": 25,
+      "sets_won": 6,
       "short": "UQ Tarantulas",
       "slug": "uq-tarantulas",
       "streak": {
-        "length": 8,
-        "type": "L"
+        "length": 1,
+        "type": "W"
       },
-      "win_pct": 14.3,
-      "won": 0,
+      "win_pct": 19.4,
+      "won": 1,
       "worst_round": {
         "points": 2.5,
         "round": "8"
@@ -8784,6 +9493,14 @@
     "own_errors": 0,
     "rejected": [],
     "warnings": [
+      {
+        "detail": "data/2026-2-tuesday-a2/R10/match_scorecard_3665548.pdf",
+        "message": "R10 uq-taipans v uq-phoenix: recorded as unplayed, so it is not counted in the ladder. Every set row reads 0-0: if the match was played, enter its result in Match Centre and export the card again.",
+        "rule": "no-result",
+        "severity": "warning",
+        "subject": "R10 uq-taipans v uq-phoenix",
+        "subject_said": true
+      },
       {
         "detail": "VS",
         "message": "data/2026-2-tuesday-a2/R4/match_scorecard_3665529.pdf: the card prints 'VS' between the team names instead of a result, which is what Match Centre prints for a fixture it holds no result for. The set rows were still read and scored; what could not run is this one cross-check against them.",
@@ -8809,8 +9526,8 @@
         "subject_said": false
       },
       {
-        "detail": "data/2026-2-tuesday-a2/R1/match_scorecard_3665520.pdf, data/2026-2-tuesday-a2/R1/match_scorecard_3665521.pdf, data/2026-2-tuesday-a2/R1/match_scorecard_3665522.pdf, data/2026-2-tuesday-a2/R2/match_scorecard_3665525.pdf, data/2026-2-tuesday-a2/R3/match_scorecard_3665526.pdf, data/2026-2-tuesday-a2/R4/match_scorecard_3665530.pdf, data/2026-2-tuesday-a2/R5/match_scorecard_3665533.pdf, data/2026-2-tuesday-a2/R6/match_scorecard_3665537.pdf, data/2026-2-tuesday-a2/R7/match_scorecard_3665538.pdf, data/2026-2-tuesday-a2/R7/match_scorecard_3665540.pdf, data/2026-2-tuesday-a2/R8/match_scorecard_3665542.pdf",
-        "message": "11 rubbers stopped short of a finished set under first-to-6 (first to 6) and are not marked forfeit, retired or incomplete, so nobody is credited them: R1 uq-alumni v uq-tarantulas d2 5-3, R1 uq-phoenix v uq-fire-horses d2 3-1, R1 uq-taipans v uq-five-finger-discount d2 2-0, R2 uq-tarantulas v uq-taipans d2 3-5, R3 uq-alumni v uq-phoenix d2 3-5, R4 uq-phoenix v uq-tarantulas d2 2-4, R5 uq-phoenix v uq-taipans d2 4-3, R6 uq-five-finger-discount v uq-taipans d2 3-5, R7 uq-phoenix v uq-five-finger-discount d2 4-2, R7 uq-taipans v uq-tarantulas d2 4-5 and R8 uq-taipans v uq-fire-horses d2 3-5.",
+        "detail": "data/2026-2-tuesday-a2/R1/match_scorecard_3665520.pdf, data/2026-2-tuesday-a2/R1/match_scorecard_3665521.pdf, data/2026-2-tuesday-a2/R1/match_scorecard_3665522.pdf, data/2026-2-tuesday-a2/R2/match_scorecard_3665525.pdf, data/2026-2-tuesday-a2/R3/match_scorecard_3665526.pdf, data/2026-2-tuesday-a2/R4/match_scorecard_3665530.pdf, data/2026-2-tuesday-a2/R5/match_scorecard_3665533.pdf, data/2026-2-tuesday-a2/R6/match_scorecard_3665537.pdf, data/2026-2-tuesday-a2/R7/match_scorecard_3665538.pdf, data/2026-2-tuesday-a2/R7/match_scorecard_3665540.pdf, data/2026-2-tuesday-a2/R8/match_scorecard_3665542.pdf, data/2026-2-tuesday-a2/R10/match_scorecard_3665549.pdf, data/2026-2-tuesday-a2/R10/match_scorecard_3665547.pdf",
+        "message": "13 rubbers stopped short of a finished set under first-to-6 (first to 6) and are not marked forfeit, retired or incomplete, so nobody is credited them: R1 uq-alumni v uq-tarantulas d2 5-3, R1 uq-phoenix v uq-fire-horses d2 3-1, R1 uq-taipans v uq-five-finger-discount d2 2-0, R2 uq-tarantulas v uq-taipans d2 3-5, R3 uq-alumni v uq-phoenix d2 3-5, R4 uq-phoenix v uq-tarantulas d2 2-4, R5 uq-phoenix v uq-taipans d2 4-3, R6 uq-five-finger-discount v uq-taipans d2 3-5, R7 uq-phoenix v uq-five-finger-discount d2 4-2, R7 uq-taipans v uq-tarantulas d2 4-5, R8 uq-taipans v uq-fire-horses d2 3-5, R10 uq-fire-horses v uq-tarantulas d2 0-2 and R10 uq-five-finger-discount v uq-alumni d2 2-3.",
         "rule": "set-unfinished",
         "severity": "warning",
         "subject": "",
@@ -8823,6 +9540,14 @@
         "severity": "warning",
         "subject": "R1 uq-phoenix v uq-fire-horses d1, s2 and d2",
         "subject_said": true
+      },
+      {
+        "detail": "uq-alumni 9; uq-fire-horses 9; uq-five-finger-discount 9; uq-phoenix 8; uq-taipans 8; uq-tarantulas 9",
+        "message": "the ladder is in progress — teams have played unequal numbers of matches. uq-phoenix and uq-taipans have fewer than the 9 counted by the rest; the ladder is ordered on the average, so that costs them no place.",
+        "rule": "F10",
+        "severity": "warning",
+        "subject": "",
+        "subject_said": false
       }
     ]
   }

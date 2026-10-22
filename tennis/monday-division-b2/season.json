@@ -12,7 +12,8 @@
         "1/uq-drop-shots/uq-gnats/1"
       ],
       "played": true,
-      "round": "1"
+      "round": "1",
+      "washed_out": false
     },
     {
       "away": "uq-lakers",
@@ -26,7 +27,8 @@
         "1/uq-tigers/uq-lakers/1"
       ],
       "played": true,
-      "round": "1"
+      "round": "1",
+      "washed_out": false
     },
     {
       "away": "uq-challengers",
@@ -40,7 +42,8 @@
         "2/uq-gnats/uq-challengers/1"
       ],
       "played": true,
-      "round": "2"
+      "round": "2",
+      "washed_out": true
     },
     {
       "away": "uq-drop-shots",
@@ -54,7 +57,8 @@
         "2/uq-lakers/uq-drop-shots/1"
       ],
       "played": true,
-      "round": "2"
+      "round": "2",
+      "washed_out": true
     },
     {
       "away": "uq-drop-shots",
@@ -68,7 +72,8 @@
         "3/uq-challengers/uq-drop-shots/1"
       ],
       "played": true,
-      "round": "3"
+      "round": "3",
+      "washed_out": false
     },
     {
       "away": "uq-tigers",
@@ -82,7 +87,8 @@
         "3/uq-gnats/uq-tigers/1"
       ],
       "played": true,
-      "round": "3"
+      "round": "3",
+      "washed_out": false
     },
     {
       "away": "uq-gnats",
@@ -96,7 +102,8 @@
         "4/uq-lakers/uq-gnats/1"
       ],
       "played": true,
-      "round": "4"
+      "round": "4",
+      "washed_out": false
     },
     {
       "away": "uq-challengers",
@@ -110,7 +117,8 @@
         "4/uq-tigers/uq-challengers/1"
       ],
       "played": true,
-      "round": "4"
+      "round": "4",
+      "washed_out": false
     },
     {
       "away": "uq-lakers",
@@ -124,7 +132,8 @@
         "5/uq-challengers/uq-lakers/1"
       ],
       "played": true,
-      "round": "5"
+      "round": "5",
+      "washed_out": false
     },
     {
       "away": "uq-tigers",
@@ -138,7 +147,8 @@
         "5/uq-drop-shots/uq-tigers/1"
       ],
       "played": true,
-      "round": "5"
+      "round": "5",
+      "washed_out": false
     },
     {
       "away": "uq-drop-shots",
@@ -152,7 +162,8 @@
         "6/uq-gnats/uq-drop-shots/1"
       ],
       "played": true,
-      "round": "6"
+      "round": "6",
+      "washed_out": false
     },
     {
       "away": "uq-tigers",
@@ -166,7 +177,8 @@
         "6/uq-lakers/uq-tigers/1"
       ],
       "played": true,
-      "round": "6"
+      "round": "6",
+      "washed_out": false
     },
     {
       "away": "uq-gnats",
@@ -180,7 +192,8 @@
         "7/uq-challengers/uq-gnats/1"
       ],
       "played": true,
-      "round": "7"
+      "round": "7",
+      "washed_out": false
     },
     {
       "away": "uq-lakers",
@@ -194,7 +207,8 @@
         "7/uq-drop-shots/uq-lakers/1"
       ],
       "played": true,
-      "round": "7"
+      "round": "7",
+      "washed_out": false
     },
     {
       "away": "uq-challengers",
@@ -208,7 +222,8 @@
         "8/uq-drop-shots/uq-challengers/1"
       ],
       "played": true,
-      "round": "8"
+      "round": "8",
+      "washed_out": false
     },
     {
       "away": "uq-gnats",
@@ -222,7 +237,38 @@
         "8/uq-tigers/uq-gnats/1"
       ],
       "played": true,
-      "round": "8"
+      "round": "8",
+      "washed_out": false
+    },
+    {
+      "away": "uq-tigers",
+      "away_name": "UQ Tigers",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-10-12",
+      "home": "uq-challengers",
+      "home_name": "UQ Challengers",
+      "keys": [
+        "9/uq-challengers/uq-tigers/1"
+      ],
+      "played": true,
+      "round": "9",
+      "washed_out": false
+    },
+    {
+      "away": "uq-lakers",
+      "away_name": "UQ Lakers",
+      "card_missing": false,
+      "cards": 1,
+      "date": "2026-10-12",
+      "home": "uq-gnats",
+      "home_name": "UQ Gnats",
+      "keys": [
+        "9/uq-gnats/uq-lakers/1"
+      ],
+      "played": true,
+      "round": "9",
+      "washed_out": false
     }
   ],
   "format": 4,
@@ -260,11 +306,11 @@
     "uq-challengers|uq-tigers": {
       "draws": 0,
       "finals": 0,
-      "games_high": 24,
-      "games_low": 8,
-      "played": 1,
+      "games_high": 46,
+      "games_low": 19,
+      "played": 2,
       "undecided": 0,
-      "wins_high": 1,
+      "wins_high": 2,
       "wins_low": 0
     },
     "uq-drop-shots|uq-gnats": {
@@ -300,11 +346,11 @@
     "uq-gnats|uq-lakers": {
       "draws": 0,
       "finals": 0,
-      "games_high": 16,
-      "games_low": 13,
-      "played": 1,
+      "games_high": 35,
+      "games_low": 26,
+      "played": 2,
       "undecided": 0,
-      "wins_high": 1,
+      "wins_high": 2,
       "wins_low": 0
     },
     "uq-gnats|uq-tigers": {
@@ -2460,30 +2506,296 @@
       "status": "played",
       "tied_on_games": false,
       "warnings": []
+    },
+    {
+      "away": "uq-tigers",
+      "away_games": 22,
+      "away_name": "UQ Tigers",
+      "away_points": 6.2,
+      "away_roster": [
+        "mark-burrowes",
+        "aidan-beutel",
+        "oscar-bird"
+      ],
+      "away_sets": 3,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 8,
+      "date": "2026-10-12",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-challengers",
+      "home_games": 11,
+      "home_name": "UQ Challengers",
+      "home_points": 3.1,
+      "home_roster": [
+        "bianca-zhang",
+        "dinara-naditya-welagedera",
+        "nick-hendricks"
+      ],
+      "home_sets": 0,
+      "id": "3665396",
+      "key": "9/uq-challengers/uq-tigers/1",
+      "margin": 11,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 22,
+      "printed_home_games": 11,
+      "result": "away",
+      "round": "9",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "aidan-beutel",
+            "mark-burrowes"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 3,
+          "home_players": [
+            "dinara-naditya-welagedera",
+            "bianca-zhang"
+          ],
+          "label": "Doubles 1",
+          "margin": 3,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 3,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "aidan-beutel"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 4,
+          "home_players": [
+            "dinara-naditya-welagedera"
+          ],
+          "label": "Singles 1",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 4,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "mark-burrowes"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 4,
+          "home_players": [
+            "bianca-zhang"
+          ],
+          "label": "Singles 2",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 4,
+          "slot": "s2",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 4,
+          "away_players": [
+            "aidan-beutel",
+            "mark-burrowes"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 0,
+          "home_players": [
+            "dinara-naditya-welagedera",
+            "bianca-zhang"
+          ],
+          "label": "Doubles 2",
+          "margin": 4,
+          "nobody_played": false,
+          "printed_away_games": 4,
+          "printed_home_games": 0,
+          "slot": "d2",
+          "status": "played",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-b2/R9/match_scorecard_3665396.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
+    },
+    {
+      "away": "uq-lakers",
+      "away_games": 19,
+      "away_name": "UQ Lakers",
+      "away_points": 5.9,
+      "away_roster": [
+        "ben-johnson",
+        "yanlong-meng",
+        "gordon-chen"
+      ],
+      "away_sets": 3,
+      "counts_as_played": true,
+      "counts_for_ladder": true,
+      "court": 7,
+      "date": "2026-10-12",
+      "decided": true,
+      "decided_by": "games",
+      "disputed": false,
+      "fill_ins": [],
+      "forfeited_by": null,
+      "home": "uq-gnats",
+      "home_games": 13,
+      "home_name": "UQ Gnats",
+      "home_points": 3.3,
+      "home_roster": [
+        "jun-kim",
+        "jonah-horichi",
+        "michael-chen"
+      ],
+      "home_sets": 0,
+      "id": "3665394",
+      "key": "9/uq-gnats/uq-lakers/1",
+      "margin": 6,
+      "no_rubber_played": false,
+      "not_counted": "",
+      "not_credited": "",
+      "not_totalled": "",
+      "other_cards": [],
+      "printed_away_games": 19,
+      "printed_home_games": 13,
+      "result": "away",
+      "round": "9",
+      "sets": [
+        {
+          "away_games": 6,
+          "away_players": [
+            "gordon-chen",
+            "ben-johnson"
+          ],
+          "completed": true,
+          "doubles": true,
+          "home_games": 4,
+          "home_players": [
+            "jun-kim",
+            "jonah-horichi"
+          ],
+          "label": "Doubles 1",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 4,
+          "slot": "d1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "gordon-chen"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 4,
+          "home_players": [
+            "jun-kim"
+          ],
+          "label": "Singles 1",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 4,
+          "slot": "s1",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 6,
+          "away_players": [
+            "ben-johnson"
+          ],
+          "completed": true,
+          "doubles": false,
+          "home_games": 4,
+          "home_players": [
+            "jonah-horichi"
+          ],
+          "label": "Singles 2",
+          "margin": 2,
+          "nobody_played": false,
+          "printed_away_games": 6,
+          "printed_home_games": 4,
+          "slot": "s2",
+          "status": "played",
+          "winner": "away"
+        },
+        {
+          "away_games": 1,
+          "away_players": [
+            "gordon-chen",
+            "ben-johnson"
+          ],
+          "completed": false,
+          "doubles": true,
+          "home_games": 1,
+          "home_players": [
+            "jun-kim",
+            "jonah-horichi"
+          ],
+          "label": "Doubles 2",
+          "margin": 0,
+          "nobody_played": false,
+          "printed_away_games": 1,
+          "printed_home_games": 1,
+          "slot": "d2",
+          "status": "incomplete",
+          "winner": null
+        }
+      ],
+      "source": "data/2026-2-monday-b2/R9/match_scorecard_3665394.pdf",
+      "status": "played",
+      "tied_on_games": false,
+      "warnings": []
     }
   ],
   "meta": {
     "cards_rejected": 0,
-    "cards_scored": 16,
-    "cards_seen": 16,
+    "cards_scored": 18,
+    "cards_seen": 18,
     "club": "The University of Queensland Tennis Club Inc",
     "competition": "monday-division-b2",
     "day": "Monday",
     "division": "B2",
     "draw_source": "cards",
     "folders_unlisted": 0,
-    "generated": "2026-10-12T13:15:12",
+    "generated": "2026-10-22T14:05:28",
     "label": "Monday Division B2",
     "ladder_complete": false,
     "ladder_detail": "teams have played unequal numbers of matches",
     "ladder_state": "in-progress",
     "leader": {
       "slug": "uq-tigers",
-      "value": 5.5
+      "value": 5.6
     },
     "leader_withheld": null,
-    "matches_played": 14,
-    "matches_total": 16,
+    "matches_played": 16,
+    "matches_total": 18,
     "order_stands": true,
     "ordered_on_average": true,
     "provenance": {
@@ -2496,10 +2808,10 @@
       "teams": "declared"
     },
     "regular_fixtures": {
-      "played": 14,
-      "total": 16
+      "played": 16,
+      "total": 18
     },
-    "rounds_played": 8,
+    "rounds_played": 10,
     "rounds_present": [
       "1",
       "2",
@@ -2508,7 +2820,8 @@
       "5",
       "6",
       "7",
-      "8"
+      "8",
+      "9"
     ],
     "rounds_total": 10,
     "rules": {
@@ -2565,7 +2878,7 @@
     "source_dir": "data",
     "teams_declared": true,
     "teams_total": 5,
-    "version": "0.1.0"
+    "version": "0.2.0"
   },
   "player_names": {
     "adam-wen": "Adam Wen",
@@ -2588,15 +2901,15 @@
   },
   "players": [
     {
-      "available": 5,
+      "available": 6,
       "by_slot": {
         "d1": {
-          "played": 3,
+          "played": 4,
           "win_pct": 0.0,
           "won": 0
         },
         "d2": {
-          "played": 3,
+          "played": 4,
           "win_pct": 0.0,
           "won": 0
         },
@@ -2606,30 +2919,30 @@
           "won": 1
         },
         "s2": {
-          "played": 1,
+          "played": 2,
           "win_pct": 0.0,
           "won": 0
         }
       },
       "contribution": {
-        "games_won": 21.0,
-        "share_pct": 33.3,
-        "team_games_won": 63
+        "games_won": 26.5,
+        "share_pct": 35.8,
+        "team_games_won": 74
       },
       "doubles": {
-        "games_lost": 31,
-        "games_won": 18,
-        "lost": 4,
-        "played": 6,
+        "games_lost": 41,
+        "games_won": 21,
+        "lost": 5,
+        "played": 8,
         "won": 0
       },
       "fill_in_appearances": 0,
-      "games_diff": -17,
-      "games_lost": 47,
-      "games_won": 30,
+      "games_diff": -26,
+      "games_lost": 63,
+      "games_won": 37,
       "is_captain": false,
       "longest_win_streak": 1,
-      "matches": 3,
+      "matches": 4,
       "name": "Bianca Zhang",
       "opponents": [
         {
@@ -2660,6 +2973,15 @@
           "won": 0
         },
         {
+          "games_lost": 16,
+          "games_won": 7,
+          "lost": 2,
+          "name": "Mark Burrowes",
+          "sets": 3,
+          "slug": "mark-burrowes",
+          "won": 0
+        },
+        {
           "games_lost": 9,
           "games_won": 10,
           "lost": 1,
@@ -2678,6 +3000,15 @@
           "won": 0
         },
         {
+          "games_lost": 10,
+          "games_won": 3,
+          "lost": 1,
+          "name": "Aidan Beutel",
+          "sets": 2,
+          "slug": "aidan-beutel",
+          "won": 0
+        },
+        {
           "games_lost": 12,
           "games_won": 2,
           "lost": 2,
@@ -2689,11 +3020,11 @@
       ],
       "partners": [
         {
-          "games_lost": 22,
-          "games_won": 8,
-          "lost": 3,
+          "games_lost": 32,
+          "games_won": 11,
+          "lost": 4,
           "name": "Dinara Naditya Welagedera",
-          "sets": 4,
+          "sets": 6,
           "slug": "dinara-naditya-welagedera",
           "won": 0
         },
@@ -2708,7 +3039,7 @@
         }
       ],
       "rating": {
-        "doubles": 2.77,
+        "doubles": 2.79,
         "singles": 2.89
       },
       "rating_history": [
@@ -2736,45 +3067,50 @@
           "doubles": 2.77,
           "round": "8",
           "singles": 2.89
+        },
+        {
+          "doubles": 2.79,
+          "round": "9",
+          "singles": 2.89
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 6,
-      "sets_played": 9,
+      "sets_lost": 8,
+      "sets_played": 12,
       "sets_won": 1,
       "singles": {
-        "games_lost": 16,
-        "games_won": 12,
-        "lost": 2,
-        "played": 3,
+        "games_lost": 22,
+        "games_won": 16,
+        "lost": 3,
+        "played": 4,
         "won": 1
       },
       "slug": "bianca-zhang",
       "streak": {
-        "length": 5,
+        "length": 7,
         "type": "L"
       },
       "team": "uq-challengers",
       "team_code": null,
-      "team_matches": 3,
+      "team_matches": 4,
       "team_name": "UQ Challengers",
-      "win_pct": 14.3
+      "win_pct": 11.1
     },
     {
-      "available": 5,
+      "available": 6,
       "by_slot": {
         "d1": {
-          "played": 4,
-          "win_pct": 25.0,
+          "played": 5,
+          "win_pct": 20.0,
           "won": 1
         },
         "d2": {
-          "played": 4,
+          "played": 5,
           "win_pct": 0.0,
           "won": 0
         },
         "s1": {
-          "played": 2,
+          "played": 3,
           "win_pct": 0.0,
           "won": 0
         },
@@ -2785,24 +3121,24 @@
         }
       },
       "contribution": {
-        "games_won": 18.0,
-        "share_pct": 28.6,
-        "team_games_won": 63
+        "games_won": 23.5,
+        "share_pct": 31.8,
+        "team_games_won": 74
       },
       "doubles": {
-        "games_lost": 39,
-        "games_won": 16,
-        "lost": 5,
-        "played": 8,
+        "games_lost": 49,
+        "games_won": 19,
+        "lost": 6,
+        "played": 10,
         "won": 1
       },
       "fill_in_appearances": 0,
-      "games_diff": -37,
-      "games_lost": 63,
-      "games_won": 26,
+      "games_diff": -46,
+      "games_lost": 79,
+      "games_won": 33,
       "is_captain": false,
       "longest_win_streak": 1,
-      "matches": 4,
+      "matches": 5,
       "name": "Dinara Naditya Welagedera",
       "opponents": [
         {
@@ -2822,6 +3158,24 @@
           "sets": 4,
           "slug": "samuel-muller",
           "won": 1
+        },
+        {
+          "games_lost": 22,
+          "games_won": 5,
+          "lost": 3,
+          "name": "Mark Burrowes",
+          "sets": 4,
+          "slug": "mark-burrowes",
+          "won": 0
+        },
+        {
+          "games_lost": 16,
+          "games_won": 7,
+          "lost": 2,
+          "name": "Aidan Beutel",
+          "sets": 3,
+          "slug": "aidan-beutel",
+          "won": 0
         },
         {
           "games_lost": 18,
@@ -2849,24 +3203,15 @@
           "sets": 2,
           "slug": "jun-kim",
           "won": 0
-        },
-        {
-          "games_lost": 12,
-          "games_won": 2,
-          "lost": 2,
-          "name": "Mark Burrowes",
-          "sets": 2,
-          "slug": "mark-burrowes",
-          "won": 0
         }
       ],
       "partners": [
         {
-          "games_lost": 22,
-          "games_won": 8,
-          "lost": 3,
+          "games_lost": 32,
+          "games_won": 11,
+          "lost": 4,
           "name": "Bianca Zhang",
-          "sets": 4,
+          "sets": 6,
           "slug": "bianca-zhang",
           "won": 0
         },
@@ -2881,8 +3226,8 @@
         }
       ],
       "rating": {
-        "doubles": 2.74,
-        "singles": 2.85
+        "doubles": 2.75,
+        "singles": 2.79
       },
       "rating_history": [
         {
@@ -2909,32 +3254,37 @@
           "doubles": 2.74,
           "round": "8",
           "singles": 2.85
+        },
+        {
+          "doubles": 2.75,
+          "round": "9",
+          "singles": 2.79
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 9,
-      "sets_played": 12,
+      "sets_lost": 11,
+      "sets_played": 15,
       "sets_won": 1,
       "singles": {
-        "games_lost": 24,
-        "games_won": 10,
-        "lost": 4,
-        "played": 4,
+        "games_lost": 30,
+        "games_won": 14,
+        "lost": 5,
+        "played": 5,
         "won": 0
       },
       "slug": "dinara-naditya-welagedera",
       "streak": {
-        "length": 1,
+        "length": 3,
         "type": "L"
       },
       "team": "uq-challengers",
       "team_code": null,
-      "team_matches": 4,
+      "team_matches": 5,
       "team_name": "UQ Challengers",
-      "win_pct": 10.0
+      "win_pct": 8.3
     },
     {
-      "available": 5,
+      "available": 6,
       "by_slot": {
         "d1": {
           "played": 3,
@@ -2959,8 +3309,8 @@
       },
       "contribution": {
         "games_won": 24.0,
-        "share_pct": 38.1,
-        "team_games_won": 63
+        "share_pct": 32.4,
+        "team_games_won": 74
       },
       "doubles": {
         "games_lost": 26,
@@ -3054,8 +3404,8 @@
         }
       ],
       "rating": {
-        "doubles": 4.4,
-        "singles": 3.51
+        "doubles": 4.41,
+        "singles": 3.56
       },
       "rating_history": [
         {
@@ -3082,6 +3432,11 @@
           "doubles": 4.4,
           "round": "8",
           "singles": 3.51
+        },
+        {
+          "doubles": 4.41,
+          "round": "9",
+          "singles": 3.56
         }
       ],
       "registered_elsewhere": null,
@@ -3632,15 +3987,15 @@
       "win_pct": 0.0
     },
     {
-      "available": 6,
+      "available": 7,
       "by_slot": {
         "d1": {
-          "played": 4,
-          "win_pct": 50.0,
+          "played": 5,
+          "win_pct": 40.0,
           "won": 2
         },
         "d2": {
-          "played": 4,
+          "played": 5,
           "win_pct": 33.3,
           "won": 1
         },
@@ -3650,30 +4005,30 @@
           "won": 0
         },
         "s2": {
-          "played": 3,
-          "win_pct": 33.3,
+          "played": 4,
+          "win_pct": 25.0,
           "won": 1
         }
       },
       "contribution": {
-        "games_won": 35.0,
-        "share_pct": 32.4,
-        "team_games_won": 108
+        "games_won": 41.5,
+        "share_pct": 34.3,
+        "team_games_won": 121
       },
       "doubles": {
-        "games_lost": 32,
-        "games_won": 38,
-        "lost": 4,
-        "played": 8,
+        "games_lost": 39,
+        "games_won": 43,
+        "lost": 5,
+        "played": 10,
         "won": 3
       },
       "fill_in_appearances": 0,
-      "games_diff": 4,
-      "games_lost": 50,
-      "games_won": 54,
+      "games_diff": 0,
+      "games_lost": 63,
+      "games_won": 63,
       "is_captain": false,
       "longest_win_streak": 3,
-      "matches": 4,
+      "matches": 5,
       "name": "Jonah Horichi",
       "opponents": [
         {
@@ -3722,6 +4077,15 @@
           "won": 0
         },
         {
+          "games_lost": 13,
+          "games_won": 9,
+          "lost": 2,
+          "name": "Ben Johnson",
+          "sets": 3,
+          "slug": "ben-johnson",
+          "won": 0
+        },
+        {
           "games_lost": 12,
           "games_won": 8,
           "lost": 2,
@@ -3729,15 +4093,24 @@
           "sets": 2,
           "slug": "aidan-beutel",
           "won": 0
+        },
+        {
+          "games_lost": 7,
+          "games_won": 5,
+          "lost": 1,
+          "name": "Gordon Chen",
+          "sets": 2,
+          "slug": "gordon-chen",
+          "won": 0
         }
       ],
       "partners": [
         {
-          "games_lost": 10,
-          "games_won": 20,
-          "lost": 1,
+          "games_lost": 17,
+          "games_won": 25,
+          "lost": 2,
           "name": "Jun Kim",
-          "sets": 4,
+          "sets": 6,
           "slug": "jun-kim",
           "won": 2
         },
@@ -3752,8 +4125,8 @@
         }
       ],
       "rating": {
-        "doubles": 4.22,
-        "singles": 3.76
+        "doubles": 4.23,
+        "singles": 3.77
       },
       "rating_history": [
         {
@@ -3785,45 +4158,50 @@
           "doubles": 4.22,
           "round": "8",
           "singles": 3.76
+        },
+        {
+          "doubles": 4.23,
+          "round": "9",
+          "singles": 3.77
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 7,
-      "sets_played": 12,
+      "sets_lost": 9,
+      "sets_played": 15,
       "sets_won": 4,
       "singles": {
-        "games_lost": 18,
-        "games_won": 16,
-        "lost": 3,
-        "played": 4,
+        "games_lost": 24,
+        "games_won": 20,
+        "lost": 4,
+        "played": 5,
         "won": 1
       },
       "slug": "jonah-horichi",
       "streak": {
-        "length": 2,
+        "length": 4,
         "type": "L"
       },
       "team": "uq-gnats",
       "team_code": null,
-      "team_matches": 4,
+      "team_matches": 5,
       "team_name": "UQ Gnats",
-      "win_pct": 36.4
+      "win_pct": 30.8
     },
     {
-      "available": 6,
+      "available": 7,
       "by_slot": {
         "d1": {
-          "played": 4,
-          "win_pct": 75.0,
+          "played": 5,
+          "win_pct": 60.0,
           "won": 3
         },
         "d2": {
-          "played": 4,
+          "played": 5,
           "win_pct": 100.0,
           "won": 2
         },
         "s1": {
-          "played": 1,
+          "played": 2,
           "win_pct": 0.0,
           "won": 0
         },
@@ -3834,24 +4212,24 @@
         }
       },
       "contribution": {
-        "games_won": 41.0,
-        "share_pct": 38.0,
-        "team_games_won": 108
+        "games_won": 47.5,
+        "share_pct": 39.3,
+        "team_games_won": 121
       },
       "doubles": {
-        "games_lost": 17,
-        "games_won": 38,
-        "lost": 1,
-        "played": 8,
+        "games_lost": 24,
+        "games_won": 43,
+        "lost": 2,
+        "played": 10,
         "won": 5
       },
       "fill_in_appearances": 0,
-      "games_diff": 25,
-      "games_lost": 35,
-      "games_won": 60,
+      "games_diff": 21,
+      "games_lost": 48,
+      "games_won": 69,
       "is_captain": true,
       "longest_win_streak": 4,
-      "matches": 4,
+      "matches": 5,
       "name": "Jun Kim",
       "opponents": [
         {
@@ -3862,6 +4240,15 @@
           "sets": 6,
           "slug": "jj-iannella",
           "won": 3
+        },
+        {
+          "games_lost": 18,
+          "games_won": 15,
+          "lost": 2,
+          "name": "Gordon Chen",
+          "sets": 5,
+          "slug": "gordon-chen",
+          "won": 1
         },
         {
           "games_lost": 7,
@@ -3909,22 +4296,22 @@
           "won": 0
         },
         {
-          "games_lost": 5,
-          "games_won": 6,
-          "lost": 0,
-          "name": "Gordon Chen",
+          "games_lost": 7,
+          "games_won": 5,
+          "lost": 1,
+          "name": "Ben Johnson",
           "sets": 2,
-          "slug": "gordon-chen",
-          "won": 1
+          "slug": "ben-johnson",
+          "won": 0
         }
       ],
       "partners": [
         {
-          "games_lost": 10,
-          "games_won": 20,
-          "lost": 1,
+          "games_lost": 17,
+          "games_won": 25,
+          "lost": 2,
           "name": "Jonah Horichi",
-          "sets": 4,
+          "sets": 6,
           "slug": "jonah-horichi",
           "won": 2
         },
@@ -3948,8 +4335,8 @@
         }
       ],
       "rating": {
-        "doubles": 4.37,
-        "singles": 4.78
+        "doubles": 4.38,
+        "singles": 4.83
       },
       "rating_history": [
         {
@@ -3981,32 +4368,37 @@
           "doubles": 4.37,
           "round": "8",
           "singles": 4.78
+        },
+        {
+          "doubles": 4.38,
+          "round": "9",
+          "singles": 4.83
         }
       ],
       "registered_elsewhere": null,
-      "sets_lost": 2,
-      "sets_played": 12,
+      "sets_lost": 4,
+      "sets_played": 15,
       "sets_won": 8,
       "singles": {
-        "games_lost": 18,
-        "games_won": 22,
-        "lost": 1,
-        "played": 4,
+        "games_lost": 24,
+        "games_won": 26,
+        "lost": 2,
+        "played": 5,
         "won": 3
       },
       "slug": "jun-kim",
       "streak": {
-        "length": 4,
-        "type": "W"
+        "length": 2,
+        "type": "L"
       },
       "team": "uq-gnats",
       "team_code": null,
-      "team_matches": 4,
+      "team_matches": 5,
       "team_name": "UQ Gnats",
-      "win_pct": 80.0
+      "win_pct": 66.7
     },
     {
-      "available": 6,
+      "available": 7,
       "by_slot": {
         "d1": {
           "played": 3,
@@ -4031,8 +4423,8 @@
       },
       "contribution": {
         "games_won": 20.0,
-        "share_pct": 18.5,
-        "team_games_won": 108
+        "share_pct": 16.5,
+        "team_games_won": 121
       },
       "doubles": {
         "games_lost": 27,
@@ -4117,8 +4509,8 @@
         }
       ],
       "rating": {
-        "doubles": 4.05,
-        "singles": 2.27
+        "doubles": 4.08,
+        "singles": 2.29
       },
       "rating_history": [
         {
@@ -4150,6 +4542,11 @@
           "doubles": 4.05,
           "round": "8",
           "singles": 2.27
+        },
+        {
+          "doubles": 4.08,
+          "round": "9",
+          "singles": 2.29
         }
       ],
       "registered_elsewhere": null,
@@ -4175,15 +4572,15 @@
       "win_pct": 37.5
     },
     {
-      "available": 5,
+      "available": 6,
       "by_slot": {
         "d1": {
-          "played": 2,
-          "win_pct": 0.0,
-          "won": 0
+          "played": 3,
+          "win_pct": 33.3,
+          "won": 1
         },
         "d2": {
-          "played": 2,
+          "played": 3,
           "win_pct": 0.0,
           "won": 0
         },
@@ -4193,30 +4590,30 @@
           "won": 0
         },
         "s2": {
-          "played": 1,
+          "played": 2,
           "win_pct": 100.0,
-          "won": 1
+          "won": 2
         }
       },
       "contribution": {
-        "games_won": 15.0,
-        "share_pct": 17.4,
-        "team_games_won": 86
+        "games_won": 24.5,
+        "share_pct": 23.3,
+        "team_games_won": 105
       },
       "doubles": {
-        "games_lost": 22,
-        "games_won": 12,
+        "games_lost": 27,
+        "games_won": 19,
         "lost": 3,
-        "played": 4,
-        "won": 0
+        "played": 6,
+        "won": 1
       },
       "fill_in_appearances": 0,
-      "games_diff": -12,
-      "games_lost": 33,
-      "games_won": 21,
+      "games_diff": -8,
+      "games_lost": 42,
+      "games_won": 34,
       "is_captain": false,
-      "longest_win_streak": 1,
-      "matches": 2,
+      "longest_win_streak": 3,
+      "matches": 3,
       "name": "Ben Johnson",
       "opponents": [
         {
@@ -4227,6 +4624,15 @@
           "sets": 5,
           "slug": "mark-burrowes",
           "won": 1
+        },
+        {
+          "games_lost": 9,
+          "games_won": 13,
+          "lost": 0,
+          "name": "Jonah Horichi",
+          "sets": 3,
+          "slug": "jonah-horichi",
+          "won": 2
         },
         {
           "games_lost": 18,
@@ -4245,17 +4651,26 @@
           "sets": 2,
           "slug": "oscar-bird",
           "won": 0
+        },
+        {
+          "games_lost": 5,
+          "games_won": 7,
+          "lost": 0,
+          "name": "Jun Kim",
+          "sets": 2,
+          "slug": "jun-kim",
+          "won": 1
         }
       ],
       "partners": [
         {
-          "games_lost": 10,
-          "games_won": 9,
+          "games_lost": 15,
+          "games_won": 16,
           "lost": 1,
           "name": "Gordon Chen",
-          "sets": 2,
+          "sets": 4,
           "slug": "gordon-chen",
-          "won": 0
+          "won": 1
         },
         {
           "games_lost": 12,
@@ -4268,8 +4683,8 @@
         }
       ],
       "rating": {
-        "doubles": 3.81,
-        "singles": 4.18
+        "doubles": 3.84,
+        "singles": 4.2
       },
       "rating_history": [
         {
@@ -4296,47 +4711,52 @@
           "doubles": 3.81,
           "round": "7",
           "singles": 4.18
+        },
+        {
+          "doubles": 3.84,
+          "round": "9",
+          "singles": 4.2
         }
       ],
       "registered_elsewhere": null,
       "sets_lost": 4,
-      "sets_played": 6,
-      "sets_won": 1,
+      "sets_played": 9,
+      "sets_won": 3,
       "singles": {
-        "games_lost": 11,
-        "games_won": 9,
+        "games_lost": 15,
+        "games_won": 15,
         "lost": 1,
-        "played": 2,
-        "won": 1
+        "played": 3,
+        "won": 2
       },
       "slug": "ben-johnson",
       "streak": {
-        "length": 1,
+        "length": 3,
         "type": "W"
       },
       "team": "uq-lakers",
       "team_code": null,
-      "team_matches": 2,
+      "team_matches": 3,
       "team_name": "UQ Lakers",
-      "win_pct": 20.0
+      "win_pct": 42.9
     },
     {
-      "available": 5,
+      "available": 6,
       "by_slot": {
         "d1": {
-          "played": 4,
-          "win_pct": 50.0,
-          "won": 2
+          "played": 5,
+          "win_pct": 60.0,
+          "won": 3
         },
         "d2": {
-          "played": 4,
+          "played": 5,
           "win_pct": 100.0,
           "won": 1
         },
         "s1": {
-          "played": 4,
+          "played": 5,
           "win_pct": 100.0,
-          "won": 4
+          "won": 5
         },
         "s2": {
           "played": 0,
@@ -4345,26 +4765,35 @@
         }
       },
       "contribution": {
-        "games_won": 41.5,
-        "share_pct": 48.3,
-        "team_games_won": 86
+        "games_won": 51.0,
+        "share_pct": 48.6,
+        "team_games_won": 105
       },
       "doubles": {
-        "games_lost": 29,
-        "games_won": 35,
+        "games_lost": 34,
+        "games_won": 42,
         "lost": 2,
-        "played": 8,
-        "won": 3
+        "played": 10,
+        "won": 4
       },
       "fill_in_appearances": 0,
-      "games_diff": 27,
-      "games_lost": 32,
-      "games_won": 59,
+      "games_diff": 31,
+      "games_lost": 41,
+      "games_won": 72,
       "is_captain": true,
-      "longest_win_streak": 4,
-      "matches": 4,
+      "longest_win_streak": 6,
+      "matches": 5,
       "name": "Gordon Chen",
       "opponents": [
+        {
+          "games_lost": 15,
+          "games_won": 18,
+          "lost": 1,
+          "name": "Jun Kim",
+          "sets": 5,
+          "slug": "jun-kim",
+          "won": 2
+        },
         {
           "games_lost": 3,
           "games_won": 18,
@@ -4429,16 +4858,25 @@
           "won": 1
         },
         {
-          "games_lost": 6,
-          "games_won": 5,
-          "lost": 1,
-          "name": "Jun Kim",
+          "games_lost": 5,
+          "games_won": 7,
+          "lost": 0,
+          "name": "Jonah Horichi",
           "sets": 2,
-          "slug": "jun-kim",
-          "won": 0
+          "slug": "jonah-horichi",
+          "won": 1
         }
       ],
       "partners": [
+        {
+          "games_lost": 15,
+          "games_won": 16,
+          "lost": 1,
+          "name": "Ben Johnson",
+          "sets": 4,
+          "slug": "ben-johnson",
+          "won": 1
+        },
         {
           "games_lost": 16,
           "games_won": 14,
@@ -4456,20 +4894,11 @@
           "sets": 2,
           "slug": "oscar-bird",
           "won": 2
-        },
-        {
-          "games_lost": 10,
-          "games_won": 9,
-          "lost": 1,
-          "name": "Ben Johnson",
-          "sets": 2,
-          "slug": "ben-johnson",
-          "won": 0
         }
       ],
       "rating": {
-        "doubles": 4.38,
-        "singles": 3.94
+        "doubles": 4.42,
+        "singles": 3.96
       },
       "rating_history": [
         {
@@ -4496,32 +4925,37 @@
           "doubles": 4.38,
           "round": "7",
           "singles": 3.94
+        },
+        {
+          "doubles": 4.42,
+          "round": "9",
+          "singles": 3.96
         }
       ],
       "registered_elsewhere": null,
       "sets_lost": 2,
-      "sets_played": 12,
-      "sets_won": 7,
+      "sets_played": 15,
+      "sets_won": 9,
       "singles": {
-        "games_lost": 3,
-        "games_won": 24,
+        "games_lost": 7,
+        "games_won": 30,
         "lost": 0,
-        "played": 4,
-        "won": 4
+        "played": 5,
+        "won": 5
       },
       "slug": "gordon-chen",
       "streak": {
-        "length": 4,
+        "length": 6,
         "type": "W"
       },
       "team": "uq-lakers",
       "team_code": null,
-      "team_matches": 4,
+      "team_matches": 5,
       "team_name": "UQ Lakers",
-      "win_pct": 77.8
+      "win_pct": 81.8
     },
     {
-      "available": 5,
+      "available": 6,
       "by_slot": {
         "d1": {
           "played": 3,
@@ -4546,8 +4980,8 @@
       },
       "contribution": {
         "games_won": 17.5,
-        "share_pct": 20.3,
-        "team_games_won": 86
+        "share_pct": 16.7,
+        "team_games_won": 105
       },
       "doubles": {
         "games_lost": 28,
@@ -4641,8 +5075,8 @@
         }
       ],
       "rating": {
-        "doubles": 4.22,
-        "singles": 2.73
+        "doubles": 4.25,
+        "singles": 2.86
       },
       "rating_history": [
         {
@@ -4669,6 +5103,11 @@
           "doubles": 4.22,
           "round": "7",
           "singles": 2.73
+        },
+        {
+          "doubles": 4.25,
+          "round": "9",
+          "singles": 2.86
         }
       ],
       "registered_elsewhere": null,
@@ -4694,22 +5133,22 @@
       "win_pct": 14.3
     },
     {
-      "available": 6,
+      "available": 7,
       "by_slot": {
         "d1": {
-          "played": 3,
+          "played": 4,
           "win_pct": 100.0,
-          "won": 3
+          "won": 4
         },
         "d2": {
-          "played": 3,
+          "played": 4,
           "win_pct": 100.0,
           "won": 3
         },
         "s1": {
-          "played": 3,
+          "played": 4,
           "win_pct": 100.0,
-          "won": 3
+          "won": 4
         },
         "s2": {
           "played": 0,
@@ -4718,24 +5157,24 @@
         }
       },
       "contribution": {
-        "games_won": 36.0,
-        "share_pct": 27.7,
-        "team_games_won": 130
+        "games_won": 47.0,
+        "share_pct": 30.9,
+        "team_games_won": 152
       },
       "doubles": {
-        "games_lost": 18,
-        "games_won": 36,
+        "games_lost": 21,
+        "games_won": 46,
         "lost": 0,
-        "played": 6,
-        "won": 6
+        "played": 8,
+        "won": 7
       },
       "fill_in_appearances": 0,
-      "games_diff": 32,
-      "games_lost": 22,
-      "games_won": 54,
+      "games_diff": 41,
+      "games_lost": 29,
+      "games_won": 70,
       "is_captain": true,
-      "longest_win_streak": 9,
-      "matches": 3,
+      "longest_win_streak": 11,
+      "matches": 4,
       "name": "Aidan Beutel",
       "opponents": [
         {
@@ -4766,6 +5205,15 @@
           "won": 3
         },
         {
+          "games_lost": 7,
+          "games_won": 16,
+          "lost": 0,
+          "name": "Dinara Naditya Welagedera",
+          "sets": 3,
+          "slug": "dinara-naditya-welagedera",
+          "won": 2
+        },
+        {
           "games_lost": 8,
           "games_won": 12,
           "lost": 0,
@@ -4791,17 +5239,26 @@
           "sets": 2,
           "slug": "yanlong-meng",
           "won": 2
+        },
+        {
+          "games_lost": 3,
+          "games_won": 10,
+          "lost": 0,
+          "name": "Bianca Zhang",
+          "sets": 2,
+          "slug": "bianca-zhang",
+          "won": 1
         }
       ],
       "partners": [
         {
-          "games_lost": 10,
-          "games_won": 24,
+          "games_lost": 13,
+          "games_won": 34,
           "lost": 0,
           "name": "Mark Burrowes",
-          "sets": 4,
+          "sets": 6,
           "slug": "mark-burrowes",
-          "won": 4
+          "won": 5
         },
         {
           "games_lost": 8,
@@ -4814,7 +5271,7 @@
         }
       ],
       "rating": {
-        "doubles": 4.44,
+        "doubles": 4.47,
         "singles": 4.63
       },
       "rating_history": [
@@ -4847,40 +5304,45 @@
           "doubles": 4.44,
           "round": "8",
           "singles": 4.63
+        },
+        {
+          "doubles": 4.47,
+          "round": "9",
+          "singles": 4.63
         }
       ],
       "registered_elsewhere": null,
       "sets_lost": 0,
-      "sets_played": 9,
-      "sets_won": 9,
+      "sets_played": 12,
+      "sets_won": 11,
       "singles": {
-        "games_lost": 4,
-        "games_won": 18,
+        "games_lost": 8,
+        "games_won": 24,
         "lost": 0,
-        "played": 3,
-        "won": 3
+        "played": 4,
+        "won": 4
       },
       "slug": "aidan-beutel",
       "streak": {
-        "length": 9,
+        "length": 11,
         "type": "W"
       },
       "team": "uq-tigers",
       "team_code": null,
-      "team_matches": 3,
+      "team_matches": 4,
       "team_name": "UQ Tigers",
       "win_pct": 100.0
     },
     {
-      "available": 6,
+      "available": 7,
       "by_slot": {
         "d1": {
-          "played": 5,
-          "win_pct": 80.0,
-          "won": 4
+          "played": 6,
+          "win_pct": 83.3,
+          "won": 5
         },
         "d2": {
-          "played": 5,
+          "played": 6,
           "win_pct": 100.0,
           "won": 4
         },
@@ -4890,30 +5352,30 @@
           "won": 1
         },
         "s2": {
-          "played": 4,
-          "win_pct": 75.0,
-          "won": 3
+          "played": 5,
+          "win_pct": 80.0,
+          "won": 4
         }
       },
       "contribution": {
-        "games_won": 57.0,
-        "share_pct": 43.8,
-        "team_games_won": 130
+        "games_won": 68.0,
+        "share_pct": 44.7,
+        "team_games_won": 152
       },
       "doubles": {
-        "games_lost": 31,
-        "games_won": 56,
+        "games_lost": 34,
+        "games_won": 66,
         "lost": 1,
-        "played": 10,
-        "won": 8
+        "played": 12,
+        "won": 9
       },
       "fill_in_appearances": 0,
-      "games_diff": 39,
-      "games_lost": 46,
-      "games_won": 85,
+      "games_diff": 48,
+      "games_lost": 53,
+      "games_won": 101,
       "is_captain": false,
       "longest_win_streak": 10,
-      "matches": 5,
+      "matches": 6,
       "name": "Mark Burrowes",
       "opponents": [
         {
@@ -4923,6 +5385,15 @@
           "name": "Ben Johnson",
           "sets": 5,
           "slug": "ben-johnson",
+          "won": 3
+        },
+        {
+          "games_lost": 5,
+          "games_won": 22,
+          "lost": 0,
+          "name": "Dinara Naditya Welagedera",
+          "sets": 4,
+          "slug": "dinara-naditya-welagedera",
           "won": 3
         },
         {
@@ -4953,21 +5424,21 @@
           "won": 3
         },
         {
+          "games_lost": 7,
+          "games_won": 16,
+          "lost": 0,
+          "name": "Bianca Zhang",
+          "sets": 3,
+          "slug": "bianca-zhang",
+          "won": 2
+        },
+        {
           "games_lost": 13,
           "games_won": 16,
           "lost": 1,
           "name": "Jonah Horichi",
           "sets": 3,
           "slug": "jonah-horichi",
-          "won": 2
-        },
-        {
-          "games_lost": 2,
-          "games_won": 12,
-          "lost": 0,
-          "name": "Dinara Naditya Welagedera",
-          "sets": 2,
-          "slug": "dinara-naditya-welagedera",
           "won": 2
         },
         {
@@ -5000,6 +5471,15 @@
       ],
       "partners": [
         {
+          "games_lost": 13,
+          "games_won": 34,
+          "lost": 0,
+          "name": "Aidan Beutel",
+          "sets": 6,
+          "slug": "aidan-beutel",
+          "won": 5
+        },
+        {
           "games_lost": 21,
           "games_won": 32,
           "lost": 1,
@@ -5007,20 +5487,11 @@
           "sets": 6,
           "slug": "oscar-bird",
           "won": 4
-        },
-        {
-          "games_lost": 10,
-          "games_won": 24,
-          "lost": 0,
-          "name": "Aidan Beutel",
-          "sets": 4,
-          "slug": "aidan-beutel",
-          "won": 4
         }
       ],
       "rating": {
-        "doubles": 4.24,
-        "singles": 4.34
+        "doubles": 4.26,
+        "singles": 4.41
       },
       "rating_history": [
         {
@@ -5052,32 +5523,37 @@
           "doubles": 4.24,
           "round": "8",
           "singles": 4.34
+        },
+        {
+          "doubles": 4.26,
+          "round": "9",
+          "singles": 4.41
         }
       ],
       "registered_elsewhere": null,
       "sets_lost": 2,
-      "sets_played": 15,
-      "sets_won": 12,
+      "sets_played": 18,
+      "sets_won": 14,
       "singles": {
-        "games_lost": 15,
-        "games_won": 29,
+        "games_lost": 19,
+        "games_won": 35,
         "lost": 1,
-        "played": 5,
-        "won": 4
+        "played": 6,
+        "won": 5
       },
       "slug": "mark-burrowes",
       "streak": {
-        "length": 2,
+        "length": 4,
         "type": "W"
       },
       "team": "uq-tigers",
       "team_code": null,
-      "team_matches": 5,
+      "team_matches": 6,
       "team_name": "UQ Tigers",
-      "win_pct": 85.7
+      "win_pct": 87.5
     },
     {
-      "available": 6,
+      "available": 7,
       "by_slot": {
         "d1": {
           "played": 5,
@@ -5102,8 +5578,8 @@
       },
       "contribution": {
         "games_won": 37.0,
-        "share_pct": 28.5,
-        "team_games_won": 130
+        "share_pct": 24.3,
+        "team_games_won": 152
       },
       "doubles": {
         "games_lost": 32,
@@ -5224,8 +5700,8 @@
         }
       ],
       "rating": {
-        "doubles": 4.48,
-        "singles": 3.63
+        "doubles": 4.51,
+        "singles": 3.62
       },
       "rating_history": [
         {
@@ -5257,6 +5733,11 @@
           "doubles": 4.48,
           "round": "8",
           "singles": 3.63
+        },
+        {
+          "doubles": 4.51,
+          "round": "9",
+          "singles": 3.62
         }
       ],
       "registered_elsewhere": null,
@@ -5503,7 +5984,8 @@
       "number": "1",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [
@@ -5521,7 +6003,8 @@
       "number": "2",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": true
     },
     {
       "byes": [
@@ -5539,7 +6022,8 @@
       "number": "3",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [
@@ -5557,7 +6041,8 @@
       "number": "4",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [
@@ -5575,7 +6060,8 @@
       "number": "5",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [
@@ -5593,7 +6079,8 @@
       "number": "6",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [
@@ -5611,7 +6098,8 @@
       "number": "7",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [
@@ -5629,22 +6117,27 @@
       "number": "8",
       "numbered": true,
       "played": true,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [
         "uq-drop-shots"
       ],
-      "cards": 0,
-      "cards_played": 0,
-      "date": "",
+      "cards": 2,
+      "cards_played": 2,
+      "date": "2026-10-12",
       "is_finals": false,
-      "keys": [],
+      "keys": [
+        "9/uq-challengers/uq-tigers/1",
+        "9/uq-gnats/uq-lakers/1"
+      ],
       "note": "",
       "number": "9",
       "numbered": true,
-      "played": false,
-      "source": "cards"
+      "played": true,
+      "source": "cards",
+      "washed_out": false
     },
     {
       "byes": [
@@ -5659,7 +6152,8 @@
       "number": "10",
       "numbered": true,
       "played": false,
-      "source": "cards"
+      "source": "cards",
+      "washed_out": true
     }
   ],
   "teams": [
@@ -5678,27 +6172,27 @@
       },
       "by_slot": {
         "d1": {
-          "games_lost": 29,
-          "games_won": 16,
-          "lost": 4,
+          "games_lost": 35,
+          "games_won": 19,
+          "lost": 5,
           "won": 1
         },
         "d2": {
-          "games_lost": 19,
+          "games_lost": 23,
           "games_won": 10,
           "lost": 2,
           "won": 0
         },
         "s1": {
-          "games_lost": 28,
-          "games_won": 15,
-          "lost": 4,
+          "games_lost": 34,
+          "games_won": 19,
+          "lost": 5,
           "won": 1
         },
         "s2": {
-          "games_lost": 23,
-          "games_won": 22,
-          "lost": 3,
+          "games_lost": 29,
+          "games_won": 26,
+          "lost": 4,
           "won": 2
         }
       },
@@ -5712,26 +6206,26 @@
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 0,
         "share_pct": 0.0,
-        "team_games_won": 63
+        "team_games_won": 74
       },
-      "counted": 5,
+      "counted": 6,
       "drawn": 0,
       "form": [
         "L",
         "L",
         "L",
-        "L",
-        "W"
+        "W",
+        "L"
       ],
-      "games_diff": -36,
-      "games_lost": 99,
-      "games_won": 63,
+      "games_diff": -47,
+      "games_lost": 121,
+      "games_won": 74,
       "home": {
         "drawn": 0,
-        "games_lost": 62,
-        "games_won": 40,
-        "lost": 3,
-        "played": 3,
+        "games_lost": 84,
+        "games_won": 51,
+        "lost": 4,
+        "played": 4,
         "won": 0
       },
       "home_court": 8,
@@ -5775,34 +6269,44 @@
           "points_average": 3.66,
           "position": 5,
           "round": "8"
+        },
+        {
+          "points_average": 3.566667,
+          "position": 5,
+          "round": "9"
+        },
+        {
+          "points_average": 3.566667,
+          "position": 5,
+          "round": "10"
         }
       ],
-      "lost": 4,
+      "lost": 5,
       "name": "UQ Challengers",
-      "played": 5,
+      "played": 6,
       "players": [
         "bianca-zhang",
         "dinara-naditya-welagedera",
         "nick-hendricks"
       ],
-      "points": 18.3,
-      "points_average": 3.66,
+      "points": 21.4,
+      "points_average": 3.566667,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 18.3
+        "earned": 21.4
       },
       "position": 5,
-      "sets_diff": -9,
-      "sets_lost": 13,
+      "sets_diff": -12,
+      "sets_lost": 16,
       "sets_won": 4,
       "short": "UQ Challengers",
       "slug": "uq-challengers",
       "streak": {
         "length": 1,
-        "type": "W"
+        "type": "L"
       },
-      "win_pct": 23.5,
+      "win_pct": 20.0,
       "won": 1,
       "worst_round": {
         "points": 2.8,
@@ -5921,6 +6425,16 @@
           "points_average": 3.9,
           "position": 4,
           "round": "8"
+        },
+        {
+          "points_average": 3.9,
+          "position": 4,
+          "round": "9"
+        },
+        {
+          "points_average": 3.9,
+          "position": 4,
+          "round": "10"
         }
       ],
       "lost": 4,
@@ -5970,27 +6484,27 @@
       },
       "by_slot": {
         "d1": {
-          "games_lost": 23,
-          "games_won": 33,
-          "lost": 2,
+          "games_lost": 29,
+          "games_won": 37,
+          "lost": 3,
           "won": 4
         },
         "d2": {
-          "games_lost": 16,
-          "games_won": 23,
+          "games_lost": 17,
+          "games_won": 24,
           "lost": 2,
           "won": 2
         },
         "s1": {
-          "games_lost": 28,
-          "games_won": 20,
-          "lost": 4,
+          "games_lost": 34,
+          "games_won": 24,
+          "lost": 5,
           "won": 2
         },
         "s2": {
-          "games_lost": 24,
-          "games_won": 32,
-          "lost": 2,
+          "games_lost": 30,
+          "games_won": 36,
+          "lost": 3,
           "won": 4
         }
       },
@@ -6003,27 +6517,27 @@
         "rubbers_overfull": 0,
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 3,
-        "share_pct": 11.1,
-        "team_games_won": 108
+        "share_pct": 9.9,
+        "team_games_won": 121
       },
-      "counted": 6,
+      "counted": 7,
       "drawn": 0,
       "form": [
         "L",
         "L",
-        "L",
         "W",
-        "W"
+        "W",
+        "L"
       ],
-      "games_diff": 17,
-      "games_lost": 91,
-      "games_won": 108,
+      "games_diff": 11,
+      "games_lost": 110,
+      "games_won": 121,
       "home": {
         "drawn": 0,
-        "games_lost": 40,
-        "games_won": 30,
-        "lost": 2,
-        "played": 2,
+        "games_lost": 59,
+        "games_won": 43,
+        "lost": 3,
+        "played": 3,
         "won": 0
       },
       "home_court": 7,
@@ -6067,34 +6581,44 @@
           "points_average": 4.8,
           "position": 3,
           "round": "8"
+        },
+        {
+          "points_average": 4.585714,
+          "position": 3,
+          "round": "9"
+        },
+        {
+          "points_average": 4.585714,
+          "position": 3,
+          "round": "10"
         }
       ],
-      "lost": 3,
+      "lost": 4,
       "name": "UQ Gnats",
-      "played": 6,
+      "played": 7,
       "players": [
         "jonah-horichi",
         "jun-kim",
         "michael-chen"
       ],
-      "points": 28.8,
-      "points_average": 4.8,
+      "points": 32.1,
+      "points_average": 4.585714,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 28.8
+        "earned": 32.1
       },
       "position": 3,
-      "sets_diff": 2,
-      "sets_lost": 10,
+      "sets_diff": -1,
+      "sets_lost": 13,
       "sets_won": 12,
       "short": "UQ Gnats",
       "slug": "uq-gnats",
       "streak": {
-        "length": 2,
-        "type": "W"
+        "length": 1,
+        "type": "L"
       },
-      "win_pct": 54.5,
+      "win_pct": 48.0,
       "won": 3,
       "worst_round": {
         "points": 3.3,
@@ -6104,11 +6628,11 @@
     {
       "away": {
         "drawn": 0,
-        "games_lost": 49,
-        "games_won": 49,
+        "games_lost": 62,
+        "games_won": 68,
         "lost": 1,
-        "played": 3,
-        "won": 2
+        "played": 4,
+        "won": 3
       },
       "best_round": {
         "points": 6.4,
@@ -6116,28 +6640,28 @@
       },
       "by_slot": {
         "d1": {
-          "games_lost": 24,
-          "games_won": 23,
+          "games_lost": 28,
+          "games_won": 29,
           "lost": 3,
-          "won": 2
+          "won": 3
         },
         "d2": {
-          "games_lost": 17,
-          "games_won": 15,
+          "games_lost": 18,
+          "games_won": 16,
           "lost": 1,
           "won": 1
         },
         "s1": {
-          "games_lost": 9,
-          "games_won": 27,
+          "games_lost": 13,
+          "games_won": 33,
           "lost": 1,
-          "won": 4
+          "won": 5
         },
         "s2": {
-          "games_lost": 28,
-          "games_won": 21,
+          "games_lost": 32,
+          "games_won": 27,
           "lost": 3,
-          "won": 2
+          "won": 3
         }
       },
       "captain": "Gordon Chen",
@@ -6149,21 +6673,21 @@
         "rubbers_overfull": 0,
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 3,
-        "share_pct": 14.0,
-        "team_games_won": 86
+        "share_pct": 11.4,
+        "team_games_won": 105
       },
-      "counted": 5,
+      "counted": 6,
       "drawn": 0,
       "form": [
-        "L",
+        "W",
         "W",
         "W",
         "W",
         "W"
       ],
-      "games_diff": 8,
-      "games_lost": 78,
-      "games_won": 86,
+      "games_diff": 14,
+      "games_lost": 91,
+      "games_won": 105,
       "home": {
         "drawn": 0,
         "games_lost": 29,
@@ -6213,35 +6737,45 @@
           "points_average": 5.32,
           "position": 2,
           "round": "8"
+        },
+        {
+          "points_average": 5.416667,
+          "position": 2,
+          "round": "9"
+        },
+        {
+          "points_average": 5.416667,
+          "position": 2,
+          "round": "10"
         }
       ],
       "lost": 1,
       "name": "UQ Lakers",
-      "played": 5,
+      "played": 6,
       "players": [
         "ben-johnson",
         "gordon-chen",
         "yanlong-meng"
       ],
-      "points": 26.6,
-      "points_average": 5.32,
+      "points": 32.5,
+      "points_average": 5.416667,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 26.6
+        "earned": 32.5
       },
       "position": 2,
-      "sets_diff": 1,
+      "sets_diff": 4,
       "sets_lost": 8,
-      "sets_won": 9,
+      "sets_won": 12,
       "short": "UQ Lakers",
       "slug": "uq-lakers",
       "streak": {
-        "length": 4,
+        "length": 5,
         "type": "W"
       },
-      "win_pct": 52.9,
-      "won": 4,
+      "win_pct": 60.0,
+      "won": 5,
       "worst_round": {
         "points": 2.7,
         "round": "1"
@@ -6250,11 +6784,11 @@
     {
       "away": {
         "drawn": 0,
-        "games_lost": 44,
-        "games_won": 64,
+        "games_lost": 55,
+        "games_won": 86,
         "lost": 1,
-        "played": 3,
-        "won": 2
+        "played": 4,
+        "won": 3
       },
       "best_round": {
         "points": 6.4,
@@ -6262,28 +6796,28 @@
       },
       "by_slot": {
         "d1": {
-          "games_lost": 22,
-          "games_won": 34,
+          "games_lost": 25,
+          "games_won": 40,
           "lost": 1,
-          "won": 5
+          "won": 6
         },
         "d2": {
           "games_lost": 17,
-          "games_won": 34,
+          "games_won": 38,
           "lost": 0,
           "won": 5
         },
         "s1": {
-          "games_lost": 19,
-          "games_won": 27,
+          "games_lost": 23,
+          "games_won": 33,
           "lost": 2,
-          "won": 4
+          "won": 5
         },
         "s2": {
-          "games_lost": 20,
-          "games_won": 35,
+          "games_lost": 24,
+          "games_won": 41,
           "lost": 1,
-          "won": 5
+          "won": 6
         }
       },
       "captain": "Aidan Beutel",
@@ -6296,20 +6830,20 @@
         "rubbers_short_a_name": 0,
         "rubbers_with_outsiders": 0,
         "share_pct": 0.0,
-        "team_games_won": 130
+        "team_games_won": 152
       },
-      "counted": 6,
+      "counted": 7,
       "drawn": 0,
       "form": [
         "W",
         "W",
-        "W",
         "L",
-        "L"
+        "L",
+        "W"
       ],
-      "games_diff": 52,
-      "games_lost": 78,
-      "games_won": 130,
+      "games_diff": 63,
+      "games_lost": 89,
+      "games_won": 152,
       "home": {
         "drawn": 0,
         "games_lost": 34,
@@ -6359,35 +6893,45 @@
           "points_average": 5.5,
           "position": 1,
           "round": "8"
+        },
+        {
+          "points_average": 5.6,
+          "position": 1,
+          "round": "9"
+        },
+        {
+          "points_average": 5.6,
+          "position": 1,
+          "round": "10"
         }
       ],
       "lost": 2,
       "name": "UQ Tigers",
-      "played": 6,
+      "played": 7,
       "players": [
         "aidan-beutel",
         "mark-burrowes",
         "oscar-bird"
       ],
-      "points": 33.0,
-      "points_average": 5.5,
+      "points": 39.2,
+      "points_average": 5.6,
       "points_breakdown": {
         "averaged": 0.0,
         "averaged_matches": 0,
-        "earned": 33.0
+        "earned": 39.2
       },
       "position": 1,
-      "sets_diff": 15,
+      "sets_diff": 18,
       "sets_lost": 4,
-      "sets_won": 19,
+      "sets_won": 22,
       "short": "UQ Tigers",
       "slug": "uq-tigers",
       "streak": {
-        "length": 2,
-        "type": "L"
+        "length": 1,
+        "type": "W"
       },
-      "win_pct": 82.6,
-      "won": 4,
+      "win_pct": 84.6,
+      "won": 5,
       "worst_round": {
         "points": 3.6,
         "round": "6"
@@ -6401,22 +6945,6 @@
     "own_errors": 0,
     "rejected": [],
     "warnings": [
-      {
-        "detail": "data/2026-2-monday-b2/R2/match_scorecard_3665374.pdf",
-        "message": "R2 uq-gnats v uq-challengers: recorded as cancelled, so it is not counted in the ladder.",
-        "rule": "no-result",
-        "severity": "warning",
-        "subject": "R2 uq-gnats v uq-challengers",
-        "subject_said": true
-      },
-      {
-        "detail": "data/2026-2-monday-b2/R2/match_scorecard_3665373.pdf",
-        "message": "R2 uq-lakers v uq-drop-shots: recorded as cancelled, so it is not counted in the ladder.",
-        "rule": "no-result",
-        "severity": "warning",
-        "subject": "R2 uq-lakers v uq-drop-shots",
-        "subject_said": true
-      },
       {
         "detail": "VS",
         "message": "data/2026-2-monday-b2/R4/match_scorecard_3665379.pdf: the card prints 'VS' between the team names instead of a result, which is what Match Centre prints for a fixture it holds no result for. The set rows were still read and scored; what could not run is this one cross-check against them.",
@@ -6450,8 +6978,8 @@
         "subject_said": true
       },
       {
-        "detail": "data/2026-2-monday-b2/R5/match_scorecard_3665382-1.pdf, data/2026-2-monday-b2/R6/match_scorecard_3665386.pdf, data/2026-2-monday-b2/R6/match_scorecard_3665387.pdf",
-        "message": "3 rubbers stopped short of a finished set under first-to-6 (first to 6) and are not marked forfeit, retired or incomplete, so nobody is credited them: R5 uq-challengers v uq-lakers d2 5-3, R6 uq-gnats v uq-drop-shots d2 4-2 and R6 uq-lakers v uq-tigers d2 5-4.",
+        "detail": "data/2026-2-monday-b2/R5/match_scorecard_3665382-1.pdf, data/2026-2-monday-b2/R6/match_scorecard_3665386.pdf, data/2026-2-monday-b2/R6/match_scorecard_3665387.pdf, data/2026-2-monday-b2/R9/match_scorecard_3665396.pdf",
+        "message": "4 rubbers stopped short of a finished set under first-to-6 (first to 6) and are not marked forfeit, retired or incomplete, so nobody is credited them: R5 uq-challengers v uq-lakers d2 5-3, R6 uq-gnats v uq-drop-shots d2 4-2, R6 uq-lakers v uq-tigers d2 5-4 and R9 uq-challengers v uq-tigers d2 0-4.",
         "rule": "set-unfinished",
         "severity": "warning",
         "subject": "",
@@ -6482,8 +7010,8 @@
         "subject_said": true
       },
       {
-        "detail": "uq-challengers 5; uq-drop-shots 6; uq-gnats 6; uq-lakers 5; uq-tigers 6",
-        "message": "the ladder is in progress — teams have played unequal numbers of matches. uq-challengers and uq-lakers have fewer than the 6 counted by the rest; the ladder is ordered on the average, so that costs them no place.",
+        "detail": "uq-challengers 6; uq-drop-shots 6; uq-gnats 7; uq-lakers 6; uq-tigers 7",
+        "message": "the ladder is in progress — teams have played unequal numbers of matches. uq-challengers, uq-drop-shots and uq-lakers have fewer than the 7 counted by the rest; the ladder is ordered on the average, so that costs them no place.",
         "rule": "F10",
         "severity": "warning",
         "subject": "",
