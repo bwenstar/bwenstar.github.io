@@ -2,41 +2,106 @@
 layout: default
 title: Home
 ---
-<main class="container">
+<main>
 
-  <h1 class="site-title">{{ site.title }}</h1>
-  <p class="site-description">{{ site.description }}</p>
-
-  {% comment %}
-    Projects worth a front-door link. Edit site.projects in _config.yml, not here.
-  {% endcomment %}
-  {% if site.projects %}
-    <section class="projects" aria-labelledby="projects-heading">
-      <h2 id="projects-heading">Projects</h2>
-      <ul class="project-list">
-        {% for project in site.projects %}
-          <li class="project-card">
-            <a href="{{ project.url | relative_url }}">
-              <span class="project-name">{{ project.name }}</span>
-              <span class="project-blurb">{{ project.blurb }}</span>
-            </a>
-          </li>
-        {% endfor %}
-      </ul>
-    </section>
-  {% endif %}
-
-  <section class="posts">
-    <h2>Posts</h2>
-    {% for post in site.posts %}
-      <article class="post-card">
-        <h2><a href="{{ post.url | relative_url }}">{{ post.title }}</a></h2>
-        <p class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</p>
-        <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 150 }}</p>
-      </article>
-    {% endfor %}
+  <section class="hero wrap">
+    <p class="eyebrow">Hi, I'm {{ site.author.name | split: " " | first }}</p>
+    <h1>I build small tools that turn messy data into dashboards people actually use.</h1>
+    <p class="lede">
+      Tennis ladders from a club's PDF scorecards, every bus, train and CityCat trip on a go card,
+      and whatever I'm tinkering with next. This is where they live, along with the odd note and photo.
+    </p>
+    <div class="hero-actions">
+      <a class="button primary" href="#projects">See projects</a>
+      {% if site.author.github %}
+      <a class="button" href="https://github.com/{{ site.author.github }}">GitHub</a>
+      {% endif %}
+    </div>
   </section>
 
-  {% include tag-cloud.html %}
+  {% comment %}
+    Project cards come from site.projects in _config.yml. Edit them there, not here.
+    The image and title link to the project; the buttons are its extra links.
+  {% endcomment %}
+  {% if site.projects %}
+  <section class="section wrap" id="projects" aria-labelledby="projects-heading">
+    <div class="section-head">
+      <h2 id="projects-heading">Projects</h2>
+      <p class="muted">Live dashboards and the open-source tools behind them.</p>
+    </div>
+
+    <ul class="project-grid">
+      {% for project in site.projects %}
+      {% if project.url contains '://' %}{% assign purl = project.url %}{% else %}{% assign purl = project.url | relative_url %}{% endif %}
+      <li class="project">
+        <a class="project-media" href="{{ purl }}" tabindex="-1" aria-hidden="true">
+          {% if project.image %}
+          <img src="{{ project.image | relative_url }}" alt="" width="960" height="600" loading="lazy">
+          {% endif %}
+        </a>
+        <div class="project-body">
+          {% if project.kicker %}<p class="project-kicker">{{ project.kicker }}</p>{% endif %}
+          <h3><a href="{{ purl }}">{{ project.name }}</a></h3>
+          <p class="project-blurb">{{ project.blurb }}</p>
+          {% if project.tags %}
+          <ul class="chips" aria-label="Built with">
+            {% for t in project.tags %}<li>{{ t }}</li>{% endfor %}
+          </ul>
+          {% endif %}
+          {% if project.links %}
+          <div class="project-links">
+            {% for l in project.links %}
+              {% if l.url contains '://' %}
+              <a class="button small" href="{{ l.url }}" rel="noopener">{{ l.label }} <span aria-hidden="true">↗</span></a>
+              {% else %}
+              <a class="button small{% if forloop.first %} primary{% endif %}" href="{{ l.url | relative_url }}">{{ l.label }}</a>
+              {% endif %}
+            {% endfor %}
+          </div>
+          {% endif %}
+        </div>
+      </li>
+      {% endfor %}
+    </ul>
+  </section>
+  {% endif %}
+
+  <div class="wrap split">
+    <section class="section" aria-labelledby="notes-heading">
+      <div class="section-head">
+        <h2 id="notes-heading">Notes</h2>
+      </div>
+      <ul class="post-list">
+        {% for post in site.posts limit: 6 %}
+        <li>
+          <a href="{{ post.url | relative_url }}">
+            <span class="post-title">{{ post.title }}</span>
+            <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
+          </a>
+          {% if post.excerpt %}<p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 140 }}</p>{% endif %}
+        </li>
+        {% else %}
+        <li class="muted">Nothing here yet.</li>
+        {% endfor %}
+      </ul>
+      {% include tag-cloud.html %}
+    </section>
+
+    {% if site.data.gallery %}
+    <section class="section" aria-labelledby="photos-heading">
+      <div class="section-head">
+        <h2 id="photos-heading">Photos</h2>
+        <a class="more" href="{{ '/gallery.html' | relative_url }}">Gallery →</a>
+      </div>
+      <div class="photo-strip">
+        {% for img in site.data.gallery limit: 3 %}
+        <a href="{{ '/gallery.html' | relative_url }}" title="{{ img.title | escape }}">
+          <img src="{{ '/' | append: img.filename | relative_url }}" alt="{{ img.title | escape }}" loading="lazy">
+        </a>
+        {% endfor %}
+      </div>
+    </section>
+    {% endif %}
+  </div>
 
 </main>

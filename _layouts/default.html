@@ -3,7 +3,7 @@
 <head>
   {% include head.html %}
 </head>
-<body>
+<body id="top">
   {% comment %}
     Keyboard users had to tab through the whole nav on every page to reach the
     content. The link is off-screen until focused.
@@ -19,6 +19,6 @@
   {% include footer.html %}
 
   <script src="{{ '/assets/js/theme-toggle.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/gallery.js' | relative_url }}"></script>
+  {% if page.gallery or page.url contains '/gallery' %}<script src="{{ '/assets/js/gallery.js' | relative_url }}"></script>{% endif %}
 </body>
 </html>

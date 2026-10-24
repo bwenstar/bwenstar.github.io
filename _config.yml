@@ -1,5 +1,5 @@
-title:          "BT"
-description:    "BT's dumping ground"
+title:          "Brendan Ta"
+description:    "Engineer. I build small tools that turn messy exports into dashboards you can actually read: tennis ladders, public transport trips, and whatever's next."
 url:            "https://brendanta.com"
 baseurl:        ""
 author:
@@ -7,12 +7,45 @@ author:
   avatar:       "/assets/img/borko.png"
   github:       "bwenstar"
 
-# Front-door links rendered by index.html. Add a project here rather than editing
-# the template.
+# Project cards on the home page, in this order. Add a project here rather than
+# editing index.html. Fields:
+#   name, kicker (small label above the name), blurb, image (16:10, ~960x600),
+#   url (where the card itself links), tags (short tech labels), links (buttons).
+#   A url starting with / is on this site; anything with :// is external.
 projects:
-  - name:   "Tennis — Division C, Tuesday night"
-    blurb:  "Live ladder, team and player stats, generated from the club's scorecards."
+  - name:   "UQ Tennis Club dashboards"
+    kicker: "Tennis"
+    blurb:  "Ladders, results and player stats for every UQ Tennis Club competition, rebuilt each round from the club's Match Centre scorecards."
+    image:  "/assets/img/projects/tennis.webp"
     url:    "/tennis/"
+    tags:   [Python, PDF scorecards, Static site]
+    links:
+      - label: "Open dashboards"
+        url:   "/tennis/"
+
+  - name:   "matchcentre-dashboard"
+    kicker: "Open source · Tennis"
+    blurb:  "The tool behind those dashboards. Point it at a folder of Tennis Australia Match Centre PDFs, run one command, and get a season dashboard for any club."
+    image:  "/assets/img/projects/matchcentre.webp"
+    url:    "/matchcentre-dashboard/"
+    tags:   [Python, Charts, Any club]
+    links:
+      - label: "Demo"
+        url:   "/matchcentre-dashboard/"
+      - label: "Code"
+        url:   "https://github.com/bwenstar/matchcentre-dashboard"
+
+  - name:   "go card travel dashboard"
+    kicker: "Open source · Public transport"
+    blurb:  "Downloads your Translink go card history and maps every trip along its real bus, train, CityCat or light rail route, with spending, streaks and filters."
+    image:  "/assets/img/projects/gocard.webp"
+    url:    "/translink-gocard-dashboard/"
+    tags:   [Python, GTFS, Leaflet]
+    links:
+      - label: "Live demo"
+        url:   "/translink-gocard-dashboard/"
+      - label: "Code"
+        url:   "https://github.com/bwenstar/translink-gocard-dashboard"
 
 markdown: kramdown
 theme: null

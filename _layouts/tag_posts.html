@@ -1,14 +1,19 @@
 ---
 layout: default
 ---
-<h1>Posts tagged: <em>{{ page.tag }}</em></h1>
+<main class="wrap narrow page">
+  <a class="back" href="{{ '/' | relative_url }}">← Home</a>
+  <h1>Tagged <span class="accent">#{{ page.tag }}</span></h1>
 
-<ul class="tag-archive">
-  {% assign tagged_posts = site.tags[page.tag] %}
-  {% for post in tagged_posts %}
+  <ul class="post-list">
+    {% assign tagged_posts = site.tags[page.tag] %}
+    {% for post in tagged_posts %}
     <li>
-      <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-      <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+      <a href="{{ post.url | relative_url }}">
+        <span class="post-title">{{ post.title }}</span>
+        <time class="post-date" datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%-d %b %Y" }}</time>
+      </a>
     </li>
-  {% endfor %}
-</ul>
+    {% endfor %}
+  </ul>
+</main>

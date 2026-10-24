@@ -2,18 +2,38 @@
 layout: default
 title: About
 ---
-<main class="container">
+<main class="wrap narrow page">
   <section class="about">
-    <img src="{{ site.author.avatar | relative_url }}" alt="{{ site.author.name }}" class="avatar">
-    <h1>{{ site.author.name }}</h1>
+    <img src="{{ site.author.avatar | relative_url }}" alt="" class="avatar" width="120" height="120">
+    <div>
+      <p class="eyebrow">About</p>
+      <h1>{{ site.author.name }}</h1>
+      <p class="lede">A place to store the things I want to look at again, mostly engineering and hobbies.</p>
+    </div>
+  </section>
 
-    <p>A place to store and dump stuff that I want to look at again in the future.</p>
-    <p>Mainly will revolve around engineering or my hobbies.</p>
+  <div class="prose">
+    <p>
+      Lately that means small, self-contained dashboards: something that takes data an
+      organisation already gives you, adds it up properly, and shows it in a way people want to read.
+    </p>
 
+    <h2>What's here</h2>
+    <ul>
+      {% for project in site.projects %}
+      <li>
+        {% if project.url contains '://' %}<a href="{{ project.url }}">{% else %}<a href="{{ project.url | relative_url }}">{% endif %}{{ project.name }}</a>:
+        {{ project.blurb }}
+      </li>
+      {% endfor %}
+      <li><a href="{{ '/gallery.html' | relative_url }}">Gallery</a>: photos, mostly tennis.</li>
+    </ul>
+
+    <h2>Elsewhere</h2>
     <ul class="social-links">
       {% if site.author.github %}
-        <li><a href="https://github.com/{{ site.author.github }}">GitHub</a></li>
+      <li><a href="https://github.com/{{ site.author.github }}">GitHub: @{{ site.author.github }}</a></li>
       {% endif %}
     </ul>
-  </section>
+  </div>
 </main>

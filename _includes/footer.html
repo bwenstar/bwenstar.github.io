@@ -1,12 +1,13 @@
 <footer class="site-footer">
-  <div class="container">
-    <p>© {{ site.time | date: "%Y" }} {{ site.author.name }}. All rights reserved.</p>
-    <p>
-      <a href="{{ '/' | relative_url }}">Home</a> •
-      <a href="{{ '/gallery.html' | relative_url }}">Gallery</a> •
-      <a href="{{ '/tennis/' | relative_url }}">Tennis</a> •
+  <div class="wrap footer-row">
+    <p>© {{ site.time | date: "%Y" }} {{ site.author.name }}</p>
+    <nav aria-label="Footer">
+      <a href="{{ '/#projects' | relative_url }}">Projects</a>
+      <a href="{{ '/tennis/' | relative_url }}">Tennis</a>
+      <a href="{{ '/gallery.html' | relative_url }}">Gallery</a>
       <a href="{{ '/about.html' | relative_url }}">About</a>
-      • <a class="to-top" href="#top">Back to top</a>
-    </p>
+      {% if site.author.github %}<a href="https://github.com/{{ site.author.github }}">GitHub</a>{% endif %}
+      <a class="to-top" href="#top">Back to top ↑</a>
+    </nav>
   </div>
 </footer>

@@ -1,7 +1,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<title>{{ page.title }} | {{ site.title }}</title>
+<title>{% if page.url == "/" %}{{ site.title }}{% else %}{{ page.title }} · {{ site.title }}{% endif %}</title>
 <meta name="description" content="{{ page.description | default: site.description }}">
 
 <link rel="canonical" href="{{ page.url | absolute_url }}">
@@ -9,12 +9,11 @@
 {% comment %}
   crossorigin is required on this preconnect: font files are fetched anonymously,
   and without it the browser opens a second connection and the hint is wasted.
-  Merriweather is loaded because --font-heading asks for it; without it every
-  heading silently fell back to the default serif.
+  One family (Inter) in the weights the CSS uses; headings are Inter too.
 {% endcomment %}
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600&family=Merriweather:wght@700&display=swap" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
 
 <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 
@@ -33,8 +32,9 @@
   })();
 </script>
 
-<meta name="theme-color" content="#fafafa" media="(prefers-color-scheme: light)">
-<meta name="theme-color" content="#111111" media="(prefers-color-scheme: dark)">
+<meta name="theme-color" content="#f7f7f5" media="(prefers-color-scheme: light)">
+<meta name="theme-color" content="#0e0e0d" media="(prefers-color-scheme: dark)">
+<link rel="icon" href="{{ '/assets/img/borko.png' | relative_url }}">
 
 {% comment %} Social preview cards. {% endcomment %}
 <meta property="og:type" content="website">
@@ -42,4 +42,5 @@
 <meta property="og:title" content="{{ page.title | default: site.title }}">
 <meta property="og:description" content="{{ page.description | default: site.description }}">
 <meta property="og:url" content="{{ page.url | absolute_url }}">
-<meta name="twitter:card" content="summary">
+<meta property="og:image" content="{{ '/assets/img/projects/gocard.webp' | absolute_url }}">
+<meta name="twitter:card" content="summary_large_image">

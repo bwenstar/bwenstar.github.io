@@ -1,537 +1,254 @@
-:root{
-  --font-sans:'Inter',system-ui,sans-serif;
-  --font-heading:'Merriweather',serif;
-  --max-width:720px;
-  --color-bg:#fafafa;
-  --color-fg:#111111;
-  --color-muted:#555555;
-  --color-primary:#0066ff;
-  /* Borders and insets were hardcoded #eaeaea/#ccc, which stayed light in dark
-     mode and drew bright lines across a dark page. Now they are themed. */
-  --color-border:#e4e4e4;
-  --color-surface:#ffffff;
-  /* Ink for text sitting ON --color-primary (badges, buttons). It was hardcoded
-     #fff, which is 4.83:1 on the light blue but only 2.06:1 on the dark-mode
-     blue — white-on-pale, effectively unreadable. */
-  --color-on-primary:#ffffff
+/* brendanta.com
+   Colours live in the custom properties below (light in :root, dark under
+   [data-theme="dark"]); change them there, not in the rules. The theme attribute is
+   set before first paint by _includes/head.html and toggled by theme-toggle.js.
+   tennis/ is generated with its own stylesheet and does not use this file. */
+
+:root {
+  --font: "Inter", system-ui, -apple-system, "Segoe UI", sans-serif;
+  --wide: 1120px;
+  --narrow: 720px;
+  --radius: 14px;
+
+  --bg: #f7f7f5;
+  --surface: #ffffff;
+  --surface-2: #f0efec;
+  --fg: #141413;
+  --fg-2: #4a4945;
+  --muted: #76746e;
+  --border: rgba(20, 20, 19, 0.10);
+  --accent: #2a6fdb;
+  --accent-ink: #ffffff;          /* text on --accent: 4.9:1 */
+  --accent-soft: rgba(42, 111, 219, 0.10);
+  --shadow: 0 1px 2px rgba(20, 20, 19, 0.04), 0 8px 24px rgba(20, 20, 19, 0.06);
+  --shadow-hover: 0 2px 4px rgba(20, 20, 19, 0.06), 0 16px 40px rgba(20, 20, 19, 0.10);
 }
-[data-theme="dark"]{
-  --color-bg:#111111;
-  --color-fg:#eaeaea;
-  --color-muted:#bbbbbb;
-  /* #66aaff on #111 is fine for large text but thin for body copy; this step keeps
-     the same hue and lifts contrast. */
-  --color-primary:#7db8ff;
-  --color-border:#2c2c2c;
-  --color-surface:#1a1a1a;
-  --color-on-primary:#111111   /* 9.15:1 on #7db8ff */
-}
-html,body{
-  height:100%
-}
-body{
-  display:flex;
-  flex-direction:column;
-  min-height:100vh;
-  margin:0;
-  font-family:var(--font-sans);
-  line-height:1.6;
-  background:var(--color-bg);
-  color:var(--color-fg)
-}
-.site-main{
-  flex:1
-}
-/* Off-screen until focused, then it lands over the sticky header. */
-.skip-link{
-  position:absolute;
-  left:-9999px;
-  top:0;
-  z-index:200;
-  padding:.5rem .8rem;
-  background:var(--color-surface);
-  border:1px solid var(--color-primary);
-  border-radius:0 0 4px 0
-}
-.skip-link:focus{
-  left:0
-}
-#theme-toggle{
-  background:none;
-  border:none;
-  cursor:pointer;
-  font-size:1.2rem;
-  line-height:1;
-  padding:.2rem;
-  margin-left:1rem
-}
-#theme-toggle:focus{
-  outline:2px solid var(--color-primary)
-}
-*,
-*::before,
-*::after{
-  box-sizing:border-box
-}
-.container{
-  max-width:var(--max-width);
-  margin:0 auto;
-  padding:1rem
-}
-a{
-  color:var(--color-primary);
-  text-decoration:none
-}
-a:hover{
-  text-decoration:underline
-}
-/* The header and footer used to share one rule, which gave the footer a rule
-   *under* it instead of above it and made it sticky at top:0 — harmless only
-   because nothing ever scrolls past the last element on the page. */
-.site-header,
-.site-footer{
-  background:var(--color-bg);
-  padding:.75rem 0
-}
-.site-header{
-  border-bottom:1px solid var(--color-border);
-  position:sticky;
-  top:0;
-  z-index:100
-}
-.site-footer{
-  border-top:1px solid var(--color-border);
-  color:var(--color-muted);
-  font-size:.9rem
-}
-.site-footer p{
-  margin:.25rem 0
-}
-.site-header .container,
-.site-footer .container{
-  display:flex;
-  align-items:center;
-  justify-content:space-between
-}
-.logo{
-  font-weight:600;
-  font-size:1.25rem
-}
-nav a{
-  margin-left:1rem
-}
-h1,
-h2,
-h3,
-h4{
-  margin-top:1.5rem;
-  margin-bottom:.5rem;
-  line-height:1.2;
-  font-family:var(--font-heading)
-}
-h1{
-  font-size:2rem
-}
-h2{
-  font-size:1.5rem
-}
-.site-title{
-  margin-top:.5rem;
-  margin-bottom:.25rem
-}
-.site-description{
-  margin-top:0;
-  color:var(--color-muted)
+[data-theme="dark"] {
+  color-scheme: dark;
+  --bg: #0e0e0d;
+  --surface: #181817;
+  --surface-2: #222220;
+  --fg: #f0efec;
+  --fg-2: #c3c2bb;
+  --muted: #8f8d86;
+  --border: rgba(255, 255, 255, 0.10);
+  --accent: #6aa5ff;
+  --accent-ink: #0e0e0d;          /* 8.4:1 on #6aa5ff */
+  --accent-soft: rgba(106, 165, 255, 0.14);
+  --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
+  --shadow-hover: 0 2px 4px rgba(0, 0, 0, 0.35), 0 16px 40px rgba(0, 0, 0, 0.4);
 }
 
-/* Projects: one card per entry in site.projects. The whole card is the link, so
-   the hit target is the card and not just the title text. */
-.project-list{
-  list-style:none;
-  margin:0;
-  padding:0;
-  display:grid;
-  gap:.75rem;
-  grid-template-columns:repeat(auto-fit,minmax(240px,1fr))
+*, *::before, *::after { box-sizing: border-box; }
+html { scroll-behavior: smooth; scroll-padding-top: 80px; -webkit-text-size-adjust: 100%; }
+@media (prefers-reduced-motion: reduce) { html { scroll-behavior: auto; } *, *::before, *::after { transition: none !important; } }
+body {
+  margin: 0; min-height: 100vh; display: flex; flex-direction: column;
+  font: 16px/1.65 var(--font); background: var(--bg); color: var(--fg);
+  -webkit-font-smoothing: antialiased;
 }
-.project-card > a{
-  display:flex;
-  flex-direction:column;
-  gap:.2rem;
-  height:100%;
-  padding:.85rem 1rem;
-  border:1px solid var(--color-border);
-  border-radius:6px;
-  background:var(--color-surface);
-  color:inherit;
-  text-decoration:none;
-  transition:border-color .15s ease,transform .15s ease
-}
-.project-card > a:hover,
-.project-card > a:focus-visible{
-  border-color:var(--color-primary);
-  text-decoration:none;
-  transform:translateY(-1px)
-}
-.project-card > a:focus-visible{
-  outline:2px solid var(--color-primary);
-  outline-offset:2px
-}
-/* Respect a reduced-motion preference: keep the colour cue, drop the lift. */
-@media (prefers-reduced-motion:reduce){
-  .project-card > a{
-    transition:none
-  }
-  .project-card > a:hover,
-  .project-card > a:focus-visible{
-    transform:none
-  }
-}
-.project-name{
-  font-weight:600;
-  color:var(--color-primary)
-}
-.project-blurb{
-  font-size:.9rem;
-  line-height:1.45;
-  color:var(--color-muted)
-}
+.site-main { flex: 1; }
+img { max-width: 100%; height: auto; display: block; }
+a { color: var(--accent); text-decoration: none; }
+a:hover { text-decoration: underline; text-underline-offset: 3px; }
+:focus-visible { outline: 2px solid var(--accent); outline-offset: 3px; border-radius: 4px; }
+h1, h2, h3 { line-height: 1.2; letter-spacing: -0.02em; margin: 0; font-weight: 700; }
+h1 { font-size: clamp(2rem, 4vw, 2.6rem); }
+h2 { font-size: 1.5rem; }
+h3 { font-size: 1.15rem; letter-spacing: -0.01em; }
+p { margin: 0; }
+.muted { color: var(--muted); }
+.accent { color: var(--accent); }
 
-.post-card{
-  margin-bottom:2rem;
-  padding-bottom:1rem;
-  border-bottom:1px solid var(--color-border)
-}
-/* The last card's rule sat immediately above the footer's, drawing a double line. */
-.post-card:last-child{
-  margin-bottom:0;
-  padding-bottom:0;
-  border-bottom:none
-}
+.wrap { max-width: var(--wide); margin: 0 auto; padding: 0 24px; }
+.wrap.narrow { max-width: var(--narrow); }
+.page { padding-top: 48px; padding-bottom: 72px; }
+.section { padding-top: 56px; }  /* top only: .wrap supplies the side padding */
+.section-head { display: flex; align-items: baseline; justify-content: space-between; gap: 16px; margin-bottom: 20px; flex-wrap: wrap; }
+.section-head p { flex-basis: 100%; margin-top: -12px; }
+.eyebrow { font-size: 0.8rem; font-weight: 600; letter-spacing: 0.08em; text-transform: uppercase; color: var(--accent); margin-bottom: 10px; }
+.lede { font-size: 1.15rem; color: var(--fg-2); margin-top: 14px; max-width: 62ch; }
 
-/* _layouts/post.html emits .post-header / .post-content / .post-footer, none of
-   which had a rule, so a post's body ran at the same rhythm as the index and its
-   tag row sat flush against the text. */
-.post-header h1{
-  margin-top:.5rem;
-  margin-bottom:.25rem
-}
-.post-content{
-  font-size:1.05rem
-}
-.post-content > :first-child{
-  margin-top:0
-}
-.post-content img{
-  max-width:100%;
-  height:auto;
-  border-radius:4px
-}
-.post-content pre{
-  overflow-x:auto;
-  padding:.75rem 1rem;
-  border:1px solid var(--color-border);
-  border-radius:4px;
-  background:var(--color-surface)
-}
-.post-content code{
-  font-size:.92em
-}
-.post-content blockquote{
-  margin:1.25rem 0;
-  padding:.1rem 0 .1rem 1rem;
-  border-left:3px solid var(--color-border);
-  color:var(--color-muted)
-}
-.post-footer{
-  margin-top:2rem;
-  padding-top:1rem;
-  border-top:1px solid var(--color-border)
-}
+/* skip link: off-screen until focused */
+.skip-link { position: absolute; left: -9999px; top: 8px; z-index: 200; padding: 8px 12px; background: var(--surface); border: 1px solid var(--accent); border-radius: 8px; }
+.skip-link:focus { left: 8px; }
 
-/* tag_posts.html and tag/*.md list posts through .tag-archive. */
-.tag-archive{
-  list-style:none;
-  padding:0
+/* ---------- header ---------- */
+.site-header {
+  position: sticky; top: 0; z-index: 100;
+  background: color-mix(in srgb, var(--bg) 82%, transparent);
+  backdrop-filter: saturate(160%) blur(12px); -webkit-backdrop-filter: saturate(160%) blur(12px);
+  border-bottom: 1px solid var(--border);
 }
-.tag-archive li{
-  padding:.4rem 0;
-  border-bottom:1px solid var(--color-border)
+.header-row { display: flex; align-items: center; justify-content: space-between; height: 64px; gap: 16px; }
+.brand { display: flex; align-items: center; gap: 10px; color: var(--fg); font-weight: 650; letter-spacing: -0.01em; }
+.brand:hover { text-decoration: none; }
+.brand-mark {
+  display: grid; place-items: center; width: 32px; height: 32px; border-radius: 9px;
+  background: var(--fg); color: var(--bg); font-size: 0.8rem; font-weight: 700; letter-spacing: 0;
 }
-.tag-archive .post-meta{
-  margin:0 0 0 .5rem;
-  display:inline
-}
-.post-card h2{
-  margin:0
-}
-.post-meta{
-  color:var(--color-muted);
-  font-size:.9rem;
-  margin-bottom:.5rem
-}
-.post-excerpt{
-  margin:0
-}
-.about{
-  text-align:center
-}
-.avatar{
-  width:120px;
-  height:120px;
-  border-radius:50%;
-  margin-bottom:1rem
-}
-.social-links{
-  list-style:none;
-  padding:0;
-  display:flex;
-  justify-content:center;
-  gap:1rem;
-  margin-top:1rem
-}
-.social-links a{
-  color:var(--color-fg)
-}
-.gallery-wrapper{
-  margin:2rem 0
-}
-.gallery-wrapper h1,
-.gallery-wrapper h2{
-  margin-bottom:1rem
-}
-.gallery-grid{
-  display:grid;
-  gap:.75rem;
-  grid-template-columns:repeat(3,1fr)
-}
-@media (max-width:900px){
-  .gallery-grid{
-    grid-template-columns:repeat(2,1fr)
-  }
-}
-@media (max-width:600px){
-  .gallery-grid{
-    grid-template-columns:1fr
-  }
-}
-.gallery-grid a{
-  display:block;
-  overflow:hidden;
-  border-radius:4px;
-  background:#000
-}
-.gallery-grid img{
-  width:100%;
-  height:100%;
-  object-fit:cover;
-  transition:transform .2s ease;
-  display:block
-}
-.gallery-grid a:hover img{
-  transform:scale(1.05)
-}
-.gallery-modal{
-  position:fixed;
-  inset:0;
-  background:rgba(0,0,0,.85);
-  display:none;
-  align-items:center;
-  justify-content:center;
-  z-index:9999
-}
-.gallery-modal.is-open{
-  display:flex
-}
-.gallery-modal img{
-  max-width:90vw;
-  max-height:90vh;
-  border-radius:4px;
-  box-shadow:0 0 30px rgba(0,0,0,.5)
-}
-.gallery-modal button{
-  position:absolute;
-  top:50%;
-  transform:translateY(-90%);
-  background:none;
-  border:none;
-  color:#fff;
-  font-size:2.5rem;
-  cursor:pointer;
-  padding:.5rem
-}
-.gallery-modal button:focus{
-  outline:2px solid #fff
-}
-.gallery-modal .prev{
-  left:1rem
-}
-.gallery-modal .next{
-  right:1rem
-}
-.gallery-modal .close{
-  top:1rem;
-  right:1rem;
-  font-size:2rem
-}
-/* There used to be a #back-to-top rule here for a floating button that no page
-   ever rendered and no script ever showed — dead style for dead markup. The
-   footer now carries a plain "Back to top" link instead, which needs no JS and
-   works from the keyboard. `#top` is special-cased by HTML: with no matching
-   element it means the top of the document. */
-.to-top{
-  color:var(--color-muted)
-}
-.error-404{
-  text-align:center;
-  padding:4rem 1rem
-}
-.error-404 h1{
-  font-size:3rem;
-  margin-bottom:.5rem
-}
-.error-404 .lead{
-  font-size:1.2rem;
-  margin-bottom:2rem;
-  color:var(--color-muted)
-}
-.error-404 .search-form{
-  display:flex;
-  justify-content:center;
-  margin-bottom:2rem;
-  gap:.5rem
-}
-.error-404 .search-form input[type="text"]{
-  padding:.5rem .8rem;
-  border:1px solid var(--color-border);
-  border-radius:4px;
-  width:260px;
-  max-width:80%;
-  /* The field inherited the UA's white-on-black-text default, which is a bright
-     box on a dark page. */
-  background:var(--color-surface);
-  color:var(--color-fg)
-}
-.error-404 .search-form button{
-  background:var(--color-primary);
-  color:var(--color-on-primary);
-  border:none;
-  padding:.5rem .8rem;
-  border-radius:4px;
-  cursor:pointer
-}
-.error-404 .search-form button:hover{
-  opacity:.9
-}
-.error-404 .navigation .button{
-  display:inline-block;
-  margin:.5rem;
-  padding:.6rem 1rem;
-  background:var(--color-primary);
-  color:var(--color-on-primary);
-  border-radius:4px;
-  text-decoration:none;
-  font-weight:600
-}
-.error-404 .navigation .button:hover{
-  opacity:.9
-}
-.error-404 .illustration{
-  margin-top:2rem;
-  /* The drawing is stroked in currentColor; --color-muted keeps it recessive in
-     both themes instead of competing with the heading. */
-  color:var(--color-muted)
-}
-.error-404 .illustration img,
-.error-404 .illustration svg{
-  max-width:100%;
-  height:auto
-}
-.tag-badge{
-  display:inline-block;
-  background:var(--color-primary);
-  color:var(--color-on-primary);
-  padding:.2rem .5rem;
-  margin:.1rem .2rem;
-  border-radius:3px;
-  font-size:.8rem;
-  text-decoration:none
-}
-.tag-badge:hover{
-  opacity:.85
-}
-.tag-badge.active,
-nav.gallery-tag-nav a.active{
-  background:var(--color-surface);
-  color:var(--color-primary);
-  border:1px solid var(--color-primary)
-}
-.tag-cloud{
-  list-style:none;
-  display:flex;
-  flex-wrap:wrap;
-  gap:.3rem;
-  padding:0
-}
-.tag-cloud li{
-  margin:0
-}
-nav.gallery-tag-nav{
-  margin-bottom:1rem;
-  font-size:.9rem
-}
-nav.gallery-tag-nav a{
-  margin-right:.8rem;
-  text-decoration:none;
-  color:var(--color-muted)
-}
-nav.gallery-tag-nav a.active{
-  font-weight:600;
-  color:var(--color-primary)
-}
+.site-nav { display: flex; align-items: center; gap: 4px; }
+.site-nav a { color: var(--fg-2); font-size: 0.95rem; font-weight: 500; padding: 6px 10px; border-radius: 8px; }
+.site-nav a:hover { color: var(--fg); background: var(--surface-2); text-decoration: none; }
+.site-nav a[aria-current="page"] { color: var(--fg); background: var(--surface-2); }
+.icon-link { display: inline-grid; place-items: center; width: 36px; height: 36px; padding: 0 !important; color: var(--fg-2); border-radius: 8px; }
+#theme-toggle { background: none; border: 0; cursor: pointer; font: inherit; }
+#theme-toggle:hover { background: var(--surface-2); color: var(--fg); }
+.icon-sun, [data-theme="dark"] .icon-moon { display: none; }
+[data-theme="dark"] .icon-sun { display: block; }
 
-.gallery-caption-modal{
-  margin-top:0.5rem;
-  text-align:center;
-  font-size:0.9rem;
+/* ---------- buttons & chips ---------- */
+.button {
+  display: inline-flex; align-items: center; gap: 6px; padding: 10px 18px; border-radius: 999px;
+  border: 1px solid var(--border); background: var(--surface); color: var(--fg);
+  font: 600 0.95rem/1 var(--font); cursor: pointer; transition: background .15s, border-color .15s, transform .15s;
 }
+.button:hover { text-decoration: none; border-color: color-mix(in srgb, var(--fg) 30%, transparent); }
+.button.primary { background: var(--accent); border-color: var(--accent); color: var(--accent-ink); }
+.button.primary:hover { filter: brightness(1.06); }
+.button.small { padding: 7px 14px; font-size: 0.85rem; }
+.chips { display: flex; flex-wrap: wrap; gap: 6px; list-style: none; padding: 0; margin: 0; }
+.chips li, .chips a {
+  font-size: 0.78rem; font-weight: 500; color: var(--fg-2); background: var(--surface-2);
+  padding: 3px 10px; border-radius: 999px;
+}
+.chips a:hover { color: var(--accent); background: var(--accent-soft); text-decoration: none; }
+.chips li:has(> a) { padding: 0; background: none; }
+.chips .count { color: var(--muted); margin-left: 2px; }
+.tag-cloud { margin-top: 20px; }
 
-.gallery-caption{
-  padding:.4rem .2rem;
-  text-align:center;
-  font-size:.85rem;
-  color:var(--color-fg)
+/* ---------- hero ---------- */
+.hero { padding-top: 88px; padding-bottom: 8px; }
+.hero h1 { font-size: clamp(2.1rem, 4.6vw, 3.25rem); max-width: 20ch; letter-spacing: -0.035em; line-height: 1.08; }
+.hero .lede { font-size: clamp(1.05rem, 1.6vw, 1.25rem); margin-top: 22px; }
+.hero-actions { display: flex; gap: 10px; flex-wrap: wrap; margin-top: 30px; }
+
+/* ---------- projects ---------- */
+.project-grid { list-style: none; padding: 0; margin: 0; display: grid; gap: 20px; grid-template-columns: repeat(auto-fill, minmax(300px, 1fr)); }
+.project {
+  display: flex; flex-direction: column; background: var(--surface); border: 1px solid var(--border);
+  border-radius: var(--radius); overflow: hidden; box-shadow: var(--shadow); transition: box-shadow .2s, transform .2s;
 }
-.gallery-tags{
-  margin-top:.3rem
+.project:hover { box-shadow: var(--shadow-hover); transform: translateY(-2px); }
+.project-media { display: block; aspect-ratio: 16 / 10; overflow: hidden; background: var(--surface-2); border-bottom: 1px solid var(--border); }
+.project-media img { width: 100%; height: 100%; object-fit: cover; object-position: top; transition: transform .4s ease; }
+.project:hover .project-media img { transform: scale(1.03); }
+.project-body { display: flex; flex-direction: column; gap: 10px; padding: 20px 22px 22px; flex: 1; }
+.project-kicker { font-size: 0.75rem; font-weight: 600; letter-spacing: 0.06em; text-transform: uppercase; color: var(--muted); }
+.project h3 a { color: var(--fg); }
+.project h3 a:hover { color: var(--accent); text-decoration: none; }
+.project-blurb { color: var(--fg-2); font-size: 0.95rem; }
+.project .chips { margin-top: 2px; }
+.project-links { display: flex; gap: 8px; flex-wrap: wrap; margin-top: auto; padding-top: 8px; }
+
+/* ---------- notes + photos ---------- */
+.split { display: grid; grid-template-columns: 1.15fr 1fr; gap: 48px; padding-bottom: 80px; }
+.more { font-weight: 600; font-size: 0.95rem; }
+.post-list { list-style: none; padding: 0; margin: 0; border-top: 1px solid var(--border); }
+.post-list li { padding: 16px 0; border-bottom: 1px solid var(--border); }
+.post-list a { display: flex; justify-content: space-between; align-items: baseline; gap: 16px; color: var(--fg); }
+.post-list a:hover { text-decoration: none; }
+.post-list a:hover .post-title { color: var(--accent); }
+.post-title { font-weight: 600; }
+.post-date { color: var(--muted); font-size: 0.85rem; white-space: nowrap; font-variant-numeric: tabular-nums; }
+.post-excerpt { color: var(--fg-2); font-size: 0.92rem; margin-top: 4px; }
+.photo-strip { display: grid; grid-template-columns: repeat(3, 1fr); gap: 10px; }
+.photo-strip a { aspect-ratio: 1; border-radius: 10px; overflow: hidden; background: var(--surface-2); }
+.photo-strip img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.photo-strip a:hover img { transform: scale(1.05); }
+
+/* ---------- about ---------- */
+.about { display: flex; gap: 28px; align-items: center; margin-bottom: 36px; }
+.avatar { width: 120px; height: 120px; border-radius: 50%; object-fit: cover; flex: none; box-shadow: var(--shadow); }
+.social-links { padding-left: 1.2em; }
+
+/* ---------- posts / prose ---------- */
+.back { display: inline-block; font-size: 0.9rem; font-weight: 500; margin-bottom: 20px; color: var(--muted); }
+.back:hover { color: var(--accent); }
+.page > h1 { margin-bottom: 28px; }
+.post-header { margin-bottom: 32px; }
+.post-meta { color: var(--muted); margin-top: 10px; font-size: 0.95rem; }
+.prose { font-size: 1.05rem; color: var(--fg-2); }
+.prose > * + * { margin-top: 1.1em; }
+.prose h2, .prose h3 { color: var(--fg); margin-top: 1.8em; }
+.prose a { text-decoration: underline; text-decoration-color: color-mix(in srgb, var(--accent) 40%, transparent); text-underline-offset: 3px; }
+.prose ul, .prose ol { padding-left: 1.3em; }
+.prose li + li { margin-top: 0.4em; }
+.prose img { border-radius: 10px; }
+.prose pre { background: var(--surface-2); padding: 16px; border-radius: 10px; overflow-x: auto; font-size: 0.9rem; }
+.prose code { background: var(--surface-2); padding: 0.1em 0.35em; border-radius: 5px; font-size: 0.92em; }
+.prose pre code { background: none; padding: 0; }
+.prose blockquote { margin-left: 0; padding-left: 16px; border-left: 3px solid var(--accent); color: var(--fg-2); }
+.post-footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); }
+
+/* ---------- gallery ---------- */
+.gallery-wrapper h1 { margin-bottom: 0; }
+.gallery-wrapper .lede { margin-bottom: 28px; }
+.gallery-grid { display: grid; gap: 14px; grid-template-columns: repeat(auto-fill, minmax(260px, 1fr)); }
+.gallery-item { position: relative; display: block; border-radius: var(--radius); overflow: hidden; background: var(--surface-2); aspect-ratio: 4 / 3; box-shadow: var(--shadow); }
+.gallery-item img { width: 100%; height: 100%; object-fit: cover; transition: transform .4s ease; }
+.gallery-item:hover img { transform: scale(1.04); }
+.gallery-caption {
+  position: absolute; inset: auto 0 0 0; padding: 28px 14px 12px; color: #fff; font-size: 0.9rem; font-weight: 500;
+  background: linear-gradient(transparent, rgba(0, 0, 0, 0.65));
 }
-.gallery-caption-modal .tag-badge{
-  margin:.2rem
+.gallery-item:hover { text-decoration: none; }
+
+/* lightbox, built by assets/js/gallery.js */
+.gallery-modal { position: fixed; inset: 0; z-index: 9999; display: none; align-items: center; justify-content: center; background: rgba(8, 8, 8, 0.92); }
+.gallery-modal.is-open { display: flex; }
+.gallery-modal img { max-width: 90vw; max-height: 82vh; border-radius: 8px; box-shadow: 0 0 40px rgba(0, 0, 0, 0.5); }
+.gallery-modal button {
+  position: absolute; top: 50%; transform: translateY(-50%); width: 48px; height: 48px; border-radius: 50%;
+  background: rgba(255, 255, 255, 0.12); border: 0; color: #fff; font-size: 1.6rem; line-height: 1; cursor: pointer;
 }
-@media (max-width:600px){
-  .site-header .container,
-  .site-footer .container{
-    flex-direction:column;
-    gap:.5rem
-  }
-  /* The nav stacked under the logo and this zeroed the link margins, which left
-     the links touching ("Home Gallery Tennis About" as one run). Space them with
-     the flex gap instead, and let them wrap on a narrow phone. */
-  .site-header nav{
-    display:flex;
-    flex-wrap:wrap;
-    align-items:center;
-    justify-content:center;
-    gap:.25rem 1rem
-  }
-  nav a{
-    margin-left:0
-  }
-  #theme-toggle{
-    margin-left:0
-  }
-  /* The footer's two paragraphs are centred once they stack. */
-  .site-footer .container{
-    text-align:center
-  }
+.gallery-modal button:hover { background: rgba(255, 255, 255, 0.22); }
+.gallery-modal button:focus-visible { outline: 2px solid #fff; }
+.gallery-modal .prev { left: 20px; }
+.gallery-modal .next { right: 20px; }
+.gallery-modal .close { top: 20px; right: 20px; transform: none; font-size: 1.3rem; }
+.gallery-caption-modal { position: absolute; bottom: 24px; left: 0; right: 0; text-align: center; color: #fff; font-size: 0.95rem; }
+.gallery-caption-modal .tag-badge { display: inline-block; margin: 6px 3px 0; padding: 2px 9px; border-radius: 999px; font-size: 0.75rem; background: rgba(255, 255, 255, 0.16); color: #fff; }
+.tag-badge { display: inline-block; padding: 2px 9px; border-radius: 999px; font-size: 0.78rem; background: var(--surface-2); color: var(--fg-2); }
+
+/* ---------- 404 ---------- */
+.error-404 { text-align: center; padding: 24px 0; }
+.error-404 h1 { margin-bottom: 12px; }
+.error-404 .lead { color: var(--fg-2); font-size: 1.1rem; }
+.error-404 .search-form { display: flex; gap: 8px; justify-content: center; margin: 28px auto; max-width: 420px; }
+.error-404 .search-form input[type="text"] {
+  flex: 1; padding: 10px 16px; border-radius: 999px; border: 1px solid var(--border); background: var(--surface); color: var(--fg); font: inherit;
+}
+.error-404 .search-form button { padding: 10px 18px; border-radius: 999px; border: 0; background: var(--accent); color: var(--accent-ink); font: 600 0.95rem var(--font); cursor: pointer; }
+.error-404 .navigation { display: flex; gap: 10px; justify-content: center; flex-wrap: wrap; }
+.error-404 .illustration { margin: 36px auto 0; color: var(--muted); }
+.error-404 .illustration svg { margin: 0 auto; max-width: 100%; height: auto; }
+
+/* ---------- footer ---------- */
+.site-footer { border-top: 1px solid var(--border); color: var(--muted); font-size: 0.9rem; }
+.footer-row { display: flex; justify-content: space-between; align-items: center; gap: 16px; flex-wrap: wrap; padding-top: 28px; padding-bottom: 28px; }
+.footer-row nav { display: flex; gap: 18px; flex-wrap: wrap; }
+.footer-row a { color: var(--fg-2); }
+.footer-row a:hover { color: var(--accent); }
+
+/* ---------- small screens ---------- */
+@media (max-width: 420px) {
+  .site-nav a[href$="#projects"] { display: none; }  /* the hero's button covers it */
+}
+@media (max-width: 860px) {
+  .split { grid-template-columns: 1fr; gap: 8px; }
+}
+@media (max-width: 640px) {
+  .wrap { padding: 0 16px; }
+  .brand-name { display: none; }
+  .site-nav { gap: 0; }
+  .site-nav a { padding: 6px 7px; font-size: 0.9rem; }
+  .icon-link { width: 32px; }
+  .hero { padding-top: 52px; }
+  .section { padding-top: 44px; }
+  .project-grid { grid-template-columns: 1fr; }
+  .about { flex-direction: column; align-items: flex-start; gap: 18px; }
+  .avatar { width: 96px; height: 96px; }
+  .post-list a { flex-direction: column; gap: 2px; }
+  .footer-row { flex-direction: column; align-items: flex-start; }
 }

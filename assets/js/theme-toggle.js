@@ -1,47 +1,33 @@
-/* assets/js/theme-toggle.js */
+/* assets/js/theme-toggle.js
+   The theme is applied before first paint by the inline script in _includes/head.html;
+   this wires up the button. The icons are swapped by CSS ([data-theme="dark"]), so only
+   the label needs updating here. With no saved choice, the page follows the system. */
 (() => {
-  const STORAGE_KEY = "theme";
-  const THEME_DARK = "dark";
-  const THEME_LIGHT = "light";
+  const KEY = "theme";
+  const root = document.documentElement;
+  const system = window.matchMedia("(prefers-color-scheme: dark)");
 
-  const applyTheme = (theme) => {
-    const root = document.documentElement;
-    if (theme === THEME_DARK) {
-      root.setAttribute("data-theme", THEME_DARK);
-    } else {
-      root.removeAttribute("data-theme");
-    }
+  const saved = () => { try { return localStorage.getItem(KEY); } catch (e) { return null; } };
+  const isDark = () => root.getAttribute("data-theme") === "dark";
 
+  const apply = (dark) => {
+    if (dark) root.setAttribute("data-theme", "dark");
+    else root.removeAttribute("data-theme");
     const btn = document.getElementById("theme-toggle");
-    if (btn) {
-      btn.setAttribute(
-        "aria-label",
-        theme === THEME_DARK ? "Switch to light theme" : "Switch to dark theme"
-      );
-      btn.innerHTML = theme === THEME_DARK ? "🌞" : "🌙";
-    }
+    if (btn) btn.setAttribute("aria-label", dark ? "Switch to light theme" : "Switch to dark theme");
   };
 
-  const saved = localStorage.getItem(STORAGE_KEY);
-  if (saved) {
-    applyTheme(saved);
-  } else {
-    const prefersDark = window.matchMedia("(prefers-color-scheme: dark)").matches;
-    applyTheme(prefersDark ? THEME_DARK : THEME_LIGHT);
-  }
+  apply(saved() ? saved() === "dark" : system.matches);
+  system.addEventListener("change", (e) => { if (!saved()) apply(e.matches); });
 
   document.addEventListener("DOMContentLoaded", () => {
     const btn = document.getElementById("theme-toggle");
     if (!btn) return;
-
-    btn.addEventListener("click", (e) => {
-      e.preventDefault();
-      const current = document.documentElement.getAttribute("data-theme") === THEME_DARK
-        ? THEME_DARK
-        : THEME_LIGHT;
-      const next = current === THEME_DARK ? THEME_LIGHT : THEME_DARK;
-      applyTheme(next);
-      localStorage.setItem(STORAGE_KEY, next);
+    apply(isDark());
+    btn.addEventListener("click", () => {
+      const next = !isDark();
+      apply(next);
+      try { localStorage.setItem(KEY, next ? "dark" : "light"); } catch (e) { /* private mode */ }
     });
   });
 })();

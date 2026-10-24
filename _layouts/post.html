@@ -1,24 +1,26 @@
 ---
 layout: default
 ---
+<main class="wrap narrow page">
+  <article class="post">
+    <header class="post-header">
+      <a class="back" href="{{ '/' | relative_url }}">← All notes</a>
+      <h1>{{ page.title }}</h1>
+      <p class="post-meta"><time datetime="{{ page.date | date_to_xmlschema }}">{{ page.date | date: "%-d %B %Y" }}</time></p>
+    </header>
 
-<article class="post container">
-  <header class="post-header">
-    <h1>{{ page.title }}</h1>
-    <p class="post-meta">{{ page.date | date: "%B %-d, %Y" }}</p>
-  </header>
+    <div class="prose">
+      {{ content }}
+    </div>
 
-  <section class="post-content">
-    {{ content }}
-  </section>
-
-  {% if page.tags %}
+    {% if page.tags.size > 0 %}
     <footer class="post-footer">
-      <p>Tags:
+      <ul class="chips">
         {% for tag in page.tags %}
-          <a href="{{ '/tag/' | append: tag | relative_url }}" class="tag-badge">{{ tag }}</a>
+        <li><a href="{{ '/tag/' | append: tag | append: '/' | relative_url }}">#{{ tag }}</a></li>
         {% endfor %}
-      </p>
+      </ul>
     </footer>
-  {% endif %}
-</article>
+    {% endif %}
+  </article>
+</main>
