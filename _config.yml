@@ -1,5 +1,5 @@
 title:          "Brendan Ta"
-description:    "Engineer. I build small tools that turn messy exports into dashboards you can actually read: tennis ladders, public transport trips, and whatever's next."
+description:    "Engineer. I build things I want to use: dashboards for tennis and public transport, solitaire for the terminal, and a 1994 Mac classic rebuilt in Go."
 url:            "https://brendanta.com"
 baseurl:        ""
 author:
@@ -46,6 +46,30 @@ projects:
         url:   "/translink-gocard-dashboard/"
       - label: "Code"
         url:   "https://github.com/bwenstar/translink-gocard-dashboard"
+
+  - name:   "Soliterm"
+    kicker: "Open source · Terminal game"
+    blurb:  "Solitaire for your terminal: Klondike, Spider, FreeCell and ten more, played by GNOME AisleRiot's rules with the keyboard or mouse. Share codes, daily deals, and a boss key."
+    image:  "/assets/img/projects/soliterm.webp"
+    url:    "https://github.com/bwenstar/soliterm"
+    tags:   [Python, curses, "uvx soliterm"]
+    links:
+      - label: "PyPI"
+        url:   "https://pypi.org/project/soliterm/"
+      - label: "Code"
+        url:   "https://github.com/bwenstar/soliterm"
+
+  - name:   "gliderGo"
+    kicker: "Open source · Game port"
+    blurb:  "A faithful Go port of John Calhoun's 1994 Macintosh classic Glider PRO: fly a paper glider through all 22 original houses. Standard-library Go only, no game engine, on Linux and Windows."
+    image:  "/assets/img/projects/glidergo.webp"
+    url:    "https://github.com/bwenstar/gliderGo"
+    tags:   [Go, No dependencies, Linux · Windows]
+    links:
+      - label: "Download"
+        url:   "https://github.com/bwenstar/gliderGo/releases"
+      - label: "Code"
+        url:   "https://github.com/bwenstar/gliderGo"
 
 markdown: kramdown
 theme: null

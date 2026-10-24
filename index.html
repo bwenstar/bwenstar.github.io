@@ -6,10 +6,11 @@ title: Home
 
   <section class="hero wrap">
     <p class="eyebrow">Hi, I'm {{ site.author.name | split: " " | first }}</p>
-    <h1>I build small tools that turn messy data into dashboards people actually use.</h1>
+    <h1>I build the things I want to use, and share them.</h1>
     <p class="lede">
-      Tennis ladders from a club's PDF scorecards, every bus, train and CityCat trip on a go card,
-      and whatever I'm tinkering with next. This is where they live, along with the odd note and photo.
+      Dashboards that turn a tennis club's scorecards and my go card history into something worth
+      reading, solitaire for the terminal, and a 1994 Mac classic rebuilt in Go. This is where they live,
+      along with the odd note and photo.
     </p>
     <div class="hero-actions">
       <a class="button primary" href="#projects">See projects</a>
@@ -27,7 +28,7 @@ title: Home
   <section class="section wrap" id="projects" aria-labelledby="projects-heading">
     <div class="section-head">
       <h2 id="projects-heading">Projects</h2>
-      <p class="muted">Live dashboards and the open-source tools behind them.</p>
+      <p class="muted">Dashboards, games and the open-source code behind them.</p>
     </div>
 
     <ul class="project-grid">
@@ -52,7 +53,7 @@ title: Home
           <div class="project-links">
             {% for l in project.links %}
               {% if l.url contains '://' %}
-              <a class="button small" href="{{ l.url }}" rel="noopener">{{ l.label }} <span aria-hidden="true">↗</span></a>
+              <a class="button small{% if forloop.first %} primary{% endif %}" href="{{ l.url }}" rel="noopener">{{ l.label }} <span aria-hidden="true">↗</span></a>
               {% else %}
               <a class="button small{% if forloop.first %} primary{% endif %}" href="{{ l.url | relative_url }}">{{ l.label }}</a>
               {% endif %}

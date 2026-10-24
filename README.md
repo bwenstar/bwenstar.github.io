@@ -110,7 +110,8 @@ Cards expect a **16:10 image, 960×600, in WebP**, saved in `assets/img/projects
 
 **Check the image for real people's names before you commit it.** The tennis dashboards
 list players. The current images show only the competition list, the demo club's team
-ladder and the go card dashboard's fictional data.
+ladder, the go card dashboard's fictional data, and screenshots from the Soliterm and
+gliderGo READMEs.
 
 ### change the intro or About text
 
