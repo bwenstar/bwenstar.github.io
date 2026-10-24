@@ -32,7 +32,8 @@
     if (!tagsString) { captionEl.innerHTML = ''; return; }
     const tags = tagsString.split(',').filter(t => t.trim().length);
     if (!tags.length) { captionEl.innerHTML = ''; return; }
-    const html = tags.map(t => `<a href="${'/gallery/tag/' + t + '/'}" class="tag-badge">${t}</a>`).join(' ');
+    // Plain labels: there are no per-tag gallery pages to link to (those links 404'd).
+    const html = tags.map(t => `<span class="tag-badge">#${t.trim()}</span>`).join(' ');
     captionEl.innerHTML = html;
   };
 
