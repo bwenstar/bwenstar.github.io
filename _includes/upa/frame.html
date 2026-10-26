@@ -1,0 +1,68 @@
+<figure class="fig">
+<div class="fig-scroll">
+<svg viewBox="0 0 640 200" role="img" aria-label="Two 6-byte frames, each holding Gx, Gy and Gz as low byte then high byte." xmlns="http://www.w3.org/2000/svg">
+<rect class="box" x="33" y="40" width="46" height="44" rx="5"/>
+<rect class="f1" x="33" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="56.0" y="64.0" text-anchor="middle">Gx</text>
+<text class="muted small" x="56.0" y="78.0" text-anchor="middle">low</text>
+<rect class="box" x="81" y="40" width="46" height="44" rx="5"/>
+<rect class="f1" x="81" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="104.0" y="64.0" text-anchor="middle">Gx</text>
+<text class="muted small" x="104.0" y="78.0" text-anchor="middle">high</text>
+<rect class="box" x="129" y="40" width="46" height="44" rx="5"/>
+<rect class="f2" x="129" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="152.0" y="64.0" text-anchor="middle">Gy</text>
+<text class="muted small" x="152.0" y="78.0" text-anchor="middle">low</text>
+<rect class="box" x="177" y="40" width="46" height="44" rx="5"/>
+<rect class="f2" x="177" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="200.0" y="64.0" text-anchor="middle">Gy</text>
+<text class="muted small" x="200.0" y="78.0" text-anchor="middle">high</text>
+<rect class="box" x="225" y="40" width="46" height="44" rx="5"/>
+<rect class="f3" x="225" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="248.0" y="64.0" text-anchor="middle">Gz</text>
+<text class="muted small" x="248.0" y="78.0" text-anchor="middle">low</text>
+<rect class="box" x="273" y="40" width="46" height="44" rx="5"/>
+<rect class="f3" x="273" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="296.0" y="64.0" text-anchor="middle">Gz</text>
+<text class="muted small" x="296.0" y="78.0" text-anchor="middle">high</text>
+<rect class="box" x="321" y="40" width="46" height="44" rx="5"/>
+<rect class="f1" x="321" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="344.0" y="64.0" text-anchor="middle">Gx</text>
+<text class="muted small" x="344.0" y="78.0" text-anchor="middle">low</text>
+<rect class="box" x="369" y="40" width="46" height="44" rx="5"/>
+<rect class="f1" x="369" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="392.0" y="64.0" text-anchor="middle">Gx</text>
+<text class="muted small" x="392.0" y="78.0" text-anchor="middle">high</text>
+<rect class="box" x="417" y="40" width="46" height="44" rx="5"/>
+<rect class="f2" x="417" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="440.0" y="64.0" text-anchor="middle">Gy</text>
+<text class="muted small" x="440.0" y="78.0" text-anchor="middle">low</text>
+<rect class="box" x="465" y="40" width="46" height="44" rx="5"/>
+<rect class="f2" x="465" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="488.0" y="64.0" text-anchor="middle">Gy</text>
+<text class="muted small" x="488.0" y="78.0" text-anchor="middle">high</text>
+<rect class="box" x="513" y="40" width="46" height="44" rx="5"/>
+<rect class="f3" x="513" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="536.0" y="64.0" text-anchor="middle">Gz</text>
+<text class="muted small" x="536.0" y="78.0" text-anchor="middle">low</text>
+<rect class="box" x="561" y="40" width="46" height="44" rx="5"/>
+<rect class="f3" x="561" y="40" width="46" height="5" rx="2"/>
+<text class="ink bold" x="584.0" y="64.0" text-anchor="middle">Gz</text>
+<text class="muted small" x="584.0" y="78.0" text-anchor="middle">high</text>
+<text class="muted small" x="32.0" y="28.0" text-anchor="start">byte 0</text>
+<text class="muted small" x="608.0" y="28.0" text-anchor="end">byte 11</text>
+<path class="edge" d="M36,94 v6 H316 v-6"/>
+<text class="ink-2" x="176.0" y="116.0" text-anchor="middle">frame 1: 6 bytes</text>
+<path class="edge" d="M324,94 v6 H604 v-6"/>
+<text class="ink-2" x="464.0" y="116.0" text-anchor="middle">frame 2: 6 bytes</text>
+<text class="muted small" x="320.0" y="134.0" text-anchor="middle">watermark 12: two frames, then an interrupt</text>
+<text class="muted" x="32.0" y="176.0" text-anchor="start">e.g.</text>
+<text class="ink mono" x="66.0" y="176.0" text-anchor="start">74 56</text>
+<line class="edge" x1="114.0" y1="172.0" x2="144.0" y2="172.0"/>
+<polygon class="head" points="150.0,172.0 143.7,175.0 143.7,169.0"/>
+<text class="ink mono" x="158.0" y="176.0" text-anchor="start">0x5674 = 22132</text>
+<text class="muted small" x="286.0" y="176.0" text-anchor="start">little-endian: the low byte comes first</text>
+</svg>
+</div>
+<figcaption>The FIFO data with all three gyro axes on. Each value is a signed 16-bit integer stored low byte first, so the bytes 74 56 read as 0x5674, which is 22,132 (the example in <code>main.go</code>'s comments).</figcaption>
+</figure>

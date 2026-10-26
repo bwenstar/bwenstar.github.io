@@ -1,0 +1,29 @@
+<figure class="fig">
+<div class="fig-scroll">
+<svg viewBox="0 0 640 190" role="img" aria-label="140,400 is two full 65,536 laps plus 9,328; an int16 keeps only the 9,328, so the average comes out as 466." xmlns="http://www.w3.org/2000/svg">
+<rect class="band" x="24.0" y="56" width="197.3" height="22"/>
+<text class="muted small" x="122.7" y="71.0" text-anchor="middle">lap 1</text>
+<rect class="cell-off" x="221.3" y="56" width="197.3" height="22"/>
+<text class="muted small" x="320.0" y="71.0" text-anchor="middle">lap 2</text>
+<rect class="band" x="418.7" y="56" width="197.3" height="22"/>
+<text class="muted small" x="517.3" y="71.0" text-anchor="middle">lap 3</text>
+<line class="grid" x1="24.0" x2="24.0" y1="52" y2="82"/>
+<text class="muted small" x="30.0" y="96.0" text-anchor="start">0</text>
+<line class="grid" x1="221.3" x2="221.3" y1="52" y2="82"/>
+<text class="muted small" x="227.3" y="96.0" text-anchor="start">65,536</text>
+<line class="grid" x1="418.7" x2="418.7" y1="52" y2="82"/>
+<text class="muted small" x="424.7" y="96.0" text-anchor="start">131,072</text>
+<text class="ink bold" x="24.0" y="22.0" text-anchor="start">20 samples × 7,020 = 140,400: the true total</text>
+<line class="alert" x1="446.8" x2="446.8" y1="44" y2="86"/>
+<text class="alert-f bold small" x="452.8" y="52.0" text-anchor="start">140,400</text>
+<path class="edge dash" d="M418.7,82 L418.7,140"/>
+<path class="edge dash" d="M616.0,82 L616.0,140"/>
+<rect class="box" x="418.7" y="140" width="197.3" height="22" rx="4"/>
+<text class="ink-2" x="24.0" y="155.0" text-anchor="start">what an int16 keeps: the position within the last lap</text>
+<text class="muted small" x="610.0" y="155.0" text-anchor="end">int16</text>
+<line class="alert" x1="446.8" x2="446.8" y1="134" y2="168"/>
+<text class="alert-f bold small" x="452.8" y="180.0" text-anchor="start">9,328 → ÷ 20 = 466</text>
+</svg>
+</div>
+<figcaption>Why the baseline came out as 466. An <code>int16</code> holds 65,536 different values, so anything bigger wraps around. Twenty samples of 7,020 go round twice and land on 9,328, and 9,328 / 20 = 466.</figcaption>
+</figure>

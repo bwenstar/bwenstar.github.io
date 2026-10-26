@@ -22,6 +22,11 @@
   --accent-soft: rgba(42, 111, 219, 0.10);
   --shadow: 0 1px 2px rgba(20, 20, 19, 0.04), 0 8px 24px rgba(20, 20, 19, 0.06);
   --shadow-hover: 0 2px 4px rgba(20, 20, 19, 0.06), 0 16px 40px rgba(20, 20, 19, 0.10);
+
+  /* post diagrams: series 2 and 3 (series 1 is --accent) and the alarm colour */
+  --fig-2: #eb6834;
+  --fig-3: #1baf7a;
+  --alert: #d03b3b;
 }
 [data-theme="dark"] {
   color-scheme: dark;
@@ -37,6 +42,9 @@
   --accent-soft: rgba(106, 165, 255, 0.14);
   --shadow: 0 1px 2px rgba(0, 0, 0, 0.3), 0 8px 24px rgba(0, 0, 0, 0.25);
   --shadow-hover: 0 2px 4px rgba(0, 0, 0, 0.35), 0 16px 40px rgba(0, 0, 0, 0.4);
+  --fig-2: #d95926;
+  --fig-3: #199e70;
+  --alert: #e05a5a;
 }
 
 *, *::before, *::after { box-sizing: border-box; }
@@ -179,6 +187,36 @@ p { margin: 0; }
 .prose code { background: var(--surface-2); padding: 0.1em 0.35em; border-radius: 5px; font-size: 0.92em; }
 .prose pre code { background: none; padding: 0; }
 .prose blockquote { margin-left: 0; padding-left: 16px; border-left: 3px solid var(--accent); color: var(--fg-2); }
+
+/* Diagrams in posts: inline SVG in a <figure class="fig">, coloured only with the tokens
+   above so they follow the theme. Narrow screens scroll the drawing sideways like code. */
+.prose figure.fig { margin: 1.8em 0 0; padding: 14px 14px 12px; background: var(--surface); border: 1px solid var(--border); border-radius: 10px; }
+.fig .fig-scroll { overflow-x: auto; }
+.fig svg { display: block; width: 100%; min-width: 540px; height: auto; font: 13px var(--font); }
+.fig figcaption { margin-top: 10px; font-size: 0.88rem; line-height: 1.55; color: var(--muted); }
+.fig .grid { stroke: var(--border); stroke-width: 1; }
+.fig .ink { fill: var(--fg); }
+.fig .ink-2 { fill: var(--fg-2); }
+.fig .muted { fill: var(--muted); }
+.fig .bold { font-weight: 700; }
+.fig .small { font-size: 11px; }
+.fig .mono { font-family: ui-monospace, SFMono-Regular, Menlo, Consolas, monospace; font-size: 12px; }
+.fig .line { fill: none; stroke-width: 2; stroke-linejoin: round; stroke-linecap: round; }
+.fig .s1 { stroke: var(--accent); }
+.fig .s2 { stroke: var(--fig-2); }
+.fig .s3 { stroke: var(--fig-3); }
+.fig .f1 { fill: var(--accent); }
+.fig .f2 { fill: var(--fig-2); }
+.fig .f3 { fill: var(--fig-3); }
+.fig .band { fill: var(--accent-soft); }
+.fig .box { fill: var(--surface-2); stroke: var(--border); stroke-width: 1; }
+.fig .box-hi { fill: var(--accent-soft); stroke: var(--accent); stroke-width: 1.5; }
+.fig .cell-off { fill: var(--surface-2); }
+.fig .edge { fill: none; stroke: var(--muted); stroke-width: 1.5; }
+.fig .dash { stroke-dasharray: 5 4; }
+.fig .head { fill: var(--muted); }
+.fig .alert { stroke: var(--alert); stroke-width: 2; }
+.fig .alert-f { fill: var(--alert); }
 .post-footer { margin-top: 40px; padding-top: 20px; border-top: 1px solid var(--border); }
 
 /* ---------- gallery ---------- */

@@ -1,0 +1,39 @@
+<figure class="fig">
+<div class="fig-scroll">
+<svg viewBox="0 0 640 330" role="img" aria-label="Sequence: the client sends OPEN and iiod replies 0; the old client then waited forever. READBUF returns a size, a mask and the raw samples; CLOSE ends it." xmlns="http://www.w3.org/2000/svg">
+<rect class="box" x="50" y="8" width="160" height="30" rx="6"/>
+<text class="ink bold" x="130.0" y="28.0" text-anchor="middle">Go program (goiio)</text>
+<line class="grid" x1="130" x2="130" y1="38" y2="322"/>
+<rect class="box" x="430" y="8" width="160" height="30" rx="6"/>
+<text class="ink bold" x="510.0" y="28.0" text-anchor="middle">iiod</text>
+<line class="grid" x1="510" x2="510" y1="38" y2="322"/>
+<line class="edge" x1="130.0" y1="70.0" x2="504.0" y2="70.0"/>
+<polygon class="head" points="510.0,70.0 503.7,73.0 503.7,67.0"/>
+<text class="ink mono" x="320.0" y="63.0" text-anchor="middle">OPEN iio:device1 &lt;samples&gt; &lt;mask&gt;</text>
+<line class="edge" x1="510.0" y1="104.0" x2="136.0" y2="104.0"/>
+<polygon class="head" points="130.0,104.0 136.3,101.0 136.3,107.0"/>
+<text class="ink mono" x="320.0" y="97.0" text-anchor="middle">0</text>
+<line class="alert dash" x1="130" x2="130" y1="110" y2="160"/>
+<text class="alert-f small bold" x="120.0" y="126.0" text-anchor="end">before the fix:</text>
+<text class="alert-f small" x="120.0" y="140.0" text-anchor="end">waits for a reply</text>
+<text class="alert-f small" x="120.0" y="154.0" text-anchor="end">line that never comes</text>
+<text class="muted small" x="140.0" y="140.0" text-anchor="start">after: size 0 means done</text>
+<line class="edge" x1="130.0" y1="186.0" x2="504.0" y2="186.0"/>
+<polygon class="head" points="510.0,186.0 503.7,189.0 503.7,183.0"/>
+<text class="ink mono" x="320.0" y="179.0" text-anchor="middle">READBUF iio:device1 &lt;bytes&gt;</text>
+<line class="edge" x1="510.0" y1="218.0" x2="136.0" y2="218.0"/>
+<polygon class="head" points="130.0,218.0 136.3,215.0 136.3,221.0"/>
+<text class="ink mono" x="320.0" y="211.0" text-anchor="middle">&lt;size&gt;</text>
+<line class="edge" x1="510.0" y1="244.0" x2="136.0" y2="244.0"/>
+<polygon class="head" points="130.0,244.0 136.3,241.0 136.3,247.0"/>
+<text class="ink mono" x="320.0" y="237.0" text-anchor="middle">&lt;mask&gt;</text>
+<line class="edge" x1="510.0" y1="270.0" x2="136.0" y2="270.0"/>
+<polygon class="head" points="130.0,270.0 136.3,267.0 136.3,273.0"/>
+<text class="ink mono" x="320.0" y="263.0" text-anchor="middle">raw sample bytes</text>
+<line class="edge" x1="130.0" y1="304.0" x2="504.0" y2="304.0"/>
+<polygon class="head" points="510.0,304.0 503.7,307.0 503.7,301.0"/>
+<text class="ink mono" x="320.0" y="297.0" text-anchor="middle">CLOSE iio:device1</text>
+</svg>
+</div>
+<figcaption>The three iiod commands behind the new buffer functions. <code>OPEN</code> replies with nothing but a status of 0, and the old reply reader then waited for a second line. <code>READBUF</code> replies with a length, the channel mask and then the samples, so it got its own reader.</figcaption>
+</figure>

@@ -44,6 +44,8 @@ cap10000  10,000 frames
   Z  mean -131.2 sd  9.0  min -161  max  -89
 ```
 
+{% include upa/rest.html %}
+
 Each axis has its own fixed offset with about ten counts of noise on top. ST's datasheet calls
 the offset the zero-rate level and gives it as ±3 dps (degrees per second) typical, so it's
 normal, and it varies from part to part. Anything that compares readings against zero
@@ -104,6 +106,8 @@ T(x) =  1    if x >  τu
 Count how many consecutive samples have the same non-zero T. Any sample back inside the band
 resets the count. If the count passes τp samples on any one axis, raise the alarm.
 
+{% include upa/knock-vs-turn.html %}
+
 So the detector is just a comparison and a counter per axis, cheap enough for an 8-bit
 microcontroller. The thesis settles on τu = 60 counts (3.7 mg) and τp = 7 samples
 (140 ms at 50 Hz). It also pairs UPA with a second detector for drilling, which shakes the unit
@@ -126,7 +130,11 @@ per second, with a 52 Hz output rate.
 
 On Linux the LSM6DSL is an Industrial I/O (IIO) device. IIO is the kernel subsystem for
 sensors and converters. Configuration lives in sysfs, and buffered samples come out of a
-character device, here `/dev/iio:device1`. The board's driver exposed the gyro's FIFO controls
+character device, here `/dev/iio:device1`.
+
+{% include upa/pipeline.html %}
+
+The board's driver exposed the gyro's FIFO controls
 as sysfs attributes, and I used symlinks to them in `/var/volatile/udev/` to keep the paths
 short. The program's start-up is a sequence of writes to those files:
 
@@ -145,6 +153,8 @@ The length goes first because the watermark has to be smaller than it. With all 
 one frame is 6 bytes (2 bytes per axis). I picked a watermark of 12 for two frames per
 interrupt, and a length of 72 because 72 divides evenly by 6, 4 and 2, so it still fits whole
 frames if one or two axes are switched off.
+
+{% include upa/frame.html %}
 
 Reading is a loop over the character device. Each frame is three little-endian signed 16-bit
 values, and the code tracks which axis comes next. That tracking is rudimentary: it assumes the
@@ -244,7 +254,7 @@ X axis **** TAMPER #: 2 ****
 X: Avg: 163 (Thres: 655), Min: -492, Max: 818      ; back to the resting baseline
 ```
 
-{% include upa-tamper-figure.html %}
+{% include upa/turn.html %}
 
 One turn, two alarms. The first fires ten samples into the turn. The detector then learns a new
 baseline from the next 20 samples while the unit is still turning, so when the turn stops, the
@@ -277,6 +287,8 @@ samples of 7,020 add up to 140,400. Go integers wrap silently, so that comes out
 alarms instead of two, so nothing gets missed. But the baseline is garbage until the next reset,
 and the fix is to make `Total` an `int`.
 
+{% include upa/overflow.html %}
+
 At rest it never shows up, because twenty samples of 163 is 3,260. The total also keeps
 growing (and wrapping) after the baseline is set, which doesn't matter because it's only read
 once.
@@ -286,7 +298,8 @@ once.
 The product version doesn't read sysfs or the character device. It talks to iiod, the IIO
 daemon from Analog Devices' [libiio](https://github.com/analogdevicesinc/libiio), which serves
 a device's attributes and sample buffers over a simple text protocol on a TCP socket. The UPA
-calculation stayed much the same; only the plumbing changed.
+calculation stayed much the same; only the plumbing changed, which is the bottom lane of the
+diagram in the kernel section above.
 
 To do that from Go I used [goiio](https://github.com/jonkerj/goiio), a small iiod client. In
 May 2022 it could fetch the device context and read attribute values, but it couldn't open a
@@ -314,6 +327,8 @@ commits:
   ```
 
 - **`Close()`**, to shut the TCP connection down cleanly.
+
+{% include upa/iiod.html %}
 
 With those in, a program can open the gyro's buffer through iiod, pull frames out with
 `READBUF`, and feed them to per-axis UPA code much like the code above.
