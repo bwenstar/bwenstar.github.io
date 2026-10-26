@@ -20,7 +20,8 @@ the same side of a threshold, and raise the alarm when the run gets too long.
 
 This post covers the proof of concept, [UPA-tamper](https://github.com/brendan-ta/UPA-tamper),
 written in Go in May 2022. The final version for the product's embedded system was a rewrite
-and isn't public. I've re-run the proof of concept's detector against samples I recorded from
+and isn't public, but getting it working meant adding buffer support to an open-source Go
+client for iiod, and that part is [below](#the-shipped-version-needed-a-library-fix). I've re-run the proof of concept's detector against samples I recorded from
 the board at the time, and that harness is [at the end](#files) if you want to try it without
 the hardware.
 
@@ -280,6 +281,43 @@ At rest it never shows up, because twenty samples of 163 is 3,260. The total als
 growing (and wrapping) after the baseline is set, which doesn't matter because it's only read
 once.
 
+## The shipped version needed a library fix
+
+The product version doesn't read sysfs or the character device. It talks to iiod, the IIO
+daemon from Analog Devices' [libiio](https://github.com/analogdevicesinc/libiio), which serves
+a device's attributes and sample buffers over a simple text protocol on a TCP socket. The UPA
+calculation stayed much the same; only the plumbing changed.
+
+To do that from Go I used [goiio](https://github.com/jonkerj/goiio), a small iiod client. In
+May 2022 it could fetch the device context and read attribute values, but it couldn't open a
+buffer, and a buffer is the only way to stream FIFO samples. So I added it, and my pull
+request ([#4](https://github.com/jonkerj/goiio/pull/4), merged in June 2022) has three
+commits:
+
+- **Buffer support.** `CreateBuffer`, `DumpBuffer` and `DestroyBuffer` wrap iiod's `OPEN`,
+  `READBUF` and `CLOSE` commands. `READBUF` replies differently from everything else the client
+  handled: a size line, a line with the channel mask, and then the raw sample bytes, so it got
+  its own reader (`bufferSizedReply`).
+- **A hang on empty replies.** iiod answers `OPEN` with just `0`: a length and no body. The
+  client always read a second line after the length, so it sat waiting for a line that never
+  came. The fix treats a zero length as success with an empty reply:
+
+  ```go
+  reply := ""
+  if size < 0 {
+      return nil, fmt.Errorf("received negative size (error) from remote: %d", size)
+  } else if size == 0 {
+      return &reply, nil      // e.g. OPEN: "0\n" and nothing after it
+  }
+
+  reply, err = i.reader.ReadString('\n')
+  ```
+
+- **`Close()`**, to shut the TCP connection down cleanly.
+
+With those in, a program can open the gyro's buffer through iiod, pull frames out with
+`READBUF`, and feed them to per-axis UPA code much like the code above.
+
 ## Loose ends
 
 - **A gyro can't see a straight pull.** Sliding the unit straight out of the wall without
@@ -291,9 +329,6 @@ once.
 - **The first baseline is taken on trust.** The program averages whatever its first 20 samples
   are. If the unit is moving at start-up, every later comparison is off. The thesis's
   "cancel calibration if any sample strays" check would fix this and the double alarm above.
-- **What shipped is different.** The product version uses libiio/iiod (the userspace IIO
-  library and its network daemon) instead of reading sysfs and the character device directly,
-  but the UPA calculation is similar.
 - **The general lesson.** My first attempt measured how *much* the signal moved. The thesis
   asks what *shape* tampering has compared with everything else that happens to a wall, and
   once you know that, the detector is a comparison and a counter that runs on almost anything.
