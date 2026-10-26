@@ -71,6 +71,18 @@ projects:
       - label: "Code"
         url:   "https://github.com/bwenstar/gliderGo"
 
+  - name:   "UPA-tamper"
+    kicker: "Open source · Embedded Linux"
+    blurb:  "Tamper detection for in-wall help intercoms using a low-cost LSM6DSL IMU. It flags a unit that keeps turning one way, using the UPA detector from a 2012 KTH thesis, and ignores knocks and vibration."
+    image:  "/assets/img/projects/upa-tamper.webp"
+    url:    "/2026/10/26/upa-tamper-detection.html"
+    tags:   [Go, Linux IIO, LSM6DSL]
+    links:
+      - label: "Write-up"
+        url:   "/2026/10/26/upa-tamper-detection.html"
+      - label: "Code"
+        url:   "https://github.com/brendan-ta/UPA-tamper"
+
 markdown: kramdown
 theme: null
 
